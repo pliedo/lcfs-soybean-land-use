@@ -1,0 +1,30 @@
+# Local R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Dependency library and pipeline cache
+renv/library/
+renv/staging/
+_targets/
+.tar/
+*.Rproj
+
+# Raw and regenerable data
+data/raw/*
+!data/raw/.gitkeep
+data/derived/*
+!data/derived/.gitkeep
+
+# Generated outputs
+output/figures/*
+!output/figures/.gitkeep
+output/tables/*
+!output/tables/.gitkeep
+output/diagnostics/*
+!output/diagnostics/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
