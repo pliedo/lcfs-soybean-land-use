@@ -163,50 +163,78 @@ cumulative_components <- function(hub_rings, target_ring_index) {
   st_cast(st_geometry(cumulative), "POLYGON", warn = FALSE)
 }
 
-records <- list()
-manifest <- list()
-counter <- 1L
+# Each task is one hub-year-outer-boundary query. On Linux cloud runners,
+# independent tasks can safely share a small worker pool: cache paths are unique
+# by hub/year/boundary/component, so no file is written by two workers.
+workers <- suppressWarnings(as.integer(Sys.getenv("CDL_WORKERS", unset = "1")))
+if (is.na(workers) || workers < 1) workers <- 1L
+if (.Platform$OS.type == "windows") workers <- 1L
 
-for (hub in sort(unique(rings$hub_id))) {
+task_grid <- tidyr::crossing(
+  hub = sort(unique(rings$hub_id)),
+  year = years
+) |>
+  inner_join(
+    rings |>
+      st_drop_geometry() |>
+      distinct(hub_id, ring_index, outer_miles) |>
+      filter(ring_index <= max_outer_index),
+    by = c("hub" = "hub_id")
+  ) |>
+  arrange(hub, year, ring_index)
+
+run_task <- function(task_row) {
+  hub <- task_row$hub[[1]]
+  year <- task_row$year[[1]]
+  outer_index <- task_row$ring_index[[1]]
+  outer_miles <- task_row$outer_miles[[1]]
   hub_rings <- rings |> filter(hub_id == hub) |> arrange(ring_index)
+  components <- cumulative_components(hub_rings, outer_index)
 
-  for (outer_index in sort(unique(hub_rings$ring_index[hub_rings$ring_index <= max_outer_index]))) {
-    outer_miles <- hub_rings |> filter(ring_index == outer_index) |> pull(outer_miles) |> unique()
-    components <- cumulative_components(hub_rings, outer_index)
+  component_stats <- lapply(seq_along(components), function(component) {
+    request_component(components[[component]], year, hub, outer_miles, component) |>
+      mutate(component = component)
+  })
 
-    for (year in years) {
-      component_stats <- lapply(seq_along(components), function(component) {
-        request_component(components[[component]], year, hub, outer_miles, component) |>
-          mutate(component = component)
-      })
-
-      records[[counter]] <- bind_rows(component_stats) |>
-        group_by(value, category) |>
-        summarise(
-          count = sum(count),
-          acreage = sum(acreage),
-          components = n_distinct(component),
-          .groups = "drop"
-        ) |>
-        mutate(
-          hub_id = hub,
-          year = year,
-          outer_miles = outer_miles,
-          ring_index = outer_index
-        )
-      manifest[[counter]] <- tibble(
+  list(
+    record = bind_rows(component_stats) |>
+      group_by(value, category) |>
+      summarise(
+        count = sum(count),
+        acreage = sum(acreage),
+        components = n_distinct(component),
+        .groups = "drop"
+      ) |>
+      mutate(
         hub_id = hub,
         year = year,
         outer_miles = outer_miles,
-        components = length(components),
-        completed_at_utc = format(Sys.time(), tz = "UTC", usetz = TRUE)
-      )
-      counter <- counter + 1L
-      Sys.sleep(1)
-    }
-  }
+        ring_index = outer_index
+      ),
+    manifest = tibble(
+      hub_id = hub,
+      year = year,
+      outer_miles = outer_miles,
+      components = length(components),
+      completed_at_utc = format(Sys.time(), tz = "UTC", usetz = TRUE)
+    )
+  )
 }
 
+task_rows <- split(task_grid, seq_len(nrow(task_grid)))
+if (workers > 1L && .Platform$OS.type != "windows") {
+  message("Running ", length(task_rows), " CDL tasks with ", workers, " workers.")
+  task_results <- parallel::mclapply(
+    task_rows, run_task,
+    mc.cores = workers,
+    mc.preschedule = FALSE
+  )
+} else {
+  task_results <- lapply(task_rows, run_task)
+}
+
+records <- lapply(task_results, `[[`, "record")
+manifest <- lapply(task_results, `[[`, "manifest")
 cumulative_stats <- bind_rows(records)
 category_counts <- cumulative_stats |>
   group_by(hub_id, year, value, category) |>
