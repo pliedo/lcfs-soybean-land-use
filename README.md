@@ -6,27 +6,18 @@ This project studies how California's Low Carbon Fuel Standard (LCFS) may affect
 
 The working design is a continuous-treatment difference-in-differences framework. Crusher-year LCFS exposure is constructed from refinery-level pathway eligibility and capacity, mapped to crushers using alternative refinery--crusher allocation rules. Crop responses are estimated across multiple distance bands around crushers.
 
-The project will separately document:
+## Project structure
 
-1. pathway eligibility, timing, and facility capacity;
-2. refinery--crusher distance and exposure construction;
-3. Cropland Data Layer outcome construction;
-4. treatment timing and estimating equations;
-5. robustness to spatial allocation rules and distance-band definitions.
-
-## Repository layout
-
-- `R/`: modular data construction, estimation, and figure code.
-- `data/raw/`: downloaded public source data (not versioned).
-- `data/derived/`: regenerable intermediate datasets (not versioned).
-- `data/metadata/`: tracked source notes, crosswalks, and audit decisions.
-- `docs/`: research design and reproducibility documentation.
-- `output/`: regenerable figures, tables, and diagnostics.
+- `data/raw/`: original, unmodified data.
+- `data/clean/`: cleaned and analysis-ready data.
+- `code/`: R scripts and other source code.
+- `output/`: generated results, tables, figures, and diagnostics.
+- `doc/`: project documentation, source notes, and design decisions.
 
 ## Status
 
-This repository starts from a clean redesign of the project. The first milestone is an auditable refinery/pathway/capacity panel, followed by multiple-band crop outcomes and a spatial-response figure for presentation at CIDE.
+This repository starts from a clean redesign. The first milestone is an auditable refinery/pathway/capacity panel, followed by multiple-band crop outcomes and a spatial-response figure for presentation at CIDE.
 
 ## Reproducibility
 
-The repository will use `renv` to pin R package versions and `targets` to run the full workflow. The initial setup will be added after the raw-input audit establishes the required packages and data sources.
+The project will use `renv` to pin R package versions and `targets` to run the full workflow. Those files will be added when the raw-input audit establishes the required packages and sources.
