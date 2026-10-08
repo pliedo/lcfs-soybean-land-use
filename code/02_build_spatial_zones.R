@@ -5,6 +5,7 @@
 #
 # Outputs:
 #   data/clean/candidate_hubs_clean.csv
+#   data/clean/facility_review_template.csv
 #   output/facility_ring_overlap_pairs.csv
 #   output/facility_ring_overlap_summary.csv
 #   output/facility_rings_full.gpkg
@@ -87,6 +88,21 @@ if (any(!is.finite(hubs$longitude) | !is.finite(hubs$latitude))) {
 # This does not assert that each site is a verified crushing plant.
 hubs_primary <- hubs |> filter(hub_status == "candidate_hub")
 write_csv(hubs, "data/clean/candidate_hubs_clean.csv")
+
+review_template <- hubs |>
+  transmute(
+    hub_id, company, address, latitude, longitude,
+    legacy_type = type, legacy_bankrupt = bankrupt,
+    review_status = "unreviewed",
+    site_role = NA_character_,
+    evidence_type = NA_character_,
+    evidence_url_or_note = NA_character_,
+    review_date = NA_character_,
+    reviewer = NA_character_,
+    include_spatial_universe = if_else(hub_status == "candidate_hub", "yes_pending_review", "no_pending_review"),
+    decision_note = NA_character_
+  )
+write_csv(review_template, "data/clean/facility_review_template.csv")
 
 hubs_sf <- st_as_sf(hubs_primary, coords = c("longitude", "latitude"), crs = 4326, remove = FALSE) |>
   st_transform(analysis_crs)
