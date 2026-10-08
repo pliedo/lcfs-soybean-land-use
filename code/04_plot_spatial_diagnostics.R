@@ -68,9 +68,9 @@ band_labels <- c(
 exclusive_rings <- exclusive_rings |>
   mutate(distance_band = factor(ring_index, levels = 1:6, labels = band_labels))
 
-hubs <- exclusive_rings |>
-  group_by(hub_id) |>
-  summarise(geometry = st_centroid(st_union(geometry)), .groups = "drop")
+hubs <- full_rings |>
+  filter(ring_index == 1) |>
+  transmute(hub_id, geometry = st_centroid(geometry))
 
 map <- ggplot() +
   geom_sf(
@@ -100,6 +100,45 @@ ggsave(
   map,
   width = 11,
   height = 7,
+  dpi = 300,
+  bg = "white"
+)
+
+
+area_by_band <- exclusive_rings |>
+  st_drop_geometry() |>
+  mutate(
+    distance_band = factor(ring_index, levels = 1:6, labels = band_labels),
+    area_sq_miles = exclusive_area_sq_miles
+  ) |>
+  group_by(distance_band) |>
+  summarise(
+    area_sq_miles = sum(area_sq_miles, na.rm = TRUE),
+    hub_ring_count = n(),
+    .groups = "drop"
+  )
+
+write_csv(area_by_band, file.path(diagnostic_dir, "exclusive_area_by_band.csv"))
+
+area_plot <- ggplot(area_by_band, aes(x = distance_band, y = area_sq_miles)) +
+  geom_col(fill = "#2C7FB8") +
+  labs(
+    title = "Land assigned to candidate hubs by distance band",
+    subtitle = "Exclusive nearest-hub allocation; no land is counted twice.",
+    x = NULL,
+    y = "Square miles"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.text.x = element_text(angle = 30, hjust = 1)
+  )
+
+ggsave(
+  file.path(diagnostic_dir, "exclusive_area_by_band.png"),
+  area_plot,
+  width = 8,
+  height = 5,
   dpi = 300,
   bg = "white"
 )
