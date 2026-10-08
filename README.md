@@ -20,4 +20,6 @@ This repository starts from a clean redesign. The first milestone is an auditabl
 
 ## Reproducibility
 
+Small public-source and project-created inputs needed to reproduce the analysis are versioned in `data/raw/`, including the manually assembled candidate-hub file and the pathway/capacity crosswalk workbooks. Large CDL downloads and request caches are not versioned; code will download or regenerate them and save a dated cache locally. Every source, version, and transformation is documented in [`doc/data-sources.md`](doc/data-sources.md).
+
 The project will use `renv` to pin R package versions and `targets` to run the full workflow. Those files will be added when the raw-input audit establishes the required packages and sources.
