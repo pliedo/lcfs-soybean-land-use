@@ -44,9 +44,8 @@ No pixel will be silently counted twice in the preferred estimation outcome. The
 
 ## Open questions
 
-1. What is the original source for the CI benchmark table in `rd_pathways_ca_lcfs.xlsx`?
-2. The existing processor list is a manual sample from the Soy Meal Info Center map. **Decision: reconstruct a transparent facility-by-facility review** using the original map entry, satellite/street imagery where available, company/location source, operating status, and an evidence URL or note. The legacy classifications remain preserved as the starting point, not overwritten.
-3. The initial spatial extent is fixed at 0--150 miles in six 25-mile bands.
+1. The existing processor list is a manual sample from the Soy Meal Info Center map. **Decision: reconstruct a transparent facility-by-facility review** using the original map entry, satellite/street imagery where available, company/location source, operating status, and an evidence URL or note. The legacy classifications remain preserved as the starting point, not overwritten.
+2. The initial spatial extent is fixed at 0--150 miles in six 25-mile bands.
 
 ## Audit rule
 
