@@ -160,6 +160,11 @@ rings_exclusive <- st_intersection(
   summarise(geometry = st_union(geometry), .groups = "drop") |>
   mutate(exclusive_area_sq_miles = as.numeric(st_area(geometry)) / mile_to_metre^2)
 
+# Write geometries before the detailed overlap calculations. These two files are
+# sufficient for mapping and for the primary exclusive-area crop extraction.
+st_write(rings_full, "output/facility_rings_full.gpkg", delete_dsn = TRUE, quiet = TRUE)
+st_write(rings_exclusive, "output/facility_rings_exclusive.gpkg", delete_dsn = TRUE, quiet = TRUE)
+
 # ---- Pairwise and union overlap diagnostics ----
 candidate_pairs <- st_intersects(rings_full, rings_full, sparse = TRUE)
 pair_index <- tibble(
@@ -241,9 +246,6 @@ overlap_summary <- lapply(seq_len(nrow(rings_full)), function(i) {
 
 write_csv(overlap_summary, "output/facility_ring_overlap_summary.csv")
 
-# GeoPackages retain geometry and are ready for QGIS / R mapping.
-st_write(rings_full, "output/facility_rings_full.gpkg", delete_dsn = TRUE, quiet = TRUE)
-st_write(rings_exclusive, "output/facility_rings_exclusive.gpkg", delete_dsn = TRUE, quiet = TRUE)
 
 message(
   "Built ", nrow(rings_full), " full rings and ", nrow(rings_exclusive),
