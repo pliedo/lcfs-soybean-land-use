@@ -27,6 +27,9 @@ on:
   push:
     paths:
       - ".github/workflows/build-cdl.yml"
+      - "code/02_build_spatial_zones.R"
+      - "code/03_extract_cdl_outcomes.R"
+      - "code/04_plot_spatial_diagnostics.R"
 
 permissions:
   contents: write
