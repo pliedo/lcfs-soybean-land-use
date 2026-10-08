@@ -49,6 +49,7 @@ jobs:
             any::sf
             any::dplyr
             any::readr
+            any::readxl
             any::stringr
             any::httr
             any::tidyr
