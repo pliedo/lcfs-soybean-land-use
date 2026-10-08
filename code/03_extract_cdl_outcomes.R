@@ -63,6 +63,8 @@ if (identical(mode, "full")) {
   years <- parse_int_env("CDL_YEARS", 2023L)
   requested_hubs <- parse_int_env("CDL_HUBS", 1L)
 }
+max_outer_index <- as.integer(Sys.getenv("CDL_MAX_OUTER", unset = "6"))
+if (!max_outer_index %in% 1:6) stop("CDL_MAX_OUTER must be an integer from 1 to 6.", call. = FALSE)
 
 rings <- st_read(rings_file, quiet = TRUE) |>
   st_make_valid()
@@ -168,7 +170,7 @@ counter <- 1L
 for (hub in sort(unique(rings$hub_id))) {
   hub_rings <- rings |> filter(hub_id == hub) |> arrange(ring_index)
 
-  for (outer_index in sort(unique(hub_rings$ring_index))) {
+  for (outer_index in sort(unique(hub_rings$ring_index[hub_rings$ring_index <= max_outer_index]))) {
     outer_miles <- hub_rings |> filter(ring_index == outer_index) |> pull(outer_miles) |> unique()
     components <- cumulative_components(hub_rings, outer_index)
 
