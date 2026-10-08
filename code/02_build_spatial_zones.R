@@ -13,7 +13,7 @@
 # The raw spreadsheet reverses the usual longitude/latitude labels:
 #   lon = latitude; lat = longitude. This script corrects that explicitly.
 
-required_packages <- c("sf", "dplyr", "readxl", "readr", "stringr", "units", "janitor")
+required_packages <- c("sf", "dplyr", "readxl", "readr", "stringr", "units")
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing_packages) > 0) {
   stop(
@@ -51,24 +51,22 @@ ring_breaks <- seq(0, max_distance_miles, by = ring_width_miles)
 stopifnot(tail(ring_breaks, 1) == max_distance_miles)
 
 # ---- Read and standardize candidate hub locations ----
-hubs_raw <- read_excel(raw_file) |>
-  janitor::clean_names()
+hubs_raw <- read_excel(raw_file)
+# Keep the legacy column spelling (including `Adress`) explicit for provenance.
 
 # In the source file, lon is latitude and lat is longitude.
 hubs <- hubs_raw |>
   transmute(
-    hub_id = as.integer(number),
-    company = as.character(company),
-    address = as.character(adress),
-    latitude = as.numeric(lon),
-    longitude = as.numeric(lat),
-    type = str_to_lower(str_trim(as.character(type))),
-    railfront = as.integer(railfront),
-    riverfront = as.integer(
-      .data[[grep("^riverfront", names(hubs_raw), value = TRUE)]]
-    ),
-    oceanfront = as.integer(oceanfront),
-    bankrupt = as.integer(bankrupt)
+    hub_id = as.integer(.data[["number"]]),
+    company = as.character(.data[["Company"]]),
+    address = as.character(.data[["Adress"]]),
+    latitude = as.numeric(.data[["lon"]]),
+    longitude = as.numeric(.data[["lat"]]),
+    type = str_to_lower(str_trim(as.character(.data[["type"]]))),
+    railfront = as.integer(.data[["railfront"]]),
+    riverfront = as.integer(.data[[grep("^riverfront", names(hubs_raw), value = TRUE)]]),
+    oceanfront = as.integer(.data[["oceanfront"]]),
+    bankrupt = as.integer(.data[["bankrupt"]])
   ) |>
   mutate(
     hub_status = case_when(
