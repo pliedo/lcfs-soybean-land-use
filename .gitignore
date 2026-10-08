@@ -24,6 +24,8 @@ data/clean/*
 # Generated output
 output/*
 !output/.gitkeep
+!output/diagnostics/
+!output/diagnostics/**
 
 # System files
 .DS_Store
