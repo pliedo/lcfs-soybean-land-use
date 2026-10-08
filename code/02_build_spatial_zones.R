@@ -13,7 +13,7 @@
 # The raw spreadsheet reverses the usual longitude/latitude labels:
 #   lon = latitude; lat = longitude. This script corrects that explicitly.
 
-required_packages <- c("sf", "dplyr", "readxl", "readr", "stringr", "units")
+required_packages <- c("sf", "dplyr", "readxl", "readr", "stringr", "units", "janitor")
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing_packages) > 0) {
   stop(
@@ -127,12 +127,13 @@ bbox <- st_bbox(st_buffer(st_union(hubs_sf), max_distance_miles * mile_to_metre)
 voronoi <- st_voronoi(st_union(hubs_sf), envelope = st_as_sfc(bbox)) |>
   st_collection_extract("POLYGON") |>
   st_as_sf()
-voronoi$hub_id <- hubs_sf$hub_id[st_nearest_feature(st_point_on_surface(voronoi), hubs_sf)]
+voronoi$owner_hub_id <- hubs_sf$hub_id[st_nearest_feature(st_point_on_surface(voronoi), hubs_sf)]
 
 rings_exclusive <- st_intersection(
   rings_full |> select(hub_id, ring_index, inner_miles, outer_miles, ring_id),
-  voronoi |> select(hub_id)
+  voronoi |> select(owner_hub_id)
 ) |>
+  filter(hub_id == owner_hub_id) |>
   transmute(
     hub_id = hub_id,
     ring_index,
