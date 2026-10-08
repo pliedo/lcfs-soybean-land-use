@@ -33,20 +33,20 @@ The recommended initial definition treats grassland/pasture as a separate outcom
 
 ## Spatial overlap protocol
 
-Before crop outcomes are estimated, construct every 0--25, 25--50, 50--75, and 75--100 mile annulus in an equal-area projection. For each focal facility-ring, record:
+Before crop outcomes are estimated, construct every 0--25, 25--50, 50--75, 75--100, 100--125, and 125--150 mile annulus in an equal-area projection. For each focal facility-ring, record:
 
 - overlap area and overlap share with every other facility-ring;
 - overlap with the same versus a different distance band;
 - the share overlapping the **union** of all other rings;
 - number of neighboring facilities and the fraction of unambiguous area.
 
-No pixel will be silently counted twice in the preferred estimation outcome. The planned primary rule is to assign overlapping land to its **nearest candidate processor** (a clipped Voronoi / exclusive-catchment version of each ring). Full untrimmed rings and a low-overlap subsample will be reported as robustness checks after the overlap distribution is inspected.
+No pixel will be silently counted twice in the preferred estimation outcome. The **pre-specified primary rule** assigns every location to its **nearest candidate processing hub in straight-line distance** (a clipped Voronoi / exclusive-catchment version of each ring). This handles both cases consistently: when bands differ and when two facilities have the same band. It is preferred to automatically favoring the innermost ring, which would not reflect which hub is geographically closer. Full untrimmed rings and a low-overlap subsample will be reported as robustness checks after the overlap distribution is inspected.
 
 ## Open questions
 
 1. What is the original source for the CI benchmark table in `rd_pathways_ca_lcfs.xlsx`?
 2. The existing processor list is a manual sample from the Soy Meal Info Center map. Do you have saved searches, notes, or screenshots that can help verify the 59 selected sites? If not, we will reconstruct this review transparently.
-3. Is 0--100 miles the intended maximum spatial extent for the initial four 25-mile bands?
+3. The initial spatial extent is fixed at 0--150 miles in six 25-mile bands.
 
 ## Audit rule
 
