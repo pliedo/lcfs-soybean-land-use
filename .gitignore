@@ -11,19 +11,15 @@ _targets/
 .tar/
 *.Rproj
 
-# Raw and regenerable data
+# Original and cleaned data
 data/raw/*
 !data/raw/.gitkeep
-data/derived/*
-!data/derived/.gitkeep
+data/clean/*
+!data/clean/.gitkeep
 
-# Generated outputs
-output/figures/*
-!output/figures/.gitkeep
-output/tables/*
-!output/tables/.gitkeep
-output/diagnostics/*
-!output/diagnostics/.gitkeep
+# Generated output
+output/*
+!output/.gitkeep
 
 # System files
 .DS_Store
