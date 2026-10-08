@@ -152,9 +152,10 @@ request_component <- function(geometry, year, hub_id, outer_miles, component) {
 # A cumulative catchment (exclusive area within 0--d miles) has no annular hole,
 # unlike an individual ring. Adjacent cumulative counts are differenced below.
 cumulative_components <- function(hub_rings, ring_index) {
-  cumulative <- hub_rings |>
-    filter(.data$ring_index <= ring_index) |>
-    summarise(geometry = st_union(geometry), .groups = "drop") |>
+  selected <- hub_rings |> filter(.data$ring_index <= ring_index)
+  cumulative <- st_sf(
+    geometry = st_union(st_geometry(selected))
+  ) |>
     st_make_valid()
 
   st_cast(st_geometry(cumulative), "POLYGON", warn = FALSE)
