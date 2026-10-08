@@ -203,12 +203,14 @@ overlap_summary <- lapply(seq_len(nrow(rings_full)), function(i) {
     union_overlap_area <- 0
     n_neighbors <- 0
   } else {
-    intersections <- lapply(neighbors, function(j) {
-      suppressWarnings(st_intersection(st_geometry(rings_full[i, ]), st_geometry(rings_full[j, ])))
-    })
-    intersections <- intersections[lengths(intersections) > 0]
-    union_overlap_area <- if (length(intersections) == 0) 0 else {
-      as.numeric(st_area(st_union(do.call(c, intersections)))) / mile_to_metre^2
+    # Union neighbors first, then intersect once. This avoids repeated geometry
+    # operations and ensures land overlapping several rings is counted once.
+    neighbor_union <- st_union(st_geometry(rings_full[neighbors, ]))
+    overlap_geometry <- suppressWarnings(
+      st_intersection(st_geometry(rings_full[i, ]), neighbor_union)
+    )
+    union_overlap_area <- if (length(overlap_geometry) == 0) 0 else {
+      as.numeric(st_area(overlap_geometry)) / mile_to_metre^2
     }
     n_neighbors <- length(unique(rings_full$hub_id[neighbors]))
   }
