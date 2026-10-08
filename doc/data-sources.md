@@ -12,7 +12,7 @@ This document records the source URL, retrieval date, version, unit, coverage, a
 | Renewable-diesel capacity | `hefa_capacity.xlsx`: [Farmdoc 2024 capacity estimates](https://farmdocdaily.illinois.edu/2024/11/updated-estimates-of-the-production-capacity-of-u-s-renewable-diesel-plants-through-2026.html), Table 1; [NREL HEFA report](https://www.nrel.gov/docs/fy24osti/87803.pdf), Appendix B, Table B-1 | Sources confirmed. The workbook harmonizes names and locations across the two sources. | Build a transparent facility-year capacity crosswalk that records source-specific values, the selected value, and any reconciliation decision. |
 | Processor-location universe | `soy_crushing_facilities.xlsx`; [Soy Meal Info Center processor map](https://www.soymeal.org/processors/) | Source confirmed; location classification was manually inspected. 59 records were classified as `elevator`, 3 as `office`, and 1 as `no plant`; one record has a bankruptcy flag. | Treat the current 59 locations as **candidate local soybean-handling/processing hubs**, not automatically as verified crushers. Create an auditable facility-level review of plant status, coordinates, and source evidence. |
 | Refinery--processor road distance | `road_distance_matrix_km.csv`; generated using OSRM | Derived data. | Rebuild from documented coordinates and OSRM settings; record run date and routing profile. |
-| Crop outcomes | USDA NASS [Cropland Data Layer / CropScape](https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php) | Source confirmed. | Cache raw zonal-stat responses and record CDL release year/version. |
+| Crop outcomes | USDA NASS [Cropland Data Layer / CropScape](https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php); CropScape `GetCDLStat` service | Source confirmed. `code/03_extract_cdl_outcomes.R` queries cumulative exclusive catchments, caches raw category-count responses, then differences adjacent buffers into 25-mile rings. | Cache raw zonal-stat responses and record CDL release year/version. |
 
 ## Supporting descriptive inputs
 
@@ -29,7 +29,7 @@ For each 25-mile annulus around a facility, the project will calculate from the 
 1. **Soy share of all mapped land**: soybean pixels divided by all valid CDL pixels.
 2. **Soy share of cropland**: soybean pixels divided by a documented cropland denominator.
 
-The recommended initial definition treats grassland/pasture as a separate outcome, not as part of the cropland denominator. The final code will explicitly map every relevant CDL category.
+The recommended initial definition treats grassland/pasture as a separate outcome, not as part of the cropland denominator. The initial code classifies CDL crop codes 1--61, 66--77, and 204--254 as cropland; it defines soybean categories by the presence of “Soybeans” in the CropScape label, including double-crop soybean classes. This mapping is versioned and will be checked against the raw cached category responses before estimation.
 
 ## Spatial overlap protocol
 
