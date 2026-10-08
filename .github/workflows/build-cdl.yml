@@ -24,12 +24,10 @@ on:
         required: true
         default: false
         type: boolean
+  # A workflow-file update is the deliberate trigger for a full cloud build.
   push:
     paths:
       - ".github/workflows/build-cdl.yml"
-      - "code/02_build_spatial_zones.R"
-      - "code/03_extract_cdl_outcomes.R"
-      - "code/04_plot_spatial_diagnostics.R"
 
 permissions:
   contents: write
@@ -65,23 +63,24 @@ jobs:
 
       - name: Retrieve CropScape outcomes
         env:
-          CDL_MODE: ${{ inputs.mode || 'test' }}
-          CDL_HUBS: ${{ inputs.hubs || '1' }}
-          CDL_YEARS: ${{ inputs.years || '2023' }}
+          CDL_MODE: ${{ inputs.mode || 'full' }}
+          CDL_HUBS: ${{ inputs.hubs || '' }}
+          CDL_YEARS: ${{ inputs.years || '' }}
           CDL_MAX_OUTER: "6"
+          CDL_WORKERS: "4"
         run: Rscript code/03_extract_cdl_outcomes.R
 
       - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: cdl-${{ inputs.mode || 'test' }}-results
+          name: cdl-${{ inputs.mode || 'full' }}-results
           path: |
             data/clean/crop_outcomes_exclusive.csv
             output/diagnostics/
           if-no-files-found: error
 
       - name: Commit lightweight full-run results
-        if: ${{ (inputs.mode || 'test') == 'full' && inputs.commit_results }}
+        if: ${{ (inputs.mode || 'full') == 'full' && (inputs.commit_results || github.event_name == 'push') }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
