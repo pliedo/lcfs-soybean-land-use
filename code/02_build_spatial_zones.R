@@ -221,6 +221,7 @@ overlap_summary <- lapply(seq_len(nrow(rings_full)), function(i) {
   }
 
   exclusive_area <- rings_exclusive |>
+    st_drop_geometry() |>
     filter(ring_id == rings_full$ring_id[i]) |>
     summarise(x = sum(exclusive_area_sq_miles), .groups = "drop") |>
     pull(x)
