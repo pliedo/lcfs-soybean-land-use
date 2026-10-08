@@ -70,7 +70,8 @@ exclusive_rings <- exclusive_rings |>
 
 hubs <- full_rings |>
   filter(ring_index == 1) |>
-  transmute(hub_id, geometry = st_centroid(geometry))
+  select(hub_id)
+st_geometry(hubs) <- st_centroid(st_geometry(hubs))
 
 map <- ggplot() +
   geom_sf(
