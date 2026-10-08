@@ -1,0 +1,83 @@
+name: Build CDL crop outcomes
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "test runs one hub-year; full runs all hubs and 2013-2024"
+        required: true
+        default: "test"
+        type: choice
+        options:
+          - test
+          - full
+      hubs:
+        description: "Optional comma-separated hub IDs (blank uses mode default)"
+        required: false
+        default: ""
+      years:
+        description: "Optional comma-separated years (blank uses mode default)"
+        required: false
+        default: ""
+      commit_results:
+        description: "Commit lightweight final CSV and diagnostic figures to main"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::sf
+            any::dplyr
+            any::readr
+            any::stringr
+            any::httr
+            any::tidyr
+            any::ggplot2
+
+      - name: Build spatial zones and diagnostics
+        run: |
+          Rscript code/02_build_spatial_zones.R
+          Rscript code/04_plot_spatial_diagnostics.R
+
+      - name: Retrieve CropScape outcomes
+        env:
+          CDL_MODE: ${{ inputs.mode }}
+          CDL_HUBS: ${{ inputs.hubs }}
+          CDL_YEARS: ${{ inputs.years }}
+          CDL_MAX_OUTER: "6"
+        run: Rscript code/03_extract_cdl_outcomes.R
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: cdl-${{ inputs.mode }}-results
+          path: |
+            data/clean/crop_outcomes_exclusive.csv
+            output/diagnostics/
+          if-no-files-found: error
+
+      - name: Commit lightweight full-run results
+        if: ${{ inputs.mode == 'full' && inputs.commit_results }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/clean/crop_outcomes_exclusive.csv output/diagnostics/
+          git diff --cached --quiet || git commit -m "Add generated CDL outcomes and diagnostics"
+          git push
