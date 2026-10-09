@@ -59,7 +59,7 @@ def main() -> None:
     if len(selected) == 0:
         out = ROOT / "batch-results" / f"hub_{args.hub:03d}"
         out.mkdir(parents=True, exist_ok=True)
-        zero = {"hub_id": args.hub, "year": year, "ring_index": args.ring,
+        zero = {"hub_id": args.hub, "year": None, "ring_index": args.ring,
                 "inner_miles": (args.ring - 1) * 25, "outer_miles": args.ring * 25,
                 "soy_pixels": 0, "all_valid_pixels": 0, "cropland_pixels": 0,
                 "soy_acres": 0, "all_valid_acres": 0, "cropland_acres": 0,
