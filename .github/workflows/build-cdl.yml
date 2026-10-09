@@ -4,23 +4,27 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "test runs one hub-year; full runs all hubs and 2013-2024"
+        description: "test one circle, or build one full national distance band"
         required: true
         default: "test"
         type: choice
-        options:
-          - test
-          - full
-  # Updating this file deliberately launches a full reproducible build.
+        options: [test, full]
+      ring_index:
+        description: "Distance band: 1=0-25, 2=25-50, ..., 6=125-150 miles"
+        required: true
+        default: "1"
+        type: choice
+        options: ["1", "2", "3", "4", "5", "6"]
   push:
     paths:
+      - "code/03_extract_cdl_outcomes.R"
       - ".github/workflows/build-cdl.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: cdl-full-build
+  group: cdl-band-build
   cancel-in-progress: true
 
 jobs:
@@ -32,11 +36,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
-
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
@@ -48,19 +50,16 @@ jobs:
             any::units
             any::ggplot2
             any::jsonlite
-
       - name: Build spatial zones and diagnostic figures
         run: |
           Rscript code/02_build_spatial_zones.R
           Rscript code/04_plot_spatial_diagnostics.R
-
-      - name: Build one-hub batches with conservative concurrency
+      - name: Build one-hub matrix
         id: matrix
         run: |
-          value="$(Rscript -e 'd <- read.csv("data/clean/candidate_hubs_clean.csv"); ids <- d$hub_id[d$hub_status == "candidate_hub"]; x <- lapply(ids, function(i) list(batch = i, hubs = as.character(i))); cat(jsonlite::toJSON(list(include = x), auto_unbox = TRUE))')"
+          value="$(Rscript -e 'd <- read.csv("data/clean/candidate_hubs_clean.csv"); ids <- d$hub_id[d$hub_status == "candidate_hub"]; x <- lapply(ids, function(i) list(hub = as.character(i))); cat(jsonlite::toJSON(list(include = x), auto_unbox = TRUE))')"
           echo "value=$value" >> "$GITHUB_OUTPUT"
-
-      - name: Upload spatial inputs and figures
+      - name: Upload spatial inputs and diagnostic figures
         uses: actions/upload-artifact@v4
         with:
           name: spatial-inputs
@@ -71,22 +70,18 @@ jobs:
 
   smoke-test:
     needs: prepare
-    if: ${{ github.event_name == 'push' }}
+    if: ${{ github.event_name == 'push' || inputs.mode == 'test' }}
     runs-on: ubuntu-latest
     timeout-minutes: 90
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/download-artifact@v4
         with:
           name: spatial-inputs
           path: output
-
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
-
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
@@ -96,50 +91,45 @@ jobs:
             any::stringr
             any::httr
             any::tidyr
-
-      - name: Smoke test one 25-mile circle
+      - name: Test one 0-25 mile circle
         env:
           CDL_MODE: test
           CDL_HUBS: "1"
           CDL_YEARS: "2023"
-          CDL_MAX_OUTER: "1"
+          CDL_RING_INDEX: "1"
           CDL_WORKERS: "1"
           CDL_REQUEST_PAUSE_SECONDS: "15"
           CDL_INITIAL_POLL_WAIT_SECONDS: "30"
           CDL_POLL_ATTEMPTS: "30"
         run: Rscript code/03_extract_cdl_outcomes.R
-
       - name: Upload smoke-test result
         uses: actions/upload-artifact@v4
         with:
           name: cdl-smoke-test
           path: |
+            data/clean/cdl_category_counts.csv
             data/clean/crop_outcomes_exclusive.csv
             output/diagnostics/cdl_run_manifest.csv
           if-no-files-found: error
 
   extract:
-    needs: prepare
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'full' }}
+    needs: [prepare, smoke-test]
+    if: ${{ (github.event_name == 'push' || inputs.mode == 'full') && needs.smoke-test.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 270
     strategy:
       fail-fast: false
-      max-parallel: 4
+      max-parallel: 2
       matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/download-artifact@v4
         with:
           name: spatial-inputs
           path: output
-
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
-
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
@@ -149,61 +139,58 @@ jobs:
             any::stringr
             any::httr
             any::tidyr
-
-      - name: Retrieve CropScape outcomes for batch ${{ matrix.batch }}
+      - name: Retrieve one band for hub ${{ matrix.hub }}
         env:
           CDL_MODE: full
-          CDL_HUBS: ${{ matrix.hubs }}
-          CDL_MAX_OUTER: "6"
+          CDL_HUBS: ${{ matrix.hub }}
+          CDL_RING_INDEX: ${{ github.event_name == 'push' && '1' || inputs.ring_index }}
           CDL_WORKERS: "1"
+          CDL_REQUEST_PAUSE_SECONDS: "15"
+          CDL_INITIAL_POLL_WAIT_SECONDS: "30"
+          CDL_POLL_ATTEMPTS: "30"
         run: Rscript code/03_extract_cdl_outcomes.R
-
-      - name: Upload batch ${{ matrix.batch }}
+      - name: Upload hub result
         uses: actions/upload-artifact@v4
         with:
-          name: cdl-batch-${{ matrix.batch }}
+          name: cdl-hub-${{ matrix.hub }}
           path: |
+            data/clean/cdl_category_counts.csv
             data/clean/crop_outcomes_exclusive.csv
             output/diagnostics/cdl_run_manifest.csv
           if-no-files-found: error
 
   merge:
     needs: [prepare, extract]
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'full' }}
+    if: ${{ needs.extract.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/download-artifact@v4
         with:
           name: spatial-inputs
           path: output
-
       - uses: actions/download-artifact@v4
         with:
-          pattern: cdl-batch-*
+          pattern: cdl-hub-*
           path: batch-results
-
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
-
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
             any::dplyr
             any::readr
-
-      - name: Merge and validate batch results
+      - name: Merge, validate, and checkpoint this completed distance band
+        env:
+          RING_INDEX: ${{ github.event_name == 'push' && '1' || inputs.ring_index }}
         run: |
-          Rscript -e 'library(dplyr); library(readr); f <- list.files("batch-results", pattern = "crop_outcomes_exclusive.csv", recursive = TRUE, full.names = TRUE); if (length(f) != 57) stop("Expected 57 one-hub outcome files; found ", length(f)); x <- bind_rows(lapply(f, read_csv, show_col_types = FALSE)); key <- c("hub_id","year","ring_index"); if (anyDuplicated(x[key])) stop("Duplicate hub-year-ring rows in merged outcome panel."); if (nrow(x) == 0) stop("Merged outcome panel is empty."); dir.create("data/clean", recursive = TRUE, showWarnings = FALSE); write_csv(arrange(x, hub_id, year, ring_index), "data/clean/crop_outcomes_exclusive.csv"); manifest <- list.files("batch-results", pattern = "cdl_run_manifest.csv", recursive = TRUE, full.names = TRUE); if (length(manifest) > 0) { dir.create("output/diagnostics", recursive = TRUE, showWarnings = FALSE); write_csv(bind_rows(lapply(manifest, read_csv, show_col_types = FALSE)), "output/diagnostics/cdl_run_manifest.csv") }'
-
-      - name: Commit lightweight final results
+          Rscript -e 'library(dplyr); library(readr); band <- as.integer(Sys.getenv("RING_INDEX")); out_files <- list.files("batch-results", pattern = "crop_outcomes_exclusive.csv", recursive = TRUE, full.names = TRUE); cat_files <- list.files("batch-results", pattern = "cdl_category_counts.csv", recursive = TRUE, full.names = TRUE); if (length(out_files) != 57L) stop("Expected 57 hub outcome files; found ", length(out_files)); x <- bind_rows(lapply(out_files, read_csv, show_col_types = FALSE)); if (any(x$ring_index != band)) stop("A batch returned the wrong ring."); if (nrow(x) != 57L * 12L) stop("Expected 684 rows for this band; found ", nrow(x)); if (anyDuplicated(x[c("hub_id","year","ring_index")])) stop("Duplicate hub-year-ring rows."); old <- if (file.exists("data/clean/crop_outcomes_exclusive.csv")) read_csv("data/clean/crop_outcomes_exclusive.csv", show_col_types = FALSE) else x[0,]; final <- bind_rows(filter(old, ring_index != band), x) |> arrange(hub_id, year, ring_index); dir.create("data/clean", recursive = TRUE, showWarnings = FALSE); write_csv(final, "data/clean/crop_outcomes_exclusive.csv"); cx <- bind_rows(lapply(cat_files, read_csv, show_col_types = FALSE)); oldc <- if (file.exists("data/clean/cdl_category_counts.csv")) read_csv("data/clean/cdl_category_counts.csv", show_col_types = FALSE) else cx[0,]; key <- c("hub_id","year","ring_index","value","category"); finalc <- bind_rows(filter(oldc, ring_index != band), cx) |> distinct(across(all_of(key)), .keep_all = TRUE) |> arrange(hub_id, year, ring_index, value); write_csv(finalc, "data/clean/cdl_category_counts.csv"); manifests <- list.files("batch-results", pattern = "cdl_run_manifest.csv", recursive = TRUE, full.names = TRUE); if (length(manifests)) { dir.create("output/diagnostics", recursive = TRUE, showWarnings = FALSE); write_csv(bind_rows(lapply(manifests, read_csv, show_col_types = FALSE)), "output/diagnostics/cdl_run_manifest.csv") }'
+      - name: Commit completed band and diagnostics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f data/clean/crop_outcomes_exclusive.csv output/diagnostics/
-          git diff --cached --quiet || git commit -m "Add generated CDL outcomes and diagnostics"
+          git add -f data/clean/cdl_category_counts.csv data/clean/crop_outcomes_exclusive.csv output/diagnostics/
+          git diff --cached --quiet || git commit -m "Add CDL distance band results"
           git push
