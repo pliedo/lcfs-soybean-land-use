@@ -109,12 +109,17 @@ jobs:
           ring = int(os.environ['RING'])
           outcomes = sorted(glob.glob('batch-results/**/crop_outcomes.csv', recursive=True))
           classes = sorted(glob.glob('batch-results/**/cdl_class_composition.csv', recursive=True))
-          if len(outcomes) != 57 or len(classes) != 57:
-              raise RuntimeError(f'Expected 57 hub files; found {len(outcomes)} outcomes and {len(classes)} class tables')
+          if len(outcomes) != len(classes):
+              raise RuntimeError(f'Artifact mismatch: {len(outcomes)} outcome and {len(classes)} class tables')
           x = pd.concat(map(pd.read_csv, outcomes), ignore_index=True)
           c = pd.concat(map(pd.read_csv, classes), ignore_index=True)
-          if len(x) != 684 or x[['hub_id','year','ring_index']].duplicated().any():
-              raise RuntimeError('Outcome panel failed completeness or uniqueness checks')
+          expected_hubs = len(outcomes)
+          outcome_groups = x.groupby('hub_id').size()
+          if (x[['hub_id','year','ring_index']].duplicated().any()
+              or len(outcome_groups) != expected_hubs
+              or not (outcome_groups == 12).all()
+              or len(x) != expected_hubs * 12):
+              raise RuntimeError('Outcome panel failed hub/year completeness or uniqueness checks')
           os.makedirs('data/clean', exist_ok=True)
           def replace_band(path, incoming):
               if os.path.exists(path):
