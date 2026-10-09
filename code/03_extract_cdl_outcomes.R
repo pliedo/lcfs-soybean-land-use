@@ -158,7 +158,11 @@ request_component <- function(geometry, year, hub_id, outer_miles, component) {
           answer <- parsed
           break
         }
-        last_problem <- if (!inherits(parsed, "try-error")) parsed$error$message %||% "missing histogram" else as.character(parsed)
+        last_problem <- if (!inherits(parsed, "try-error")) {
+          if (!is.null(parsed$error$message)) parsed$error$message else "missing histogram"
+        } else {
+          as.character(parsed)
+        }
       } else if (!inherits(response, "try-error")) {
         last_problem <- paste("HTTP", status_code(response))
       } else {
