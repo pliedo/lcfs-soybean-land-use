@@ -156,22 +156,37 @@ request_component <- function(geometry, year, hub_id, outer_miles, component) {
     answer <- NULL
     last_problem <- NULL
     for (attempt in seq_len(5)) {
-      response <- try(GET(cdl_image_server, query = request, timeout(90)), silent = TRUE)
-      if (!inherits(response, "try-error") && status_code(response) == 200) {
-        parsed <- try(content(response, "parsed", type = "application/json"), silent = TRUE)
+      # The server accepts the documented curl form reliably for complex rings.
+      # Keep the geometry in a temporary JSON file so curl performs standard
+      # form-url encoding without R client-side query rewriting.
+      geometry_file <- tempfile(fileext = ".json")
+      result_file <- tempfile(fileext = ".json")
+      writeLines(request$geometry, geometry_file, useBytes = TRUE)
+      curl_args <- c(
+        "--fail", "--silent", "--show-error", "--max-time", "90", "-G",
+        shQuote(cdl_image_server),
+        "--data-urlencode", shQuote("f=json"),
+        "--data-urlencode", shQuote("geometryType=esriGeometryPolygon"),
+        "--data-urlencode", shQuote(paste0("geometry@", geometry_file)),
+        "--data-urlencode", shQuote(paste0("time=", request$time)),
+        "-o", shQuote(result_file)
+      )
+      curl_result <- try(system2("curl", args = curl_args, stdout = TRUE, stderr = TRUE), silent = TRUE)
+      if (!inherits(curl_result, "try-error") &&
+          is.null(attr(curl_result, "status")) &&
+          file.exists(result_file) && file.info(result_file)$size > 0) {
+        parsed <- try(fromJSON(result_file, simplifyVector = FALSE), silent = TRUE)
         if (!inherits(parsed, "try-error") && length(parsed$histograms) > 0) {
           answer <- parsed
           break
         }
-        last_problem <- if (!inherits(parsed, "try-error")) {
-          if (!is.null(parsed$error$message)) parsed$error$message else "missing histogram"
+        last_problem <- if (!inherits(parsed, "try-error") && !is.null(parsed$error$message)) {
+          parsed$error$message
         } else {
-          as.character(parsed)
+          paste(curl_result, collapse = " ")
         }
-      } else if (!inherits(response, "try-error")) {
-        last_problem <- paste("HTTP", status_code(response))
       } else {
-        last_problem <- as.character(response)
+        last_problem <- paste(curl_result, collapse = " ")
       }
       Sys.sleep(5 * attempt)
     }
