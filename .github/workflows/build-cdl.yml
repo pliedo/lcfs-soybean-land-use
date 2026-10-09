@@ -115,7 +115,9 @@ jobs:
 
   extract:
     needs: [prepare, smoke-test]
-    if: ${{ (github.event_name == 'push' || inputs.mode == 'full') && needs.smoke-test.result == 'success' }}
+    # A full band is deliberately manual. Code pushes run only the single
+    # smoke test, so an unverified retrieval change cannot launch 57 jobs.
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'full' && needs.smoke-test.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 270
     strategy:
