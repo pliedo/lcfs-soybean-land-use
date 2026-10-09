@@ -50,10 +50,10 @@ jobs:
           Rscript code/02_build_spatial_zones.R
           Rscript code/04_plot_spatial_diagnostics.R
 
-      - name: Build four balanced hub batches
+      - name: Build fifteen four-hub batches
         id: matrix
         run: |
-          value="$(Rscript -e 'd <- read.csv("data/clean/candidate_hubs_clean.csv"); ids <- d$hub_id[d$hub_status == "candidate_hub"]; g <- split(ids, cut(seq_along(ids), breaks = 4, labels = FALSE)); x <- lapply(seq_along(g), function(i) list(batch = i, hubs = paste(g[[i]], collapse = ","))); cat(jsonlite::toJSON(list(include = x), auto_unbox = TRUE))')"
+          value="$(Rscript -e 'd <- read.csv("data/clean/candidate_hubs_clean.csv"); ids <- d$hub_id[d$hub_status == "candidate_hub"]; g <- split(ids, cut(seq_along(ids), breaks = ceiling(length(ids) / 4), labels = FALSE)); x <- lapply(seq_along(g), function(i) list(batch = i, hubs = paste(g[[i]], collapse = ","))); cat(jsonlite::toJSON(list(include = x), auto_unbox = TRUE))')"
           echo "value=$value" >> "$GITHUB_OUTPUT"
 
       - name: Upload spatial inputs and figures
@@ -69,7 +69,7 @@ jobs:
     needs: prepare
     if: ${{ github.event_name == 'push' || inputs.mode == 'full' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 270
     strategy:
       fail-fast: false
       matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
@@ -144,7 +144,7 @@ jobs:
 
       - name: Merge and validate batch results
         run: |
-          Rscript -e 'library(dplyr); library(readr); f <- list.files("batch-results", pattern = "crop_outcomes_exclusive.csv", recursive = TRUE, full.names = TRUE); if (length(f) != 4) stop("Expected four batch outcome files; found ", length(f)); x <- bind_rows(lapply(f, read_csv, show_col_types = FALSE)); key <- c("hub_id","year","ring_index"); if (anyDuplicated(x[key])) stop("Duplicate hub-year-ring rows in merged outcome panel."); if (nrow(x) == 0) stop("Merged outcome panel is empty."); dir.create("data/clean", recursive = TRUE, showWarnings = FALSE); write_csv(arrange(x, hub_id, year, ring_index), "data/clean/crop_outcomes_exclusive.csv"); manifest <- list.files("batch-results", pattern = "cdl_run_manifest.csv", recursive = TRUE, full.names = TRUE); if (length(manifest) > 0) { dir.create("output/diagnostics", recursive = TRUE, showWarnings = FALSE); write_csv(bind_rows(lapply(manifest, read_csv, show_col_types = FALSE)), "output/diagnostics/cdl_run_manifest.csv") }'
+          Rscript -e 'library(dplyr); library(readr); f <- list.files("batch-results", pattern = "crop_outcomes_exclusive.csv", recursive = TRUE, full.names = TRUE); if (length(f) != 15) stop("Expected fifteen batch outcome files; found ", length(f)); x <- bind_rows(lapply(f, read_csv, show_col_types = FALSE)); key <- c("hub_id","year","ring_index"); if (anyDuplicated(x[key])) stop("Duplicate hub-year-ring rows in merged outcome panel."); if (nrow(x) == 0) stop("Merged outcome panel is empty."); dir.create("data/clean", recursive = TRUE, showWarnings = FALSE); write_csv(arrange(x, hub_id, year, ring_index), "data/clean/crop_outcomes_exclusive.csv"); manifest <- list.files("batch-results", pattern = "cdl_run_manifest.csv", recursive = TRUE, full.names = TRUE); if (length(manifest) > 0) { dir.create("output/diagnostics", recursive = TRUE, showWarnings = FALSE); write_csv(bind_rows(lapply(manifest, read_csv, show_col_types = FALSE)), "output/diagnostics/cdl_run_manifest.csv") }'
 
       - name: Commit lightweight final results
         run: |
