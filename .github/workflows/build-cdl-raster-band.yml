@@ -1,0 +1,132 @@
+name: Build CDL raster band
+
+on:
+  workflow_dispatch:
+    inputs:
+      ring_index:
+        description: "Distance band: 1=0-25, 2=25-50, ..., 6=125-150 miles"
+        required: true
+        default: "1"
+        type: choice
+        options: ["1", "2", "3", "4", "5", "6"]
+  push:
+    paths:
+      - "code/07_extract_cdl_raster_band.py"
+      - ".github/workflows/build-cdl-raster-band.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cdl-raster-band
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    outputs:
+      matrix: ${{ steps.matrix.outputs.value }}
+      ring: ${{ steps.ring.outputs.value }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::sf
+            any::dplyr
+            any::readxl
+            any::readr
+            any::stringr
+            any::units
+            any::jsonlite
+      - name: Build true exclusive ring polygons
+        run: Rscript code/02_build_spatial_zones.R
+      - id: matrix
+        name: Build candidate-hub matrix
+        run: |
+          value="$(Rscript -e 'd <- read.csv("data/clean/candidate_hubs_clean.csv"); ids <- d$hub_id[d$hub_status == "candidate_hub"]; cat(jsonlite::toJSON(list(include = lapply(ids, function(i) list(hub = as.character(i)))), auto_unbox = TRUE))')"
+          echo "value=$value" >> "$GITHUB_OUTPUT"
+      - id: ring
+        run: echo "value=${{ github.event_name == 'push' && '1' || inputs.ring_index }}" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exclusive-ring-polygons
+          path: output/facility_rings_exclusive.gpkg
+
+  extract:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 270
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: exclusive-ring-polygons
+          path: output
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install raster dependencies
+        run: pip install geopandas rasterio numpy
+      - name: Extract all years for hub ${{ matrix.hub }}
+        run: python code/07_extract_cdl_raster_band.py --hub ${{ matrix.hub }} --ring ${{ needs.prepare.outputs.ring }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cdl-raster-hub-${{ matrix.hub }}
+          path: batch-results/
+
+  merge:
+    needs: [prepare, extract]
+    if: ${{ needs.extract.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cdl-raster-hub-*
+          path: batch-results
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Merge and checkpoint this completed band
+        env:
+          RING: ${{ needs.prepare.outputs.ring }}
+        run: |
+          python - <<'PY'
+          import glob, os
+          import pandas as pd
+          ring = int(os.environ['RING'])
+          outcomes = sorted(glob.glob('batch-results/**/crop_outcomes.csv', recursive=True))
+          classes = sorted(glob.glob('batch-results/**/cdl_class_composition.csv', recursive=True))
+          if len(outcomes) != 57 or len(classes) != 57:
+              raise RuntimeError(f'Expected 57 hub files; found {len(outcomes)} outcomes and {len(classes)} class tables')
+          x = pd.concat(map(pd.read_csv, outcomes), ignore_index=True)
+          c = pd.concat(map(pd.read_csv, classes), ignore_index=True)
+          if len(x) != 684 or x[['hub_id','year','ring_index']].duplicated().any():
+              raise RuntimeError('Outcome panel failed completeness or uniqueness checks')
+          os.makedirs('data/clean', exist_ok=True)
+          def replace_band(path, incoming):
+              if os.path.exists(path):
+                  old = pd.read_csv(path)
+                  incoming = pd.concat([old[old.ring_index != ring], incoming], ignore_index=True)
+              incoming.sort_values(['hub_id','year','ring_index'], inplace=True)
+              incoming.to_csv(path, index=False)
+          replace_band('data/clean/crop_outcomes_exclusive.csv', x)
+          replace_band('data/clean/cdl_class_composition_exclusive.csv', c)
+          PY
+      - name: Commit completed band
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/clean/crop_outcomes_exclusive.csv data/clean/cdl_class_composition_exclusive.csv
+          git diff --cached --quiet || git commit -m "Add CDL raster distance band"
+          git push
