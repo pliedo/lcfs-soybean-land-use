@@ -54,8 +54,24 @@ def main() -> None:
 
     rings = gpd.read_file(ROOT / "output" / "facility_rings_exclusive.gpkg")
     selected = rings[(rings.hub_id == args.hub) & (rings.ring_index == args.ring)].to_crs(5070)
-    if len(selected) != 1:
-        raise ValueError(f"Expected one exclusive ring polygon for hub {args.hub}, band {args.ring}")
+    if len(selected) > 1:
+        raise ValueError(f"Expected at most one exclusive ring polygon for hub {args.hub}, band {args.ring}")
+    if len(selected) == 0:
+        out = ROOT / "batch-results" / f"hub_{args.hub:03d}"
+        out.mkdir(parents=True, exist_ok=True)
+        zero = {"hub_id": args.hub, "year": year, "ring_index": args.ring,
+                "inner_miles": (args.ring - 1) * 25, "outer_miles": args.ring * 25,
+                "soy_pixels": 0, "all_valid_pixels": 0, "cropland_pixels": 0,
+                "soy_acres": 0, "all_valid_acres": 0, "cropland_acres": 0,
+                "soy_share_all_land": None, "soy_share_cropland": None}
+        with (out / "crop_outcomes.csv").open("w", newline="") as fh:
+            writer = csv.DictWriter(fh, fieldnames=zero.keys()); writer.writeheader()
+            writer.writerows([{**zero, "year": year} for year in years])
+        with (out / "cdl_class_composition.csv").open("w", newline="") as fh:
+            writer = csv.DictWriter(fh, fieldnames=["hub_id", "year", "ring_index", "inner_miles", "outer_miles", "cdl_code", "pixel_count", "acres", "share_all_valid_pixels", "is_soy", "is_cropland"])
+            writer.writeheader()
+        print(f"hub {args.hub}, ring {args.ring} has zero exclusive area", flush=True)
+        return
     definition = selected.iloc[0]
     geometry = definition.geometry
     scratch = Path("/tmp") / f"cdl-hub-{args.hub:03d}-ring-{args.ring}"
