@@ -51,7 +51,7 @@ jobs:
           value="$(Rscript -e 'd <- read.csv("data/clean/candidate_hubs_clean.csv"); ids <- d$hub_id[d$hub_status == "candidate_hub"]; cat(jsonlite::toJSON(list(include = lapply(ids, function(i) list(hub = as.character(i)))), auto_unbox = TRUE))')"
           echo "value=$value" >> "$GITHUB_OUTPUT"
       - id: ring
-        run: echo "value=${{ github.event_name == 'push' && '1' || inputs.ring_index }}" >> "$GITHUB_OUTPUT"
+        run: echo "value=${{ github.event_name == 'push' && '2' || inputs.ring_index }}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4
         with:
           name: exclusive-ring-polygons
