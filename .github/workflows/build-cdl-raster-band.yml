@@ -19,7 +19,7 @@ permissions:
 
 concurrency:
   group: cdl-raster-band
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   prepare:
