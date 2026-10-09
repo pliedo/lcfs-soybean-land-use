@@ -145,7 +145,12 @@ request_component <- function(geometry, year, hub_id, outer_miles, component) {
       f = "json",
       geometryType = "esriGeometryPolygon",
       geometry = as_esri_polygon(geometry),
-      time = as.numeric(as.POSIXct(sprintf("%d-01-01", year), tz = "UTC")) * 1000
+      # Send epoch milliseconds as a plain integer string; scientific notation
+      # is not reliably accepted by this ArcGIS service.
+      time = format(
+        as.numeric(as.POSIXct(sprintf("%d-01-01", year), tz = "UTC")) * 1000,
+        scientific = FALSE, trim = TRUE
+      )
     )
 
     answer <- NULL
