@@ -1,0 +1,2 @@
+hub_id,year,ring_index,soy_acres_raster,legacy_bounding_box_soy_acres,difference_from_legacy_acres,difference_from_legacy_percent,all_valid_acres,cropland_acres,soy_share_all_land,soy_share_cropland
+1,2023,1,291463.56502079393,318619.7,-27156.13497920608,-8.52305584971867,1255840.551166869,598438.5031786592,0.23208644182573931,0.48704012772015726
