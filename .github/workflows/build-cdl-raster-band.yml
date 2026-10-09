@@ -97,6 +97,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install merge dependencies
+        run: pip install pandas
       - name: Merge and checkpoint this completed band
         env:
           RING: ${{ needs.prepare.outputs.ring }}
