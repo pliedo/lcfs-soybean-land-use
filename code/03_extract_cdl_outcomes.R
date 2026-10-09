@@ -20,7 +20,7 @@
 #   data/clean/crop_outcomes_exclusive.csv
 #   output/diagnostics/cdl_run_manifest.csv
 
-required_packages <- c("sf", "dplyr", "readr", "stringr", "httr", "tidyr")
+required_packages <- c("sf", "dplyr", "readr", "stringr", "httr", "tidyr", "jsonlite")
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing_packages) > 0) {
   stop("Install required packages first: ", paste(missing_packages, collapse = ", "), call. = FALSE)
@@ -32,6 +32,7 @@ library(readr)
 library(stringr)
 library(httr)
 library(tidyr)
+library(jsonlite)
 
 rings_file <- "output/facility_rings_exclusive.gpkg"
 if (!file.exists(rings_file)) {
@@ -107,104 +108,85 @@ cache_path <- function(year, hub_id, outer_miles, component) {
   )
 }
 
-extract_return_url <- function(text) {
-  match <- str_match(text, "<returnURL>([^<]+)</returnURL>")[, 2]
-  if (is.na(match)) stop("CropScape response did not contain a returnURL.", call. = FALSE)
-  match
+# Official USDA CroplandCROS CDL image service. It computes a histogram inside
+# a supplied polygon and calendar year; unlike the legacy CropScape endpoint,
+# it does not queue a separate server-side job per request.
+cdl_image_server <- "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/computeHistograms"
+cdl_pixel_acres <- 30 * 30 / 4046.8564224
+
+as_esri_polygon <- function(geometry) {
+  projected <- st_transform(st_sfc(geometry, crs = st_crs(rings)), 3857)
+  xy <- st_coordinates(projected)
+  ring_columns <- intersect(c("L1", "L2"), colnames(xy))
+  ring_key <- if (length(ring_columns) == 0) {
+    rep(1, nrow(xy))
+  } else {
+    interaction(as.data.frame(xy[, ring_columns, drop = FALSE]), drop = TRUE)
+  }
+  ring_rows <- split(seq_len(nrow(xy)), ring_key)
+  rings <- lapply(ring_rows, function(i) {
+    lapply(i, function(j) unname(as.numeric(xy[j, 1:2])))
+  })
+  toJSON(
+    list(rings = rings, spatialReference = list(wkid = 3857)),
+    auto_unbox = TRUE, digits = 15
+  )
 }
 
-is_stat_csv <- function(raw) {
-  text <- rawToChar(raw)
-  lines <- strsplit(text, "\r?\n")[[1]]
-  length(lines) >= 2 && str_detect(lines[[1]], "Value") && str_detect(lines[[1]], "Category")
-}
-
-# CropScape queues geoprocessing and returns a result URL. That URL is not
-# necessarily ready immediately; submit once, then poll the queued result.
 request_component <- function(geometry, year, hub_id, outer_miles, component) {
   path <- cache_path(year, hub_id, outer_miles, component)
   dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
 
   if (!file.exists(path)) {
-    polygon <- st_transform(st_sfc(geometry, crs = st_crs(rings)), cropscape_crs)
-    xy <- st_coordinates(polygon)[, 1:2, drop = FALSE]
-    points <- paste(as.vector(t(xy)), collapse = ",")
-    request_url <- paste0(
-      "https://nassgeodata.gmu.edu/axis2/services/CDLService/GetCDLStat?year=", year,
-      "&points=", URLencode(points, reserved = TRUE), "&format=csv"
-    )
-
-    # Pace submissions to the public service, particularly for large circles.
-    pause <- as.numeric(Sys.getenv("CDL_REQUEST_PAUSE_SECONDS", unset = "15"))
+    pause <- as.numeric(Sys.getenv("CDL_REQUEST_PAUSE_SECONDS", unset = "5"))
     if (!is.na(pause) && pause > 0) Sys.sleep(pause)
 
-    return_url <- NULL
-    submit_problem <- NULL
-    for (attempt in seq_len(4)) {
-      submitted <- try(GET(request_url, timeout(120)), silent = TRUE)
-      if (!inherits(submitted, "try-error") && status_code(submitted) == 200) {
-        submitted_text <- content(submitted, "text", encoding = "UTF-8")
-        parsed <- try(extract_return_url(submitted_text), silent = TRUE)
-        if (!inherits(parsed, "try-error")) {
-          return_url <- parsed
+    request <- list(
+      f = "json",
+      geometryType = "esriGeometryPolygon",
+      geometry = as_esri_polygon(geometry),
+      time = as.numeric(as.POSIXct(sprintf("%d-01-01", year), tz = "UTC")) * 1000
+    )
+
+    answer <- NULL
+    last_problem <- NULL
+    for (attempt in seq_len(5)) {
+      response <- try(GET(cdl_image_server, query = request, timeout(90)), silent = TRUE)
+      if (!inherits(response, "try-error") && status_code(response) == 200) {
+        parsed <- try(content(response, "parsed", type = "application/json"), silent = TRUE)
+        if (!inherits(parsed, "try-error") && length(parsed$histograms) > 0) {
+          answer <- parsed
           break
         }
-        submit_problem <- substr(submitted_text, 1, 240)
-      } else if (!inherits(submitted, "try-error")) {
-        submit_problem <- paste("HTTP", status_code(submitted))
+        last_problem <- if (!inherits(parsed, "try-error")) parsed$error$message %||% "missing histogram" else as.character(parsed)
+      } else if (!inherits(response, "try-error")) {
+        last_problem <- paste("HTTP", status_code(response))
       } else {
-        submit_problem <- as.character(submitted)
+        last_problem <- as.character(response)
       }
-      Sys.sleep(min(120, 10 * 2 ^ (attempt - 1)))
+      Sys.sleep(5 * attempt)
     }
-    if (is.null(return_url)) {
-      stop("CropScape did not accept request for hub ", hub_id, ", year ", year,
-           ", outer distance ", outer_miles, ". Last response: ", submit_problem, call. = FALSE)
+    if (is.null(answer)) {
+      stop(
+        "USDA ImageServer did not return a histogram for hub ", hub_id,
+        ", year ", year, ", outer distance ", outer_miles,
+        ". Last response: ", last_problem, call. = FALSE
+      )
     }
-
-    # Do not submit duplicate server-side jobs while the first one is computing.
-    Sys.sleep(as.numeric(Sys.getenv("CDL_INITIAL_POLL_WAIT_SECONDS", unset = "30")))
-    poll_attempts <- as.integer(Sys.getenv("CDL_POLL_ATTEMPTS", unset = "30"))
-    poll_problem <- NULL
-    for (attempt in seq_len(poll_attempts)) {
-      result <- try(GET(return_url, timeout(120)), silent = TRUE)
-      if (!inherits(result, "try-error") && status_code(result) == 200) {
-        raw <- content(result, "raw")
-        if (is_stat_csv(raw)) {
-          writeBin(raw, path)
-          break
-        }
-        poll_problem <- "result is not a completed CSV yet"
-      } else if (!inherits(result, "try-error")) {
-        poll_problem <- paste("HTTP", status_code(result))
-      } else {
-        poll_problem <- as.character(result)
-      }
-      Sys.sleep(min(120, 5 * attempt))
-    }
-    if (!file.exists(path)) {
-      stop("CropScape queued result did not become available for hub ", hub_id,
-           ", year ", year, ", outer distance ", outer_miles,
-           ". Last poll: ", poll_problem, call. = FALSE)
-    }
+    writeLines(toJSON(answer, auto_unbox = TRUE), path, useBytes = TRUE)
   }
 
-  if (!file.exists(path)) {
-    stop(
-      "CropScape request failed after retries for hub ", hub_id,
-      ", year ", year, ", outer distance ", outer_miles, ".",
-      call. = FALSE
-    )
-  }
-
-  read_csv(path, show_col_types = FALSE, name_repair = "minimal") |>
-    rename_with(~ str_trim(.x)) |>
-    transmute(
-      value = as.integer(Value),
-      category = as.character(Category),
-      count = as.numeric(Count),
-      acreage = as.numeric(Acreage)
-    )
+  result <- fromJSON(path, simplifyVector = FALSE)
+  histogram <- result$histograms[[1]]
+  start_value <- round(as.numeric(histogram$min) + 0.5)
+  values <- start_value + seq_along(histogram$counts) - 1L
+  tibble(
+    value = as.integer(values),
+    category = if_else(values == 5L, "Soybeans", paste0("CDL_", values)),
+    count = as.numeric(unlist(histogram$counts)),
+    acreage = count * cdl_pixel_acres
+  ) |>
+    filter(count > 0)
 }
 
 # A cumulative catchment (exclusive area within 0--d miles) has no annular hole,
