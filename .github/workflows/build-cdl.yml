@@ -11,20 +11,7 @@ on:
         options:
           - test
           - full
-      hubs:
-        description: "Optional comma-separated hub IDs (blank uses mode default)"
-        required: false
-        default: ""
-      years:
-        description: "Optional comma-separated years (blank uses mode default)"
-        required: false
-        default: ""
-      commit_results:
-        description: "Commit lightweight final CSV and diagnostic figures to main"
-        required: true
-        default: false
-        type: boolean
-  # A workflow-file update is the deliberate trigger for a full cloud build.
+  # Updating this file deliberately launches a full reproducible build.
   push:
     paths:
       - ".github/workflows/build-cdl.yml"
@@ -33,9 +20,11 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 90
+    outputs:
+      matrix: ${{ steps.matrix.outputs.value }}
 
     steps:
       - uses: actions/checkout@v4
@@ -52,35 +41,112 @@ jobs:
             any::readr
             any::readxl
             any::stringr
-            any::httr
-            any::tidyr
+            any::units
             any::ggplot2
+            any::jsonlite
 
-      - name: Build spatial zones and diagnostics
+      - name: Build spatial zones and diagnostic figures
         run: |
           Rscript code/02_build_spatial_zones.R
           Rscript code/04_plot_spatial_diagnostics.R
 
-      - name: Retrieve CropScape outcomes
-        env:
-          CDL_MODE: ${{ inputs.mode || 'full' }}
-          CDL_HUBS: ${{ inputs.hubs || '' }}
-          CDL_YEARS: ${{ inputs.years || '' }}
-          CDL_MAX_OUTER: "6"
-          CDL_WORKERS: "4"
-        run: Rscript code/03_extract_cdl_outcomes.R
+      - name: Build four balanced hub batches
+        id: matrix
+        run: |
+          value="$(Rscript -e 'd <- read.csv("data/clean/candidate_hubs_clean.csv"); ids <- d$hub_id[d$hub_status == "candidate_hub"]; g <- split(ids, cut(seq_along(ids), breaks = 4, labels = FALSE)); x <- lapply(seq_along(g), function(i) list(batch = i, hubs = paste(g[[i]], collapse = ","))); cat(jsonlite::toJSON(list(include = x), auto_unbox = TRUE))')"
+          echo "value=$value" >> "$GITHUB_OUTPUT"
 
-      - name: Upload results
+      - name: Upload spatial inputs and figures
         uses: actions/upload-artifact@v4
         with:
-          name: cdl-${{ inputs.mode || 'full' }}-results
+          name: spatial-inputs
           path: |
-            data/clean/crop_outcomes_exclusive.csv
+            output/facility_rings_exclusive.gpkg
             output/diagnostics/
           if-no-files-found: error
 
-      - name: Commit lightweight full-run results
-        if: ${{ (inputs.mode || 'full') == 'full' && (inputs.commit_results || github.event_name == 'push') }}
+  extract:
+    needs: prepare
+    if: ${{ github.event_name == 'push' || inputs.mode == 'full' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: spatial-inputs
+          path: .
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::sf
+            any::dplyr
+            any::readr
+            any::stringr
+            any::httr
+            any::tidyr
+
+      - name: Retrieve CropScape outcomes for batch ${{ matrix.batch }}
+        env:
+          CDL_MODE: full
+          CDL_HUBS: ${{ matrix.hubs }}
+          CDL_MAX_OUTER: "6"
+          CDL_WORKERS: "2"
+        run: Rscript code/03_extract_cdl_outcomes.R
+
+      - name: Upload batch ${{ matrix.batch }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: cdl-batch-${{ matrix.batch }}
+          path: |
+            data/clean/crop_outcomes_exclusive.csv
+            output/diagnostics/cdl_run_manifest.csv
+          if-no-files-found: error
+
+  merge:
+    needs: [prepare, extract]
+    if: ${{ github.event_name == 'push' || inputs.mode == 'full' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: spatial-inputs
+          path: .
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cdl-batch-*
+          path: batch-results
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::dplyr
+            any::readr
+
+      - name: Merge and validate batch results
+        run: |
+          Rscript -e 'library(dplyr); library(readr); f <- list.files("batch-results", pattern = "crop_outcomes_exclusive.csv", recursive = TRUE, full.names = TRUE); if (length(f) != 4) stop("Expected four batch outcome files; found ", length(f)); x <- bind_rows(lapply(f, read_csv, show_col_types = FALSE)); key <- c("hub_id","year","ring_index"); if (anyDuplicated(x[key])) stop("Duplicate hub-year-ring rows in merged outcome panel."); if (nrow(x) == 0) stop("Merged outcome panel is empty."); dir.create("data/clean", recursive = TRUE, showWarnings = FALSE); write_csv(arrange(x, hub_id, year, ring_index), "data/clean/crop_outcomes_exclusive.csv"); manifest <- list.files("batch-results", pattern = "cdl_run_manifest.csv", recursive = TRUE, full.names = TRUE); if (length(manifest) > 0) { dir.create("output/diagnostics", recursive = TRUE, showWarnings = FALSE); write_csv(bind_rows(lapply(manifest, read_csv, show_col_types = FALSE)), "output/diagnostics/cdl_run_manifest.csv") }'
+
+      - name: Commit lightweight final results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
