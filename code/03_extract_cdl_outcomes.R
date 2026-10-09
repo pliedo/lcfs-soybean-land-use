@@ -99,6 +99,14 @@ extract_return_url <- function(text) {
   match
 }
 
+is_stat_csv <- function(raw) {
+  text <- rawToChar(raw)
+  lines <- strsplit(text, "\r?\n")[[1]]
+  length(lines) >= 2 && str_detect(lines[[1]], "Value") && str_detect(lines[[1]], "Category")
+}
+
+# CropScape queues geoprocessing and returns a result URL. That URL is not
+# necessarily ready immediately; submit once, then poll the queued result.
 request_component <- function(geometry, year, hub_id, outer_miles, component) {
   path <- cache_path(year, hub_id, outer_miles, component)
   dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
@@ -106,30 +114,64 @@ request_component <- function(geometry, year, hub_id, outer_miles, component) {
   if (!file.exists(path)) {
     polygon <- st_transform(st_sfc(geometry, crs = st_crs(rings)), cropscape_crs)
     xy <- st_coordinates(polygon)[, 1:2, drop = FALSE]
-
-    # CropScape accepts one simple closed polygon at a time.
     points <- paste(as.vector(t(xy)), collapse = ",")
     request_url <- paste0(
       "https://nassgeodata.gmu.edu/axis2/services/CDLService/GetCDLStat?year=", year,
-      "&points=", URLencode(points, reserved = TRUE),
-      "&format=csv"
+      "&points=", URLencode(points, reserved = TRUE), "&format=csv"
     )
 
-    response <- NULL
-    for (attempt in 1:4) {
-      response <- try(GET(request_url, timeout(180)), silent = TRUE)
-      if (!inherits(response, "try-error") && status_code(response) == 200) {
-        response_text <- content(response, "text", encoding = "UTF-8")
-        return_url <- try(extract_return_url(response_text), silent = TRUE)
-        if (!inherits(return_url, "try-error")) {
-          csv_response <- try(GET(return_url, timeout(180)), silent = TRUE)
-          if (!inherits(csv_response, "try-error") && status_code(csv_response) == 200) {
-            writeBin(content(csv_response, "raw"), path)
-            break
-          }
+    # Pace submissions to the public service, particularly for large circles.
+    pause <- as.numeric(Sys.getenv("CDL_REQUEST_PAUSE_SECONDS", unset = "15"))
+    if (!is.na(pause) && pause > 0) Sys.sleep(pause)
+
+    return_url <- NULL
+    submit_problem <- NULL
+    for (attempt in seq_len(4)) {
+      submitted <- try(GET(request_url, timeout(120)), silent = TRUE)
+      if (!inherits(submitted, "try-error") && status_code(submitted) == 200) {
+        submitted_text <- content(submitted, "text", encoding = "UTF-8")
+        parsed <- try(extract_return_url(submitted_text), silent = TRUE)
+        if (!inherits(parsed, "try-error")) {
+          return_url <- parsed
+          break
         }
+        submit_problem <- substr(submitted_text, 1, 240)
+      } else if (!inherits(submitted, "try-error")) {
+        submit_problem <- paste("HTTP", status_code(submitted))
+      } else {
+        submit_problem <- as.character(submitted)
       }
-      Sys.sleep(2 ^ attempt)
+      Sys.sleep(min(120, 10 * 2 ^ (attempt - 1)))
+    }
+    if (is.null(return_url)) {
+      stop("CropScape did not accept request for hub ", hub_id, ", year ", year,
+           ", outer distance ", outer_miles, ". Last response: ", submit_problem, call. = FALSE)
+    }
+
+    # Do not submit duplicate server-side jobs while the first one is computing.
+    Sys.sleep(as.numeric(Sys.getenv("CDL_INITIAL_POLL_WAIT_SECONDS", unset = "30")))
+    poll_attempts <- as.integer(Sys.getenv("CDL_POLL_ATTEMPTS", unset = "30"))
+    poll_problem <- NULL
+    for (attempt in seq_len(poll_attempts)) {
+      result <- try(GET(return_url, timeout(120)), silent = TRUE)
+      if (!inherits(result, "try-error") && status_code(result) == 200) {
+        raw <- content(result, "raw")
+        if (is_stat_csv(raw)) {
+          writeBin(raw, path)
+          break
+        }
+        poll_problem <- "result is not a completed CSV yet"
+      } else if (!inherits(result, "try-error")) {
+        poll_problem <- paste("HTTP", status_code(result))
+      } else {
+        poll_problem <- as.character(result)
+      }
+      Sys.sleep(min(120, 5 * attempt))
+    }
+    if (!file.exists(path)) {
+      stop("CropScape queued result did not become available for hub ", hub_id,
+           ", year ", year, ", outer distance ", outer_miles,
+           ". Last poll: ", poll_problem, call. = FALSE)
     }
   }
 
@@ -163,9 +205,8 @@ cumulative_components <- function(hub_rings, target_ring_index) {
   st_cast(st_geometry(cumulative), "POLYGON", warn = FALSE)
 }
 
-# Each task is one hub-year-outer-boundary query. On Linux cloud runners,
-# independent tasks can safely share a small worker pool: cache paths are unique
-# by hub/year/boundary/component, so no file is written by two workers.
+# Each task is one hub-year-outer-boundary query. Default concurrency is one
+# because CropScape is a public, server-side geoprocessing service.
 workers <- suppressWarnings(as.integer(Sys.getenv("CDL_WORKERS", unset = "1")))
 if (is.na(workers) || workers < 1) workers <- 1L
 if (.Platform$OS.type == "windows") workers <- 1L
