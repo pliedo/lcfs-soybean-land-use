@@ -91,6 +91,7 @@ jobs:
             any::stringr
             any::httr
             any::tidyr
+            any::jsonlite
       - name: Test one 0-25 mile circle
         env:
           CDL_MODE: test
@@ -139,6 +140,7 @@ jobs:
             any::stringr
             any::httr
             any::tidyr
+            any::jsonlite
       - name: Retrieve one band for hub ${{ matrix.hub }}
         env:
           CDL_MODE: full
