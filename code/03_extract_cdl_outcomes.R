@@ -66,6 +66,20 @@ if (identical(mode, "full")) {
 max_outer_index <- as.integer(Sys.getenv("CDL_MAX_OUTER", unset = "6"))
 if (!max_outer_index %in% 1:6) stop("CDL_MAX_OUTER must be an integer from 1 to 6.", call. = FALSE)
 
+# Set CDL_RING_INDEX to build exactly one band across all requested hubs. For
+# band k>1 we request cumulative k and k-1, then difference them locally.
+ring_index_env <- Sys.getenv("CDL_RING_INDEX", unset = "")
+target_ring_indices <- if (identical(ring_index_env, "")) {
+  seq_len(max_outer_index)
+} else {
+  as.integer(strsplit(ring_index_env, ",", fixed = TRUE)[[1]])
+}
+if (any(is.na(target_ring_indices)) || any(!target_ring_indices %in% 1:6)) {
+  stop("CDL_RING_INDEX must contain integers from 1 to 6.", call. = FALSE)
+}
+query_ring_indices <- sort(unique(c(target_ring_indices, target_ring_indices - 1L)))
+query_ring_indices <- query_ring_indices[query_ring_indices >= 1L]
+
 rings <- st_read(rings_file, quiet = TRUE) |>
   st_make_valid()
 
@@ -219,7 +233,7 @@ task_grid <- tidyr::crossing(
     rings |>
       st_drop_geometry() |>
       distinct(hub_id, ring_index, outer_miles) |>
-      filter(ring_index <= max_outer_index),
+      filter(ring_index %in% query_ring_indices),
     by = c("hub" = "hub_id")
   ) |>
   arrange(hub, year, ring_index)
@@ -292,7 +306,8 @@ category_counts <- cumulative_stats |>
   left_join(
     rings |> st_drop_geometry() |> select(hub_id, ring_index, inner_miles, outer_miles),
     by = c("hub_id", "ring_index", "outer_miles")
-  )
+  ) |>
+  filter(ring_index %in% target_ring_indices)
 
 outcomes <- category_counts |>
   group_by(hub_id, year, ring_index, inner_miles, outer_miles) |>
@@ -304,6 +319,10 @@ outcomes <- category_counts |>
     soy_share_cropland = soy_acres / cropland_acres,
     .groups = "drop"
   )
+
+# Keep only the requested bands in every output. This lets the workflow commit
+# each completed band immediately and combine bands incrementally.
+category_counts <- category_counts |> filter(ring_index %in% target_ring_indices)
 
 write_csv(category_counts, file.path(clean_dir, "cdl_category_counts.csv"))
 write_csv(outcomes, file.path(clean_dir, "crop_outcomes_exclusive.csv"))
