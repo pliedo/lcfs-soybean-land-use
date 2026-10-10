@@ -58,6 +58,39 @@ def get_raster(geometry, year: int, target: Path) -> None:
     raise RuntimeError(f"CDL WCS download failed after 6 attempts for {year}: {last_error}")
 
 
+def count_tile(geometry, year: int, scratch: Path, label: str, depth: int = 0) -> np.ndarray:
+    """Download and count one tile, subdividing a rejected request adaptively."""
+    raster = scratch / f"cdl_{year}_tile_{label}.tif"
+    try:
+        try:
+            get_raster(geometry, year, raster)
+        except RuntimeError:
+            if depth >= 2:
+                raise
+            xmin, ymin, xmax, ymax = geometry.bounds
+            xmid, ymid = (xmin + xmax) / 2, (ymin + ymax) / 2
+            counts = np.zeros(256, dtype=np.int64)
+            quadrants = [
+                box(xmin, ymin, xmid, ymid), box(xmid, ymin, xmax, ymid),
+                box(xmin, ymid, xmid, ymax), box(xmid, ymid, xmax, ymax),
+            ]
+            for index, quadrant in enumerate(quadrants, start=1):
+                piece = geometry.intersection(quadrant)
+                if piece.is_empty:
+                    continue
+                child = count_tile(piece, year, scratch, f"{label}_{index}", depth + 1)
+                if len(child) > len(counts):
+                    counts = np.pad(counts, (0, len(child) - len(counts)))
+                counts[:len(child)] += child
+            return counts
+        with rasterio.open(raster) as src:
+            pixels, _ = mask(src, [mapping(geometry)], crop=True, filled=False)
+            values = pixels[0].compressed().astype(int)
+        return np.bincount(values, minlength=256) if values.size else np.zeros(256, dtype=np.int64)
+    finally:
+        raster.unlink(missing_ok=True)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--hub", type=int, required=True)
@@ -109,19 +142,10 @@ def main() -> None:
                 if tile_geometry.is_empty:
                     continue
                 tile_number += 1
-                raster = scratch / f"cdl_{year}_tile_{tile_number:03d}.tif"
-                try:
-                    get_raster(tile_geometry, year, raster)
-                    with rasterio.open(raster) as src:
-                        pixels, _ = mask(src, [mapping(tile_geometry)], crop=True, filled=False)
-                        values = pixels[0].compressed().astype(int)
-                    if values.size:
-                        tile_counts = np.bincount(values, minlength=256)
-                        if len(tile_counts) > len(counts):
-                            counts = np.pad(counts, (0, len(tile_counts) - len(counts)))
-                        counts[:len(tile_counts)] += tile_counts
-                finally:
-                    raster.unlink(missing_ok=True)
+                tile_counts = count_tile(tile_geometry, year, scratch, f"{tile_number:03d}")
+                if len(tile_counts) > len(counts):
+                    counts = np.pad(counts, (0, len(tile_counts) - len(counts)))
+                counts[:len(tile_counts)] += tile_counts
 
         all_valid = int(counts[1:].sum())
         crop_pixels = int(counts[[code for code in range(len(counts)) if cropland(code)]].sum())
