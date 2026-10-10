@@ -1,0 +1,58 @@
+name: Build presentation figures
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "code/08_build_priority_figures.py"
+      - ".github/workflows/build-presentation-figures.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: presentation-figures
+  cancel-in-progress: true
+
+jobs:
+  build-priority:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::sf
+            any::dplyr
+            any::readxl
+            any::readr
+            any::stringr
+            any::units
+      - name: Rebuild exclusive catchment polygons
+        run: Rscript code/02_build_spatial_zones.R
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install figure dependencies
+        run: pip install pandas geopandas pyogrio matplotlib
+      - name: Build priority figures in three styles
+        run: python code/08_build_priority_figures.py
+      - name: Verify expected deliverables
+        run: |
+          test -f output/figures/priority/crusher_catchment_rings_classic.png
+          test -f output/figures/priority/soybean_share_by_ring_classic.png
+          test -f output/figures/priority/soybean_share_by_ring_summary.csv
+          test "$(find output/figures/priority -name '*.png' | wc -l)" -eq 6
+          test "$(find output/figures/priority -name '*.pdf' | wc -l)" -eq 6
+      - name: Commit generated figures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output/figures/priority
+          git commit -m "Add priority CDL presentation figures" || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
