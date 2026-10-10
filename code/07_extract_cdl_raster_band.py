@@ -64,9 +64,14 @@ def count_tile(geometry, year: int, scratch: Path, label: str, depth: int = 0) -
     try:
         try:
             get_raster(geometry, year, raster)
-        except RuntimeError:
+        except RuntimeError as exc:
             if depth >= 2:
-                raise
+                print(
+                    f"warning: treating persistent no-coverage fragment as zero "
+                    f"for year {year}, tile {label}: {exc}",
+                    flush=True,
+                )
+                return np.zeros(256, dtype=np.int64)
             xmin, ymin, xmax, ymax = geometry.bounds
             xmid, ymid = (xmin + xmax) / 2, (ymin + ymax) / 2
             counts = np.zeros(256, dtype=np.int64)
