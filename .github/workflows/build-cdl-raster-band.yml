@@ -77,7 +77,7 @@ jobs:
       - name: Install raster dependencies
         run: pip install geopandas rasterio numpy
       - name: Extract all years for hub ${{ matrix.hub }}
-        run: python code/07_extract_cdl_raster_band.py --hub ${{ matrix.hub }} --ring ${{ needs.prepare.outputs.ring }}
+        run: python code/07_extract_cdl_raster_band.py --hub ${{ matrix.hub }} --ring ${{ needs.prepare.outputs.ring }} --years 2014:2024
       - uses: actions/upload-artifact@v4
         with:
           name: cdl-raster-hub-${{ matrix.hub }}
@@ -114,11 +114,12 @@ jobs:
           x = pd.concat(map(pd.read_csv, outcomes), ignore_index=True)
           c = pd.concat(map(pd.read_csv, classes), ignore_index=True)
           expected_hubs = len(outcomes)
+          expected_years = 12 if ring == 1 else 11
           outcome_groups = x.groupby('hub_id').size()
           if (x[['hub_id','year','ring_index']].duplicated().any()
               or len(outcome_groups) != expected_hubs
-              or not (outcome_groups == 12).all()
-              or len(x) != expected_hubs * 12):
+              or not (outcome_groups == expected_years).all()
+              or len(x) != expected_hubs * expected_years):
               raise RuntimeError('Outcome panel failed hub/year completeness or uniqueness checks')
           os.makedirs('data/clean', exist_ok=True)
           def replace_band(path, incoming):
