@@ -47,9 +47,9 @@ require_columns <- function(data, columns, sheet) {
 
 # ---- 1. Read and standardize raw inputs -------------------------------------
 
-pathways_raw <- read_excel(raw_file, sheet = "soy_pathways")
-capacities_raw <- read_excel(raw_file, sheet = "capacities")
-facilities_raw <- read_excel(raw_file, sheet = "facilities")
+pathways_raw <- read_excel(raw_file, sheet = "soy_pathways") %>% rename_with(str_trim)
+capacities_raw <- read_excel(raw_file, sheet = "capacities") %>% rename_with(str_trim)
+facilities_raw <- read_excel(raw_file, sheet = "facilities") %>% rename_with(str_trim)
 
 require_columns(
   pathways_raw,
