@@ -11,6 +11,8 @@ import argparse
 import csv
 import datetime as dt
 import subprocess
+import time
+import random
 from pathlib import Path
 
 import geopandas as gpd
@@ -34,10 +36,25 @@ def get_raster(geometry, year: int, target: Path) -> None:
         f"SERVICE=wcs&VERSION=1.0.0&REQUEST=GetCoverage&COVERAGE=cdl_{year}&"
         f"CRS=epsg:5070&BBOX={xmin},{ymin},{xmax},{ymax}&RESX=30&RESY=30&FORMAT=gtiff"
     )
-    subprocess.run([
-        "curl", "--fail", "--silent", "--show-error", "--max-time", "300",
-        "-o", str(target), f"{WCS}?{params}"
-    ], check=True)
+    last_error = None
+    for attempt in range(6):
+        target.unlink(missing_ok=True)
+        try:
+            subprocess.run([
+                "curl", "--fail", "--silent", "--show-error", "--max-time", "300",
+                "-o", str(target), f"{WCS}?{params}"
+            ], check=True)
+            # The service can return a text error page with HTTP 200. Verify
+            # the download is a readable GeoTIFF before accepting it.
+            with rasterio.open(target):
+                pass
+            return
+        except (subprocess.CalledProcessError, rasterio.errors.RasterioIOError) as exc:
+            last_error = exc
+            target.unlink(missing_ok=True)
+            if attempt < 5:
+                time.sleep((2 ** attempt) + random.uniform(0, 2))
+    raise RuntimeError(f"CDL WCS download failed after 6 attempts for {year}: {last_error}")
 
 
 def main() -> None:
