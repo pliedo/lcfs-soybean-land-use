@@ -42,6 +42,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install geopandas rasterio numpy
+      - name: Download official Census CONUS boundary
+        run: |
+          mkdir -p data/raw
+          curl --fail --location --retry 4 --retry-delay 3 \
+            -o data/raw/cb_2024_us_state_500k.zip \
+            https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip
       - name: Validate 2025 endpoint and exact polygon extraction before launching batches
         run: python code/22_extract_cdl_2025.py --hub 1 --ring 1 --years 2025
       - uses: actions/upload-artifact@v4
@@ -68,6 +74,12 @@ jobs:
           python-version: "3.12"
       - name: Install raster dependencies
         run: pip install geopandas rasterio numpy
+      - name: Download official Census CONUS boundary
+        run: |
+          mkdir -p data/raw
+          curl --fail --location --retry 4 --retry-delay 3 \
+            -o data/raw/cb_2024_us_state_500k.zip \
+            https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip
       - name: Extract 2025 for two consecutive distance bands
         run: |
           for ring in ${{ matrix.ring }} $(( ${{ matrix.ring }} + 1 )); do

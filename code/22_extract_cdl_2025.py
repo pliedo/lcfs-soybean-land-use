@@ -124,6 +124,23 @@ def main() -> None:
 
     rings = gpd.read_file(ROOT / "output" / "facility_rings_exclusive.gpkg")
     selected = rings[(rings.hub_id == args.hub) & (rings.ring_index == args.ring)].to_crs(5070)
+
+    # CDL covers U.S. land, while circular catchments can cross Canada,
+    # Mexico, and coastal waters. Clip before tiling so the WCS is never
+    # queried outside its valid national footprint. This does not remove any
+    # valid CDL pixel from the estimand.
+    boundary_zip = ROOT / "data" / "raw" / "cb_2024_us_state_500k.zip"
+    if not boundary_zip.exists():
+        raise FileNotFoundError(
+            f"Missing CONUS boundary {boundary_zip}; download the official "
+            "Census cartographic state boundary before extraction."
+        )
+    states = gpd.read_file(f"zip://{boundary_zip}")
+    excluded = {"02", "15", "60", "66", "69", "72", "78"}
+    conus = states[~states["STATEFP"].isin(excluded)].to_crs(5070).geometry.union_all()
+    selected = selected.copy()
+    selected.geometry = selected.geometry.intersection(conus)
+    selected = selected[~selected.geometry.is_empty]
     if len(selected) > 1:
         raise ValueError(f"Expected at most one exclusive ring polygon for hub {args.hub}, band {args.ring}")
     if len(selected) == 0:

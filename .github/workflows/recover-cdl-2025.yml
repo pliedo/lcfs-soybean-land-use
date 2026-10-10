@@ -1,4 +1,4 @@
-name: Recover and merge 2025 CDL batch v2
+name: Recover and merge 2025 CDL batch v3
 
 on:
   push:
@@ -31,6 +31,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install geopandas rasterio numpy pandas
+      - name: Download official Census CONUS boundary
+        run: |
+          mkdir -p data/raw
+          curl --fail --location --retry 4 --retry-delay 3 \
+            -o data/raw/cb_2024_us_state_500k.zip \
+            https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip
       - name: Recover only failed hub 25 outer pair
         run: |
           python code/22_extract_cdl_2025.py --hub 25 --ring 5 --years 2025
