@@ -19,11 +19,12 @@ import geopandas as gpd
 import numpy as np
 import rasterio
 from rasterio.mask import mask
-from shapely.geometry import mapping
+from shapely.geometry import box, mapping
 
 ROOT = Path(__file__).resolve().parents[1]
 WCS = "https://nassgeodata.gmu.edu/CropScapeService/wms_cdlall.cgi"
 PIXEL_ACRES = 900 / 4046.8564224
+MAX_TILE_METRES = 70000
 
 
 def cropland(code: int) -> bool:
@@ -96,38 +97,55 @@ def main() -> None:
     categories, outcomes = [], []
 
     for year in years:
-        raster = scratch / f"cdl_{year}.tif"
-        try:
-            get_raster(geometry, year, raster)
-            with rasterio.open(raster) as src:
-                pixels, _ = mask(src, [mapping(geometry)], crop=True, filled=False)
-                values = pixels[0].compressed().astype(int)
-            counts = np.bincount(values, minlength=max(255, values.max() + 1))
-            all_valid = int(counts[1:].sum())
-            crop_pixels = int(counts[[code for code in range(len(counts)) if cropland(code)]].sum())
-            soy_pixels = int(counts[5])
-            for code, count in enumerate(counts):
-                if count:
-                    categories.append({
-                        "hub_id": args.hub, "year": year, "ring_index": args.ring,
-                        "inner_miles": definition.inner_miles, "outer_miles": definition.outer_miles,
-                        "cdl_code": code, "pixel_count": int(count), "acres": count * PIXEL_ACRES,
-                        "share_all_valid_pixels": count / all_valid if all_valid else None,
-                        "is_soy": code == 5, "is_cropland": cropland(code),
-                    })
-            outcomes.append({
-                "hub_id": args.hub, "year": year, "ring_index": args.ring,
-                "inner_miles": definition.inner_miles, "outer_miles": definition.outer_miles,
-                "soy_pixels": soy_pixels, "all_valid_pixels": all_valid, "cropland_pixels": crop_pixels,
-                "soy_acres": soy_pixels * PIXEL_ACRES,
-                "all_valid_acres": all_valid * PIXEL_ACRES,
-                "cropland_acres": crop_pixels * PIXEL_ACRES,
-                "soy_share_all_land": soy_pixels / all_valid if all_valid else None,
-                "soy_share_cropland": soy_pixels / crop_pixels if crop_pixels else None,
-            })
-            print(f"completed hub {args.hub}, ring {args.ring}, year {year}", flush=True)
-        finally:
-            raster.unlink(missing_ok=True)
+        xmin, ymin, xmax, ymax = geometry.bounds
+        x_breaks = list(np.arange(xmin, xmax, MAX_TILE_METRES)) + [xmax]
+        y_breaks = list(np.arange(ymin, ymax, MAX_TILE_METRES)) + [ymax]
+        counts = np.zeros(256, dtype=np.int64)
+        tile_number = 0
+
+        for x0, x1 in zip(x_breaks[:-1], x_breaks[1:]):
+            for y0, y1 in zip(y_breaks[:-1], y_breaks[1:]):
+                tile_geometry = geometry.intersection(box(x0, y0, x1, y1))
+                if tile_geometry.is_empty:
+                    continue
+                tile_number += 1
+                raster = scratch / f"cdl_{year}_tile_{tile_number:03d}.tif"
+                try:
+                    get_raster(tile_geometry, year, raster)
+                    with rasterio.open(raster) as src:
+                        pixels, _ = mask(src, [mapping(tile_geometry)], crop=True, filled=False)
+                        values = pixels[0].compressed().astype(int)
+                    if values.size:
+                        tile_counts = np.bincount(values, minlength=256)
+                        if len(tile_counts) > len(counts):
+                            counts = np.pad(counts, (0, len(tile_counts) - len(counts)))
+                        counts[:len(tile_counts)] += tile_counts
+                finally:
+                    raster.unlink(missing_ok=True)
+
+        all_valid = int(counts[1:].sum())
+        crop_pixels = int(counts[[code for code in range(len(counts)) if cropland(code)]].sum())
+        soy_pixels = int(counts[5])
+        for code, count in enumerate(counts):
+            if count:
+                categories.append({
+                    "hub_id": args.hub, "year": year, "ring_index": args.ring,
+                    "inner_miles": definition.inner_miles, "outer_miles": definition.outer_miles,
+                    "cdl_code": code, "pixel_count": int(count), "acres": count * PIXEL_ACRES,
+                    "share_all_valid_pixels": count / all_valid if all_valid else None,
+                    "is_soy": code == 5, "is_cropland": cropland(code),
+                })
+        outcomes.append({
+            "hub_id": args.hub, "year": year, "ring_index": args.ring,
+            "inner_miles": definition.inner_miles, "outer_miles": definition.outer_miles,
+            "soy_pixels": soy_pixels, "all_valid_pixels": all_valid, "cropland_pixels": crop_pixels,
+            "soy_acres": soy_pixels * PIXEL_ACRES,
+            "all_valid_acres": all_valid * PIXEL_ACRES,
+            "cropland_acres": crop_pixels * PIXEL_ACRES,
+            "soy_share_all_land": soy_pixels / all_valid if all_valid else None,
+            "soy_share_cropland": soy_pixels / crop_pixels if crop_pixels else None,
+        })
+        print(f"completed hub {args.hub}, ring {args.ring}, year {year}, tiles {tile_number}", flush=True)
 
     out = ROOT / "batch-results" / f"hub_{args.hub:03d}"
     out.mkdir(parents=True, exist_ok=True)
