@@ -1,0 +1,745 @@
+scenario,physical_plant_id,year,first_observed_soy_approval,capacity_mgy,capacity_source,coordinates,calendar_dose_mgy,planting_cutoff_dose_mgy,next_year_dose_mgy
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2013,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2013,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2013,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2013,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2013,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2013,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2013,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2013,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2013,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2013,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2013,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2013,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2013,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2013,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2013,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2013,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2014,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2014,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2014,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2014,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2014,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2014,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2014,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2014,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2014,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2014,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2014,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2014,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2014,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2014,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2014,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2014,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2015,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2015,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2015,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2015,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2015,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2015,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2015,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2015,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2015,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2015,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2015,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2015,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2015,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2015,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2015,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2015,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2016,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2016,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2016,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2016,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2016,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2016,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2016,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2016,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2016,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2016,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2016,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2016,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2016,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2016,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2016,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2016,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2017,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2017,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2017,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2017,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2017,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2017,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2017,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,0
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2017,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2017,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2017,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2017,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2017,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2017,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,0,0
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2017,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2017,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2017,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2018,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2018,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2018,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2018,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2018,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2018,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2018,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2018,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2018,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2018,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2018,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2018,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2018,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2018,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2018,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2018,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2019,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2019,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2019,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2019,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2019,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2019,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2019,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2019,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2019,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2019,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2019,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2019,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2019,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2019,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2019,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2019,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,0,0
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2020,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2020,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2020,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2020,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2020,2021-06-25,184,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2020,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2020,2017-03-21,337,original_compiled_workbook,"29.99768913761007, -90.38874902512697",337,337,337
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2020,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2020,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2020,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2020,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2020,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2020,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2020,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2020,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2020,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2021,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2021,2023-06-30,31,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2021,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2021,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2021,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,0,0
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2021,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2021,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2021,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2021,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2021,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2021,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2021,2021-12-28,120,original_compiled_workbook,"38.045631011768485, -122.2580674087245",120,0,0
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2021,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2021,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2021,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2021,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2022,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2022,2023-06-30,123,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2022,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2022,2023-06-28,121,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2022,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2022,2023-12-06,470,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2022,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2022,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2022,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2022,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2022,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2022,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2022,2017-09-11,101,original_compiled_workbook,"30.204565613698957, -91.00875083440351",101,101,101
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2022,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2022,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2022,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2023,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2023,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,0,0
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2023,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,0,0
+physical_onset_snapshot_capacity,wynnewood_ok,2023,2023-06-28,121,original_compiled_workbook,"34.62285538763616, -97.17248447352618",121,0,0
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2023,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2023,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,0,0
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2023,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2023,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,0,0
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2023,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,0
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2023,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,0,0
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2023,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2023,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2023,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2023,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2023,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2023,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2024,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",45,0,0
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2024,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,184,184
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2024,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,92,92
+physical_onset_snapshot_capacity,wynnewood_ok,2024,2023-06-28,121,original_compiled_workbook,"34.62285538763616, -97.17248447352618",121,121,121
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2024,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2024,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,537,537
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2024,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2024,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,141,141
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2024,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,25
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2024,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,731,731
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2024,2024-03-07,230,original_compiled_workbook,"47.523684245439135, -111.2905979586457",230,230,0
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2024,2021-12-28,800,original_compiled_workbook,"38.045631011768485, -122.2580674087245",800,800,800
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2024,2017-09-11,340,original_compiled_workbook,"30.204565613698957, -91.00875083440351",340,340,340
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2024,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",320,320,0
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2024,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",215,0,0
+physical_onset_snapshot_capacity,sinclair_wy,2024,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2013,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2013,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2013,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2013,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2013,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2013,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2013,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2013,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2013,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2013,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2013,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2013,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2013,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2013,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2013,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2013,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2014,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2014,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2014,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2014,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2014,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2014,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2014,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2014,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2014,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2014,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2014,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2014,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2014,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2014,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2014,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2014,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2015,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2015,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2015,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2015,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2015,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2015,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2015,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2015,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2015,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2015,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2015,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2015,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2015,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2015,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2015,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2015,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2016,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2016,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2016,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2016,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2016,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2016,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2016,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2016,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2016,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2016,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2016,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2016,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2016,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2016,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2016,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2016,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2017,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2017,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2017,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2017,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2017,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2017,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2017,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,0
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2017,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2017,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2017,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2017,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2017,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2017,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,0,0
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2017,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2017,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2017,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2018,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2018,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2018,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2018,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2018,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2018,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2018,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2018,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2018,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2018,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2018,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2018,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2018,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2018,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2018,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2018,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2019,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2019,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2019,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2019,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2019,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2019,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2019,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2019,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2019,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2019,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2019,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2019,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2019,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2019,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2019,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2019,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,0,0
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2020,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2020,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2020,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2020,2023-06-28,0,farmdoc_2024_11_06_targeted_override,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2020,2021-06-25,184,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2020,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2020,2017-03-21,337,original_compiled_workbook,"29.99768913761007, -90.38874902512697",337,337,337
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2020,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2020,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2020,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2020,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2020,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2020,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2020,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2020,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2020,2019-12-27,117,farmdoc_2024_11_06_targeted_override,"41.78042890428669, -107.10959907012847",117,117,117
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2021,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2021,2023-06-30,31,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2021,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2021,2023-06-28,0,farmdoc_2024_11_06_targeted_override,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2021,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,0,0
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2021,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2021,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2021,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2021,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2021,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2021,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2021,2021-12-28,120,original_compiled_workbook,"38.045631011768485, -122.2580674087245",120,0,0
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2021,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2021,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2021,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2021,2019-12-27,117,farmdoc_2024_11_06_targeted_override,"41.78042890428669, -107.10959907012847",117,117,117
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2022,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2022,2023-06-30,123,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2022,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2022,2023-06-28,121,farmdoc_2024_11_06_targeted_override,"34.62285538763616, -97.17248447352618",0,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2022,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2022,2023-12-06,470,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2022,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2022,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2022,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2022,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2022,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2022,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2022,2017-09-11,101,original_compiled_workbook,"30.204565613698957, -91.00875083440351",101,101,101
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2022,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2022,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2022,2019-12-27,117,farmdoc_2024_11_06_targeted_override,"41.78042890428669, -107.10959907012847",117,117,117
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2023,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2023,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,0,0
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2023,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,0,0
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2023,2023-06-28,121,farmdoc_2024_11_06_targeted_override,"34.62285538763616, -97.17248447352618",121,0,0
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2023,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2023,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,0,0
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2023,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2023,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,0,0
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2023,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,0
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2023,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,0,0
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2023,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2023,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2023,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2023,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2023,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2023,2019-12-27,117,farmdoc_2024_11_06_targeted_override,"41.78042890428669, -107.10959907012847",117,117,117
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2024,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",45,0,0
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2024,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,184,184
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2024,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,92,92
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2024,2023-06-28,121,farmdoc_2024_11_06_targeted_override,"34.62285538763616, -97.17248447352618",121,121,121
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2024,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2024,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,537,537
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2024,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2024,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,141,141
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2024,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,25
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2024,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,731,731
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2024,2024-03-07,230,original_compiled_workbook,"47.523684245439135, -111.2905979586457",230,230,0
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2024,2021-12-28,800,original_compiled_workbook,"38.045631011768485, -122.2580674087245",800,800,800
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2024,2017-09-11,340,original_compiled_workbook,"30.204565613698957, -91.00875083440351",340,340,340
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2024,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",320,320,0
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2024,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",215,0,0
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2024,2019-12-27,117,farmdoc_2024_11_06_targeted_override,"41.78042890428669, -107.10959907012847",117,117,117
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2013,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2013,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2013,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2013,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2013,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2013,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2013,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2013,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2013,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2013,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2013,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2013,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2013,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2013,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2013,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2013,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2014,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2014,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2014,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2014,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2014,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2014,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2014,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2014,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2014,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2014,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2014,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2014,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2014,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2014,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2014,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2014,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2015,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2015,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2015,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2015,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2015,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2015,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2015,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2015,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2015,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2015,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2015,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2015,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2015,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2015,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2015,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2015,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2016,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2016,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2016,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2016,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2016,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2016,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2016,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2016,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2016,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2016,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2016,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2016,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2016,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2016,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2016,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2016,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2017,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2017,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2017,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2017,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2017,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2017,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2017,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,0
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2017,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2017,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2017,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2017,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2017,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2017,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,0,0
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2017,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2017,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2017,2019-12-27,0,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2018,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2018,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2018,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2018,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2018,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2018,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2018,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2018,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2018,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2018,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2018,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2018,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2018,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2018,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2018,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2018,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",0,0,0
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2019,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2019,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2019,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2019,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2019,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2019,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2019,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2019,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2019,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2019,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2019,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2019,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2019,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2019,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2019,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2019,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,0,0
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2020,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2020,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2020,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2020,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2020,2021-06-25,184,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2020,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2020,2017-03-21,337,original_compiled_workbook,"29.99768913761007, -90.38874902512697",337,337,337
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2020,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2020,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2020,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2020,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2020,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2020,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2020,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2020,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2020,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2021,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2021,2023-06-30,31,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2021,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2021,2023-06-28,0,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2021,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,0,0
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2021,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2021,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2021,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2021,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2021,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2021,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2021,2021-12-28,120,original_compiled_workbook,"38.045631011768485, -122.2580674087245",120,0,0
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2021,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2021,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2021,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2021,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2022,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2022,2023-06-30,123,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2022,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_unverified_83388,wynnewood_ok,2022,2023-06-28,121,original_compiled_workbook,"34.62285538763616, -97.17248447352618",0,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2022,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2022,2023-12-06,470,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2022,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2022,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2022,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2022,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2022,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2022,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2022,2017-09-11,101,original_compiled_workbook,"30.204565613698957, -91.00875083440351",101,101,101
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2022,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2022,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2022,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2023,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2023,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,0,0
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2023,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,0,0
+exclude_unverified_83388,wynnewood_ok,2023,2023-06-28,121,original_compiled_workbook,"34.62285538763616, -97.17248447352618",121,0,0
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2023,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2023,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,0,0
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2023,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2023,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,0,0
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2023,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,0
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2023,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,0,0
+exclude_unverified_83388,MRL Great Falls (F00548),2023,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2023,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2023,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2023,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2023,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_unverified_83388,sinclair_wy,2023,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2024,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",45,0,0
+exclude_unverified_83388,Chevron El Segundo (01013),2024,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,184,184
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2024,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,92,92
+exclude_unverified_83388,wynnewood_ok,2024,2023-06-28,121,original_compiled_workbook,"34.62285538763616, -97.17248447352618",121,121,121
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2024,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2024,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,537,537
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2024,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2024,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,141,141
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2024,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,25
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2024,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,731,731
+exclude_unverified_83388,MRL Great Falls (F00548),2024,2024-03-07,230,original_compiled_workbook,"47.523684245439135, -111.2905979586457",230,230,0
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2024,2021-12-28,800,original_compiled_workbook,"38.045631011768485, -122.2580674087245",800,800,800
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2024,2017-09-11,340,original_compiled_workbook,"30.204565613698957, -91.00875083440351",340,340,340
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2024,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",320,320,0
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2024,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",215,0,0
+exclude_unverified_83388,sinclair_wy,2024,2019-12-27,153,original_compiled_workbook,"41.78042890428669, -107.10959907012847",153,153,153
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2013,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2013,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2013,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2013,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2013,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2013,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2013,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2013,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2013,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2013,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2013,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2013,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2013,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2013,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2014,2024-06-26,0,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2014,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2014,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2014,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2014,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2014,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2014,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2014,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2014,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2014,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2014,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2014,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2014,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2014,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2015,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2015,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2015,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2015,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2015,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2015,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2015,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2015,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2015,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2015,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2015,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2015,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2015,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2015,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2016,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2016,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2016,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2016,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2016,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2016,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",0,0,0
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2016,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2016,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2016,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2016,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2016,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2016,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",0,0,0
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2016,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2016,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2017,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2017,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2017,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2017,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2017,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2017,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,0
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2017,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2017,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2017,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2017,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2017,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2017,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,0,0
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2017,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2017,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2018,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2018,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2018,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2018,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2018,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2018,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2018,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2018,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2018,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2018,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2018,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2018,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2018,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2018,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2019,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2019,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2019,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2019,2021-06-25,0,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2019,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2019,2017-03-21,290,original_compiled_workbook,"29.99768913761007, -90.38874902512697",290,290,290
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2019,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2019,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2019,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2019,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2019,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2019,2017-09-11,90,original_compiled_workbook,"30.204565613698957, -91.00875083440351",90,90,90
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2019,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2019,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2020,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2020,2023-06-30,0,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2020,2023-09-28,0,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2020,2021-06-25,184,original_compiled_workbook,"46.85844196417284, -102.89937584146607",0,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2020,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2020,2017-03-21,337,original_compiled_workbook,"29.99768913761007, -90.38874902512697",337,337,337
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2020,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2020,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2020,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2020,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2020,2021-12-28,0,original_compiled_workbook,"38.045631011768485, -122.2580674087245",0,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2020,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2020,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2020,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2021,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2021,2023-06-30,31,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2021,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2021,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,0,0
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2021,2023-12-06,0,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2021,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2021,2023-12-20,0,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2021,2023-03-30,0,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2021,2023-12-26,0,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2021,2024-03-07,0,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2021,2021-12-28,120,original_compiled_workbook,"38.045631011768485, -122.2580674087245",120,0,0
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2021,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2021,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2021,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2022,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2022,2023-06-30,123,original_compiled_workbook,"33.9158451585288, -118.41871200792671",0,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2022,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",0,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2022,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2022,2023-12-06,470,original_compiled_workbook,"29.849739571822038, -93.95985338837875",0,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2022,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2022,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",0,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2022,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",0,0,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2022,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",0,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2022,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2022,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2022,2017-09-11,101,original_compiled_workbook,"30.204565613698957, -91.00875083440351",101,101,101
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2022,2024-03-29,0,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2022,2024-06-28,0,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2023,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",0,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2023,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,0,0
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2023,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,0,0
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2023,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2023,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,0,0
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2023,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2023,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,0,0
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2023,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,0
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2023,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,0,0
+exclude_both_disputed_sites,MRL Great Falls (F00548),2023,2024-03-07,184,original_compiled_workbook,"47.523684245439135, -111.2905979586457",0,0,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2023,2021-12-28,180,original_compiled_workbook,"38.045631011768485, -122.2580674087245",180,180,180
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2023,2017-09-11,100,original_compiled_workbook,"30.204565613698957, -91.00875083440351",100,100,100
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2023,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",0,0,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2023,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",0,0,0
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2024,2024-06-26,45,original_compiled_workbook,"33.89975878135956, -118.15006825396334",45,0,0
+exclude_both_disputed_sites,Chevron El Segundo (01013),2024,2023-06-30,184,original_compiled_workbook,"33.9158451585288, -118.41871200792671",184,184,184
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2024,2023-09-28,92,original_compiled_workbook,"41.12533474439349, -104.79637077916684",92,92,92
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2024,2021-06-25,192,original_compiled_workbook,"46.85844196417284, -102.89937584146607",192,192,192
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2024,2023-12-06,537,original_compiled_workbook,"29.849739571822038, -93.95985338837875",537,537,537
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2024,2017-03-21,982,original_compiled_workbook,"29.99768913761007, -90.38874902512697",982,982,982
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2024,2023-12-20,141,original_compiled_workbook,"32.842481511057436, -104.3907959286907",141,141,141
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2024,2023-03-30,25,original_compiled_workbook,"32.33472483700472, -90.23092358279975",25,25,25
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2024,2023-12-26,731,original_compiled_workbook,"38.013288611631076, -122.10602883745247",731,731,731
+exclude_both_disputed_sites,MRL Great Falls (F00548),2024,2024-03-07,230,original_compiled_workbook,"47.523684245439135, -111.2905979586457",230,230,0
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2024,2021-12-28,800,original_compiled_workbook,"38.045631011768485, -122.2580674087245",800,800,800
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2024,2017-09-11,340,original_compiled_workbook,"30.204565613698957, -91.00875083440351",340,340,340
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2024,2024-03-29,320,original_compiled_workbook,"29.937748565042916, -89.97101907116361",320,320,0
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2024,2024-06-28,215,original_compiled_workbook,"30.7149550000617, -88.03596712302301",215,0,0

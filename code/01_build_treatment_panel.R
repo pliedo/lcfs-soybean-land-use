@@ -59,6 +59,13 @@ require_columns(
 require_columns(capacities_raw, "key", "capacities")
 require_columns(facilities_raw, c("key", "coordinates"), "facilities")
 
+# CARB keys can be aliases of one physical refinery. Do not emit a panel that
+# silently counts the same source capacity twice; the audited Python module
+# preserves the keys and emits physical-plant mapping sensitivities.
+if (any(duplicated(capacities_raw[c("Standardized Name", "Location")]))) {
+  stop("Physical-plant aliases detected. Run python code/12_build_physical_plant_treatment.py; see doc/physical-plant-resolution.md", call. = FALSE)
+}
+
 # The source workbook's soy_pathways sheet is the initial eligibility universe.
 # Keep the feedstock text so that this rule can be audited or revised later.
 pathways_soy <- pathways_raw %>%
