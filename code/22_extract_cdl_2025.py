@@ -35,12 +35,18 @@ def get_raster(geometry, year: int, target: Path) -> bool:
     xmin, ymin, xmax, ymax = geometry.bounds
     xmin,ymin=np.floor(np.array([xmin,ymin])/30)*30
     xmax,ymax=np.ceil(np.array([xmax,ymax])/30)*30
-    params = (
+    width = max(1, int(round((xmax - xmin) / 30)))
+    height = max(1, int(round((ymax - ymin) / 30)))
+    base_params = (
         f"SERVICE=wcs&VERSION=1.0.0&REQUEST=GetCoverage&COVERAGE=cdl_{year}&"
-        f"CRS=epsg:5070&BBOX={xmin},{ymin},{xmax},{ymax}&RESX=30&RESY=30&FORMAT=gtiff"
+        f"CRS=epsg:5070&BBOX={xmin},{ymin},{xmax},{ymax}&FORMAT=gtiff"
     )
     last_error = None
     for attempt in range(3):
+        # The standard WIDTH/HEIGHT form is a genuinely different fallback
+        # for CropScape tiles whose RESX/RESY response has a corrupt transform.
+        grid_params = "RESX=30&RESY=30" if attempt == 0 else f"WIDTH={width}&HEIGHT={height}"
+        params = f"{base_params}&{grid_params}"
         target.unlink(missing_ok=True)
         try:
             subprocess.run([
@@ -62,7 +68,7 @@ def get_raster(geometry, year: int, target: Path) -> bool:
                     if observed.size == 0 or np.all(observed == 0):
                         return True
                     raise rasterio.errors.RasterioIOError(
-                        f"Malformed nonempty CDL raster resolution: {src.res}"
+                        f"Malformed nonempty CDL raster: bbox={(xmin,ymin,xmax,ymax)}, requested={(width,height)}, returned_shape={(src.width,src.height)}, res={src.res}, values={np.unique(observed)[:12].tolist()}"
                     )
             return False
         except (subprocess.CalledProcessError, rasterio.errors.RasterioIOError) as exc:
