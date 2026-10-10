@@ -1,0 +1,115 @@
+name: Audit forest types across all six bands
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - code/15_audit_forest_transitions.py
+      - .github/workflows/audit-forest-bands.yml
+permissions:
+  contents: write
+concurrency:
+  group: audit-forest-bands
+  cancel-in-progress: false
+jobs:
+  prepare-and-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    outputs:
+      matrix: ${{ steps.matrix.outputs.value }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::sf
+            any::dplyr
+            any::readxl
+            any::readr
+            any::stringr
+            any::units
+      - run: Rscript code/02_build_spatial_zones.R
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas openpyxl
+      - run: python code/10_audit_2019_and_treatment.py
+      - id: matrix
+        run: |
+          python - <<'PY'
+          import pandas as pd,json,os
+          d=pd.read_csv('data/clean/candidate_hubs_clean.csv')
+          ids=d.loc[d.hub_status=='candidate_hub','hub_id'].astype(int).tolist()
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('value='+json.dumps({'hub':ids,'ring':[1,2,3,4,5,6]})+'\n')
+          with open('first-hub.txt','w') as f: f.write(str(ids[0]))
+          PY
+      - name: Paired raster smoke audit
+        run: python code/15_audit_forest_transitions.py --hub "$(cat first-hub.txt)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-polygons
+          path: output/facility_rings_exclusive.gpkg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: transitions-first-hub
+          path: transition-results/
+  paired-pixels:
+    needs: prepare-and-smoke
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix: ${{ fromJSON(needs.prepare-and-smoke.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          name: audit-polygons
+          path: output
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas
+      - run: python code/15_audit_forest_transitions.py --hub ${{ matrix.hub }} --ring ${{ matrix.ring }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: forest-hub-${{ matrix.hub }}-ring-${{ matrix.ring }}
+          path: transition-results/
+  merge:
+    needs: [prepare-and-smoke, paired-pixels]
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: forest-hub-*
+          path: transition-results
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas
+      - run: |
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd
+          out=Path('output/diagnostics');out.mkdir(parents=True,exist_ok=True)
+          for name in ['transitions','coverage']:
+              files=list(Path('transition-results').rglob(name+'.csv'))
+              assert len(files)==348, f'Expected 348 hub-band files; got {len(files)}'
+              x=pd.concat([pd.read_csv(p) for p in files],ignore_index=True)
+              assert x.hub_id.nunique()==58
+              assert x[['hub_id','ring_index']].drop_duplicates().shape[0]==348
+              x.to_csv(out/f'cdl_2018_2019_all_bands_forest_{name}.csv',index=False)
+          PY
+      - name: Commit diagnostic results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f output/diagnostics/cdl_2018_2019_all_bands_forest_*.csv
+          git diff --cached --quiet || git commit -m 'Add forest-type transitions across all six bands'
+          git pull --rebase origin main
+          git push origin HEAD:main
