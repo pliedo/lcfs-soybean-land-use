@@ -24,7 +24,7 @@ from shapely.geometry import box, mapping
 ROOT = Path(__file__).resolve().parents[1]
 WCS = "https://nassgeodata.gmu.edu/CropScapeService/wms_cdlall.cgi"
 PIXEL_ACRES = 900 / 4046.8564224
-MAX_TILE_METRES = 70000
+MAX_TILE_METRES = 50000
 
 
 def cropland(code: int) -> bool:
