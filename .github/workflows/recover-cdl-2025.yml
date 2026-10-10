@@ -1,0 +1,69 @@
+name: Recover and merge 2025 CDL batch
+
+on:
+  push:
+    paths:
+      - ".github/workflows/recover-cdl-2025.yml"
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          name: exclusive-ring-polygons
+          path: output
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: 38081697675
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cdl2025-hub-*
+          path: batch-results-2025
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: 38081697675
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install geopandas rasterio numpy pandas
+      - name: Recover only failed hub 25 outer pair
+        run: |
+          python code/22_extract_cdl_2025.py --hub 25 --ring 5 --years 2025
+          python code/22_extract_cdl_2025.py --hub 25 --ring 6 --years 2025
+      - name: Validate and append all 2025 bands
+        run: |
+          python - <<'PY'
+          import glob,pandas as pd
+          for filename,target in [('crop_outcomes.csv','crop_outcomes_exclusive.csv'),('cdl_class_composition.csv','cdl_class_composition_exclusive.csv')]:
+              files=glob.glob('batch-results-2025/**/'+filename,recursive=True)
+              assert len(files)==348, f'Expected 348 hub-band outputs; got {len(files)}'
+              x=pd.concat([pd.read_csv(p) for p in files],ignore_index=True)
+              if filename=='crop_outcomes.csv':
+                  assert len(x)==348 and x.hub_id.nunique()==58
+                  assert set(x.year)=={2025} and set(x.ring_index)==set(range(1,7))
+                  assert not x.duplicated(['hub_id','year','ring_index']).any()
+                  assert (x.groupby('ring_index').hub_id.nunique()==58).all()
+                  outcomes=x.copy()
+              else:
+                  assert not x.duplicated(['hub_id','year','ring_index','cdl_code']).any()
+                  valid=x[x.cdl_code!=0].groupby(['hub_id','year','ring_index']).pixel_count.sum()
+                  totals=outcomes.set_index(['hub_id','year','ring_index']).all_valid_pixels
+                  assert valid.reindex(totals.index,fill_value=0).equals(totals)
+              path='data/clean/'+target
+              old=pd.read_csv(path)
+              x=pd.concat([old[old.year!=2025],x],ignore_index=True)
+              x.sort_values(['hub_id','year','ring_index']).to_csv(path,index=False)
+          PY
+      - name: Commit verified 2025 extension
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/clean/crop_outcomes_exclusive.csv data/clean/cdl_class_composition_exclusive.csv
+          git diff --cached --quiet || git commit -m "Add verified 2025 CDL outcomes for all six bands"
+          git pull --rebase origin main
+          git push origin HEAD:main

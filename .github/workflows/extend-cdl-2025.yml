@@ -2,10 +2,6 @@ name: Extend CDL outcomes through 2025
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "code/22_extract_cdl_2025.py"
-      - ".github/workflows/extend-cdl-2025.yml"
 
 permissions:
   contents: write

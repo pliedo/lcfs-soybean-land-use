@@ -49,8 +49,14 @@ def get_raster(geometry, year: int, target: Path) -> None:
             ], check=True)
             # The service can return a text error page with HTTP 200. Verify
             # the download is a readable GeoTIFF before accepting it.
-            with rasterio.open(target):
-                pass
+            with rasterio.open(target) as src:
+                # CropScape occasionally returns a readable but malformed TIFF
+                # (for example a NaN y-resolution). Treat it as a transient
+                # service failure so the request is retried and then split.
+                if not np.all(np.isfinite(src.res)) or not np.allclose(src.res, (30, 30)):
+                    raise rasterio.errors.RasterioIOError(
+                        f"Malformed CDL raster resolution: {src.res}"
+                    )
             return
         except (subprocess.CalledProcessError, rasterio.errors.RasterioIOError) as exc:
             last_error = exc
