@@ -1,0 +1,46 @@
+name: Build rail and inland-waterway distance matrix
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - code/24_build_transport_network_matrix.py
+      - code/25_add_waterway_network_matrix.py
+      - .github/workflows/build-transport-matrix.yml
+permissions:
+  contents: write
+concurrency:
+  group: transport-network-matrix
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install numpy pandas scipy openpyxl
+      - uses: actions/cache@v4
+        with:
+          path: data/raw/network_cache
+          key: transport-network-2026-rail-2025-water-v1
+      - name: Build active rail graph and shortest-path matrix
+        run: python code/24_build_transport_network_matrix.py
+      - name: Add inland-waterway shortest-path matrix
+        run: python code/25_add_waterway_network_matrix.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: transport-matrix-checkpoint
+          path: |
+            data/clean/refinery_crusher_transport_matrix.csv
+            output/diagnostics/transport_network_validation.json
+      - name: Commit derived distances and validation
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/clean/refinery_crusher_transport_matrix.csv output/diagnostics/transport_network_validation.json
+          git diff --cached --quiet || git commit -m 'Add rail and inland-waterway network distance matrix'
+          git pull --rebase origin main
+          git push origin HEAD:main
