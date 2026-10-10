@@ -1,0 +1,63 @@
+scenario,physical_plant_id,year,first_observed_soy_approval,preplant_capacity_mgy,eligible,planting_aligned_dose_mgy,status
+exclude_both_disputed_sites,"AltAir Paramount, LLC (83180)",2025,2024-06-26,45,True,45,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,Chevron El Segundo (01013),2025,2023-06-30,184,True,184,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,Cheyenne Renewable Diesel Company LLC (F00494),2025,2023-09-28,92,True,92,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2025,2023-12-06,537,True,537,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,Diamond Green Diesel LLC (81496),2025,2017-03-21,982,True,982,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,"Jaxon Energy, LLC (83608)",2025,2023-03-30,25,True,25,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,MARTINEZ REFINERY (90001),2025,2023-12-26,731,True,731,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,MRL Great Falls (F00548),2025,2024-03-07,230,True,230,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,Marathon Dickinson Refinery (F00313),2025,2021-06-25,192,True,192,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,Phillips 66 Rodeo (82191),2025,2021-12-28,800,True,800,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,"REG Geismar, LLC (80180)",2025,2017-09-11,340,True,340,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2025,2023-12-20,141,True,141,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,St Bernard Renewables LLC (82901),2025,2024-03-29,320,True,320,2024_capacity_with_known_approval_history_only
+exclude_both_disputed_sites,Vertex Renewables Mobile Site (83101),2025,2024-06-28,215,True,215,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,"AltAir Paramount, LLC (83180)",2025,2024-06-26,45,True,45,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,Chevron El Segundo (01013),2025,2023-06-30,184,True,184,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,Cheyenne Renewable Diesel Company LLC (F00494),2025,2023-09-28,92,True,92,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2025,2023-12-06,537,True,537,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,Diamond Green Diesel LLC (81496),2025,2017-03-21,982,True,982,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,"Jaxon Energy, LLC (83608)",2025,2023-03-30,25,True,25,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,MARTINEZ REFINERY (90001),2025,2023-12-26,731,True,731,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,MRL Great Falls (F00548),2025,2024-03-07,230,True,230,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,Marathon Dickinson Refinery (F00313),2025,2021-06-25,192,True,192,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,Phillips 66 Rodeo (82191),2025,2021-12-28,800,True,800,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,"REG Geismar, LLC (80180)",2025,2017-09-11,340,True,340,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2025,2023-12-20,141,True,141,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,St Bernard Renewables LLC (82901),2025,2024-03-29,320,True,320,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,Vertex Renewables Mobile Site (83101),2025,2024-06-28,215,True,215,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,sinclair_wy,2025,2019-12-27,153,True,153,2024_capacity_with_known_approval_history_only
+exclude_unverified_83388,wynnewood_ok,2025,2023-06-28,121,True,121,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,"AltAir Paramount, LLC (83180)",2025,2024-06-26,45,True,45,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,Chevron El Segundo (01013),2025,2023-06-30,184,True,184,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2025,2023-09-28,92,True,92,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2025,2023-12-06,537,True,537,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,Diamond Green Diesel LLC (81496),2025,2017-03-21,982,True,982,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,"Jaxon Energy, LLC (83608)",2025,2023-03-30,25,True,25,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,MARTINEZ REFINERY (90001),2025,2023-12-26,731,True,731,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,MRL Great Falls (F00548),2025,2024-03-07,230,True,230,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,Marathon Dickinson Refinery (F00313),2025,2021-06-25,192,True,192,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,Phillips 66 Rodeo (82191),2025,2021-12-28,800,True,800,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,"REG Geismar, LLC (80180)",2025,2017-09-11,340,True,340,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2025,2023-12-20,141,True,141,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,St Bernard Renewables LLC (82901),2025,2024-03-29,320,True,320,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,Vertex Renewables Mobile Site (83101),2025,2024-06-28,215,True,215,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,sinclair_wy,2025,2019-12-27,117,True,117,2024_capacity_with_known_approval_history_only
+physical_onset_farmdoc_targeted_capacity,wynnewood_ok,2025,2023-06-28,121,True,121,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,"AltAir Paramount, LLC (83180)",2025,2024-06-26,45,True,45,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,Chevron El Segundo (01013),2025,2023-06-30,184,True,184,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,Cheyenne Renewable Diesel Company LLC (F00494),2025,2023-09-28,92,True,92,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),2025,2023-12-06,537,True,537,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,Diamond Green Diesel LLC (81496),2025,2017-03-21,982,True,982,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,"Jaxon Energy, LLC (83608)",2025,2023-03-30,25,True,25,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,MARTINEZ REFINERY (90001),2025,2023-12-26,731,True,731,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,MRL Great Falls (F00548),2025,2024-03-07,230,True,230,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,Marathon Dickinson Refinery (F00313),2025,2021-06-25,192,True,192,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,Phillips 66 Rodeo (82191),2025,2021-12-28,800,True,800,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,"REG Geismar, LLC (80180)",2025,2017-09-11,340,True,340,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),2025,2023-12-20,141,True,141,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,St Bernard Renewables LLC (82901),2025,2024-03-29,320,True,320,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,Vertex Renewables Mobile Site (83101),2025,2024-06-28,215,True,215,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,sinclair_wy,2025,2019-12-27,153,True,153,2024_capacity_with_known_approval_history_only
+physical_onset_snapshot_capacity,wynnewood_ok,2025,2023-06-28,121,True,121,2024_capacity_with_known_approval_history_only
