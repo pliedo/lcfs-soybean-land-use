@@ -31,7 +31,7 @@ def cropland(code: int) -> bool:
     return 1 <= code <= 61 or 66 <= code <= 77 or 204 <= code <= 254
 
 
-def get_raster(geometry, year: int, target: Path) -> None:
+def get_raster(geometry, year: int, target: Path) -> bool:
     xmin, ymin, xmax, ymax = geometry.bounds
     xmin,ymin=np.floor(np.array([xmin,ymin])/30)*30
     xmax,ymax=np.ceil(np.array([xmax,ymax])/30)*30
@@ -50,14 +50,21 @@ def get_raster(geometry, year: int, target: Path) -> None:
             # The service can return a text error page with HTTP 200. Verify
             # the download is a readable GeoTIFF before accepting it.
             with rasterio.open(target) as src:
-                # CropScape occasionally returns a readable but malformed TIFF
-                # (for example a NaN y-resolution). Treat it as a transient
-                # service failure so the request is retried and then split.
-                if not np.all(np.isfinite(src.res)) or not np.allclose(src.res, (30, 30)):
+                # Outside the CDL footprint the service can return a readable
+                # one-cell TIFF with a NaN/coarse transform. Accept it only
+                # when it contains no crop information (nodata/background 0).
+                malformed = (
+                    not np.all(np.isfinite(src.res))
+                    or not np.allclose(src.res, (30, 30))
+                )
+                if malformed:
+                    observed = src.read(1, masked=True).compressed()
+                    if observed.size == 0 or np.all(observed == 0):
+                        return True
                     raise rasterio.errors.RasterioIOError(
-                        f"Malformed CDL raster resolution: {src.res}"
+                        f"Malformed nonempty CDL raster resolution: {src.res}"
                     )
-            return
+            return False
         except (subprocess.CalledProcessError, rasterio.errors.RasterioIOError) as exc:
             last_error = exc
             target.unlink(missing_ok=True)
@@ -71,7 +78,9 @@ def count_tile(geometry, year: int, scratch: Path, label: str, depth: int = 0) -
     raster = scratch / f"cdl_{year}_tile_{label}.tif"
     try:
         try:
-            get_raster(geometry, year, raster)
+            empty_outside_coverage = get_raster(geometry, year, raster)
+            if empty_outside_coverage:
+                return np.zeros(256, dtype=np.int64)
         except RuntimeError as exc:
             if depth >= 2:
                 raise RuntimeError(f"Unresolved raster request failure; refusing to record missing data as zero: {exc}") from exc
