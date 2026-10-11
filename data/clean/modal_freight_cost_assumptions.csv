@@ -1,0 +1,4 @@
+mode,benchmark_year,cents_per_short_ton_mile,truck_equivalent_cost_per_km,source,qualification
+truck,2004,14.24,1.0,https://www.bts.gov/archive/publications/national_transportation_statistics/table_03_21,broad freight revenue proxy; truck mostly LTL; not soybean oil quote
+rail,2004,2.35,0.16502808988764045,https://www.bts.gov/archive/publications/national_transportation_statistics/table_03_21,broad freight revenue proxy; truck mostly LTL; not soybean oil quote
+barge,2004,1.83,0.12851123595505617,https://www.bts.gov/archive/publications/national_transportation_statistics/table_03_21,broad freight revenue proxy; truck mostly LTL; not soybean oil quote
