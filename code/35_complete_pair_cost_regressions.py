@@ -53,6 +53,25 @@ for route in ["rail_Lemont_barge_StRose_marine_Rodeo","rail_via_Artesia_pretreat
  v=direct.where(~affected,alt)
  proxies[route]=(v,v.notna())
 
+
+audit=pd.read_csv(C/"pathway_transport_leg_audit_reviewed.csv")
+mode_map={plant:set("|".join(g.loc[g.US_crusher_oil_route_evidence.astype(str).str.lower().eq("true"),"feedstock_modes"].fillna("")).split("|")) for plant,g in audit.groupby("physical_plant_id")}
+selected=[]
+for _,pair in d.iterrows():
+ z=routes[(routes.hub_id==pair.hub_id)&(routes.physical_plant_id==pair.physical_plant_id)&(routes.ocean_rate_multiplier==1)&routes.access_screen_eligible.astype(str).str.lower().eq("true")].copy()
+ modes=mode_map.get(pair.physical_plant_id,set())
+ allowed=[]
+ for _,rr in z.iterrows():
+  ok=(rr.route=="direct_rail" and "rail" in modes) or (rr.route=="direct_truck" and "truck" in modes) or (rr.route=="inland_barge" and "barge" in modes) or (rr.route.startswith("truck_") and "rail" in modes) or (rr.route=="rail_via_Artesia_pretreatment")
+  if "Rodeo" in pair.physical_plant_id and rr.route in ["rail_gulf_marine","river_gulf_marine","rail_Lemont_barge_StRose_marine_Rodeo"]:ok=True
+  if ok and pd.notna(rr.cost_proxy_truck_equivalent_km):allowed.append(rr)
+ if not allowed:raise RuntimeError(f"No eligible documented-mode candidate: {pair.hub_id}, {pair.physical_plant_id}")
+ best=min(allowed,key=lambda rr:rr.cost_proxy_truck_equivalent_km)
+ selected.append(dict(hub_id=pair.hub_id,physical_plant_id=pair.physical_plant_id,selected_route=best.route,cost_proxy_truck_equivalent_km=best.cost_proxy_truck_equivalent_km,candidate_count=len(allowed),selection_status="lowest linehaul candidate in finite inferred terminal set; not procurement"))
+selection=pd.DataFrame(selected);assert len(selection)==928
+selection.to_csv(C/"refinery_crusher_lowest_supported_mode_cost_candidates.csv",index=False)
+v=d[["hub_id","physical_plant_id"]].merge(selection,on=["hub_id","physical_plant_id"],validate="one_to_one").cost_proxy_truck_equivalent_km
+proxies["lowest_supported_mode_candidate"]=(v,v.notna())
 weights=[]; exposures=[]; results=[]; skipped=[]
 for proxy,(distance,eligible) in proxies.items():
  distance=pd.Series(distance,index=d.index)
