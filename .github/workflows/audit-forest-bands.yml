@@ -43,7 +43,7 @@ jobs:
           d=pd.read_csv('data/clean/candidate_hubs_clean.csv')
           ids=d.loc[d.hub_status=='candidate_hub','hub_id'].astype(int).tolist()
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
-              f.write('value='+json.dumps({'hub':ids,'ring':[1,2,3,4,5,6]})+'\n')
+              f.write('value='+json.dumps({'hub':ids,'pair':[1,3,5]})+'\n')
           with open('first-hub.txt','w') as f: f.write(str(ids[0]))
           PY
       - name: Paired raster smoke audit
@@ -59,7 +59,7 @@ jobs:
   paired-pixels:
     needs: prepare-and-smoke
     runs-on: ubuntu-24.04
-    timeout-minutes: 120
+    timeout-minutes: 180
     strategy:
       fail-fast: false
       max-parallel: 3
@@ -74,10 +74,15 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install geopandas rasterio numpy pandas
-      - run: python code/15_audit_forest_transitions.py --hub ${{ matrix.hub }} --ring ${{ matrix.ring }}
+      - name: Audit two adjacent bands with separate checkpoints
+        run: |
+          for ring in ${{ matrix.pair }} $(( ${{ matrix.pair }} + 1 )); do
+            python code/15_audit_forest_transitions.py --hub ${{ matrix.hub }} --ring "$ring"
+          done
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: forest-hub-${{ matrix.hub }}-ring-${{ matrix.ring }}
+          name: forest-hub-${{ matrix.hub }}-pair-${{ matrix.pair }}
           path: transition-results/
   merge:
     needs: [prepare-and-smoke, paired-pixels]
