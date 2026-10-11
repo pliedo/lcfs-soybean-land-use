@@ -53,10 +53,28 @@ def main():
                         extract.get_raster(tile,year,path)
                         with rasterio.open(path) as src:
                             assert src.crs.to_epsg()==5070
-                            if transform is not None: assert src.transform==transform, 'Grid mismatch'
-                            transform=src.transform
-                            data=src.read(1); valid=src.read_masks(1)>0
-                            inside=geometry_mask([mapping(piece)],data.shape,src.transform,invert=True)
+                            raw=src.read(1); raw_valid=src.read_masks(1)>0
+                            if transform is None:
+                                transform=src.transform; shape=raw.shape
+                                data=raw; valid=raw_valid
+                            else:
+                                # CropScape may return year-specific pixel origins. Align
+                                # 2019 onto the 2018 reference grid instead of asserting
+                                # identical API windows.
+                                from rasterio.warp import reproject, Resampling
+                                data=np.zeros(shape,dtype=raw.dtype)
+                                valid_u8=np.zeros(shape,dtype=np.uint8)
+                                reproject(raw,data,src_transform=src.transform,
+                                    src_crs=src.crs,dst_transform=transform,
+                                    dst_crs=src.crs,resampling=Resampling.nearest,
+                                    src_nodata=0,dst_nodata=0)
+                                reproject(raw_valid.astype(np.uint8),valid_u8,
+                                    src_transform=src.transform,src_crs=src.crs,
+                                    dst_transform=transform,dst_crs=src.crs,
+                                    resampling=Resampling.nearest,src_nodata=0,
+                                    dst_nodata=0)
+                                valid=valid_u8.astype(bool)
+                            inside=geometry_mask([mapping(piece)],data.shape,transform,invert=True)
                             arrays.append(data); valids.append(valid & inside & (data>0))
                     assert arrays[0].shape==arrays[1].shape
                     common=valids[0]&valids[1]

@@ -1,10 +1,6 @@
 name: Audit forest types across all six bands
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - code/15_audit_forest_transitions.py
-      - .github/workflows/audit-forest-bands.yml
 permissions:
   contents: write
 concurrency:

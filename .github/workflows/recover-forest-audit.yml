@@ -1,0 +1,72 @@
+name: Recover failed forest audit pair and merge prior checkpoints
+on:
+  push:
+    paths:
+      - code/15_audit_forest_transitions.py
+      - .github/workflows/recover-forest-audit.yml
+permissions:
+  actions: read
+  contents: write
+jobs:
+  recover-and-merge:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          name: audit-polygons
+          path: output
+          repository: pliedo/lcfs-soybean-land-use
+          run-id: 38126571985
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: forest-hub-*
+          path: prior-results
+          merge-multiple: true
+          repository: pliedo/lcfs-soybean-land-use
+          run-id: 38126571985
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas
+      - name: Recover only failed hub and adjacent band
+        run: |
+          python code/15_audit_forest_transitions.py --hub 15 --ring 3
+          python code/15_audit_forest_transitions.py --hub 15 --ring 4
+          mv transition-results recovered-results
+      - name: Merge prior successful checkpoints with recovery
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd
+          out=Path('output/diagnostics');out.mkdir(parents=True,exist_ok=True)
+          for name in ['transitions','coverage']:
+              prior=[]
+              for p in Path('prior-results').rglob(name+'.csv'):
+                  x=pd.read_csv(p)
+                  if not ((x.hub_id.eq(15)) & (x.ring_index.isin([3,4]))).all():
+                      prior.append(x)
+              recovered=[pd.read_csv(p) for p in Path('recovered-results').rglob(name+'.csv')]
+              x=pd.concat(prior+recovered,ignore_index=True)
+              keys=x[['hub_id','ring_index']].drop_duplicates()
+              assert len(keys)==348, f'Expected 348 hub-band files; got {len(keys)}'
+              assert x.hub_id.nunique()==58 and x.ring_index.nunique()==6
+              if name=='coverage':
+                  assert (x.common_valid<=x[['valid_2018','valid_2019']].min(axis=1)).all()
+              x.to_csv(out/f'cdl_2018_2019_all_bands_forest_{name}.csv',index=False)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: recovered-six-band-forest-audit
+          path: output/diagnostics/cdl_2018_2019_all_bands_forest_*.csv
+      - name: Commit validated diagnostic results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f output/diagnostics/cdl_2018_2019_all_bands_forest_*.csv
+          git diff --cached --quiet || git commit -m 'Add aligned forest transitions across all six bands'
+          git pull --rebase origin main
+          git push origin HEAD:main
