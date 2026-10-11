@@ -1,4 +1,4 @@
-name: Recover and merge 2025 CDL batch v6
+name: Recover and merge 2025 CDL batch v7
 
 on:
   push:
@@ -95,7 +95,13 @@ jobs:
                   assert not x.duplicated(['hub_id','year','ring_index','cdl_code']).any()
                   valid=x[x.cdl_code!=0].groupby(['hub_id','year','ring_index']).pixel_count.sum()
                   totals=outcomes.set_index(['hub_id','year','ring_index']).all_valid_pixels
-                  assert valid.reindex(totals.index,fill_value=0).equals(totals)
+                  observed=valid.reindex(totals.index,fill_value=0).astype('int64')
+                  expected=totals.astype('int64')
+                  difference=observed-expected
+                  assert (difference==0).all(), (
+                      f'Pixel-count mismatch in {(difference!=0).sum()} hub-rings; '
+                      f'max absolute difference {difference.abs().max()}'
+                  )
               path='data/clean/'+target
               old=pd.read_csv(path)
               x=pd.concat([old[old.year!=2025],x],ignore_index=True)
