@@ -1,0 +1,39 @@
+name: Resolve nonrail origin access with road-to-terminal alternatives
+on:
+  push:
+    paths:
+      - code/34_resolve_nonrail_origin_transfer.py
+      - .github/workflows/nonrail-transfer-routes.yml
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas scipy openpyxl searoute==1.4.3
+      - uses: actions/cache@v4
+        with:
+          path: data/raw/network_cache
+          key: transport-network-2026-rail-2025-water-v1
+      - run: python code/34_resolve_nonrail_origin_transfer.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nonrail-transfer-checkpoint
+          path: |
+            data/clean/nonrail*
+            data/clean/refinery_crusher_transport_cost_matrix.csv
+            output/diagnostics/nonrail_transfer_validation.json
+      - name: Commit actual road-leg proxies and candidate costs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/clean/nonrail_origin_terminal_road_routes.csv data/clean/nonrail_origin_transfer_cost_proxies.csv data/clean/refinery_crusher_transport_cost_matrix.csv output/diagnostics/nonrail_transfer_validation.json
+          git diff --cached --quiet || git commit -m "Add driving legs to inferred liquid rail terminals for nonrail origins"
+          git pull --rebase origin main
+          git push origin HEAD:main
