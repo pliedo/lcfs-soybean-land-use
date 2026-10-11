@@ -39,6 +39,10 @@ def main():
  audit.loc[audit.full_description.str.contains("Artesia",case=False,na=False),"required_intermediate"]="Artesia NM pretreatment"
  audit.loc[audit.foreign_feedstock.astype(str).str.lower().eq("true"),"sequence_status"]="foreign_feedstock_excluded_from_US_crusher_routes"
  audit.loc[audit.feedstock_modes.fillna("").eq(""),"sequence_status"]="mode_unspecified_no_mode_claim"
+ mexico=audit.full_description.str.contains("Monterrey",case=False,na=False)
+ audit.loc[mexico,"required_intermediate"]="Monterrey Mexico soybean extraction then Artesia NM PTU"
+ audit.loc[mexico,"sequence_status"]="raw_soybeans_outbound_not_US_crusher_oil_leg_return_oil_mode_unspecified"
+ audit["US_crusher_oil_route_evidence"]=~(audit.foreign_feedstock.astype(str).str.lower().eq("true")|mexico)
  audit.to_csv(C/"pathway_transport_leg_audit_reviewed.csv",index=False)
  diag={"rows":len(out),"eligible":int(out.eligible.sum()),"terminals":TERMINALS,"Lemont_StRose_water_km":float(wd[0,0]),"limitations":"Shortest network paths within candidate terminals; no confirmed terminal shipment, no oil-specific rates or actual access legs. Alternatives not procurement shares."}
  (R/"output/diagnostics/intermediate_route_validation.json").write_text(json.dumps(diag,indent=2));print(diag,flush=True)
