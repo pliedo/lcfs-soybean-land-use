@@ -1,6 +1,6 @@
 # Complete-pair candidate route exposure grid
 
-Estimated 54432 coefficient rows; 1344 unidentified models. All estimated specifications are exported.
+Estimated 58800 coefficient rows; 1344 unidentified models. All estimated specifications are exported.
 
 These use source-calibrated broad-freight and grain-ocean linehaul proxies, excluding unmeasured access and handling. They are not total oil shipment costs. Gulf routes apply only to Rodeo; other plants retain direct rail. A separate scenario preserves Artesia as a pretreatment intermediate for Sinclair and Cheyenne. Alternatives do not substitute finished-fuel routes for feedstock routes. Alternatives are separate scenarios, never shipment shares. Access-screen exclusions are eligibility assumptions.
 

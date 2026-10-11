@@ -1,0 +1,929 @@
+hub_id,physical_plant_id,selected_route,cost_proxy_truck_equivalent_km,candidate_count,selection_status
+1,"AltAir Paramount, LLC (83180)",direct_rail,490.71805777979375,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,"AltAir Paramount, LLC (83180)",direct_rail,502.0330983796633,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,"AltAir Paramount, LLC (83180)",direct_rail,537.9508049728322,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,"AltAir Paramount, LLC (83180)",direct_rail,557.3736893098774,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,"AltAir Paramount, LLC (83180)",truck_Lemont_rail,1041.8419776804235,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,"AltAir Paramount, LLC (83180)",direct_rail,542.2731840545985,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,"AltAir Paramount, LLC (83180)",truck_Lemont_rail,1133.5755776804235,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,"AltAir Paramount, LLC (83180)",direct_rail,568.4322986224163,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,"AltAir Paramount, LLC (83180)",direct_rail,574.2973235787508,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,"AltAir Paramount, LLC (83180)",direct_rail,448.3295282173458,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,"AltAir Paramount, LLC (83180)",direct_rail,535.924579557586,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,"AltAir Paramount, LLC (83180)",direct_rail,478.2013477349309,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,"AltAir Paramount, LLC (83180)",direct_rail,536.3564346058126,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,"AltAir Paramount, LLC (83180)",direct_rail,588.9539391703887,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,"AltAir Paramount, LLC (83180)",direct_rail,463.3244535232134,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,"AltAir Paramount, LLC (83180)",direct_rail,505.46231238088416,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,"AltAir Paramount, LLC (83180)",direct_rail,500.538697971712,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,"AltAir Paramount, LLC (83180)",direct_rail,590.4588890232859,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,"AltAir Paramount, LLC (83180)",direct_rail,486.1824312912938,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,"AltAir Paramount, LLC (83180)",direct_rail,522.4297058088738,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,"AltAir Paramount, LLC (83180)",direct_rail,603.4033413651812,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,"AltAir Paramount, LLC (83180)",direct_rail,419.0796435533415,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,"AltAir Paramount, LLC (83180)",direct_rail,563.702490029756,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,"AltAir Paramount, LLC (83180)",direct_rail,563.702490029756,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,"AltAir Paramount, LLC (83180)",direct_rail,607.5994109767735,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,"AltAir Paramount, LLC (83180)",direct_rail,515.6632914153248,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,"AltAir Paramount, LLC (83180)",direct_rail,497.1516002288293,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,"AltAir Paramount, LLC (83180)",direct_rail,480.2551641691893,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,"AltAir Paramount, LLC (83180)",direct_rail,531.2957583891932,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,"AltAir Paramount, LLC (83180)",truck_Lemont_rail,830.5422776804235,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,"AltAir Paramount, LLC (83180)",direct_rail,585.7706991031343,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,"AltAir Paramount, LLC (83180)",direct_rail,462.7991377045423,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,"AltAir Paramount, LLC (83180)",direct_rail,467.9579838511815,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,"AltAir Paramount, LLC (83180)",direct_rail,520.0680434192244,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,"AltAir Paramount, LLC (83180)",direct_rail,621.9991688807042,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,"AltAir Paramount, LLC (83180)",direct_rail,492.4004893888823,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,"AltAir Paramount, LLC (83180)",direct_rail,533.1439556495455,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,"AltAir Paramount, LLC (83180)",direct_rail,489.2274617112224,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,"AltAir Paramount, LLC (83180)",direct_rail,569.782940050956,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,"AltAir Paramount, LLC (83180)",direct_rail,536.6238925878067,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,"AltAir Paramount, LLC (83180)",direct_rail,537.3826608574159,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,"AltAir Paramount, LLC (83180)",direct_rail,503.6055395520264,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,"AltAir Paramount, LLC (83180)",direct_rail,631.0281226485246,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,"AltAir Paramount, LLC (83180)",direct_rail,618.4944128842155,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,"AltAir Paramount, LLC (83180)",direct_rail,529.3499640788592,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,"AltAir Paramount, LLC (83180)",direct_rail,543.6954555200296,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,"AltAir Paramount, LLC (83180)",direct_rail,514.7320727556021,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,"AltAir Paramount, LLC (83180)",direct_rail,677.1541082397146,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,"AltAir Paramount, LLC (83180)",direct_rail,387.38761488615273,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,"AltAir Paramount, LLC (83180)",direct_rail,573.3314890353334,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,"AltAir Paramount, LLC (83180)",direct_rail,565.9140874186296,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,"AltAir Paramount, LLC (83180)",direct_rail,631.2598355807697,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,"AltAir Paramount, LLC (83180)",direct_rail,708.191233753909,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,"AltAir Paramount, LLC (83180)",direct_rail,761.6545680245318,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,"AltAir Paramount, LLC (83180)",direct_rail,762.6046192836119,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,"AltAir Paramount, LLC (83180)",direct_rail,593.767246046283,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,"AltAir Paramount, LLC (83180)",direct_rail,795.9001065500789,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,"AltAir Paramount, LLC (83180)",direct_rail,533.1836062919828,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,Chevron El Segundo (01013),direct_rail,493.1976641314208,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,Chevron El Segundo (01013),direct_rail,504.5127047312904,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,Chevron El Segundo (01013),direct_rail,540.4304113244592,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,Chevron El Segundo (01013),direct_rail,559.8532956615043,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,Chevron El Segundo (01013),truck_Lemont_rail,1044.3215840320504,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,Chevron El Segundo (01013),direct_rail,544.7527904062255,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,Chevron El Segundo (01013),truck_Lemont_rail,1136.0551840320506,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,Chevron El Segundo (01013),direct_rail,570.9119049740435,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,Chevron El Segundo (01013),direct_rail,576.7769299303778,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,Chevron El Segundo (01013),direct_rail,450.8091345689728,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,Chevron El Segundo (01013),direct_rail,538.404185909213,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,Chevron El Segundo (01013),direct_rail,480.6809540865579,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,Chevron El Segundo (01013),direct_rail,538.8360409574396,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,Chevron El Segundo (01013),direct_rail,591.4335455220156,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,Chevron El Segundo (01013),direct_rail,465.80405987484033,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,Chevron El Segundo (01013),direct_rail,507.9419187325111,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,Chevron El Segundo (01013),direct_rail,503.0183043233391,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,Chevron El Segundo (01013),direct_rail,592.9384953749128,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,Chevron El Segundo (01013),direct_rail,488.6620376429208,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,Chevron El Segundo (01013),direct_rail,524.9093121605008,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,Chevron El Segundo (01013),direct_rail,605.8829477168082,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,Chevron El Segundo (01013),direct_rail,421.5592499049685,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,Chevron El Segundo (01013),direct_rail,566.1820963813826,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,Chevron El Segundo (01013),direct_rail,566.1820963813826,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,Chevron El Segundo (01013),direct_rail,610.0790173284003,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,Chevron El Segundo (01013),direct_rail,518.1428977669518,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,Chevron El Segundo (01013),direct_rail,499.6312065804565,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,Chevron El Segundo (01013),direct_rail,482.7347705208163,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,Chevron El Segundo (01013),direct_rail,533.7753647408202,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,Chevron El Segundo (01013),truck_Lemont_rail,833.0218840320505,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,Chevron El Segundo (01013),direct_rail,588.2503054547612,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,Chevron El Segundo (01013),direct_rail,465.2787440561693,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,Chevron El Segundo (01013),direct_rail,470.4375902028084,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,Chevron El Segundo (01013),direct_rail,522.5476497708513,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,Chevron El Segundo (01013),direct_rail,624.4787752323313,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,Chevron El Segundo (01013),direct_rail,494.88009574050926,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,Chevron El Segundo (01013),direct_rail,535.6235620011724,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,Chevron El Segundo (01013),direct_rail,491.70706806284926,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,Chevron El Segundo (01013),direct_rail,572.262546402583,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,Chevron El Segundo (01013),direct_rail,539.1034989394336,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,Chevron El Segundo (01013),direct_rail,539.8622672090429,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,Chevron El Segundo (01013),direct_rail,506.0851459036533,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,Chevron El Segundo (01013),direct_rail,633.5077290001517,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,Chevron El Segundo (01013),direct_rail,620.9740192358425,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,Chevron El Segundo (01013),direct_rail,531.8295704304862,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,Chevron El Segundo (01013),direct_rail,546.1750618716563,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,Chevron El Segundo (01013),direct_rail,517.2116791072291,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,Chevron El Segundo (01013),direct_rail,679.6337145913417,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,Chevron El Segundo (01013),direct_rail,389.8672212377797,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,Chevron El Segundo (01013),direct_rail,575.8110953869603,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,Chevron El Segundo (01013),direct_rail,568.3936937702566,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,Chevron El Segundo (01013),direct_rail,633.7394419323967,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,Chevron El Segundo (01013),direct_rail,710.6708401055358,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,Chevron El Segundo (01013),direct_rail,764.1341743761587,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,Chevron El Segundo (01013),direct_rail,765.0842256352388,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,Chevron El Segundo (01013),direct_rail,596.24685239791,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,Chevron El Segundo (01013),direct_rail,798.3797129017048,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,Chevron El Segundo (01013),direct_rail,535.6632126436098,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,208.5383103676009,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,219.6984891618249,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,254.77133267086325,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,276.3247868163771,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,Cheyenne Renewable Diesel Company LLC (F00494),direct_truck,1679.191,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,243.9045840280248,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,Cheyenne Renewable Diesel Company LLC (F00494),direct_truck,1756.116,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,275.2879396432126,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,281.2855640621757,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,165.8554673684725,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,199.08819035707148,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,196.02160032273824,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,199.52004540529805,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,301.4171466066339,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,160.2780390411166,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,171.33018405288522,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,159.25593752622706,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,286.03861075242736,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,300.9584579897102,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,179.32690979063037,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,301.5482713778641,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,163.94705807051253,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,339.9423358630766,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,339.9423358630766,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,314.5876514601984,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,172.56049539708113,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,154.4099250971535,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,137.5134890375134,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,188.19296237094943,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,Cheyenne Renewable Diesel Company LLC (F00494),direct_truck,1774.034,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,379.6043274932776,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,121.51637725905717,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,124.85518783293756,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,176.96524740098,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,319.3213392802514,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,149.29769337063794,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,190.04115963130127,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,146.124665692978,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,226.68014403271167,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,193.5210965695624,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,194.2798648391717,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,160.502743533782,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,327.8881899884514,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,411.2984330791575,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,186.24716806061585,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,200.5926595017853,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,368.4994328964882,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,469.6075491596956,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,79.45990339540427,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,235.69186362948847,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,222.811291400386,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,447.92098019171306,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,492.59883589386,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,517.1007953354946,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,503.24002472339146,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,276.77722149640715,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,492.6803822797062,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,Cheyenne Renewable Diesel Company LLC (F00494),direct_rail,260.2595628877157,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,236.53501433513983,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,244.9891146337082,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,238.3117059380936,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,189.8021082842378,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),truck_Lemont_rail,756.9015492695015,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,248.14941816728296,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),truck_Lemont_rail,848.6351492695017,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,262.5674769324391,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,268.43250188877386,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,207.3175945798177,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,292.0645306218438,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,187.43118518772343,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,292.55564556007386,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,269.68919716501205,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,223.2886207480228,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,263.1494096806638,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,275.3725495105106,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,288.1583370889144,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,118.61085026565418,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,281.89053887239913,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,297.5385196752041,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,210.34045987518985,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,190.0708564892913,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,190.0708564892913,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,293.64290630244074,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,287.16556434823,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,276.6962343634073,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,256.35135303432025,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,293.86123582191794,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),truck_Lemont_rail,545.6018492695015,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,191.3866744556106,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,259.0533028648965,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,268.4828672905414,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,300.8695276182339,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,311.3149756987406,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,284.03086574246646,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,315.61106302791995,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,284.4899874188493,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,340.52083415263667,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,326.1265440063837,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,325.2882713730256,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,298.658986860226,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,320.343929466561,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,221.3678115618486,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,334.7015110151575,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,338.74890282822935,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,73.5375455689947,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,279.18446143110106,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,295.3954007611638,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,386.65035488862543,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,388.1856547221089,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,218.5376543436404,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,310.2215869452957,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,363.6849212159186,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,364.6349724749989,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,424.2108170024305,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,420.9076007629328,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),direct_rail,438.3328747928621,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,Diamond Green Diesel LLC (81496),direct_rail,211.08531117837904,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,Diamond Green Diesel LLC (81496),direct_rail,219.5394114769473,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,Diamond Green Diesel LLC (81496),direct_rail,204.18306318973532,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,Diamond Green Diesel LLC (81496),direct_rail,148.45418548229222,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,Diamond Green Diesel LLC (81496),truck_Lemont_rail,720.7303331392848,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,Diamond Green Diesel LLC (81496),direct_rail,222.3880510175643,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,Diamond Green Diesel LLC (81496),truck_Lemont_rail,812.4639331392848,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,Diamond Green Diesel LLC (81496),direct_rail,222.1337500941972,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,Diamond Green Diesel LLC (81496),direct_rail,227.998775050532,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,Diamond Green Diesel LLC (81496),direct_rail,225.30814078876065,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,Diamond Green Diesel LLC (81496),direct_rail,266.0502250383448,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,Diamond Green Diesel LLC (81496),direct_rail,205.4217313966664,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,Diamond Green Diesel LLC (81496),direct_rail,266.5413399765748,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,Diamond Green Diesel LLC (81496),direct_rail,229.25547032677017,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,Diamond Green Diesel LLC (81496),direct_rail,241.27916695696567,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,Diamond Green Diesel LLC (81496),direct_rail,281.1399558896068,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,Diamond Green Diesel LLC (81496),direct_rail,288.7674670083572,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,Diamond Green Diesel LLC (81496),direct_rail,247.72461025067244,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,Diamond Green Diesel LLC (81496),direct_rail,113.44668229374744,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,Diamond Green Diesel LLC (81496),direct_rail,294.73732872069104,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,Diamond Green Diesel LLC (81496),direct_rail,257.1047928369623,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,Diamond Green Diesel LLC (81496),direct_rail,241.99731006010387,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,Diamond Green Diesel LLC (81496),direct_rail,120.4844978185866,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,Diamond Green Diesel LLC (81496),direct_rail,120.4844978185866,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,Diamond Green Diesel LLC (81496),direct_rail,249.65588404526085,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,Diamond Green Diesel LLC (81496),direct_rail,305.15611055717284,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,Diamond Green Diesel LLC (81496),direct_rail,294.68678057235024,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,Diamond Green Diesel LLC (81496),direct_rail,274.34189924326324,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,Diamond Green Diesel LLC (81496),direct_rail,300.3776141070191,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,Diamond Green Diesel LLC (81496),truck_Lemont_rail,509.4306331392847,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,Diamond Green Diesel LLC (81496),direct_rail,121.80031578490603,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,Diamond Green Diesel LLC (81496),direct_rail,277.0438490738395,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,Diamond Green Diesel LLC (81496),direct_rail,286.4734134994844,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,Diamond Green Diesel LLC (81496),direct_rail,318.8600738271769,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,Diamond Green Diesel LLC (81496),direct_rail,269.8359157804859,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,Diamond Green Diesel LLC (81496),direct_rail,302.0214119514094,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,Diamond Green Diesel LLC (81496),direct_rail,321.7152211949493,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,Diamond Green Diesel LLC (81496),direct_rail,302.4805336277923,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,Diamond Green Diesel LLC (81496),direct_rail,321.7033560167213,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,Diamond Green Diesel LLC (81496),direct_rail,327.0363907366956,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,Diamond Green Diesel LLC (81496),direct_rail,326.19811810333744,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,Diamond Green Diesel LLC (81496),direct_rail,316.64953306916897,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,Diamond Green Diesel LLC (81496),direct_rail,278.86486954830644,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,Diamond Green Diesel LLC (81496),direct_rail,149.20534274078804,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,Diamond Green Diesel LLC (81496),direct_rail,352.69205722410027,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,Diamond Green Diesel LLC (81496),direct_rail,356.7394490371722,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,Diamond Green Diesel LLC (81496),direct_rail,2.0755209477861603,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,Diamond Green Diesel LLC (81496),direct_rail,207.02199261004043,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,Diamond Green Diesel LLC (81496),direct_rail,328.36144147649185,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,Diamond Green Diesel LLC (81496),direct_rail,398.69217752029135,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,Diamond Green Diesel LLC (81496),direct_rail,400.0257802559618,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,Diamond Green Diesel LLC (81496),direct_rail,146.3751855225795,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,Diamond Green Diesel LLC (81496),direct_rail,238.05911812423503,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,Diamond Green Diesel LLC (81496),direct_rail,291.52245239485813,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,Diamond Green Diesel LLC (81496),direct_rail,292.4725036539383,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,Diamond Green Diesel LLC (81496),direct_rail,426.0818893661278,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,Diamond Green Diesel LLC (81496),direct_rail,351.32124209222803,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,Diamond Green Diesel LLC (81496),direct_rail,450.1730003267151,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,"Jaxon Energy, LLC (83608)",direct_rail,164.215076428687,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,"Jaxon Energy, LLC (83608)",direct_rail,172.66917672725538,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,"Jaxon Energy, LLC (83608)",direct_rail,157.31282844004366,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,"Jaxon Energy, LLC (83608)",direct_rail,101.5839507326004,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,"Jaxon Energy, LLC (83608)",truck_Lemont_rail,673.860098389593,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,"Jaxon Energy, LLC (83608)",direct_rail,175.51781626787243,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,"Jaxon Energy, LLC (83608)",truck_Lemont_rail,765.5936983895929,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,"Jaxon Energy, LLC (83608)",direct_rail,175.26351534450512,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,"Jaxon Energy, LLC (83608)",direct_rail,181.12854030084,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,"Jaxon Energy, LLC (83608)",direct_rail,182.0504105243278,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,"Jaxon Energy, LLC (83608)",direct_rail,219.17999028865304,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,"Jaxon Energy, LLC (83608)",direct_rail,159.2190666255196,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,"Jaxon Energy, LLC (83608)",direct_rail,219.6711052268831,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,"Jaxon Energy, LLC (83608)",direct_rail,182.3852355770784,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,"Jaxon Energy, LLC (83608)",direct_rail,198.01522119715372,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,"Jaxon Energy, LLC (83608)",direct_rail,237.57973581569595,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,"Jaxon Energy, LLC (83608)",direct_rail,241.8972322586652,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,"Jaxon Energy, LLC (83608)",direct_rail,200.8543755009804,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,"Jaxon Energy, LLC (83608)",direct_rail,65.33213365489611,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,"Jaxon Energy, LLC (83608)",direct_rail,247.8670939709993,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,"Jaxon Energy, LLC (83608)",direct_rail,210.23455808727027,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,"Jaxon Energy, LLC (83608)",direct_rail,203.03176902460643,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,"Jaxon Energy, LLC (83608)",direct_rail,89.73459531731721,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,"Jaxon Energy, LLC (83608)",direct_rail,89.73459531731721,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,"Jaxon Energy, LLC (83608)",direct_rail,206.33894471450705,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,"Jaxon Energy, LLC (83608)",direct_rail,258.95607034131547,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,"Jaxon Energy, LLC (83608)",direct_rail,251.4228348125383,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,"Jaxon Energy, LLC (83608)",direct_rail,231.07795348345124,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,"Jaxon Energy, LLC (83608)",direct_rail,253.50737935732727,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,"Jaxon Energy, LLC (83608)",truck_Lemont_rail,462.5603983895929,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,"Jaxon Energy, LLC (83608)",direct_rail,91.05041328363669,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,"Jaxon Energy, LLC (83608)",direct_rail,233.7799033140276,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,"Jaxon Energy, LLC (83608)",direct_rail,243.2094677396724,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,"Jaxon Energy, LLC (83608)",direct_rail,272.6600336113194,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,"Jaxon Energy, LLC (83608)",direct_rail,224.01101411080683,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,"Jaxon Energy, LLC (83608)",direct_rail,258.7574661915975,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,"Jaxon Energy, LLC (83608)",direct_rail,274.8449864452576,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,"Jaxon Energy, LLC (83608)",direct_rail,259.2165878679803,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,"Jaxon Energy, LLC (83608)",direct_rail,274.83312126702947,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,"Jaxon Energy, LLC (83608)",direct_rail,280.1661559870039,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,"Jaxon Energy, LLC (83608)",direct_rail,279.32788335364563,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,"Jaxon Energy, LLC (83608)",direct_rail,273.385587309357,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,"Jaxon Energy, LLC (83608)",direct_rail,233.03996787862744,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,"Jaxon Energy, LLC (83608)",direct_rail,123.774127064718,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,"Jaxon Energy, LLC (83608)",direct_rail,309.4281114642885,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,"Jaxon Energy, LLC (83608)",direct_rail,313.4755032773604,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,"Jaxon Energy, LLC (83608)",direct_rail,48.04799346255224,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,"Jaxon Energy, LLC (83608)",direct_rail,182.4338224202168,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,"Jaxon Energy, LLC (83608)",direct_rail,297.1608514148381,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,"Jaxon Energy, LLC (83608)",direct_rail,351.8219427705992,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,"Jaxon Energy, LLC (83608)",direct_rail,353.15554550626973,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,"Jaxon Energy, LLC (83608)",direct_rail,136.53954976127187,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,"Jaxon Energy, LLC (83608)",direct_rail,213.47094793441144,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,"Jaxon Energy, LLC (83608)",direct_rail,266.9342822050345,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,"Jaxon Energy, LLC (83608)",direct_rail,267.88433346411466,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,"Jaxon Energy, LLC (83608)",direct_rail,379.2116546164359,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,"Jaxon Energy, LLC (83608)",direct_rail,320.5713395909585,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,"Jaxon Energy, LLC (83608)",direct_rail,403.30276557702297,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,MARTINEZ REFINERY (90001),direct_rail,533.4311992838615,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,MARTINEZ REFINERY (90001),direct_rail,544.5913780780847,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,MARTINEZ REFINERY (90001),direct_rail,579.6642215871235,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,MARTINEZ REFINERY (90001),direct_rail,601.217675732637,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,MARTINEZ REFINERY (90001),direct_truck,3527.78,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,MARTINEZ REFINERY (90001),direct_rail,568.7974729442847,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,MARTINEZ REFINERY (90001),direct_truck,3604.705,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,MARTINEZ REFINERY (90001),direct_rail,600.1808285594725,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,MARTINEZ REFINERY (90001),direct_rail,606.1784529784351,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,MARTINEZ REFINERY (90001),direct_rail,490.7483562847327,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,MARTINEZ REFINERY (90001),direct_rail,523.9810792733324,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,MARTINEZ REFINERY (90001),direct_rail,520.9144892389986,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,MARTINEZ REFINERY (90001),direct_rail,524.412934321559,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,MARTINEZ REFINERY (90001),direct_rail,626.3100355228936,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,MARTINEZ REFINERY (90001),direct_rail,485.1709279573769,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,MARTINEZ REFINERY (90001),direct_rail,496.2230729691464,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,MARTINEZ REFINERY (90001),direct_rail,484.1488264424875,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,MARTINEZ REFINERY (90001),direct_rail,610.9314996686885,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,MARTINEZ REFINERY (90001),direct_rail,584.8484906259318,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,MARTINEZ REFINERY (90001),direct_rail,504.2197987068909,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,MARTINEZ REFINERY (90001),direct_rail,626.441160294125,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,MARTINEZ REFINERY (90001),direct_rail,488.839946986773,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,MARTINEZ REFINERY (90001),direct_rail,662.3685493643936,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,MARTINEZ REFINERY (90001),direct_rail,662.3685493643936,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,MARTINEZ REFINERY (90001),direct_rail,639.4805403764576,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,MARTINEZ REFINERY (90001),direct_rail,497.4533843133418,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,MARTINEZ REFINERY (90001),direct_rail,479.3028140134147,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,MARTINEZ REFINERY (90001),direct_rail,462.4063779537745,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,MARTINEZ REFINERY (90001),direct_rail,513.0858512872103,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,MARTINEZ REFINERY (90001),direct_truck,3622.623,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,MARTINEZ REFINERY (90001),direct_rail,684.4367584377728,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,MARTINEZ REFINERY (90001),direct_rail,446.4092661753178,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,MARTINEZ REFINERY (90001),direct_rail,449.7480767491985,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,MARTINEZ REFINERY (90001),direct_rail,501.85813631724136,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,MARTINEZ REFINERY (90001),direct_rail,644.2142281965126,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,MARTINEZ REFINERY (90001),direct_rail,474.1905822868993,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,MARTINEZ REFINERY (90001),direct_rail,514.9340485475626,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,MARTINEZ REFINERY (90001),direct_rail,471.01755460923926,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,MARTINEZ REFINERY (90001),direct_rail,551.5730329489729,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,MARTINEZ REFINERY (90001),direct_rail,518.4139854858237,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,MARTINEZ REFINERY (90001),direct_rail,519.1727537554328,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,MARTINEZ REFINERY (90001),direct_rail,485.3956324500433,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,MARTINEZ REFINERY (90001),direct_rail,652.7810789047129,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,MARTINEZ REFINERY (90001),direct_rail,717.1604722188544,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,MARTINEZ REFINERY (90001),direct_rail,511.1400569768762,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,MARTINEZ REFINERY (90001),direct_rail,525.4855484180464,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,MARTINEZ REFINERY (90001),direct_rail,613.3981320902402,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,MARTINEZ REFINERY (90001),direct_rail,775.8201675743529,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,MARTINEZ REFINERY (90001),direct_rail,400.6020208895277,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,MARTINEZ REFINERY (90001),direct_rail,554.2946143808784,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,MARTINEZ REFINERY (90001),direct_rail,547.7041803166466,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,MARTINEZ REFINERY (90001),direct_rail,729.9258949154088,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,MARTINEZ REFINERY (90001),direct_rail,806.8572930885472,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,MARTINEZ REFINERY (90001),direct_rail,841.9936842517538,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,MARTINEZ REFINERY (90001),direct_rail,828.1329136396511,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,MARTINEZ REFINERY (90001),direct_rail,562.7681558636094,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,MARTINEZ REFINERY (90001),direct_rail,817.5732711959663,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,MARTINEZ REFINERY (90001),direct_rail,502.1845161093092,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,MRL Great Falls (F00548),direct_rail,379.9749781390317,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,MRL Great Falls (F00548),direct_rail,391.141306360369,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,MRL Great Falls (F00548),direct_rail,419.5067562642933,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,MRL Great Falls (F00548),direct_rail,447.7614545878072,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,MRL Great Falls (F00548),truck_Lemont_rail,877.5619336893308,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,MRL Great Falls (F00548),direct_rail,408.64000762145446,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,MRL Great Falls (F00548),truck_Lemont_rail,969.2955336893308,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,MRL Great Falls (F00548),direct_rail,425.52661778531495,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,MRL Great Falls (F00548),direct_rail,431.52424220427775,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,MRL Great Falls (F00548),direct_rail,337.2465492512521,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,MRL Great Falls (F00548),direct_rail,351.69031013442003,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,MRL Great Falls (F00548),direct_rail,367.4582680941689,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,MRL Great Falls (F00548),direct_rail,351.08060831955845,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,MRL Great Falls (F00548),direct_rail,451.6558247487363,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,MRL Great Falls (F00548),direct_rail,325.2286938953584,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,MRL Great Falls (F00548),direct_rail,336.7386985369684,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,MRL Great Falls (F00548),direct_rail,323.9913611196573,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,MRL Great Falls (F00548),direct_rail,424.06195898617057,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,MRL Great Falls (F00548),direct_rail,474.17243420203147,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,MRL Great Falls (F00548),direct_rail,331.20381003117177,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,MRL Great Falls (F00548),direct_rail,439.5716196116069,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,MRL Great Falls (F00548),direct_rail,337.1610342828332,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,MRL Great Falls (F00548),direct_rail,513.156312075398,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,MRL Great Falls (F00548),direct_rail,513.156312075398,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,MRL Great Falls (F00548),direct_rail,460.5072360198664,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,MRL Great Falls (F00548),direct_rail,324.4271425266539,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,MRL Great Falls (F00548),direct_rail,319.81843958123693,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,MRL Great Falls (F00548),direct_rail,302.92200352159705,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,MRL Great Falls (F00548),direct_rail,322.2602408553872,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,MRL Great Falls (F00548),truck_Lemont_rail,666.2622336893307,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,MRL Great Falls (F00548),direct_rail,552.8183037055987,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,MRL Great Falls (F00548),direct_rail,286.2532653016098,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,MRL Great Falls (F00548),direct_rail,290.26370231702106,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,MRL Great Falls (F00548),direct_rail,313.67195097314635,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,MRL Great Falls (F00548),direct_rail,456.8244743645873,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,MRL Great Falls (F00548),direct_rail,285.92727273453653,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,MRL Great Falls (F00548),direct_rail,311.57843707912593,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,MRL Great Falls (F00548),direct_rail,282.83136926514453,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,MRL Great Falls (F00548),direct_rail,298.5232147485638,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,MRL Great Falls (F00548),direct_rail,293.8092196082917,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,MRL Great Falls (F00548),direct_rail,294.56798787790103,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,MRL Great Falls (F00548),direct_rail,297.2094471059484,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,MRL Great Falls (F00548),direct_rail,465.3913250727875,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,MRL Great Falls (F00548),direct_rail,582.735100850588,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,MRL Great Falls (F00548),direct_rail,252.389591316475,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,MRL Great Falls (F00548),direct_rail,279.6601951446941,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,MRL Great Falls (F00548),direct_rail,561.043153497292,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,MRL Great Falls (F00548),direct_rail,637.8700001309311,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,MRL Great Falls (F00548),direct_rail,281.9115770090879,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,MRL Great Falls (F00548),direct_rail,229.22525796904475,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,MRL Great Falls (F00548),direct_rail,224.7469025663878,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,MRL Great Falls (F00548),direct_rail,621.1349564040343,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,MRL Great Falls (F00548),direct_rail,653.909995783645,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,MRL Great Falls (F00548),direct_rail,663.2168849842928,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,MRL Great Falls (F00548),direct_rail,649.2530359889203,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,MRL Great Falls (F00548),direct_rail,235.8664936964538,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,MRL Great Falls (F00548),direct_rail,630.1835173640419,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,MRL Great Falls (F00548),direct_rail,175.28285394215388,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,Marathon Dickinson Refinery (F00313),direct_rail,292.57567682637296,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,Marathon Dickinson Refinery (F00313),direct_rail,270.296366226022,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,Marathon Dickinson Refinery (F00313),direct_rail,276.4271186619755,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,Marathon Dickinson Refinery (F00313),direct_rail,327.17105971470465,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,Marathon Dickinson Refinery (F00313),direct_truck,1977.302,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,Marathon Dickinson Refinery (F00313),direct_rail,265.560370019137,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,Marathon Dickinson Refinery (F00313),direct_truck,2059.259,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,Marathon Dickinson Refinery (F00313),direct_rail,281.42002577750463,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,Marathon Dickinson Refinery (F00313),direct_rail,287.4176501964678,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,Marathon Dickinson Refinery (F00313),direct_rail,249.84520471503413,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,Marathon Dickinson Refinery (F00313),direct_rail,207.79750335999893,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,Marathon Dickinson Refinery (F00313),direct_rail,280.0589667815104,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,Marathon Dickinson Refinery (F00313),direct_rail,207.1878015451373,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,Marathon Dickinson Refinery (F00313),direct_rail,307.549232740926,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,Marathon Dickinson Refinery (F00313),direct_rail,234.13425915438907,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,Marathon Dickinson Refinery (F00313),direct_rail,209.4381315630564,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,Marathon Dickinson Refinery (F00313),direct_rail,225.8865373017911,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,Marathon Dickinson Refinery (F00313),direct_rail,279.95536697835934,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,Marathon Dickinson Refinery (F00313),direct_rail,386.17621692041047,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,Marathon Dickinson Refinery (F00313),direct_rail,190.01012733653184,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,Marathon Dickinson Refinery (F00313),direct_rail,295.465027603796,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,Marathon Dickinson Refinery (F00313),direct_rail,278.2737889553948,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,Marathon Dickinson Refinery (F00313),direct_rail,396.3916459026692,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,Marathon Dickinson Refinery (F00313),direct_rail,396.3916459026692,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,Marathon Dickinson Refinery (F00313),direct_rail,316.4006440120553,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,Marathon Dickinson Refinery (F00313),direct_rail,194.09090591126792,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,Marathon Dickinson Refinery (F00313),direct_rail,218.25441448492623,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,Marathon Dickinson Refinery (F00313),direct_rail,201.35797842528623,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,Marathon Dickinson Refinery (F00313),direct_rail,178.36743408096578,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,Marathon Dickinson Refinery (F00313),direct_truck,1762.514,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,Marathon Dickinson Refinery (F00313),direct_rail,435.87950560132697,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,Marathon Dickinson Refinery (F00313),direct_rail,209.1151711063724,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,Marathon Dickinson Refinery (F00313),direct_rail,194.39081877027792,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,Marathon Dickinson Refinery (F00313),direct_rail,191.054988078286,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,Marathon Dickinson Refinery (F00313),direct_rail,312.71788235677644,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,Marathon Dickinson Refinery (F00313),direct_rail,177.26267964583394,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,Marathon Dickinson Refinery (F00313),direct_rail,181.1923957887584,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,Marathon Dickinson Refinery (F00313),direct_rail,174.16677617644194,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,Marathon Dickinson Refinery (F00313),direct_rail,154.41662274075307,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,Marathon Dickinson Refinery (F00313),direct_rail,162.71170331493096,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,Marathon Dickinson Refinery (F00313),direct_rail,161.8734306815728,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,Marathon Dickinson Refinery (F00313),direct_rail,174.5488992204642,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,Marathon Dickinson Refinery (F00313),direct_rail,321.2847330649764,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,Marathon Dickinson Refinery (F00313),direct_rail,454.8050833213288,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,Marathon Dickinson Refinery (F00313),direct_rail,143.72499822777252,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,Marathon Dickinson Refinery (F00313),direct_rail,137.6526816417306,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,Marathon Dickinson Refinery (F00313),direct_rail,472.9389874169785,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,Marathon Dickinson Refinery (F00313),direct_rail,493.76340812312094,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,Marathon Dickinson Refinery (F00313),direct_rail,299.13096303620404,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,Marathon Dickinson Refinery (F00313),direct_rail,79.71211547655814,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,Marathon Dickinson Refinery (F00313),direct_rail,82.21814799044618,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,Marathon Dickinson Refinery (F00313),direct_rail,506.2541468280376,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,Marathon Dickinson Refinery (F00313),direct_rail,509.8034037758339,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,Marathon Dickinson Refinery (F00313),direct_rail,519.1102929764824,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,Marathon Dickinson Refinery (F00313),direct_rail,505.1464439811098,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,Marathon Dickinson Refinery (F00313),direct_rail,122.9521922282151,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,Marathon Dickinson Refinery (F00313),direct_rail,486.07692535623113,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,Marathon Dickinson Refinery (F00313),direct_rail,73.6063861134033,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,Phillips 66 Rodeo (82191),rail_gulf_marine,467.34830450195824,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,Phillips 66 Rodeo (82191),rail_gulf_marine,475.8024048005266,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,Phillips 66 Rodeo (82191),rail_gulf_marine,460.4460565133146,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,Phillips 66 Rodeo (82191),rail_gulf_marine,404.7171788058714,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,Phillips 66 Rodeo (82191),truck_Lemont_rail,1066.2130019547958,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,Phillips 66 Rodeo (82191),rail_gulf_marine,478.65104434114346,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,Phillips 66 Rodeo (82191),truck_Lemont_rail,1157.9466019547958,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,Phillips 66 Rodeo (82191),rail_gulf_marine,478.3967434177764,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,Phillips 66 Rodeo (82191),rail_gulf_marine,484.2617683741112,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,Phillips 66 Rodeo (82191),rail_gulf_marine,484.0440093834116,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,Phillips 66 Rodeo (82191),rail_gulf_marine,522.3132183619239,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,Phillips 66 Rodeo (82191),rail_gulf_marine,462.35229469879056,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,Phillips 66 Rodeo (82191),rail_gulf_marine,522.8043333001541,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,Phillips 66 Rodeo (82191),rail_gulf_marine,485.51846365034936,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,Phillips 66 Rodeo (82191),direct_rail,487.0651950185824,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,Phillips 66 Rodeo (82191),direct_rail,498.1173400303519,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,Phillips 66 Rodeo (82191),direct_rail,486.043093503693,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,Phillips 66 Rodeo (82191),rail_gulf_marine,503.9876035742517,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,Phillips 66 Rodeo (82191),rail_gulf_marine,369.7096756173266,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,Phillips 66 Rodeo (82191),direct_rail,506.1140657680963,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,Phillips 66 Rodeo (82191),rail_gulf_marine,513.3677861605415,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,Phillips 66 Rodeo (82191),direct_rail,490.73421404797847,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,Phillips 66 Rodeo (82191),rail_gulf_marine,376.7474911421658,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,Phillips 66 Rodeo (82191),rail_gulf_marine,376.7474911421658,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,Phillips 66 Rodeo (82191),rail_gulf_marine,505.91887736884,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,Phillips 66 Rodeo (82191),direct_rail,499.3476513745473,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,Phillips 66 Rodeo (82191),direct_rail,481.19708107462,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,Phillips 66 Rodeo (82191),direct_rail,464.3006450149799,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,Phillips 66 Rodeo (82191),direct_rail,514.9801183484157,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,Phillips 66 Rodeo (82191),truck_Lemont_rail,854.9133019547958,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,Phillips 66 Rodeo (82191),rail_gulf_marine,378.06330910848527,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,Phillips 66 Rodeo (82191),direct_rail,448.3035332365232,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,Phillips 66 Rodeo (82191),direct_rail,451.64234381040376,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,Phillips 66 Rodeo (82191),direct_rail,503.7524033784466,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,Phillips 66 Rodeo (82191),rail_gulf_marine,526.0989091040651,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,Phillips 66 Rodeo (82191),direct_rail,476.0848493481048,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,Phillips 66 Rodeo (82191),direct_rail,516.828315608768,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,Phillips 66 Rodeo (82191),direct_rail,472.9118216704447,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,Phillips 66 Rodeo (82191),direct_rail,553.4673000101784,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,Phillips 66 Rodeo (82191),direct_rail,520.308252547029,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,Phillips 66 Rodeo (82191),direct_rail,521.0670208166383,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,Phillips 66 Rodeo (82191),direct_rail,487.28989951124873,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,Phillips 66 Rodeo (82191),rail_gulf_marine,535.1278628718857,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,Phillips 66 Rodeo (82191),rail_gulf_marine,405.4683360643672,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,Phillips 66 Rodeo (82191),direct_rail,513.0343240380818,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,Phillips 66 Rodeo (82191),direct_rail,527.3798154792518,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,Phillips 66 Rodeo (82191),rail_gulf_marine,257.4092281468204,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,Phillips 66 Rodeo (82191),rail_gulf_marine,463.2849859336196,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,Phillips 66 Rodeo (82191),direct_rail,402.4962879507332,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,Phillips 66 Rodeo (82191),direct_rail,556.1888814420839,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,Phillips 66 Rodeo (82191),direct_rail,549.598447377852,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,Phillips 66 Rodeo (82191),rail_gulf_marine,402.63817884615867,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,Phillips 66 Rodeo (82191),rail_gulf_marine,494.32211144781417,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,Phillips 66 Rodeo (82191),rail_gulf_marine,547.7854457184372,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,Phillips 66 Rodeo (82191),rail_gulf_marine,548.7354969775174,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,Phillips 66 Rodeo (82191),direct_rail,564.6624229248148,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,Phillips 66 Rodeo (82191),rail_gulf_marine,607.5842354158073,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,Phillips 66 Rodeo (82191),direct_rail,504.07878317051455,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,"REG Geismar, LLC (80180)",direct_rail,215.54694890955108,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,"REG Geismar, LLC (80180)",direct_rail,224.0010492081194,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,"REG Geismar, LLC (80180)",direct_rail,208.6447009209074,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,"REG Geismar, LLC (80180)",direct_rail,152.91582321346422,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,"REG Geismar, LLC (80180)",truck_Lemont_rail,725.1919708704567,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,"REG Geismar, LLC (80180)",direct_rail,226.8496887487362,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,"REG Geismar, LLC (80180)",truck_Lemont_rail,816.9255708704568,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,"REG Geismar, LLC (80180)",direct_rail,226.5953878253692,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,"REG Geismar, LLC (80180)",direct_rail,232.46041278170404,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,"REG Geismar, LLC (80180)",direct_rail,215.30695514998155,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,"REG Geismar, LLC (80180)",direct_rail,270.5118627695167,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,"REG Geismar, LLC (80180)",direct_rail,195.4205457578873,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,"REG Geismar, LLC (80180)",direct_rail,271.0029777077468,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,"REG Geismar, LLC (80180)",direct_rail,233.7171080579422,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,"REG Geismar, LLC (80180)",direct_rail,231.27798131818665,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,"REG Geismar, LLC (80180)",direct_rail,271.1387702508277,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,"REG Geismar, LLC (80180)",direct_rail,283.36191008067453,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,"REG Geismar, LLC (80180)",direct_rail,252.18624798184447,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,"REG Geismar, LLC (80180)",direct_rail,109.03291647509712,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,"REG Geismar, LLC (80180)",direct_rail,289.87989944256304,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,"REG Geismar, LLC (80180)",direct_rail,261.5664305681343,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,"REG Geismar, LLC (80180)",direct_rail,231.99612442132485,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,"REG Geismar, LLC (80180)",direct_rail,133.02727067554193,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,"REG Geismar, LLC (80180)",direct_rail,133.02727067554193,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,"REG Geismar, LLC (80180)",direct_rail,257.6708171953709,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,"REG Geismar, LLC (80180)",direct_rail,295.154924918394,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,"REG Geismar, LLC (80180)",direct_rail,284.6855949335712,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,"REG Geismar, LLC (80180)",direct_rail,264.34071360448416,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,"REG Geismar, LLC (80180)",direct_rail,301.8505963920818,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,"REG Geismar, LLC (80180)",truck_Lemont_rail,513.8922708704566,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,"REG Geismar, LLC (80180)",direct_rail,134.34308864186136,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,"REG Geismar, LLC (80180)",direct_rail,267.04266343506043,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,"REG Geismar, LLC (80180)",direct_rail,276.4722278607053,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,"REG Geismar, LLC (80180)",direct_rail,308.8588881883978,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,"REG Geismar, LLC (80180)",direct_rail,275.34288659167066,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,"REG Geismar, LLC (80180)",direct_rail,292.0202263126304,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,"REG Geismar, LLC (80180)",direct_rail,323.6004235980839,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,"REG Geismar, LLC (80180)",direct_rail,292.4793479890132,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,"REG Geismar, LLC (80180)",direct_rail,326.1649937478932,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,"REG Geismar, LLC (80180)",direct_rail,331.4980284678676,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,"REG Geismar, LLC (80180)",direct_rail,330.6597558345094,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,"REG Geismar, LLC (80180)",direct_rail,306.64834743038983,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,"REG Geismar, LLC (80180)",direct_rail,284.3718403594912,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,"REG Geismar, LLC (80180)",direct_rail,161.74811559774332,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,"REG Geismar, LLC (80180)",direct_rail,342.6908715853214,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,"REG Geismar, LLC (80180)",direct_rail,346.73826339839326,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,"REG Geismar, LLC (80180)",direct_rail,13.647543665253052,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,"REG Geismar, LLC (80180)",direct_rail,219.5647654669957,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,"REG Geismar, LLC (80180)",direct_rail,318.3602558377129,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,"REG Geismar, LLC (80180)",direct_rail,394.6397154587895,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,"REG Geismar, LLC (80180)",direct_rail,396.175015292273,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,"REG Geismar, LLC (80180)",direct_rail,158.91795837953478,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,"REG Geismar, LLC (80180)",direct_rail,250.6018909811904,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,"REG Geismar, LLC (80180)",direct_rail,304.0652252518136,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,"REG Geismar, LLC (80180)",direct_rail,305.0152765108936,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,"REG Geismar, LLC (80180)",direct_rail,430.5435270973,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,"REG Geismar, LLC (80180)",direct_rail,363.8640149491834,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,"REG Geismar, LLC (80180)",direct_rail,446.32223536302615,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,251.89033427496943,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,263.20537487483955,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,299.12308146800785,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,319.67681072374575,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),truck_Lemont_rail,803.0142541755998,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,303.44546054977434,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),truck_Lemont_rail,894.7478541755999,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,329.60457511759216,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,335.469600073927,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,209.5018047125216,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,297.0968560527617,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,225.71478092738752,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,297.5287111009883,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,350.1262156655644,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,224.49673001838897,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,266.63458887606043,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,276.5806587808769,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,351.6311655184616,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,257.94918527025726,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,285.3757180677958,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,364.5756178603574,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,180.25192004851732,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,335.46924400871944,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,335.46924400871944,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,368.7716874719496,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,290.6507435436268,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,277.9043436337735,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,257.5594623046865,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,297.3464150173147,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),truck_Lemont_rail,591.7145541755998,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,357.5374530820979,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,250.4981470047381,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,264.9362543097461,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,304.3547068136306,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,383.1714453758802,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,285.2389750128327,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,319.09624222331666,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,285.6980966892156,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,344.0060133480333,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,329.6117232017805,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,328.7734505684223,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,299.86709613059224,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,392.2003991437009,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,390.2611668631792,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,335.9096202855238,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,339.9570120985956,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,286.4988267345655,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,448.9208622186784,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,235.79832377154983,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,387.8584641589917,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,389.3937639924752,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,403.0265895597331,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,479.9579877328729,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,533.4213220034954,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,534.3713732625757,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,427.6959961978272,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,557.072383045255,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),direct_rail,439.5409840632284,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,St Bernard Renewables LLC (82901),direct_rail,214.43038486569387,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,St Bernard Renewables LLC (82901),direct_rail,222.88448516426223,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,St Bernard Renewables LLC (82901),direct_rail,205.70126120212856,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,St Bernard Renewables LLC (82901),direct_rail,149.9784908748004,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,St Bernard Renewables LLC (82901),direct_truck,1098.028,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,St Bernard Renewables LLC (82901),direct_rail,224.36844976379612,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,St Bernard Renewables LLC (82901),direct_truck,1062.818,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,St Bernard Renewables LLC (82901),direct_rail,223.6519481065904,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,St Bernard Renewables LLC (82901),direct_rail,229.5169730629252,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,St Bernard Renewables LLC (82901),direct_rail,232.2657189613344,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,St Bernard Renewables LLC (82901),direct_rail,267.5684230507379,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,St Bernard Renewables LLC (82901),direct_rail,209.43437506252616,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,St Bernard Renewables LLC (82901),direct_rail,268.05953798896803,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,St Bernard Renewables LLC (82901),direct_rail,230.7736683391633,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,St Bernard Renewables LLC (82901),direct_rail,248.2305296341604,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,St Bernard Renewables LLC (82901),direct_rail,286.8263953541599,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,St Bernard Renewables LLC (82901),direct_rail,291.1438917971292,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,St Bernard Renewables LLC (82901),direct_rail,249.24280826306563,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,St Bernard Renewables LLC (82901),direct_rail,116.7917559810623,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,St Bernard Renewables LLC (82901),direct_rail,296.2555267330842,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,St Bernard Renewables LLC (82901),direct_rail,258.62299084935546,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,St Bernard Renewables LLC (82901),direct_rail,249.6023735908857,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,St Bernard Renewables LLC (82901),direct_rail,116.4311481963632,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,St Bernard Renewables LLC (82901),direct_rail,116.4311481963632,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,St Bernard Renewables LLC (82901),direct_rail,245.60253442303755,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,St Bernard Renewables LLC (82901),direct_rail,308.1757691985197,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,St Bernard Renewables LLC (82901),direct_rail,301.6381432495449,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,St Bernard Renewables LLC (82901),direct_rail,281.29326192045784,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,St Bernard Renewables LLC (82901),direct_rail,301.8958121194123,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,St Bernard Renewables LLC (82901),direct_truck,1694.718,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,St Bernard Renewables LLC (82901),direct_rail,117.74696616268264,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,St Bernard Renewables LLC (82901),direct_rail,283.9952117510341,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,St Bernard Renewables LLC (82901),direct_rail,293.42477617667896,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,St Bernard Renewables LLC (82901),direct_rail,321.2610025651713,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,St Bernard Renewables LLC (82901),direct_rail,265.78256615826257,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,St Bernard Renewables LLC (82901),direct_rail,308.97277462860404,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,St Bernard Renewables LLC (82901),direct_rail,323.23341920734254,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,St Bernard Renewables LLC (82901),direct_rail,309.4318963049869,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,St Bernard Renewables LLC (82901),direct_rail,323.22155402911443,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,St Bernard Renewables LLC (82901),direct_rail,328.55458874908885,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,St Bernard Renewables LLC (82901),direct_rail,327.7163161157306,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,St Bernard Renewables LLC (82901),direct_rail,323.6008957463636,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,St Bernard Renewables LLC (82901),direct_rail,274.8115199260831,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,St Bernard Renewables LLC (82901),direct_rail,145.5910714542138,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,St Bernard Renewables LLC (82901),direct_rail,359.6434199012949,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,St Bernard Renewables LLC (82901),direct_rail,363.6908117143669,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,St Bernard Renewables LLC (82901),direct_rail,6.958546315312657,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,St Bernard Renewables LLC (82901),direct_rail,203.40772132346612,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,St Bernard Renewables LLC (82901),direct_rail,335.9665050072736,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,St Bernard Renewables LLC (82901),direct_rail,400.2103755326846,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,St Bernard Renewables LLC (82901),direct_rail,401.54397826835503,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,St Bernard Renewables LLC (82901),direct_rail,142.76091423600525,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,St Bernard Renewables LLC (82901),direct_rail,234.44484683766083,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,St Bernard Renewables LLC (82901),direct_rail,287.90818110828394,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,St Bernard Renewables LLC (82901),direct_rail,288.8582323673641,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,St Bernard Renewables LLC (82901),direct_rail,427.6000873785211,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,St Bernard Renewables LLC (82901),direct_rail,347.2678924700044,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,St Bernard Renewables LLC (82901),direct_rail,451.6911983391082,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,Vertex Renewables Mobile Site (83101),direct_rail,203.94011908652047,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,Vertex Renewables Mobile Site (83101),inland_barge,194.83832531875453,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,Vertex Renewables Mobile Site (83101),direct_rail,192.99306608068463,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,Vertex Renewables Mobile Site (83101),direct_rail,137.27029575335655,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,Vertex Renewables Mobile Site (83101),direct_truck,990.87,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,Vertex Renewables Mobile Site (83101),direct_rail,211.6602546423523,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,Vertex Renewables Mobile Site (83101),direct_truck,931.256,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,Vertex Renewables Mobile Site (83101),direct_rail,210.94375298514643,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,Vertex Renewables Mobile Site (83101),direct_rail,213.6167040211115,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,Vertex Renewables Mobile Site (83101),direct_rail,231.02773523562,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,Vertex Renewables Mobile Site (83101),direct_rail,254.8602279292941,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,Vertex Renewables Mobile Site (83101),direct_rail,208.19639133681173,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,Vertex Renewables Mobile Site (83101),direct_rail,255.3513428675242,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,Vertex Renewables Mobile Site (83101),direct_rail,207.3851169803419,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,Vertex Renewables Mobile Site (83101),direct_rail,246.99254590844592,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,Vertex Renewables Mobile Site (83101),direct_rail,274.11820023271605,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,Vertex Renewables Mobile Site (83101),direct_rail,278.43569667568534,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,Vertex Renewables Mobile Site (83101),direct_rail,230.9051582335092,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,Vertex Renewables Mobile Site (83101),direct_rail,115.55387433909245,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,Vertex Renewables Mobile Site (83101),direct_rail,283.5473316116404,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,Vertex Renewables Mobile Site (83101),direct_rail,237.5452217046538,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,Vertex Renewables Mobile Site (83101),direct_rail,252.0090937358984,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,Vertex Renewables Mobile Site (83101),direct_rail,90.84253534442216,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,Vertex Renewables Mobile Site (83101),direct_rail,90.84253534442216,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,Vertex Renewables Mobile Site (83101),direct_rail,220.0139215710965,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,Vertex Renewables Mobile Site (83101),direct_rail,295.4675740770758,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,Vertex Renewables Mobile Site (83101),direct_rail,300.40015952383044,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,Vertex Renewables Mobile Site (83101),direct_rail,280.0552781947434,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,Vertex Renewables Mobile Site (83101),direct_rail,289.18761699796846,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,Vertex Renewables Mobile Site (83101),direct_truck,1556.985,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,Vertex Renewables Mobile Site (83101),direct_rail,92.1583533107416,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,Vertex Renewables Mobile Site (83101),direct_rail,282.7572280253197,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,Vertex Renewables Mobile Site (83101),direct_rail,292.1867924509645,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,Vertex Renewables Mobile Site (83101),direct_rail,308.55280744372743,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,Vertex Renewables Mobile Site (83101),direct_rail,240.1939533063216,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,Vertex Renewables Mobile Site (83101),direct_rail,307.7347909028896,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,Vertex Renewables Mobile Site (83101),direct_rail,310.5252240858987,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,Vertex Renewables Mobile Site (83101),direct_rail,308.1939125792725,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,Vertex Renewables Mobile Site (83101),inland_barge,282.259960523781,3,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,Vertex Renewables Mobile Site (83101),direct_rail,315.846393627645,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,Vertex Renewables Mobile Site (83101),direct_rail,315.00812099428674,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,Vertex Renewables Mobile Site (83101),direct_rail,322.3629120206492,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,Vertex Renewables Mobile Site (83101),direct_rail,249.2229070741421,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,Vertex Renewables Mobile Site (83101),direct_rail,107.04872919502937,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,Vertex Renewables Mobile Site (83101),direct_rail,357.1360663046552,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,Vertex Renewables Mobile Site (83101),direct_rail,361.418671481757,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,Vertex Renewables Mobile Site (83101),direct_rail,41.99673118617672,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,Vertex Renewables Mobile Site (83101),direct_rail,164.8653790642815,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,Vertex Renewables Mobile Site (83101),direct_rail,347.38259209903447,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,Vertex Renewables Mobile Site (83101),direct_rail,387.5021804112405,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,Vertex Renewables Mobile Site (83101),direct_rail,388.83578314691096,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,Vertex Renewables Mobile Site (83101),direct_rail,104.218571976821,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,Vertex Renewables Mobile Site (83101),direct_rail,195.90250457847608,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,Vertex Renewables Mobile Site (83101),direct_rail,249.3658388490992,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,Vertex Renewables Mobile Site (83101),direct_rail,250.31589010817936,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,Vertex Renewables Mobile Site (83101),direct_rail,414.8918922570773,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,Vertex Renewables Mobile Site (83101),direct_rail,313.6439743649311,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,Vertex Renewables Mobile Site (83101),direct_rail,438.9830032176642,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,sinclair_wy,direct_rail,252.5358639849772,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,sinclair_wy,direct_rail,263.6960427792013,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,sinclair_wy,direct_rail,298.76888628823986,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,sinclair_wy,direct_rail,320.3223404337533,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,sinclair_wy,truck_Lemont_rail,783.4233995947068,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,sinclair_wy,direct_rail,287.9021376454013,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,sinclair_wy,truck_Lemont_rail,875.1569995947067,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,sinclair_wy,direct_rail,319.2854932605891,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,sinclair_wy,direct_rail,325.2831176795522,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,sinclair_wy,direct_rail,209.8530209858488,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,sinclair_wy,direct_rail,243.08574397444767,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,sinclair_wy,direct_rail,240.0191539401146,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,sinclair_wy,direct_rail,243.51759902267423,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,sinclair_wy,direct_rail,345.4147002240106,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,sinclair_wy,direct_rail,204.27559265849297,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,sinclair_wy,direct_rail,215.32773767026143,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,sinclair_wy,direct_rail,203.2534911436035,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,sinclair_wy,direct_rail,330.03616436980354,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,sinclair_wy,direct_rail,344.9560116070863,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,sinclair_wy,direct_rail,223.3244634080066,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,sinclair_wy,direct_rail,345.5458249952402,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,sinclair_wy,direct_rail,207.9446116878888,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,sinclair_wy,direct_rail,383.9398894804528,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,sinclair_wy,direct_rail,383.9398894804528,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,sinclair_wy,direct_rail,358.5852050775748,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,sinclair_wy,direct_rail,216.55804901445748,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,sinclair_wy,direct_rail,198.40747871452987,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,sinclair_wy,direct_rail,181.5110426548899,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,sinclair_wy,direct_rail,232.19051598832576,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,sinclair_wy,truck_Lemont_rail,572.1236995947067,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,sinclair_wy,direct_rail,423.60188111065344,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,sinclair_wy,direct_rail,165.5139308764336,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,sinclair_wy,direct_rail,168.85274145031397,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,sinclair_wy,direct_rail,220.9628010183564,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,sinclair_wy,direct_rail,363.3188928976279,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,sinclair_wy,direct_rail,193.29524698801424,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,sinclair_wy,direct_rail,234.03871324867777,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,sinclair_wy,direct_rail,190.12221931035447,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,sinclair_wy,direct_rail,270.6776976500882,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,sinclair_wy,direct_rail,237.51865018693888,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,sinclair_wy,direct_rail,238.27741845654816,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,sinclair_wy,direct_rail,204.50029715115835,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,sinclair_wy,direct_rail,371.88574360582817,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,sinclair_wy,direct_rail,455.2959866965337,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,sinclair_wy,direct_rail,230.2447216779925,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,sinclair_wy,direct_rail,244.5902131191617,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,sinclair_wy,direct_rail,408.7462150917273,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,sinclair_wy,direct_rail,513.6051027770718,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,sinclair_wy,direct_rail,119.70668559064345,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,sinclair_wy,direct_rail,279.6894172468652,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,sinclair_wy,direct_rail,266.8088450177626,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,sinclair_wy,direct_rail,491.91853380908896,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,sinclair_wy,direct_rail,536.596389511237,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,sinclair_wy,direct_rail,561.0983489528712,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,sinclair_wy,direct_rail,547.2375783407681,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,sinclair_wy,direct_rail,320.77477511378373,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,sinclair_wy,direct_rail,536.6779358970825,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,sinclair_wy,direct_rail,303.4909699939336,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+1,wynnewood_ok,direct_rail,152.223975860299,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+3,wynnewood_ok,direct_rail,163.53901646016928,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+5,wynnewood_ok,direct_rail,190.94689659798897,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+6,wynnewood_ok,direct_rail,199.1412702593765,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+7,wynnewood_ok,truck_Lemont_rail,703.3478957609299,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+8,wynnewood_ok,direct_rail,200.78460882717835,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+9,wynnewood_ok,truck_Lemont_rail,795.0814957609299,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+10,wynnewood_ok,direct_rail,220.2500411015665,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+11,wynnewood_ok,direct_rail,226.1150660579013,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+12,wynnewood_ok,direct_rail,109.83544629785114,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+13,wynnewood_ok,direct_rail,197.430497638091,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+14,wynnewood_ok,direct_rail,103.70683722229316,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+15,wynnewood_ok,direct_rail,197.8623526863176,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+16,wynnewood_ok,direct_rail,230.5068046012136,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+17,wynnewood_ok,direct_rail,124.83037160371866,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+18,wynnewood_ok,direct_rail,166.96823046139005,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+19,wynnewood_ok,direct_rail,176.91430036620645,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+20,wynnewood_ok,direct_rail,245.84090125804173,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+21,wynnewood_ok,direct_rail,132.62150938132766,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+22,wynnewood_ok,direct_rail,185.7093596531254,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+23,wynnewood_ok,direct_rail,255.2210838443316,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+24,wynnewood_ok,direct_rail,80.58556163384672,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+25,wynnewood_ok,direct_rail,210.1415681197899,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+26,wynnewood_ok,direct_rail,210.1415681197899,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+27,wynnewood_ok,direct_rail,254.46051373864225,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+28,wynnewood_ok,direct_rail,190.98438512895635,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+29,wynnewood_ok,direct_rail,178.2379852191031,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+30,wynnewood_ok,direct_rail,157.8931038900161,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+31,wynnewood_ok,direct_rail,197.6800566026443,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+34,wynnewood_ok,truck_Lemont_rail,492.0481957609298,2,lowest linehaul candidate in finite inferred terminal set; not procurement
+35,wynnewood_ok,direct_rail,238.1828202108791,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+36,wynnewood_ok,direct_rail,154.98759550184585,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+37,wynnewood_ok,direct_rail,169.42570280685396,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+38,wynnewood_ok,direct_rail,204.68834839896024,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+39,wynnewood_ok,direct_rail,272.1325831349421,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+40,wynnewood_ok,direct_rail,185.57261659816223,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+41,wynnewood_ok,direct_rail,219.42988380864628,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+42,wynnewood_ok,direct_rail,186.03173827454512,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+43,wynnewood_ok,direct_rail,244.339654933363,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+44,wynnewood_ok,direct_rail,229.9453647871101,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+45,wynnewood_ok,direct_rail,229.10709215375184,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+46,wynnewood_ok,direct_rail,200.20073771592172,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+47,wynnewood_ok,direct_rail,281.16153690276263,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+48,wynnewood_ok,direct_rail,270.90653399196054,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+49,wynnewood_ok,direct_rail,236.2432618708533,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+50,wynnewood_ok,direct_rail,240.29065368392511,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+51,wynnewood_ok,direct_rail,167.14419386334683,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+52,wynnewood_ok,direct_rail,329.5662293474598,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+53,wynnewood_ok,direct_rail,166.94969305023474,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+55,wynnewood_ok,direct_rail,288.1921057443208,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+56,wynnewood_ok,direct_rail,289.72740557780486,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+57,wynnewood_ok,direct_rail,283.67195668851434,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+58,wynnewood_ok,direct_rail,360.60335486165474,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+59,wynnewood_ok,direct_rail,414.06668913227713,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+60,wynnewood_ok,direct_rail,412.7962519515075,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+61,wynnewood_ok,direct_rail,328.0296377831565,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+62,wynnewood_ok,direct_rail,443.9738202007843,1,lowest linehaul candidate in finite inferred terminal set; not procurement
+63,wynnewood_ok,direct_rail,339.8746256485579,1,lowest linehaul candidate in finite inferred terminal set; not procurement
