@@ -1,0 +1,13 @@
+sensitivity,models,largest_absolute_shift,sign_reversals
+2014_2018,576,140575.71697796037,219
+2014_2024,576,13431.996479571855,120
+2016_2025,576,4890.5650910566765,30
+2020_2025,576,20913.94242019917,93
+anticipation_diagnostic,1152,,0
+balanced_fixed_valid_support,144,73647.90277591159,0
+baseline,576,0.0,0
+exclude2019_2021_classification_sensitivity,576,5531.668243639331,10
+fixed2014_denominator_not_fixed_pixel_mask,72,,0
+hub_linear_trends,576,29819.75479502794,184
+leave_one_hub_out,33408,118549.93015342925,384
+leave_one_refinery_shock_out_fixed_weights,9216,74563.78775564118,149
