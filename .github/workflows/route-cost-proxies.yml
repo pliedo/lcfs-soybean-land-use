@@ -1,0 +1,43 @@
+name: Build multimodal linehaul cost proxies
+on:
+  push:
+    paths:
+      - code/28_build_route_cost_proxies.py
+      - .github/workflows/route-cost-proxies.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: route-cost-proxies
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas scipy openpyxl searoute==1.4.3
+      - uses: actions/cache@v4
+        with:
+          path: data/raw/network_cache
+          key: transport-network-2026-rail-2025-water-v1
+      - run: python code/28_build_route_cost_proxies.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: route-cost-checkpoint
+          path: |
+            data/clean/*cost*csv
+            data/clean/crusher_louisiana_terminal_network_legs.csv
+            output/diagnostics/route_cost_proxy_validation.json
+      - name: Commit modelled linehaul proxies
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/clean/refinery_crusher_route_cost_proxies.csv data/clean/modal_freight_cost_assumptions.csv data/clean/crusher_louisiana_terminal_network_legs.csv output/diagnostics/route_cost_proxy_validation.json
+          git diff --cached --quiet || git commit -m "Compute route-specific linehaul cost proxies with explicit limitations"
+          git pull --rebase origin main
+          git push origin HEAD:main
