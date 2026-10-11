@@ -1,0 +1,35 @@
+name: Calibrate route-specific modal freight proxies
+on:
+  push:
+    paths:
+      - code/32_calibrate_route_cost_matrix.py
+      - .github/workflows/calibrated-route-costs.yml
+permissions:
+  contents: write
+jobs:
+  calibrate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas searoute==1.4.3
+      - run: python code/32_calibrate_route_cost_matrix.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: calibrated-route-costs
+          path: |
+            data/clean/*calibrated*csv
+            data/clean/route_cost_pair_coverage_inventory.csv
+            output/diagnostics/calibrated_route_cost_validation.json
+      - name: Commit calibrated proxies and coverage limitations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/clean/calibrated_modal_freight_proxy_rates.csv data/clean/refinery_crusher_calibrated_route_cost_proxies.csv data/clean/route_cost_pair_coverage_inventory.csv output/diagnostics/calibrated_route_cost_validation.json
+          git diff --cached --quiet || git commit -m "Calibrate source-backed modal linehaul proxies and audit unresolved pairs"
+          git pull --rebase origin main
+          git push origin HEAD:main
