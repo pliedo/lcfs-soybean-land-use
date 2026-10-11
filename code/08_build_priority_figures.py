@@ -42,7 +42,7 @@ def save_figure(fig, stem):
 
 def soybean_summary():
     d = pd.read_csv(DATA)
-    d = d[d["year"].between(2014, 2024)].copy()
+    d = d[d["year"].between(2014, 2025)].copy()
     s = (d.groupby(["year", "ring_index"], as_index=False)
            .agg(soy_pixels=("soy_pixels", "sum"),
                 all_valid_pixels=("all_valid_pixels", "sum"),
@@ -63,7 +63,7 @@ def plot_trends(summary, style_name, style):
                 linewidth=2.8, marker="o", markersize=4.8, label=f"{BAND_LABELS[ring]} miles")
     ax.set_xlabel("Year", fontsize=15)
     ax.set_ylabel("Soybean pixels (% of all valid land pixels)", fontsize=15)
-    ax.set_xticks(range(2014, 2025, 2))
+    ax.set_xticks([2014, 2016, 2018, 2020, 2022, 2024, 2025])
     ax.tick_params(labelsize=12, colors=style["foreground"])
     for spine in ("top", "right"):
         ax.spines[spine].set_visible(False)
