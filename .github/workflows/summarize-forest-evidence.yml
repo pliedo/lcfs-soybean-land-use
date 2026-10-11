@@ -1,0 +1,35 @@
+name: Summarize six-band forest transition evidence
+on:
+  push:
+    paths:
+      - code/39_summarize_forest_transition_evidence.py
+      - .github/workflows/summarize-forest-evidence.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  summarize:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas numpy matplotlib tabulate
+      - run: python code/39_summarize_forest_transition_evidence.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: forest-transition-evidence
+          path: |
+            output/diagnostics/cdl_2018_2019_forest_transition_*
+            output/diagnostics/cdl_2018_2019_soy_loss_destinations_by_ring.csv
+            doc/forest-classification-six-band-evidence.md
+      - name: Commit paired-transition evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+pliedo@users.noreply.github.com'
+          git add -f output/diagnostics/cdl_2018_2019_forest_transition_* output/diagnostics/cdl_2018_2019_soy_loss_destinations_by_ring.csv doc/forest-classification-six-band-evidence.md
+          git diff --cached --quiet || git commit -m 'Summarize paired forest transitions across six bands'
+          git pull --rebase origin main
+          git push origin HEAD:main
