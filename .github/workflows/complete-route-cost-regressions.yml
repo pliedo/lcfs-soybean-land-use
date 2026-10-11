@@ -1,0 +1,39 @@
+name: Estimate complete-pair route cost exposure grid
+on:
+  push:
+    paths:
+      - code/35_complete_pair_cost_regressions.py
+      - .github/workflows/complete-route-cost-regressions.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: complete-route-cost-regressions
+  cancel-in-progress: false
+jobs:
+  estimate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas scipy matplotlib
+      - run: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/35_complete_pair_cost_regressions.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: calibrated-exposure-grid
+          path: |
+            output/tables/complete_route_cost*
+            output/figures/results/complete_route_cost*
+            doc/complete-route-cost-regression-status.md
+      - name: Commit all estimated and unidentified models
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output/tables/complete_route_cost* output/figures/results/complete_route_cost* data/clean/refinery_crusher_complete_route_cost_weights.csv data/clean/crusher_year_complete_route_cost_exposure.csv doc/complete-route-cost-regression-status.md
+          git diff --cached --quiet || git commit -m "Report calibrated freight proxy coefficient grid and uncertainty"
+          git pull --rebase origin main
+          git push origin HEAD:main
