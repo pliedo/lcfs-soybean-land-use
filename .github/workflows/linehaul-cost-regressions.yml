@@ -1,0 +1,36 @@
+name: Exploratory linehaul cost exposure regressions
+on:
+  push:
+    paths:
+      - code/29_linehaul_cost_exposure_regressions.py
+      - .github/workflows/linehaul-cost-regressions.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  estimate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas scipy matplotlib
+      - run: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/29_linehaul_cost_exposure_regressions.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: linehaul-cost-regression-checkpoint
+          path: |
+            output/tables/linehaul_cost*
+            output/figures/results/linehaul_cost*
+            doc/linehaul-cost-regression-status.md
+      - name: Commit complete exploratory grid
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output/tables/linehaul_cost* output/figures/results/linehaul_cost* data/clean/refinery_crusher_linehaul_cost_weights.csv data/clean/crusher_year_linehaul_cost_exposure.csv doc/linehaul-cost-regression-status.md
+          git diff --cached --quiet || git commit -m "Report all preliminary linehaul cost exposure estimates"
+          git pull --rebase origin main
+          git push origin HEAD:main
