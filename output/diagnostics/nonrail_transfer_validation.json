@@ -1,0 +1,24 @@
+{
+  "all_pairs": 928,
+  "new_transfer_alternatives": 66,
+  "eligible_new_alternatives": 66,
+  "unresolved_previous_pairs": [],
+  "OSRM_source": "https://router.project-osrm.org/route/v1/driving/",
+  "candidate_terminals": [
+    {
+      "name": "IMTT Lemont",
+      "lat": 41.69282917126276,
+      "lon": -87.95638722362305,
+      "source": "https://imtt.com/terminals/lemont-il/",
+      "selection": "operator address map; vegetable oil rail/barge candidate; not confirmed CARB terminal"
+    },
+    {
+      "name": "IMTT St Rose",
+      "lat": 29.94556687497352,
+      "lon": -90.33137552409985,
+      "source": "https://imtt.com/terminals/st-rose-la/",
+      "selection": "operator address map; Louisiana gathering candidate; not confirmed CARB terminal"
+    }
+  ],
+  "completion_status": "numeric linehaul transport proxy; inferred terminals, not actual procurement; excludes handling; road truck restrictions unverified"
+}
