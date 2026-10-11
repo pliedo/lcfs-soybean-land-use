@@ -1,0 +1,36 @@
+name: Diagnose complete route cost exposure influence and periods
+on:
+  push:
+    paths:
+      - code/37_diagnose_complete_route_exposure.py
+      - .github/workflows/complete-route-cost-diagnostics.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas scipy matplotlib
+      - run: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/37_diagnose_complete_route_exposure.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: complete-route-diagnostics
+          path: |
+            output/tables/complete_route_cost*
+            output/tables/complete_route_land_support_audit.csv
+            doc/complete-route-cost-diagnostics.md
+      - name: Commit baseline-preserving diagnostic grid
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output/tables/complete_route_cost* output/tables/complete_route_land_support_audit.csv doc/complete-route-cost-diagnostics.md
+          git diff --cached --quiet || git commit -m "Add hub and refinery influence and prespecified period diagnostics"
+          git pull --rebase origin main
+          git push origin HEAD:main
