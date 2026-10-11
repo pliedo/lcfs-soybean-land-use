@@ -20,7 +20,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/clean/transport_matrix_sensitivity_candidates.csv.gz output/tables/transport_matrix_sensitivity* output/figures/results/transport_matrix_sensitivity_75mile.*
+          git add -f data/clean/transport_matrix_sensitivity_candidates.csv.gz output/tables/transport_matrix_sensitivity* output/figures/results/transport_matrix_sensitivity_75mile.*
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Update transport matrix sensitivity estimates'
           git pull --rebase origin main
