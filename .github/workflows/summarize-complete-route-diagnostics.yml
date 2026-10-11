@@ -1,0 +1,35 @@
+name: Summarize complete route cost diagnostics
+on:
+  push:
+    paths:
+      - code/38_summarize_complete_route_diagnostics.py
+      - .github/workflows/summarize-complete-route-diagnostics.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  summarize:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas numpy tabulate
+      - run: python code/38_summarize_complete_route_diagnostics.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: complete-route-diagnostic-evidence
+          path: |
+            output/tables/complete_route_cost_*summary.csv
+            output/tables/complete_route_cost_sensitivity_stability.csv
+            doc/complete-route-cost-diagnostic-evidence.md
+      - name: Commit diagnostic evidence summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output/tables/complete_route_cost_*summary.csv output/tables/complete_route_cost_sensitivity_stability.csv doc/complete-route-cost-diagnostic-evidence.md
+          git diff --cached --quiet || git commit -m "Summarize complete route cost diagnostic evidence"
+          git pull --rebase origin main
+          git push origin HEAD:main
