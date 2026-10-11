@@ -1,0 +1,39 @@
+name: Estimate calibrated freight cost exposure grid
+on:
+  push:
+    paths:
+      - code/33_calibrated_cost_exposure_regressions.py
+      - .github/workflows/calibrated-cost-regressions.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: calibrated-cost-regressions
+  cancel-in-progress: false
+jobs:
+  estimate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas scipy matplotlib
+      - run: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/33_calibrated_cost_exposure_regressions.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: calibrated-exposure-grid
+          path: |
+            output/tables/calibrated_cost*
+            output/figures/results/calibrated_cost*
+            doc/calibrated-cost-regression-status.md
+      - name: Commit all estimated and unidentified models
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output/tables/calibrated_cost* output/figures/results/calibrated_cost* data/clean/refinery_crusher_calibrated_cost_weights.csv data/clean/crusher_year_calibrated_cost_exposure.csv doc/calibrated-cost-regression-status.md
+          git diff --cached --quiet || git commit -m "Report calibrated freight proxy coefficient grid and uncertainty"
+          git pull --rebase origin main
+          git push origin HEAD:main
