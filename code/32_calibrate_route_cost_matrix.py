@@ -31,7 +31,13 @@ def main():
    cost=sum(float(r[mode+"_km"])*rates[mode]*(mult if mode=="ocean" else 1) for mode in required) if all(pd.notna(x) and np.isfinite(x) for x in legs) else np.nan
    q=r.to_dict();q.update(ocean_rate_multiplier=mult,linehaul_cost_proxy_usd2013_per_tonne=cost,cost_proxy_truck_equivalent_km=cost/rates["truck"] if pd.notna(cost) else np.nan,cost_basis="fixed2013 price-level proxy; broad domestic freight and grain ocean",cost_exclusions="unmeasured access legs, transfer handling, canal fee; NOT total delivered shipping quote")
    rows.append(q)
- out=pd.DataFrame(rows);assert out[["hub_id","physical_plant_id"]].drop_duplicates().shape[0]==928
+ out=pd.DataFrame(rows)
+ zero=out.linehaul_cost_proxy_usd2013_per_tonne.eq(0)
+ # Shared nearest network nodes do not establish a free transport route.
+ out.loc[zero,["linehaul_cost_proxy_usd2013_per_tonne","cost_proxy_truck_equivalent_km"]]=np.nan
+ out.loc[zero,"cost_status"]="zero_network_leg_access_cost_unmeasured_not_free_route"
+ out.loc[zero,"access_screen_eligible"]=False
+ assert out[["hub_id","physical_plant_id"]].drop_duplicates().shape[0]==928
  assert (out.linehaul_cost_proxy_usd2013_per_tonne.dropna()>0).all()
  out.to_csv(C/"refinery_crusher_calibrated_route_cost_proxies.csv",index=False)
  # Inventory never silently replaces an infeasible documented mode with hypothetical trucking.
