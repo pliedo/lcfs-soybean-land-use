@@ -1,0 +1,929 @@
+hub_id,physical_plant_id,documented_mode_candidate_count,lowest_documented_candidate_linehaul_proxy,lowest_candidate_route,hypothetical_road_linehaul_proxy,status
+1,"AltAir Paramount, LLC (83180)",1,63.17879505948916,direct_rail,369.64337683707225,documented_mode_candidate_proxy_not_verified_procurement
+3,"AltAir Paramount, LLC (83180)",1,64.63557990735745,direct_rail,382.60813609716536,documented_mode_candidate_proxy_not_verified_procurement
+5,"AltAir Paramount, LLC (83180)",1,69.25990010075654,direct_rail,404.6198637327884,documented_mode_candidate_proxy_not_verified_procurement
+6,"AltAir Paramount, LLC (83180)",1,71.7605507483938,direct_rail,388.9368554110527,documented_mode_candidate_proxy_not_verified_procurement
+7,"AltAir Paramount, LLC (83180)",0,,,411.91213043346744,no_access_eligible_documented_mode_candidate_do_not_zero
+8,"AltAir Paramount, LLC (83180)",1,69.81639623503753,direct_rail,412.2448143521566,documented_mode_candidate_proxy_not_verified_procurement
+9,"AltAir Paramount, LLC (83180)",0,,,421.8159143967978,no_access_eligible_documented_mode_candidate_do_not_zero
+10,"AltAir Paramount, LLC (83180)",1,73.18432067151608,direct_rail,435.4786146488468,documented_mode_candidate_proxy_not_verified_procurement
+11,"AltAir Paramount, LLC (83180)",1,73.93942883161017,direct_rail,438.4907945875665,documented_mode_candidate_proxy_not_verified_procurement
+12,"AltAir Paramount, LLC (83180)",1,57.721371637543776,direct_rail,336.3496216817847,documented_mode_candidate_proxy_not_verified_procurement
+13,"AltAir Paramount, LLC (83180)",1,68.99902834716067,direct_rail,375.5543100378998,documented_mode_candidate_proxy_not_verified_procurement
+14,"AltAir Paramount, LLC (83180)",1,61.5672980986451,direct_rail,319.19348278820627,documented_mode_candidate_proxy_not_verified_procurement
+15,"AltAir Paramount, LLC (83180)",1,69.05462866827126,direct_rail,375.84167478500285,documented_mode_candidate_proxy_not_verified_procurement
+16,"AltAir Paramount, LLC (83180)",1,75.8264335954441,direct_rail,434.5445504731154,documented_mode_candidate_proxy_not_verified_procurement
+17,"AltAir Paramount, LLC (83180)",1,59.6519329808903,direct_rail,337.61739975737765,documented_mode_candidate_proxy_not_verified_procurement
+18,"AltAir Paramount, LLC (83180)",1,65.07708313953621,direct_rail,350.28114701983327,documented_mode_candidate_proxy_not_verified_procurement
+19,"AltAir Paramount, LLC (83180)",1,64.44317937182807,direct_rail,339.7752103135814,documented_mode_candidate_proxy_not_verified_procurement
+20,"AltAir Paramount, LLC (83180)",1,76.0201923471827,direct_rail,442.2485521474662,documented_mode_candidate_proxy_not_verified_procurement
+21,"AltAir Paramount, LLC (83180)",1,62.59484382345799,direct_rail,358.5153315026833,documented_mode_candidate_proxy_not_verified_procurement
+22,"AltAir Paramount, LLC (83180)",1,67.26159511150388,direct_rail,366.3522007482753,documented_mode_candidate_proxy_not_verified_procurement
+23,"AltAir Paramount, LLC (83180)",1,77.68676012210024,direct_rail,454.6011163482068,documented_mode_candidate_proxy_not_verified_procurement
+24,"AltAir Paramount, LLC (83180)",1,53.95551782514935,direct_rail,304.4679707138743,documented_mode_candidate_proxy_not_verified_procurement
+25,"AltAir Paramount, LLC (83180)",1,72.57536894657183,direct_rail,411.69042698610565,documented_mode_candidate_proxy_not_verified_procurement
+26,"AltAir Paramount, LLC (83180)",1,72.57536894657183,direct_rail,411.69042698610565,documented_mode_candidate_proxy_not_verified_procurement
+27,"AltAir Paramount, LLC (83180)",1,78.22699420935916,direct_rail,458.2180239827791,documented_mode_candidate_proxy_not_verified_procurement
+28,"AltAir Paramount, LLC (83180)",1,66.39043518274201,direct_rail,360.9185350732143,documented_mode_candidate_proxy_not_verified_procurement
+29,"AltAir Paramount, LLC (83180)",1,64.0070985087919,direct_rail,338.5991005623331,documented_mode_candidate_proxy_not_verified_procurement
+30,"AltAir Paramount, LLC (83180)",1,61.83172213100473,direct_rail,322.8703868260716,documented_mode_candidate_proxy_not_verified_procurement
+31,"AltAir Paramount, LLC (83180)",1,68.40307851542218,direct_rail,373.8180192765058,documented_mode_candidate_proxy_not_verified_procurement
+34,"AltAir Paramount, LLC (83180)",0,,,447.6715317678634,no_access_eligible_documented_mode_candidate_do_not_zero
+35,"AltAir Paramount, LLC (83180)",1,75.41659892837656,direct_rail,423.3768508635886,documented_mode_candidate_proxy_not_verified_procurement
+36,"AltAir Paramount, LLC (83180)",1,59.584299805540105,direct_rail,311.13581132877835,documented_mode_candidate_proxy_not_verified_procurement
+37,"AltAir Paramount, LLC (83180)",1,60.24848910584136,direct_rail,321.03019671391047,documented_mode_candidate_proxy_not_verified_procurement
+38,"AltAir Paramount, LLC (83180)",1,66.95753663688724,direct_rail,359.1107893679842,documented_mode_candidate_proxy_not_verified_procurement
+39,"AltAir Paramount, LLC (83180)",1,80.08092915040213,direct_rail,471.80708058100066,documented_mode_candidate_proxy_not_verified_procurement
+40,"AltAir Paramount, LLC (83180)",1,63.39540416964323,direct_rail,339.28867295726315,documented_mode_candidate_proxy_not_verified_procurement
+41,"AltAir Paramount, LLC (83180)",1,68.64102956305554,direct_rail,368.88363697477166,documented_mode_candidate_proxy_not_verified_procurement
+42,"AltAir Paramount, LLC (83180)",1,62.986884323701624,direct_rail,333.3129796902201,documented_mode_candidate_proxy_not_verified_procurement
+43,"AltAir Paramount, LLC (83180)",1,73.35821257677557,direct_rail,400.74043964689747,documented_mode_candidate_proxy_not_verified_procurement
+44,"AltAir Paramount, LLC (83180)",1,69.08906325400442,direct_rail,376.3275684030883,documented_mode_candidate_proxy_not_verified_procurement
+45,"AltAir Paramount, LLC (83180)",1,69.18675288299458,direct_rail,376.9134989425444,documented_mode_candidate_proxy_not_verified_procurement
+46,"AltAir Paramount, LLC (83180)",1,64.83802800763993,direct_rail,345.09261686380637,documented_mode_candidate_proxy_not_verified_procurement
+47,"AltAir Paramount, LLC (83180)",1,81.24338569883163,direct_rail,474.4063668172296,documented_mode_candidate_proxy_not_verified_procurement
+48,"AltAir Paramount, LLC (83180)",1,79.62970006411683,direct_rail,462.7404138155484,documented_mode_candidate_proxy_not_verified_procurement
+49,"AltAir Paramount, LLC (83180)",1,68.15256207729331,direct_rail,356.42215226504845,documented_mode_candidate_proxy_not_verified_procurement
+50,"AltAir Paramount, LLC (83180)",1,69.99951033896919,direct_rail,370.3862507576746,documented_mode_candidate_proxy_not_verified_procurement
+51,"AltAir Paramount, LLC (83180)",1,66.27054297187783,direct_rail,389.6700732581637,documented_mode_candidate_proxy_not_verified_procurement
+52,"AltAir Paramount, LLC (83180)",1,87.1819977885674,direct_rail,506.0000092998041,documented_mode_candidate_proxy_not_verified_procurement
+53,"AltAir Paramount, LLC (83180)",1,49.875243719804985,direct_rail,251.70525394235656,documented_mode_candidate_proxy_not_verified_procurement
+55,"AltAir Paramount, LLC (83180)",1,73.81507990718701,direct_rail,368.6569123691944,documented_mode_candidate_proxy_not_verified_procurement
+56,"AltAir Paramount, LLC (83180)",1,72.86010690550883,direct_rail,366.0419189200861,documented_mode_candidate_proxy_not_verified_procurement
+57,"AltAir Paramount, LLC (83180)",1,81.27321819353374,direct_rail,484.27590390657724,documented_mode_candidate_proxy_not_verified_procurement
+58,"AltAir Paramount, LLC (83180)",1,91.17795465424457,direct_rail,529.4320809721837,documented_mode_candidate_proxy_not_verified_procurement
+59,"AltAir Paramount, LLC (83180)",1,98.06123311838535,direct_rail,551.5003288246429,documented_mode_candidate_proxy_not_verified_procurement
+60,"AltAir Paramount, LLC (83180)",1,98.18354998209523,direct_rail,563.0675323814191,documented_mode_candidate_proxy_not_verified_procurement
+61,"AltAir Paramount, LLC (83180)",1,76.44613552784583,direct_rail,396.3852930069987,documented_mode_candidate_proxy_not_verified_procurement
+62,"AltAir Paramount, LLC (83180)",1,102.47026560843949,direct_rail,570.0305913498657,documented_mode_candidate_proxy_not_verified_procurement
+63,"AltAir Paramount, LLC (83180)",1,68.64613448995358,direct_rail,345.4018687108232,documented_mode_candidate_proxy_not_verified_procurement
+1,Chevron El Segundo (01013),1,63.49803854163538,direct_rail,372.90185102364507,documented_mode_candidate_proxy_not_verified_procurement
+3,Chevron El Segundo (01013),1,64.95482338950367,direct_rail,385.8667390313848,documented_mode_candidate_proxy_not_verified_procurement
+5,Chevron El Segundo (01013),1,69.57914358290276,direct_rail,407.87833791936123,documented_mode_candidate_proxy_not_verified_procurement
+6,Chevron El Segundo (01013),1,72.07979423054,direct_rail,392.1954583452721,documented_mode_candidate_proxy_not_verified_procurement
+7,Chevron El Segundo (01013),0,,,415.17060462004025,no_access_eligible_documented_mode_candidate_do_not_zero
+8,Chevron El Segundo (01013),1,70.13563971718375,direct_rail,415.5032885387294,documented_mode_candidate_proxy_not_verified_procurement
+9,Chevron El Segundo (01013),0,,,425.07451733101715,no_access_eligible_documented_mode_candidate_do_not_zero
+10,Chevron El Segundo (01013),1,73.50356415366232,direct_rail,438.73708883541957,documented_mode_candidate_proxy_not_verified_procurement
+11,Chevron El Segundo (01013),1,74.25867231375639,direct_rail,441.74926877413935,documented_mode_candidate_proxy_not_verified_procurement
+12,Chevron El Segundo (01013),1,58.040615119689996,direct_rail,339.60796712071095,documented_mode_candidate_proxy_not_verified_procurement
+13,Chevron El Segundo (01013),1,69.3182718293069,direct_rail,378.8127842244727,documented_mode_candidate_proxy_not_verified_procurement
+14,Chevron El Segundo (01013),1,61.88654158079132,direct_rail,322.45208572242564,documented_mode_candidate_proxy_not_verified_procurement
+15,Chevron El Segundo (01013),1,69.37387215041748,direct_rail,379.1001489715757,documented_mode_candidate_proxy_not_verified_procurement
+16,Chevron El Segundo (01013),1,76.1456770775903,direct_rail,437.8030246596882,documented_mode_candidate_proxy_not_verified_procurement
+17,Chevron El Segundo (01013),1,59.97117646303651,direct_rail,340.87587394395047,documented_mode_candidate_proxy_not_verified_procurement
+18,Chevron El Segundo (01013),1,65.39632662168242,direct_rail,353.53974995405264,documented_mode_candidate_proxy_not_verified_procurement
+19,Chevron El Segundo (01013),1,64.76242285397429,direct_rail,343.0336845001542,documented_mode_candidate_proxy_not_verified_procurement
+20,Chevron El Segundo (01013),1,76.3394358293289,direct_rail,445.50702633403904,documented_mode_candidate_proxy_not_verified_procurement
+21,Chevron El Segundo (01013),1,62.914087305604205,direct_rail,361.77380568925616,documented_mode_candidate_proxy_not_verified_procurement
+22,Chevron El Segundo (01013),1,67.5808385936501,direct_rail,369.61067493484813,documented_mode_candidate_proxy_not_verified_procurement
+23,Chevron El Segundo (01013),1,78.00600360424646,direct_rail,457.8595905347796,documented_mode_candidate_proxy_not_verified_procurement
+24,Chevron El Segundo (01013),1,54.27476130729557,direct_rail,307.7264449004472,documented_mode_candidate_proxy_not_verified_procurement
+25,Chevron El Segundo (01013),1,72.894612428718,direct_rail,414.9489011726785,documented_mode_candidate_proxy_not_verified_procurement
+26,Chevron El Segundo (01013),1,72.894612428718,direct_rail,414.9489011726785,documented_mode_candidate_proxy_not_verified_procurement
+27,Chevron El Segundo (01013),1,78.54623769150535,direct_rail,461.47662691699844,documented_mode_candidate_proxy_not_verified_procurement
+28,Chevron El Segundo (01013),1,66.70967866488823,direct_rail,364.1770092597871,documented_mode_candidate_proxy_not_verified_procurement
+29,Chevron El Segundo (01013),1,64.32634199093813,direct_rail,341.85770349655246,documented_mode_candidate_proxy_not_verified_procurement
+30,Chevron El Segundo (01013),1,62.15096561315095,direct_rail,326.1288610126444,documented_mode_candidate_proxy_not_verified_procurement
+31,Chevron El Segundo (01013),1,68.7223219975684,direct_rail,377.07649346307863,documented_mode_candidate_proxy_not_verified_procurement
+34,Chevron El Segundo (01013),0,,,450.92987720678974,no_access_eligible_documented_mode_candidate_do_not_zero
+35,Chevron El Segundo (01013),1,75.73584241052276,direct_rail,426.63532505016144,documented_mode_candidate_proxy_not_verified_procurement
+36,Chevron El Segundo (01013),1,59.90354328768632,direct_rail,314.3942855153512,documented_mode_candidate_proxy_not_verified_procurement
+37,Chevron El Segundo (01013),1,60.567732587987564,direct_rail,324.2885421528367,documented_mode_candidate_proxy_not_verified_procurement
+38,Chevron El Segundo (01013),1,67.27678011903345,direct_rail,362.36926355455705,documented_mode_candidate_proxy_not_verified_procurement
+39,Chevron El Segundo (01013),1,80.40017263254835,direct_rail,475.06568351522003,documented_mode_candidate_proxy_not_verified_procurement
+40,Chevron El Segundo (01013),1,63.71464765178944,direct_rail,342.5470183961894,documented_mode_candidate_proxy_not_verified_procurement
+41,Chevron El Segundo (01013),1,68.96027304520175,direct_rail,372.14223990899103,documented_mode_candidate_proxy_not_verified_procurement
+42,Chevron El Segundo (01013),1,63.30612780584783,direct_rail,336.571453876793,documented_mode_candidate_proxy_not_verified_procurement
+43,Chevron El Segundo (01013),1,73.67745605892179,direct_rail,403.99904258111695,documented_mode_candidate_proxy_not_verified_procurement
+44,Chevron El Segundo (01013),1,69.40830673615062,direct_rail,379.5860425896612,documented_mode_candidate_proxy_not_verified_procurement
+45,Chevron El Segundo (01013),1,69.5059963651408,direct_rail,380.1719731291172,documented_mode_candidate_proxy_not_verified_procurement
+46,Chevron El Segundo (01013),1,65.15727148978614,direct_rail,348.35121979802574,documented_mode_candidate_proxy_not_verified_procurement
+47,Chevron El Segundo (01013),1,81.56262918097785,direct_rail,477.6648410038024,documented_mode_candidate_proxy_not_verified_procurement
+48,Chevron El Segundo (01013),1,79.94894354626304,direct_rail,465.9988880021212,documented_mode_candidate_proxy_not_verified_procurement
+49,Chevron El Segundo (01013),1,68.47180555943953,direct_rail,359.68062645162127,documented_mode_candidate_proxy_not_verified_procurement
+50,Chevron El Segundo (01013),1,70.31875382111538,direct_rail,373.64472494424746,documented_mode_candidate_proxy_not_verified_procurement
+51,Chevron El Segundo (01013),1,66.58978645402405,direct_rail,392.9285474447365,documented_mode_candidate_proxy_not_verified_procurement
+52,Chevron El Segundo (01013),1,87.50124127071363,direct_rail,509.258483486377,documented_mode_candidate_proxy_not_verified_procurement
+53,Chevron El Segundo (01013),1,50.19448720195119,direct_rail,254.96372812892938,documented_mode_candidate_proxy_not_verified_procurement
+55,Chevron El Segundo (01013),1,74.13432338933322,direct_rail,371.9153865557672,documented_mode_candidate_proxy_not_verified_procurement
+56,Chevron El Segundo (01013),1,73.17935038765505,direct_rail,369.3005218543055,documented_mode_candidate_proxy_not_verified_procurement
+57,Chevron El Segundo (01013),1,81.59246167567996,direct_rail,487.5343780931501,documented_mode_candidate_proxy_not_verified_procurement
+58,Chevron El Segundo (01013),1,91.49719813639076,direct_rail,532.6905551587565,documented_mode_candidate_proxy_not_verified_procurement
+59,Chevron El Segundo (01013),1,98.38047660053155,direct_rail,554.7588030112157,documented_mode_candidate_proxy_not_verified_procurement
+60,Chevron El Segundo (01013),1,98.50279346424144,direct_rail,566.3261353156385,documented_mode_candidate_proxy_not_verified_procurement
+61,Chevron El Segundo (01013),1,76.76537900999203,direct_rail,399.64376719357153,documented_mode_candidate_proxy_not_verified_procurement
+62,Chevron El Segundo (01013),1,102.78950909058557,direct_rail,573.2890655364387,documented_mode_candidate_proxy_not_verified_procurement
+63,Chevron El Segundo (01013),1,68.9653779720998,direct_rail,348.660342897396,documented_mode_candidate_proxy_not_verified_procurement
+1,Cheyenne Renewable Diesel Company LLC (F00494),2,26.84881667566242,direct_rail,160.3563525087572,documented_mode_candidate_proxy_not_verified_procurement
+3,Cheyenne Renewable Diesel Company LLC (F00494),2,28.285663430513125,direct_rail,163.75078421008845,documented_mode_candidate_proxy_not_verified_procurement
+5,Cheyenne Renewable Diesel Company LLC (F00494),2,32.80120949017213,direct_rail,190.09615762863618,documented_mode_candidate_proxy_not_verified_procurement
+6,Cheyenne Renewable Diesel Company LLC (F00494),2,35.57616598646349,direct_rail,211.6846917500443,documented_mode_candidate_proxy_not_verified_procurement
+7,Cheyenne Renewable Diesel Company LLC (F00494),1,216.1918893605205,direct_truck,216.1918893605205,documented_mode_candidate_proxy_not_verified_procurement
+8,Cheyenne Renewable Diesel Company LLC (F00494),2,31.402141176739576,direct_rail,192.97598498670092,documented_mode_candidate_proxy_not_verified_procurement
+9,Cheyenne Renewable Diesel Company LLC (F00494),1,226.0958020714974,direct_truck,226.0958020714974,documented_mode_candidate_proxy_not_verified_procurement
+10,Cheyenne Renewable Diesel Company LLC (F00494),2,35.442674353084946,direct_rail,221.13979016514259,documented_mode_candidate_proxy_not_verified_procurement
+11,Cheyenne Renewable Diesel Company LLC (F00494),2,36.21485438192647,direct_rail,225.08654927017992,documented_mode_candidate_proxy_not_verified_procurement
+12,Cheyenne Renewable Diesel Company LLC (F00494),2,21.353501091395927,direct_rail,131.59837694148024,documented_mode_candidate_proxy_not_verified_procurement
+13,Cheyenne Renewable Diesel Company LLC (F00494),2,25.63213596467718,direct_rail,156.28548067244418,documented_mode_candidate_proxy_not_verified_procurement
+14,Cheyenne Renewable Diesel Company LLC (F00494),2,25.23731971481838,direct_rail,151.8794787121575,documented_mode_candidate_proxy_not_verified_procurement
+15,Cheyenne Renewable Diesel Company LLC (F00494),2,25.68773628578775,direct_rail,156.5728454195472,documented_mode_candidate_proxy_not_verified_procurement
+16,Cheyenne Renewable Diesel Company LLC (F00494),2,38.80674825588344,direct_rail,234.03245074316683,documented_mode_candidate_proxy_not_verified_procurement
+17,Cheyenne Renewable Diesel Company LLC (F00494),2,20.635420320438985,direct_rail,121.38997604640893,documented_mode_candidate_proxy_not_verified_procurement
+18,Cheyenne Renewable Diesel Company LLC (F00494),2,22.058357980050495,direct_rail,131.01244640202418,documented_mode_candidate_proxy_not_verified_procurement
+19,Cheyenne Renewable Diesel Company LLC (F00494),2,20.503827155860197,direct_rail,120.50638094812574,documented_mode_candidate_proxy_not_verified_procurement
+20,Cheyenne Renewable Diesel Company LLC (F00494),2,36.82679795724594,direct_rail,222.97972278201058,documented_mode_candidate_proxy_not_verified_procurement
+21,Cheyenne Renewable Diesel Company LLC (F00494),2,38.74769317595454,direct_rail,231.79919406608388,documented_mode_candidate_proxy_not_verified_procurement
+22,Cheyenne Renewable Diesel Company LLC (F00494),2,23.087917598903278,direct_rail,147.08337138281968,documented_mode_candidate_proxy_not_verified_procurement
+23,Cheyenne Renewable Diesel Company LLC (F00494),2,38.82363026158394,direct_rail,233.73414244610692,documented_mode_candidate_proxy_not_verified_procurement
+24,Cheyenne Renewable Diesel Company LLC (F00494),2,21.107797885626514,direct_rail,131.9445793630573,documented_mode_candidate_proxy_not_verified_procurement
+25,Cheyenne Renewable Diesel Company LLC (F00494),2,43.76677570560297,direct_rail,267.3316132996096,documented_mode_candidate_proxy_not_verified_procurement
+26,Cheyenne Renewable Diesel Company LLC (F00494),2,43.76677570560297,direct_rail,267.3316132996096,documented_mode_candidate_proxy_not_verified_procurement
+27,Cheyenne Renewable Diesel Company LLC (F00494),2,40.502419759675455,direct_rail,256.67993425746135,documented_mode_candidate_proxy_not_verified_procurement
+28,Cheyenne Renewable Diesel Company LLC (F00494),2,22.216757670141376,direct_rail,141.64970570775864,documented_mode_candidate_proxy_not_verified_procurement
+29,Cheyenne Renewable Diesel Company LLC (F00494),2,19.879914460457485,direct_rail,119.330399944524,documented_mode_candidate_proxy_not_verified_procurement
+30,Cheyenne Renewable Diesel Company LLC (F00494),2,17.704538082670314,direct_rail,103.60155746061595,documented_mode_candidate_proxy_not_verified_procurement
+31,Cheyenne Renewable Diesel Company LLC (F00494),2,24.229401002821533,direct_rail,154.54918991105015,documented_mode_candidate_proxy_not_verified_procurement
+34,Cheyenne Renewable Diesel Company LLC (F00494),1,228.40270240240784,direct_truck,228.40270240240784,documented_mode_candidate_proxy_not_verified_procurement
+35,Cheyenne Renewable Diesel Company LLC (F00494),2,48.87316378553806,direct_rail,277.804976851284,documented_mode_candidate_proxy_not_verified_procurement
+36,Cheyenne Renewable Diesel Company LLC (F00494),2,15.644947589572213,direct_rail,91.86698196332273,documented_mode_candidate_proxy_not_verified_procurement
+37,Cheyenne Renewable Diesel Company LLC (F00494),2,16.0748115932407,direct_rail,101.76136734845484,documented_mode_candidate_proxy_not_verified_procurement
+38,Cheyenne Renewable Diesel Company LLC (F00494),2,22.78385912428652,direct_rail,139.84196000252854,documented_mode_candidate_proxy_not_verified_procurement
+39,Cheyenne Renewable Diesel Company LLC (F00494),2,41.11187092601695,direct_rail,252.53837996319155,documented_mode_candidate_proxy_not_verified_procurement
+40,Cheyenne Renewable Diesel Company LLC (F00494),2,19.22172665704251,direct_rail,120.01984359180749,documented_mode_candidate_proxy_not_verified_procurement
+41,Cheyenne Renewable Diesel Company LLC (F00494),2,24.467352050454828,direct_rail,144.86170199392637,documented_mode_candidate_proxy_not_verified_procurement
+42,Cheyenne Renewable Diesel Company LLC (F00494),2,18.81320681110091,direct_rail,114.04415032476449,documented_mode_candidate_proxy_not_verified_procurement
+43,Cheyenne Renewable Diesel Company LLC (F00494),2,29.18453506417487,direct_rail,173.0486817487473,documented_mode_candidate_proxy_not_verified_procurement
+44,Cheyenne Renewable Diesel Company LLC (F00494),2,24.915385741403707,direct_rail,152.3056334222431,documented_mode_candidate_proxy_not_verified_procurement
+45,Cheyenne Renewable Diesel Company LLC (F00494),2,25.013075370393885,direct_rail,152.8914352140526,documented_mode_candidate_proxy_not_verified_procurement
+46,Cheyenne Renewable Diesel Company LLC (F00494),2,20.664350495039212,direct_rail,125.8239162459973,documented_mode_candidate_proxy_not_verified_procurement
+47,Cheyenne Renewable Diesel Company LLC (F00494),2,42.21483279305607,direct_rail,255.13753745177394,documented_mode_candidate_proxy_not_verified_procurement
+48,Cheyenne Renewable Diesel Company LLC (F00494),2,52.953705289275995,direct_rail,299.2977227236577,documented_mode_candidate_proxy_not_verified_procurement
+49,Cheyenne Renewable Diesel Company LLC (F00494),2,23.978884564692713,direct_rail,132.40008853655664,documented_mode_candidate_proxy_not_verified_procurement
+50,Cheyenne Renewable Diesel Company LLC (F00494),2,25.825832826368487,direct_rail,146.36431577682933,documented_mode_candidate_proxy_not_verified_procurement
+51,Cheyenne Renewable Diesel Company LLC (F00494),2,47.44343474099856,direct_rail,283.11092486096584,documented_mode_candidate_proxy_not_verified_procurement
+52,Cheyenne Renewable Diesel Company LLC (F00494),2,60.46086675714562,direct_rail,339.5062564799352,documented_mode_candidate_proxy_not_verified_procurement
+53,Cheyenne Renewable Diesel Company LLC (F00494),2,10.230275557370714,direct_rail,59.68457649306801,documented_mode_candidate_proxy_not_verified_procurement
+55,Cheyenne Renewable Diesel Company LLC (F00494),2,30.34477275364224,direct_rail,169.63777034865743,documented_mode_candidate_proxy_not_verified_procurement
+56,Cheyenne Renewable Diesel Company LLC (F00494),2,28.686429392908217,direct_rail,149.31096316345437,documented_mode_candidate_proxy_not_verified_procurement
+57,Cheyenne Renewable Diesel Company LLC (F00494),2,57.66877204074028,direct_rail,345.8978046453397,documented_mode_candidate_proxy_not_verified_procurement
+58,Cheyenne Renewable Diesel Company LLC (F00494),2,63.42094081536083,direct_rail,356.59827904553094,documented_mode_candidate_proxy_not_verified_procurement
+59,Cheyenne Renewable Diesel Company LLC (F00494),2,66.57551042937247,direct_rail,375.0209085382368,documented_mode_candidate_proxy_not_verified_procurement
+60,Cheyenne Renewable Diesel Company LLC (F00494),2,64.7909688336735,direct_rail,373.46705319200635,documented_mode_candidate_proxy_not_verified_procurement
+61,Cheyenne Renewable Diesel Company LLC (F00494),2,35.63441588673565,direct_rail,198.88048080520093,documented_mode_candidate_proxy_not_verified_procurement
+62,Cheyenne Renewable Diesel Company LLC (F00494),2,63.43143972062331,direct_rail,362.8203953080736,documented_mode_candidate_proxy_not_verified_procurement
+63,Cheyenne Renewable Diesel Company LLC (F00494),2,33.5078062143249,direct_rail,143.31788896412692,documented_mode_candidate_proxy_not_verified_procurement
+1,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,30.453326422683116,direct_rail,167.54111492456568,documented_mode_candidate_proxy_not_verified_procurement
+3,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,31.541771939834426,direct_rail,184.2874500591705,documented_mode_candidate_proxy_not_verified_procurement
+5,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,30.682071285211283,direct_rail,184.79548827246288,documented_mode_candidate_proxy_not_verified_procurement
+6,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,24.436574752115433,direct_rail,145.06769822840883,documented_mode_candidate_proxy_not_verified_procurement
+7,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),0,,,169.2887354788562,no_access_eligible_documented_mode_candidate_do_not_zero
+8,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,31.94865358217068,direct_rail,192.67381426024448,documented_mode_candidate_proxy_not_verified_procurement
+9,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),0,,,178.07730732775718,no_access_eligible_documented_mode_candidate_do_not_zero
+10,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,33.80494471602628,direct_rail,212.83324950493056,documented_mode_candidate_proxy_not_verified_procurement
+11,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,34.56005287612041,direct_rail,215.8454294436503,documented_mode_candidate_proxy_not_verified_procurement
+12,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,26.691652390877024,direct_rail,153.7921537493271,documented_mode_candidate_proxy_not_verified_procurement
+13,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,37.60262095874144,direct_rail,214.94561214190162,documented_mode_candidate_proxy_not_verified_procurement
+14,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,24.13132398328453,direct_rail,135.52067399367277,documented_mode_candidate_proxy_not_verified_procurement
+15,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,37.66585085122487,direct_rail,215.23297688900465,documented_mode_candidate_proxy_not_verified_procurement
+16,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,34.721849435368505,direct_rail,211.8993140768457,documented_mode_candidate_proxy_not_verified_procurement
+17,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,28.74788442304643,direct_rail,163.74859550009705,documented_mode_candidate_proxy_not_verified_procurement
+18,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,33.87986718781148,direct_rail,195.35549899026643,documented_mode_candidate_proxy_not_verified_procurement
+19,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,35.453567674374604,direct_rail,190.7097689121008,documented_mode_candidate_proxy_not_verified_procurement
+20,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,37.099707734401946,direct_rail,229.8811116277591,documented_mode_candidate_proxy_not_verified_procurement
+21,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,15.270867827179618,direct_rail,86.40048563839106,documented_mode_candidate_proxy_not_verified_procurement
+22,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,36.292743464965696,direct_rail,211.36861627776028,documented_mode_candidate_proxy_not_verified_procurement
+23,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,38.307384166610454,direct_rail,231.95575120429058,documented_mode_candidate_proxy_not_verified_procurement
+24,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,27.080839183498504,direct_rail,153.99814998380958,documented_mode_candidate_proxy_not_verified_procurement
+25,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,24.47117545103102,direct_rail,137.92735375066064,documented_mode_candidate_proxy_not_verified_procurement
+26,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,24.47117545103102,direct_rail,137.92735375066064,documented_mode_candidate_proxy_not_verified_procurement
+27,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,37.805833112992474,direct_rail,223.54968861329422,documented_mode_candidate_proxy_not_verified_procurement
+28,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,36.971890580478316,direct_rail,209.7373835959523,documented_mode_candidate_proxy_not_verified_procurement
+29,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,35.62398898396096,direct_rail,197.61836762605625,documented_mode_candidate_proxy_not_verified_procurement
+30,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,33.00463339347072,direct_rail,180.97013819812364,documented_mode_candidate_proxy_not_verified_procurement
+31,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,37.8339425247979,direct_rail,218.83443480599075,documented_mode_candidate_proxy_not_verified_procurement
+34,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),0,,,246.1111686996923,no_access_eligible_documented_mode_candidate_do_not_zero
+35,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,24.64058391748486,direct_rail,139.16024121403814,documented_mode_candidate_proxy_not_verified_procurement
+36,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,33.35250307525774,direct_rail,193.84219915269966,documented_mode_candidate_proxy_not_verified_procurement
+37,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,34.5665373030656,direct_rail,203.73645579018523,documented_mode_candidate_proxy_not_verified_procurement
+38,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,38.736243599920016,direct_rail,223.2373468227602,documented_mode_candidate_proxy_not_verified_procurement
+39,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,40.081070457461514,direct_rail,248.5217108860767,documented_mode_candidate_proxy_not_verified_procurement
+40,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,36.56830551233788,direct_rail,200.38940322278495,documented_mode_candidate_proxy_not_verified_procurement
+41,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,40.634181590473226,direct_rail,238.24790618655723,documented_mode_candidate_proxy_not_verified_procurement
+42,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,36.62741634765297,direct_rail,203.19468569349635,documented_mode_candidate_proxy_not_verified_procurement
+43,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,43.841255998917916,direct_rail,245.75698392402902,documented_mode_candidate_proxy_not_verified_procurement
+44,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,41.98802501880788,direct_rail,237.84428231461817,documented_mode_candidate_proxy_not_verified_procurement
+45,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,41.88009939009446,direct_rail,238.27841937878995,documented_mode_candidate_proxy_not_verified_procurement
+46,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,38.45164167972025,direct_rail,214.9743228670826,documented_mode_candidate_proxy_not_verified_procurement
+47,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,41.24352700589101,direct_rail,255.91864942340212,documented_mode_candidate_proxy_not_verified_procurement
+48,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,28.500584760851936,direct_rail,158.91837004442309,documented_mode_candidate_proxy_not_verified_procurement
+49,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,43.09203184044457,direct_rail,232.62897264810854,documented_mode_candidate_proxy_not_verified_procurement
+50,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,43.61312401104952,direct_rail,246.5930711407347,documented_mode_candidate_proxy_not_verified_procurement
+51,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,9.46778592518441,direct_rail,53.136471189456884,documented_mode_candidate_proxy_not_verified_procurement
+52,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,35.94434236301237,direct_rail,201.44436143862822,documented_mode_candidate_proxy_not_verified_procurement
+53,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,38.031462650147674,direct_rail,203.73555455665937,documented_mode_candidate_proxy_not_verified_procurement
+55,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,49.78032323022675,direct_rail,269.86665446020936,documented_mode_candidate_proxy_not_verified_procurement
+56,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,49.97798947053871,direct_rail,273.22980048342856,documented_mode_candidate_proxy_not_verified_procurement
+57,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,28.136208679636777,direct_rail,147.74230183787046,documented_mode_candidate_proxy_not_verified_procurement
+58,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,39.94029922868956,direct_rail,224.8764331110078,documented_mode_candidate_proxy_not_verified_procurement
+59,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,46.82357769283035,direct_rail,258.02521841627834,documented_mode_candidate_proxy_not_verified_procurement
+60,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,46.94589455654026,direct_rail,265.8882234341203,documented_mode_candidate_proxy_not_verified_procurement
+61,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,54.61614433076729,direct_rail,299.1092361691063,documented_mode_candidate_proxy_not_verified_procurement
+62,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,54.19086301388114,direct_rail,299.9032229053896,documented_mode_candidate_proxy_not_verified_procurement
+63,DIAMOND GREEN DIESEL - PORT ARTHUR (82621),1,56.434326035750146,direct_rail,316.4565653178137,documented_mode_candidate_proxy_not_verified_procurement
+1,Diamond Green Diesel LLC (81496),1,27.17673703581496,direct_rail,158.57319760401845,documented_mode_candidate_proxy_not_verified_procurement
+3,Diamond Green Diesel LLC (81496),1,28.26518255296627,direct_rail,161.63636161077258,documented_mode_candidate_proxy_not_verified_procurement
+5,Diamond Green Diesel LLC (81496),1,26.288088851362016,direct_rail,157.17358193835668,documented_mode_candidate_proxy_not_verified_procurement
+6,Diamond Green Diesel LLC (81496),1,19.11312700157034,direct_rail,112.73440051639571,documented_mode_candidate_proxy_not_verified_procurement
+7,Diamond Green Diesel LLC (81496),0,,,136.9554377668431,no_access_eligible_documented_mode_candidate_do_not_zero
+8,Diamond Green Diesel LLC (81496),1,28.631938189694345,direct_rail,165.80134797671477,documented_mode_candidate_proxy_not_verified_procurement
+9,Diamond Green Diesel LLC (81496),0,,,141.2250959694317,no_access_eligible_documented_mode_candidate_do_not_zero
+10,Diamond Green Diesel LLC (81496),1,28.599197544294952,direct_rail,180.49995179291744,documented_mode_candidate_proxy_not_verified_procurement
+11,Diamond Green Diesel LLC (81496),1,29.35430570438908,direct_rail,183.51213173163717,documented_mode_candidate_proxy_not_verified_procurement
+12,Diamond Green Diesel LLC (81496),1,29.00789287545509,direct_rail,171.66696200595618,documented_mode_candidate_proxy_not_verified_procurement
+13,Diamond Green Diesel LLC (81496),1,34.25334033819345,direct_rail,192.29452369350366,documented_mode_candidate_proxy_not_verified_procurement
+14,Diamond Green Diesel LLC (81496),1,26.447564467862595,direct_rail,154.89809603320484,documented_mode_candidate_proxy_not_verified_procurement
+15,Diamond Green Diesel LLC (81496),1,34.31657023067688,direct_rail,192.5818884406067,documented_mode_candidate_proxy_not_verified_procurement
+16,Diamond Green Diesel LLC (81496),1,29.51610226363718,direct_rail,175.05019266203746,documented_mode_candidate_proxy_not_verified_procurement
+17,Diamond Green Diesel LLC (81496),1,31.064124907624496,direct_rail,182.47854562512146,documented_mode_candidate_proxy_not_verified_procurement
+18,Diamond Green Diesel LLC (81496),1,36.196107672389545,direct_rail,205.89413759874242,documented_mode_candidate_proxy_not_verified_procurement
+19,Diamond Green Diesel LLC (81496),1,37.178131777974336,direct_rail,206.9881063514908,documented_mode_candidate_proxy_not_verified_procurement
+20,Diamond Green Diesel LLC (81496),1,31.893960562670618,direct_rail,194.18544037840604,documented_mode_candidate_proxy_not_verified_procurement
+21,Diamond Green Diesel LLC (81496),1,14.605993354399805,direct_rail,81.87397588093216,documented_mode_candidate_proxy_not_verified_procurement
+22,Diamond Green Diesel LLC (81496),1,37.946737423675444,direct_rail,214.4438825632903,documented_mode_candidate_proxy_not_verified_procurement
+23,Diamond Green Diesel LLC (81496),1,33.10163699487914,direct_rail,197.98787337165913,documented_mode_candidate_proxy_not_verified_procurement
+24,Diamond Green Diesel LLC (81496),1,31.15658414204075,direct_rail,175.46012516865753,documented_mode_candidate_proxy_not_verified_procurement
+25,Diamond Green Diesel LLC (81496),1,15.512095540086712,direct_rail,91.11689817451348,documented_mode_candidate_proxy_not_verified_procurement
+26,Diamond Green Diesel LLC (81496),1,15.512095540086712,direct_rail,91.11689817451348,documented_mode_candidate_proxy_not_verified_procurement
+27,Diamond Green Diesel LLC (81496),1,32.14260751857053,direct_rail,188.71430913819853,documented_mode_candidate_proxy_not_verified_procurement
+28,Diamond Green Diesel LLC (81496),1,39.28813106505637,direct_rail,223.61470617480276,documented_mode_candidate_proxy_not_verified_procurement
+29,Diamond Green Diesel LLC (81496),1,37.94022946853903,direct_rail,217.31997623960504,documented_mode_candidate_proxy_not_verified_procurement
+30,Diamond Green Diesel LLC (81496),1,35.320873878048786,direct_rail,206.9268224717323,documented_mode_candidate_proxy_not_verified_procurement
+31,Diamond Green Diesel LLC (81496),1,38.672910893044204,direct_rail,221.06627525896164,documented_mode_candidate_proxy_not_verified_procurement
+34,Diamond Green Diesel LLC (81496),0,,,213.77799973532572,no_access_eligible_documented_mode_candidate_do_not_zero
+35,Diamond Green Diesel LLC (81496),1,15.68150400654057,direct_rail,92.34991438553755,documented_mode_candidate_proxy_not_verified_procurement
+36,Diamond Green Diesel LLC (81496),1,35.668743559835804,direct_rail,211.26561816051907,documented_mode_candidate_proxy_not_verified_procurement
+37,Diamond Green Diesel LLC (81496),1,36.88277778764367,direct_rail,216.66529445689048,documented_mode_candidate_proxy_not_verified_procurement
+38,Diamond Green Diesel LLC (81496),1,41.05248408449808,direct_rail,238.0686894625575,documented_mode_candidate_proxy_not_verified_procurement
+39,Diamond Green Diesel LLC (81496),1,34.74073911181606,direct_rail,205.50853839732056,documented_mode_candidate_proxy_not_verified_procurement
+40,Diamond Green Diesel LLC (81496),1,38.88454599691594,direct_rail,226.34608749639358,documented_mode_candidate_proxy_not_verified_procurement
+41,Diamond Green Diesel LLC (81496),1,41.420077588656596,direct_rail,243.10812984387772,documented_mode_candidate_proxy_not_verified_procurement
+42,Diamond Green Diesel LLC (81496),1,38.943656832231035,direct_rail,229.15149871475154,documented_mode_candidate_proxy_not_verified_procurement
+43,Diamond Green Diesel LLC (81496),1,41.41854997488382,direct_rail,236.5635007267235,documented_mode_candidate_proxy_not_verified_procurement
+44,Diamond Green Diesel LLC (81496),1,42.10516564405814,direct_rail,242.7046347195852,documented_mode_candidate_proxy_not_verified_procurement
+45,Diamond Green Diesel LLC (81496),1,41.99724001534472,direct_rail,243.138771783757,documented_mode_candidate_proxy_not_verified_procurement
+46,Diamond Green Diesel LLC (81496),1,40.767882164298314,direct_rail,240.93100714069126,documented_mode_candidate_proxy_not_verified_procurement
+47,Diamond Green Diesel LLC (81496),1,35.903195660245586,direct_rail,212.9056056822925,documented_mode_candidate_proxy_not_verified_procurement
+48,Diamond Green Diesel LLC (81496),1,19.209836730791782,direct_rail,112.03259709504329,documented_mode_candidate_proxy_not_verified_procurement
+49,Diamond Green Diesel LLC (81496),1,45.40827232502261,direct_rail,258.5856569217172,documented_mode_candidate_proxy_not_verified_procurement
+50,Diamond Green Diesel LLC (81496),1,45.92936449562758,direct_rail,272.54975541434334,documented_mode_candidate_proxy_not_verified_procurement
+51,Diamond Green Diesel LLC (81496),1,0.2672184373958818,direct_rail,1.514844809325374,documented_mode_candidate_proxy_not_verified_procurement
+52,Diamond Green Diesel LLC (81496),1,26.653594332952206,direct_rail,154.55858848924842,documented_mode_candidate_proxy_not_verified_procurement
+53,Diamond Green Diesel LLC (81496),1,42.275762808368285,direct_rail,237.3012247414638,documented_mode_candidate_proxy_not_verified_procurement
+55,Diamond Green Diesel LLC (81496),1,51.33067955424477,direct_rail,295.823338733818,documented_mode_candidate_proxy_not_verified_procurement
+56,Diamond Green Diesel LLC (81496),1,51.50237776789702,direct_rail,299.1864847570372,documented_mode_candidate_proxy_not_verified_procurement
+57,Diamond Green Diesel LLC (81496),1,18.84546064957659,direct_rail,100.85652888849064,documented_mode_candidate_proxy_not_verified_procurement
+58,Diamond Green Diesel LLC (81496),1,30.6495511986294,direct_rail,177.990660161628,documented_mode_candidate_proxy_not_verified_procurement
+59,Diamond Green Diesel LLC (81496),1,37.53282966277021,direct_rail,211.13944546689856,documented_mode_candidate_proxy_not_verified_procurement
+60,Diamond Green Diesel LLC (81496),1,37.6551465264801,direct_rail,219.0024504847405,documented_mode_candidate_proxy_not_verified_procurement
+61,Diamond Green Diesel LLC (81496),1,54.85704049412094,direct_rail,325.0659204427149,documented_mode_candidate_proxy_not_verified_procurement
+62,Diamond Green Diesel LLC (81496),1,45.23178310293683,direct_rail,253.09276732924246,documented_mode_candidate_proxy_not_verified_procurement
+63,Diamond Green Diesel LLC (81496),1,57.95871433310846,direct_rail,344.4214553823332,documented_mode_candidate_proxy_not_verified_procurement
+1,"Jaxon Energy, LLC (83608)",1,21.142304618474085,direct_rail,123.20403038632007,documented_mode_candidate_proxy_not_verified_procurement
+3,"Jaxon Energy, LLC (83608)",1,22.2307501356254,direct_rail,126.26706564542766,documented_mode_candidate_proxy_not_verified_procurement
+5,"Jaxon Energy, LLC (83608)",1,20.25365643402118,direct_rail,121.80441472065833,documented_mode_candidate_proxy_not_verified_procurement
+6,"Jaxon Energy, LLC (83608)",1,13.078694584229492,direct_rail,77.3651045510508,documented_mode_candidate_proxy_not_verified_procurement
+7,"Jaxon Energy, LLC (83608)",0,,,101.58627054914474,no_access_eligible_documented_mode_candidate_do_not_zero
+8,"Jaxon Energy, LLC (83608)",1,22.597505772353497,direct_rail,130.43205201136985,documented_mode_candidate_proxy_not_verified_procurement
+9,"Jaxon Energy, LLC (83608)",0,,,102.180183442687,no_access_eligible_documented_mode_candidate_do_not_zero
+10,"Jaxon Energy, LLC (83608)",1,22.56476512695407,direct_rail,145.13065582757253,documented_mode_candidate_proxy_not_verified_procurement
+11,"Jaxon Energy, LLC (83608)",1,23.319873287048207,direct_rail,148.1429645139388,documented_mode_candidate_proxy_not_verified_procurement
+12,"Jaxon Energy, LLC (83608)",1,23.438561908748206,direct_rail,140.02967407120067,documented_mode_candidate_proxy_not_verified_procurement
+13,"Jaxon Energy, LLC (83608)",1,28.218907920852615,direct_rail,156.9253564758053,documented_mode_candidate_proxy_not_verified_procurement
+14,"Jaxon Energy, LLC (83608)",1,20.499080114167874,direct_rail,123.26067935080275,documented_mode_candidate_proxy_not_verified_procurement
+15,"Jaxon Energy, LLC (83608)",1,28.282137813336043,direct_rail,157.21272122290836,documented_mode_candidate_proxy_not_verified_procurement
+16,"Jaxon Energy, LLC (83608)",1,23.48166984629633,direct_rail,144.19672039948767,documented_mode_candidate_proxy_not_verified_procurement
+17,"Jaxon Energy, LLC (83608)",1,25.493993710515397,direct_rail,150.84125769036592,documented_mode_candidate_proxy_not_verified_procurement
+18,"Jaxon Energy, LLC (83608)",1,30.587831854606545,direct_rail,170.52497038104408,documented_mode_candidate_proxy_not_verified_procurement
+19,"Jaxon Energy, LLC (83608)",1,31.143699360633462,direct_rail,175.35068966908875,documented_mode_candidate_proxy_not_verified_procurement
+20,"Jaxon Energy, LLC (83608)",1,25.85952814532974,direct_rail,162.1785179504011,documented_mode_candidate_proxy_not_verified_procurement
+21,"Jaxon Energy, LLC (83608)",1,8.411358452258282,direct_rail,46.02715489452761,documented_mode_candidate_proxy_not_verified_procurement
+22,"Jaxon Energy, LLC (83608)",1,31.912305006334602,direct_rail,179.07458659794537,documented_mode_candidate_proxy_not_verified_procurement
+23,"Jaxon Energy, LLC (83608)",1,27.067204577538263,direct_rail,164.25315752693254,documented_mode_candidate_proxy_not_verified_procurement
+24,"Jaxon Energy, LLC (83608)",1,26.13986243711315,direct_rail,146.79780910276838,documented_mode_candidate_proxy_not_verified_procurement
+25,"Jaxon Energy, LLC (83608)",1,11.553117961359085,direct_rail,66.35627953736861,documented_mode_candidate_proxy_not_verified_procurement
+26,"Jaxon Energy, LLC (83608)",1,11.553117961359085,direct_rail,66.35627953736861,documented_mode_candidate_proxy_not_verified_procurement
+27,"Jaxon Energy, LLC (83608)",1,26.5656535239203,direct_rail,159.9366351809992,documented_mode_candidate_proxy_not_verified_procurement
+28,"Jaxon Energy, LLC (83608)",1,33.33998461667841,direct_rail,188.24541020945784,documented_mode_candidate_proxy_not_verified_procurement
+29,"Jaxon Energy, LLC (83608)",1,32.37009827142993,direct_rail,185.6826883048495,documented_mode_candidate_proxy_not_verified_procurement
+30,"Jaxon Energy, LLC (83608)",1,29.750742680939684,direct_rail,175.2895345369768,documented_mode_candidate_proxy_not_verified_procurement
+31,"Jaxon Energy, LLC (83608)",1,32.638478475703366,direct_rail,185.6971080412633,documented_mode_candidate_proxy_not_verified_procurement
+34,"Jaxon Energy, LLC (83608)",0,,,178.40870376998083,no_access_eligible_documented_mode_candidate_do_not_zero
+35,"Jaxon Energy, LLC (83608)",1,11.722526427812944,direct_rail,67.58929574839267,documented_mode_candidate_proxy_not_verified_procurement
+36,"Jaxon Energy, LLC (83608)",1,30.098612362726705,direct_rail,179.62820147811698,documented_mode_candidate_proxy_not_verified_procurement
+37,"Jaxon Energy, LLC (83608)",1,31.312646590534563,direct_rail,185.02800652213494,documented_mode_candidate_proxy_not_verified_procurement
+38,"Jaxon Energy, LLC (83608)",1,35.10433763612011,direct_rail,202.69952224485914,documented_mode_candidate_proxy_not_verified_procurement
+39,"Jaxon Energy, LLC (83608)",1,28.840890868389327,direct_rail,176.73086444012122,documented_mode_candidate_proxy_not_verified_procurement
+40,"Jaxon Energy, LLC (83608)",1,33.31441479980685,direct_rail,194.70879956163805,documented_mode_candidate_proxy_not_verified_procurement
+41,"Jaxon Energy, LLC (83608)",1,35.38564517131576,direct_rail,207.7389626261794,documented_mode_candidate_proxy_not_verified_procurement
+42,"Jaxon Energy, LLC (83608)",1,33.373525635121936,direct_rail,197.51408203234948,documented_mode_candidate_proxy_not_verified_procurement
+43,"Jaxon Energy, LLC (83608)",1,35.38411755754297,direct_rail,201.1942047613786,documented_mode_candidate_proxy_not_verified_procurement
+44,"Jaxon Energy, LLC (83608)",1,36.07073322671731,direct_rail,207.33533875424033,documented_mode_candidate_proxy_not_verified_procurement
+45,"Jaxon Energy, LLC (83608)",1,35.96280759800388,direct_rail,207.76947581841208,documented_mode_candidate_proxy_not_verified_procurement
+46,"Jaxon Energy, LLC (83608)",1,35.197750967189215,direct_rail,209.29371920593573,documented_mode_candidate_proxy_not_verified_procurement
+47,"Jaxon Energy, LLC (83608)",1,30.003347416818855,direct_rail,184.12793172509316,documented_mode_candidate_proxy_not_verified_procurement
+48,"Jaxon Energy, LLC (83608)",1,15.935627563553231,direct_rail,91.3897144375562,documented_mode_candidate_proxy_not_verified_procurement
+49,"Jaxon Energy, LLC (83608)",1,39.83814112791354,direct_rail,226.94824023931514,documented_mode_candidate_proxy_not_verified_procurement
+50,"Jaxon Energy, LLC (83608)",1,40.3592332985185,direct_rail,240.91246747958783,documented_mode_candidate_proxy_not_verified_procurement
+51,"Jaxon Energy, LLC (83608)",1,6.186066079827193,direct_rail,37.49620708637627,documented_mode_candidate_proxy_not_verified_procurement
+52,"Jaxon Energy, LLC (83608)",1,23.487925288003776,direct_rail,134.64930992181198,documented_mode_candidate_proxy_not_verified_procurement
+53,"Jaxon Energy, LLC (83608)",1,38.25876026691111,direct_rail,211.55285415997554,documented_mode_candidate_proxy_not_verified_procurement
+55,"Jaxon Energy, LLC (83608)",1,45.29624713690387,direct_rail,264.18605079906246,documented_mode_candidate_proxy_not_verified_procurement
+56,"Jaxon Energy, LLC (83608)",1,45.46794535055614,direct_rail,267.5490680746351,documented_mode_candidate_proxy_not_verified_procurement
+57,"Jaxon Energy, LLC (83608)",1,17.57914569297011,direct_rail,100.33239721937933,documented_mode_candidate_proxy_not_verified_procurement
+58,"Jaxon Energy, LLC (83608)",1,27.483882153680973,direct_rail,158.08138159419155,documented_mode_candidate_proxy_not_verified_procurement
+59,"Jaxon Energy, LLC (83608)",1,34.36716061782178,direct_rail,187.16045379196805,documented_mode_candidate_proxy_not_verified_procurement
+60,"Jaxon Energy, LLC (83608)",1,34.48947748153167,direct_rail,198.35956782725341,documented_mode_candidate_proxy_not_verified_procurement
+61,"Jaxon Energy, LLC (83608)",1,48.82260807678008,direct_rail,293.42863250795943,documented_mode_candidate_proxy_not_verified_procurement
+62,"Jaxon Energy, LLC (83608)",1,41.272805524209176,direct_rail,228.33227743974413,documented_mode_candidate_proxy_not_verified_procurement
+63,"Jaxon Energy, LLC (83608)",1,51.92428191576758,direct_rail,312.7841674475777,documented_mode_candidate_proxy_not_verified_procurement
+1,MARTINEZ REFINERY (90001),2,68.67801150496062,direct_rail,398.3578356998148,documented_mode_candidate_proxy_not_verified_procurement
+3,MARTINEZ REFINERY (90001),2,70.11485825981123,direct_rail,401.75239614879257,documented_mode_candidate_proxy_not_verified_procurement
+5,MARTINEZ REFINERY (90001),2,74.63040431947029,direct_rail,428.09764081969377,documented_mode_candidate_proxy_not_verified_procurement
+6,MARTINEZ REFINERY (90001),2,77.4053608157616,direct_rail,449.6861749411019,documented_mode_candidate_proxy_not_verified_procurement
+7,MARTINEZ REFINERY (90001),1,454.1933725515781,direct_truck,454.1933725515781,documented_mode_candidate_proxy_not_verified_procurement
+8,MARTINEZ REFINERY (90001),2,73.2313360060377,direct_rail,430.97759692540507,documented_mode_candidate_proxy_not_verified_procurement
+9,MARTINEZ REFINERY (90001),1,464.097285262555,direct_truck,464.097285262555,documented_mode_candidate_proxy_not_verified_procurement
+10,MARTINEZ REFINERY (90001),2,77.27186918238306,direct_rail,459.14127335620014,documented_mode_candidate_proxy_not_verified_procurement
+11,MARTINEZ REFINERY (90001),2,78.04404921122452,direct_rail,463.0880324612375,documented_mode_candidate_proxy_not_verified_procurement
+12,MARTINEZ REFINERY (90001),2,63.18269592069408,direct_rail,369.59986013253786,documented_mode_candidate_proxy_not_verified_procurement
+13,MARTINEZ REFINERY (90001),2,67.46133079397542,direct_rail,394.28709261114835,documented_mode_candidate_proxy_not_verified_procurement
+14,MARTINEZ REFINERY (90001),2,67.06651454411656,direct_rail,389.8809619032151,documented_mode_candidate_proxy_not_verified_procurement
+15,MARTINEZ REFINERY (90001),2,67.516931115086,direct_rail,394.5744573582513,documented_mode_candidate_proxy_not_verified_procurement
+16,MARTINEZ REFINERY (90001),2,80.63594308518154,direct_rail,472.0339339342244,documented_mode_candidate_proxy_not_verified_procurement
+17,MARTINEZ REFINERY (90001),2,62.464615149737156,direct_rail,359.3914592374665,documented_mode_candidate_proxy_not_verified_procurement
+18,MARTINEZ REFINERY (90001),2,63.887552809348776,direct_rail,369.01392959308174,documented_mode_candidate_proxy_not_verified_procurement
+19,MARTINEZ REFINERY (90001),2,62.33302198515838,direct_rail,358.5078641391833,documented_mode_candidate_proxy_not_verified_procurement
+20,MARTINEZ REFINERY (90001),2,78.65599278654422,direct_rail,460.98120597306814,documented_mode_candidate_proxy_not_verified_procurement
+21,MARTINEZ REFINERY (90001),2,75.29786675730686,direct_rail,417.9352028344414,documented_mode_candidate_proxy_not_verified_procurement
+22,MARTINEZ REFINERY (90001),2,64.91711242820148,direct_rail,385.0848545738773,documented_mode_candidate_proxy_not_verified_procurement
+23,MARTINEZ REFINERY (90001),2,80.65282509088219,direct_rail,471.7357543848111,documented_mode_candidate_proxy_not_verified_procurement
+24,MARTINEZ REFINERY (90001),2,62.936992714924706,direct_rail,366.0036808690603,documented_mode_candidate_proxy_not_verified_procurement
+25,MARTINEZ REFINERY (90001),2,85.27839188042066,direct_rail,471.1102983178637,documented_mode_candidate_proxy_not_verified_procurement
+26,MARTINEZ REFINERY (90001),2,85.27839188042066,direct_rail,471.1102983178637,documented_mode_candidate_proxy_not_verified_procurement
+27,MARTINEZ REFINERY (90001),2,82.33161458897348,direct_rail,494.6814174485189,documented_mode_candidate_proxy_not_verified_procurement
+28,MARTINEZ REFINERY (90001),2,64.0459524994396,direct_rail,379.65118889881626,documented_mode_candidate_proxy_not_verified_procurement
+29,MARTINEZ REFINERY (90001),2,61.70910928975577,direct_rail,357.3318831355816,documented_mode_candidate_proxy_not_verified_procurement
+30,MARTINEZ REFINERY (90001),2,59.53373291196858,direct_rail,341.6031693993201,documented_mode_candidate_proxy_not_verified_procurement
+31,MARTINEZ REFINERY (90001),2,66.05859583211978,direct_rail,392.55080184975435,documented_mode_candidate_proxy_not_verified_procurement
+34,MARTINEZ REFINERY (90001),1,466.4041855934654,direct_truck,466.4041855934654,documented_mode_candidate_proxy_not_verified_procurement
+35,MARTINEZ REFINERY (90001),2,88.11962186222549,direct_rail,482.79672219534666,documented_mode_candidate_proxy_not_verified_procurement
+36,MARTINEZ REFINERY (90001),2,57.47414241887042,direct_rail,329.8684651543803,documented_mode_candidate_proxy_not_verified_procurement
+37,MARTINEZ REFINERY (90001),2,57.90400642253895,direct_rail,339.76285053951244,documented_mode_candidate_proxy_not_verified_procurement
+38,MARTINEZ REFINERY (90001),2,64.61305395358482,direct_rail,377.84344319358615,documented_mode_candidate_proxy_not_verified_procurement
+39,MARTINEZ REFINERY (90001),2,82.94106575531524,direct_rail,490.53986315424913,documented_mode_candidate_proxy_not_verified_procurement
+40,MARTINEZ REFINERY (90001),2,61.05092148634081,direct_rail,358.02132678286506,documented_mode_candidate_proxy_not_verified_procurement
+41,MARTINEZ REFINERY (90001),2,66.29654687975312,direct_rail,378.5312131214644,documented_mode_candidate_proxy_not_verified_procurement
+42,MARTINEZ REFINERY (90001),2,60.6424016403992,direct_rail,352.04576226346865,documented_mode_candidate_proxy_not_verified_procurement
+43,MARTINEZ REFINERY (90001),2,71.01372989347315,direct_rail,406.71819287628534,documented_mode_candidate_proxy_not_verified_procurement
+44,MARTINEZ REFINERY (90001),2,66.744580570702,direct_rail,385.97514454978113,documented_mode_candidate_proxy_not_verified_procurement
+45,MARTINEZ REFINERY (90001),2,66.84227019969217,direct_rail,386.5610750892372,documented_mode_candidate_proxy_not_verified_procurement
+46,MARTINEZ REFINERY (90001),2,62.49354532433751,direct_rail,363.8253994370549,documented_mode_candidate_proxy_not_verified_procurement
+47,MARTINEZ REFINERY (90001),2,84.04402762235439,direct_rail,493.13902064283155,documented_mode_candidate_proxy_not_verified_procurement
+48,MARTINEZ REFINERY (90001),2,92.33272299796579,direct_rail,522.1602851473065,documented_mode_candidate_proxy_not_verified_procurement
+49,MARTINEZ REFINERY (90001),2,65.8080793939909,direct_rail,366.06972841174127,documented_mode_candidate_proxy_not_verified_procurement
+50,MARTINEZ REFINERY (90001),2,67.65502765566676,direct_rail,380.03395565201396,documented_mode_candidate_proxy_not_verified_procurement
+51,MARTINEZ REFINERY (90001),2,78.97356590572672,direct_rail,458.84772872206264,documented_mode_candidate_proxy_not_verified_procurement
+52,MARTINEZ REFINERY (90001),2,99.88502072241631,direct_rail,565.4198806315621,documented_mode_candidate_proxy_not_verified_procurement
+53,MARTINEZ REFINERY (90001),2,51.57656739331599,direct_rail,293.74380674671755,documented_mode_candidate_proxy_not_verified_procurement
+55,MARTINEZ REFINERY (90001),2,71.36412709772935,direct_rail,362.1877293729193,documented_mode_candidate_proxy_not_verified_procurement
+56,MARTINEZ REFINERY (90001),2,70.51562422220641,direct_rail,359.57286467145764,documented_mode_candidate_proxy_not_verified_procurement
+57,MARTINEZ REFINERY (90001),2,93.97624112738274,direct_rail,544.7682431341096,documented_mode_candidate_proxy_not_verified_procurement
+58,MARTINEZ REFINERY (90001),2,103.88097758809346,direct_rail,588.8519523039417,documented_mode_candidate_proxy_not_verified_procurement
+59,MARTINEZ REFINERY (90001),2,108.4047052586705,direct_rail,610.9202001564009,documented_mode_candidate_proxy_not_verified_procurement
+60,MARTINEZ REFINERY (90001),2,106.62016366297158,direct_rail,611.4685363830639,documented_mode_candidate_proxy_not_verified_procurement
+61,MARTINEZ REFINERY (90001),2,72.45507562158777,direct_rail,389.9161100107237,documented_mode_candidate_proxy_not_verified_procurement
+62,MARTINEZ REFINERY (90001),2,105.26063454992145,direct_rail,600.8218784991311,documented_mode_candidate_proxy_not_verified_procurement
+63,MARTINEZ REFINERY (90001),2,64.65507458369554,direct_rail,330.6773866176636,documented_mode_candidate_proxy_not_verified_procurement
+1,MRL Great Falls (F00548),1,48.92088418387171,direct_rail,285.4355923671004,documented_mode_candidate_proxy_not_verified_procurement
+3,MRL Great Falls (F00548),1,50.35852266299089,direct_rail,286.4261767596679,documented_mode_candidate_proxy_not_verified_procurement
+5,MRL Great Falls (F00548),1,54.01050758149663,direct_rail,307.9414534701882,documented_mode_candidate_proxy_not_verified_procurement
+6,MRL Great Falls (F00548),1,57.64823349467269,direct_rail,336.7639316083875,documented_mode_candidate_proxy_not_verified_procurement
+7,MRL Great Falls (F00548),0,,,341.2711292188637,no_access_eligible_documented_mode_candidate_do_not_zero
+8,MRL Great Falls (F00548),1,52.611439268064046,direct_rail,297.89707707682356,documented_mode_candidate_proxy_not_verified_procurement
+9,MRL Great Falls (F00548),0,,,351.174913182194,no_access_eligible_documented_mode_candidate_do_not_zero
+10,MRL Great Falls (F00548),1,54.78555058489433,direct_rail,311.756889975743,documented_mode_candidate_proxy_not_verified_procurement
+11,MRL Great Falls (F00548),1,55.557730613735814,direct_rail,315.70364908078034,documented_mode_candidate_proxy_not_verified_procurement
+12,MRL Great Falls (F00548),1,43.41969952372542,direct_rail,256.6776167998234,documented_mode_candidate_proxy_not_verified_procurement
+13,MRL Great Falls (F00548),1,45.27929974478643,direct_rail,254.40972700581813,documented_mode_candidate_proxy_not_verified_procurement
+14,MRL Great Falls (F00548),1,47.309387223027656,direct_rail,276.95858982285415,documented_mode_candidate_proxy_not_verified_procurement
+15,MRL Great Falls (F00548),1,45.2008020710248,direct_rail,254.1053675693703,documented_mode_candidate_proxy_not_verified_procurement
+16,MRL Great Falls (F00548),1,58.14962448769283,direct_rail,329.4558289471827,documented_mode_candidate_proxy_not_verified_procurement
+17,MRL Great Falls (F00548),1,41.87242893005733,direct_rail,246.46908715710558,documented_mode_candidate_proxy_not_verified_procurement
+18,MRL Great Falls (F00548),1,43.35431493946188,direct_rail,241.0655484313376,documented_mode_candidate_proxy_not_verified_procurement
+19,MRL Great Falls (F00548),1,41.71312524718474,direct_rail,238.25563104535036,documented_mode_candidate_proxy_not_verified_procurement
+20,MRL Great Falls (F00548),1,54.596979211503495,direct_rail,312.88883928422405,documented_mode_candidate_proxy_not_verified_procurement
+21,MRL Great Falls (F00548),1,61.04858496312466,direct_rail,357.5019587766762,documented_mode_candidate_proxy_not_verified_procurement
+22,MRL Great Falls (F00548),1,42.64171107041542,direct_rail,233.98494286158933,documented_mode_candidate_proxy_not_verified_procurement
+23,MRL Great Falls (F00548),1,56.59381151584145,direct_rail,323.643387695967,documented_mode_candidate_proxy_not_verified_procurement
+24,MRL Great Falls (F00548),1,43.408689672796555,direct_rail,271.01649969156114,documented_mode_candidate_proxy_not_verified_procurement
+25,MRL Great Falls (F00548),1,66.0676674927731,direct_rail,392.4107244103062,documented_mode_candidate_proxy_not_verified_procurement
+26,MRL Great Falls (F00548),1,66.0676674927731,direct_rail,392.4107244103062,documented_mode_candidate_proxy_not_verified_procurement
+27,MRL Great Falls (F00548),1,59.28922285751057,direct_rail,340.9992141893468,documented_mode_candidate_proxy_not_verified_procurement
+28,MRL Great Falls (F00548),1,41.76923107774647,direct_rail,225.36412919614503,documented_mode_candidate_proxy_not_verified_procurement
+29,MRL Great Falls (F00548),1,41.1758714198689,direct_rail,220.2008335788422,documented_mode_candidate_proxy_not_verified_procurement
+30,MRL Great Falls (F00548),1,39.00049504208175,direct_rail,221.40333659763357,documented_mode_candidate_proxy_not_verified_procurement
+31,MRL Great Falls (F00548),1,41.49024758726229,direct_rail,226.96626490983232,documented_mode_candidate_proxy_not_verified_procurement
+34,MRL Great Falls (F00548),0,,,318.50056295446586,no_access_eligible_documented_mode_candidate_do_not_zero
+35,MRL Great Falls (F00548),1,71.17405557270817,direct_rail,402.8840879619806,documented_mode_candidate_proxy_not_verified_procurement
+36,MRL Great Falls (F00548),1,36.85443422527476,direct_rail,231.44591052394648,documented_mode_candidate_proxy_not_verified_procurement
+37,MRL Great Falls (F00548),1,37.37076855265212,direct_rail,215.00187486344464,documented_mode_candidate_proxy_not_verified_procurement
+38,MRL Great Falls (F00548),1,40.38452547702141,direct_rail,209.8102547639005,documented_mode_candidate_proxy_not_verified_procurement
+39,MRL Great Falls (F00548),1,58.815075961583155,direct_rail,342.4474964654051,documented_mode_candidate_proxy_not_verified_procurement
+40,MRL Great Falls (F00548),1,36.812463449470776,direct_rail,202.77406713221248,documented_mode_candidate_proxy_not_verified_procurement
+41,MRL Great Falls (F00548),1,40.11499049014334,direct_rail,205.4316760523293,documented_mode_candidate_proxy_not_verified_procurement
+42,MRL Great Falls (F00548),1,36.413873163835824,direct_rail,200.23632227103516,documented_mode_candidate_proxy_not_verified_procurement
+43,MRL Great Falls (F00548),1,38.43416133987641,direct_rail,212.7975864068358,documented_mode_candidate_proxy_not_verified_procurement
+44,MRL Great Falls (F00548),1,37.827245559710995,direct_rail,212.875607480646,documented_mode_candidate_proxy_not_verified_procurement
+45,MRL Great Falls (F00548),1,37.92493518870118,direct_rail,213.46153802010204,documented_mode_candidate_proxy_not_verified_procurement
+46,MRL Great Falls (F00548),1,38.26501684777411,direct_rail,197.33164661718595,documented_mode_candidate_proxy_not_verified_procurement
+47,MRL Great Falls (F00548),1,59.91803782862229,direct_rail,345.046782701634,documented_mode_candidate_proxy_not_verified_procurement
+48,MRL Great Falls (F00548),1,75.02577279748525,direct_rail,424.37696258200094,documented_mode_candidate_proxy_not_verified_procurement
+49,MRL Great Falls (F00548),1,32.49456589610017,direct_rail,192.1822557457107,documented_mode_candidate_proxy_not_verified_procurement
+50,MRL Great Falls (F00548),1,36.005591959022695,direct_rail,185.92512012330607,documented_mode_candidate_proxy_not_verified_procurement
+51,MRL Great Falls (F00548),1,72.23298562662858,direct_rail,422.1829739371162,documented_mode_candidate_proxy_not_verified_procurement
+52,MRL Great Falls (F00548),1,82.12426132268541,direct_rail,448.9160065194306,documented_mode_candidate_proxy_not_verified_procurement
+53,MRL Great Falls (F00548),1,36.295452075552205,direct_rail,198.75662556921836,documented_mode_candidate_proxy_not_verified_procurement
+55,MRL Great Falls (F00548),1,29.51221249368326,direct_rail,152.17495456099329,documented_mode_candidate_proxy_not_verified_procurement
+56,MRL Great Falls (F00548),1,28.935634775169824,direct_rail,149.55996111188503,documented_mode_candidate_proxy_not_verified_procurement
+57,MRL Great Falls (F00548),1,79.9696638279104,direct_rail,470.97704450368286,documented_mode_candidate_proxy_not_verified_procurement
+58,MRL Great Falls (F00548),1,84.1893730136692,direct_rail,454.31774277814685,documented_mode_candidate_proxy_not_verified_procurement
+59,MRL Great Falls (F00548),1,85.38761309496851,direct_rail,471.02017496527765,documented_mode_candidate_proxy_not_verified_procurement
+60,MRL Great Falls (F00548),1,83.58980040001326,direct_rail,466.1829971366899,documented_mode_candidate_proxy_not_verified_procurement
+61,MRL Great Falls (F00548),1,30.367255963781155,direct_rail,161.85600509578947,documented_mode_candidate_proxy_not_verified_procurement
+62,MRL Great Falls (F00548),1,81.13464475618949,direct_rail,452.7295118102871,documented_mode_candidate_proxy_not_verified_procurement
+63,MRL Great Falls (F00548),1,22.567254925888957,direct_rail,116.87273611950172,documented_mode_candidate_proxy_not_verified_procurement
+1,Marathon Dickinson Refinery (F00313),2,37.66842982961832,direct_rail,213.49102123116236,documented_mode_candidate_proxy_not_verified_procurement
+3,Marathon Dickinson Refinery (F00313),2,34.80002102303244,direct_rail,198.86322862056304,documented_mode_candidate_proxy_not_verified_procurement
+5,Marathon Dickinson Refinery (F00313),2,35.58934097075156,direct_rail,216.36042002985644,documented_mode_candidate_proxy_not_verified_procurement
+6,Marathon Dickinson Refinery (F00313),2,42.12250395804031,direct_rail,264.8193604724495,documented_mode_candidate_proxy_not_verified_procurement
+7,Marathon Dickinson Refinery (F00313),1,254.57297902164547,direct_truck,254.57297902164547,documented_mode_candidate_proxy_not_verified_procurement
+8,Marathon Dickinson Refinery (F00313),2,34.190272657319,direct_rail,206.31617238413833,documented_mode_candidate_proxy_not_verified_procurement
+9,Marathon Dickinson Refinery (F00313),1,265.1247498900697,direct_truck,265.1247498900697,documented_mode_candidate_proxy_not_verified_procurement
+10,Marathon Dickinson Refinery (F00313),2,36.23216601132635,direct_rail,220.17598528305777,documented_mode_candidate_proxy_not_verified_procurement
+11,Marathon Dickinson Refinery (F00313),2,37.00434604016788,direct_rail,224.1227443880951,documented_mode_candidate_proxy_not_verified_procurement
+12,Marathon Dickinson Refinery (F00313),2,32.1669821092474,direct_rail,184.73304566388538,documented_mode_candidate_proxy_not_verified_procurement
+13,Marathon Dickinson Refinery (F00313),2,26.75343951688478,direct_rail,166.94720203102344,documented_mode_candidate_proxy_not_verified_procurement
+14,Marathon Dickinson Refinery (F00313),2,36.05693286877429,direct_rail,205.0141474345627,documented_mode_candidate_proxy_not_verified_procurement
+15,Marathon Dickinson Refinery (F00313),2,26.674941843123147,direct_rail,166.64297134222215,documented_mode_candidate_proxy_not_verified_procurement
+16,Marathon Dickinson Refinery (F00313),2,39.59623991412485,direct_rail,237.87492425449744,documented_mode_candidate_proxy_not_verified_procurement
+17,Marathon Dickinson Refinery (F00313),2,30.14423484321504,direct_rail,174.52464476881408,documented_mode_candidate_proxy_not_verified_procurement
+18,Marathon Dickinson Refinery (F00313),2,26.964666536894498,direct_rail,159.3718192555776,documented_mode_candidate_proxy_not_verified_procurement
+19,Marathon Dickinson Refinery (F00313),2,29.082360065281378,direct_rail,166.31105990941228,documented_mode_candidate_proxy_not_verified_procurement
+20,Marathon Dickinson Refinery (F00313),2,36.04359463793539,direct_rail,221.3079345915389,documented_mode_candidate_proxy_not_verified_procurement
+21,Marathon Dickinson Refinery (F00313),2,49.71927908267835,direct_rail,285.55738764073817,documented_mode_candidate_proxy_not_verified_procurement
+22,Marathon Dickinson Refinery (F00313),2,24.46335671553617,direct_rail,147.2632318450522,documented_mode_candidate_proxy_not_verified_procurement
+23,Marathon Dickinson Refinery (F00313),2,38.040426942273385,direct_rail,232.06248300328178,documented_mode_candidate_proxy_not_verified_procurement
+24,Marathon Dickinson Refinery (F00313),2,35.82709542498592,direct_rail,193.74473718426015,documented_mode_candidate_proxy_not_verified_procurement
+25,Marathon Dickinson Refinery (F00313),2,51.034491522658506,direct_rail,312.3177147241215,documented_mode_candidate_proxy_not_verified_procurement
+26,Marathon Dickinson Refinery (F00313),2,51.034491522658506,direct_rail,312.3177147241215,documented_mode_candidate_proxy_not_verified_procurement
+27,Marathon Dickinson Refinery (F00313),2,40.7358382839425,direct_rail,249.41830949666164,documented_mode_candidate_proxy_not_verified_procurement
+28,Marathon Dickinson Refinery (F00313),2,24.988747353131373,direct_rail,149.16496333226493,documented_mode_candidate_proxy_not_verified_procurement
+29,Marathon Dickinson Refinery (F00313),2,28.09974221441775,direct_rail,148.2562624429042,documented_mode_candidate_proxy_not_verified_procurement
+30,Marathon Dickinson Refinery (F00313),2,25.924365836630592,direct_rail,149.45876546169552,documented_mode_candidate_proxy_not_verified_procurement
+31,Marathon Dickinson Refinery (F00313),2,22.9643873593606,direct_rail,138.2239883283154,documented_mode_candidate_proxy_not_verified_procurement
+34,Marathon Dickinson Refinery (F00313),1,226.91952951413413,direct_truck,226.91952951413413,documented_mode_candidate_proxy_not_verified_procurement
+35,Marathon Dickinson Refinery (F00313),2,56.11846052621795,direct_rail,319.42085113201625,documented_mode_candidate_proxy_not_verified_procurement
+36,Marathon Dickinson Refinery (F00313),2,26.923086138167225,direct_rail,154.1105466792491,documented_mode_candidate_proxy_not_verified_procurement
+37,Marathon Dickinson Refinery (F00313),2,25.027360427899453,direct_rail,143.05743247515315,documented_mode_candidate_proxy_not_verified_procurement
+38,Marathon Dickinson Refinery (F00313),2,24.597880077011116,direct_rail,137.8990292684193,documented_mode_candidate_proxy_not_verified_procurement
+39,Marathon Dickinson Refinery (F00313),2,40.2616913880151,direct_rail,250.86659177271983,documented_mode_candidate_proxy_not_verified_procurement
+40,Marathon Dickinson Refinery (F00313),2,22.822152825820005,direct_rail,130.82949599627446,documented_mode_candidate_proxy_not_verified_procurement
+41,Marathon Dickinson Refinery (F00313),2,23.32809453083711,direct_rail,133.5204505568481,documented_mode_candidate_proxy_not_verified_procurement
+42,Marathon Dickinson Refinery (F00313),2,22.42356254018505,direct_rail,128.29175113509712,documented_mode_candidate_proxy_not_verified_procurement
+43,Marathon Dickinson Refinery (F00313),2,19.88077676630837,direct_rail,121.21668171415055,documented_mode_candidate_proxy_not_verified_procurement
+44,Marathon Dickinson Refinery (F00313),2,20.94874886818914,direct_rail,119.75900085989407,documented_mode_candidate_proxy_not_verified_procurement
+45,Marathon Dickinson Refinery (F00313),2,20.840823239475718,direct_rail,119.65342778972182,documented_mode_candidate_proxy_not_verified_procurement
+46,Marathon Dickinson Refinery (F00313),2,22.47275998279602,direct_rail,125.42042112170478,documented_mode_candidate_proxy_not_verified_procurement
+47,Marathon Dickinson Refinery (F00313),2,41.36465325505421,direct_rail,253.46574926130225,documented_mode_candidate_proxy_not_verified_procurement
+48,Marathon Dickinson Refinery (F00313),2,58.55508411729637,direct_rail,340.91359700439006,documented_mode_candidate_proxy_not_verified_procurement
+49,Marathon Dickinson Refinery (F00313),2,18.50425527244941,direct_rail,100.6013510530255,documented_mode_candidate_proxy_not_verified_procurement
+50,Marathon Dickinson Refinery (F00313),2,17.722458802880656,direct_rail,94.34421543062084,documented_mode_candidate_proxy_not_verified_procurement
+51,Marathon Dickinson Refinery (F00313),2,60.88978159240254,direct_rail,357.4392586728056,documented_mode_candidate_proxy_not_verified_procurement
+52,Marathon Dickinson Refinery (F00313),2,63.57087674911745,direct_rail,357.3349730790988,documented_mode_candidate_proxy_not_verified_procurement
+53,Marathon Dickinson Refinery (F00313),2,38.512407501605814,direct_rail,137.30717633722188,documented_mode_candidate_proxy_not_verified_procurement
+55,Marathon Dickinson Refinery (F00313),2,10.26274726925114,direct_rail,60.59404986830806,documented_mode_candidate_proxy_not_verified_procurement
+56,Marathon Dickinson Refinery (F00313),2,10.585393057595855,direct_rail,57.979185166846364,documented_mode_candidate_proxy_not_verified_procurement
+57,Marathon Dickinson Refinery (F00313),2,65.17902996106565,direct_rail,387.513678926072,documented_mode_candidate_proxy_not_verified_procurement
+58,Marathon Dickinson Refinery (F00313),2,65.63598844010112,direct_rail,362.73696683310817,documented_mode_candidate_proxy_not_verified_procurement
+59,Marathon Dickinson Refinery (F00313),2,66.8342285214005,direct_rail,379.43927027259247,documented_mode_candidate_proxy_not_verified_procurement
+60,Marathon Dickinson Refinery (F00313),2,65.03641582644526,direct_rail,374.60209244400465,documented_mode_candidate_proxy_not_verified_procurement
+61,Marathon Dickinson Refinery (F00313),2,15.829805387734764,direct_rail,88.32243050611238,documented_mode_candidate_proxy_not_verified_procurement
+62,Marathon Dickinson Refinery (F00313),2,62.58126018262145,direct_rail,361.1486071176019,documented_mode_candidate_proxy_not_verified_procurement
+63,Marathon Dickinson Refinery (F00313),2,9.476648983264345,direct_rail,37.33900620993685,documented_mode_candidate_proxy_not_verified_procurement
+1,Phillips 66 Rodeo (82191),2,60.16999432447779,rail_gulf_marine,398.14038092478927,documented_mode_candidate_proxy_not_verified_procurement
+3,Phillips 66 Rodeo (82191),2,61.25843984162911,rail_gulf_marine,401.53481262612047,documented_mode_candidate_proxy_not_verified_procurement
+5,Phillips 66 Rodeo (82191),2,59.28134614002485,rail_gulf_marine,427.8801860446682,documented_mode_candidate_proxy_not_verified_procurement
+6,Phillips 66 Rodeo (82191),2,52.10638429023317,rail_gulf_marine,449.46884891372287,documented_mode_candidate_proxy_not_verified_procurement
+7,Phillips 66 Rodeo (82191),0,,,453.97591777655254,no_access_eligible_documented_mode_candidate_do_not_zero
+8,Phillips 66 Rodeo (82191),2,61.62519547835718,rail_gulf_marine,430.76001340273297,documented_mode_candidate_proxy_not_verified_procurement
+9,Phillips 66 Rodeo (82191),0,,,463.87983048752943,no_access_eligible_documented_mode_candidate_do_not_zero
+10,Phillips 66 Rodeo (82191),2,61.592454832957785,rail_gulf_marine,458.9238185811746,documented_mode_candidate_proxy_not_verified_procurement
+11,Phillips 66 Rodeo (82191),2,62.347562993051916,rail_gulf_marine,462.87057768621196,documented_mode_candidate_proxy_not_verified_procurement
+12,Phillips 66 Rodeo (82191),2,62.31952703548391,rail_gulf_marine,369.38240535751225,documented_mode_candidate_proxy_not_verified_procurement
+13,Phillips 66 Rodeo (82191),2,67.24659762685629,rail_gulf_marine,394.0696378361228,documented_mode_candidate_proxy_not_verified_procurement
+14,Phillips 66 Rodeo (82191),2,59.52676982017155,rail_gulf_marine,389.66350712818956,documented_mode_candidate_proxy_not_verified_procurement
+15,Phillips 66 Rodeo (82191),2,67.30982751933972,rail_gulf_marine,394.35700258322584,documented_mode_candidate_proxy_not_verified_procurement
+16,Phillips 66 Rodeo (82191),2,62.50935955230001,rail_gulf_marine,471.8164791591989,documented_mode_candidate_proxy_not_verified_procurement
+17,Phillips 66 Rodeo (82191),2,62.70849757580745,direct_rail,359.17400446244096,documented_mode_candidate_proxy_not_verified_procurement
+18,Phillips 66 Rodeo (82191),2,64.13143523541908,direct_rail,368.79647481805625,documented_mode_candidate_proxy_not_verified_procurement
+19,Phillips 66 Rodeo (82191),2,62.57690441122869,direct_rail,358.2905381118043,documented_mode_candidate_proxy_not_verified_procurement
+20,Phillips 66 Rodeo (82191),2,64.88721785133345,rail_gulf_marine,460.76375119804266,documented_mode_candidate_proxy_not_verified_procurement
+21,Phillips 66 Rodeo (82191),2,47.59925064306264,rail_gulf_marine,420.0843872983262,documented_mode_candidate_proxy_not_verified_procurement
+22,Phillips 66 Rodeo (82191),2,65.16099485427176,direct_rail,384.8673997988517,documented_mode_candidate_proxy_not_verified_procurement
+23,Phillips 66 Rodeo (82191),2,66.09489428354198,rail_gulf_marine,471.5182996097855,documented_mode_candidate_proxy_not_verified_procurement
+24,Phillips 66 Rodeo (82191),2,63.180875140995,direct_rail,365.7862260940348,documented_mode_candidate_proxy_not_verified_procurement
+25,Phillips 66 Rodeo (82191),2,48.50535282874955,rail_gulf_marine,473.25961152939504,documented_mode_candidate_proxy_not_verified_procurement
+26,Phillips 66 Rodeo (82191),2,48.50535282874955,rail_gulf_marine,473.25961152939504,documented_mode_candidate_proxy_not_verified_procurement
+27,Phillips 66 Rodeo (82191),2,65.13586480723336,rail_gulf_marine,494.4639626734934,documented_mode_candidate_proxy_not_verified_procurement
+28,Phillips 66 Rodeo (82191),2,64.2898349255099,direct_rail,379.4337341237907,documented_mode_candidate_proxy_not_verified_procurement
+29,Phillips 66 Rodeo (82191),2,61.952991715826045,direct_rail,357.1144283605561,documented_mode_candidate_proxy_not_verified_procurement
+30,Phillips 66 Rodeo (82191),2,59.77761533803887,direct_rail,341.38571462429456,documented_mode_candidate_proxy_not_verified_procurement
+31,Phillips 66 Rodeo (82191),2,66.30247825819006,direct_rail,392.33334707472875,documented_mode_candidate_proxy_not_verified_procurement
+34,Phillips 66 Rodeo (82191),0,,,466.1867308184399,no_access_eligible_documented_mode_candidate_do_not_zero
+35,Phillips 66 Rodeo (82191),2,48.6747612952034,rail_gulf_marine,484.94590665923147,documented_mode_candidate_proxy_not_verified_procurement
+36,Phillips 66 Rodeo (82191),2,57.718024844940715,direct_rail,329.65101037935483,documented_mode_candidate_proxy_not_verified_procurement
+37,Phillips 66 Rodeo (82191),2,58.14788884860922,direct_rail,339.5453957644869,documented_mode_candidate_proxy_not_verified_procurement
+38,Phillips 66 Rodeo (82191),2,64.8569363796551,direct_rail,377.62598841856055,documented_mode_candidate_proxy_not_verified_procurement
+39,Phillips 66 Rodeo (82191),2,67.7339964004789,rail_gulf_marine,490.3224083792236,documented_mode_candidate_proxy_not_verified_procurement
+40,Phillips 66 Rodeo (82191),2,61.29480391241111,direct_rail,357.8038720078396,documented_mode_candidate_proxy_not_verified_procurement
+41,Phillips 66 Rodeo (82191),2,66.54042930582341,direct_rail,378.3138870940855,documented_mode_candidate_proxy_not_verified_procurement
+42,Phillips 66 Rodeo (82191),2,60.88628406646949,direct_rail,351.8283074884431,documented_mode_candidate_proxy_not_verified_procurement
+43,Phillips 66 Rodeo (82191),2,71.25761231954345,direct_rail,406.50086684890636,documented_mode_candidate_proxy_not_verified_procurement
+44,Phillips 66 Rodeo (82191),2,66.98846299677228,direct_rail,385.75768977475565,documented_mode_candidate_proxy_not_verified_procurement
+45,Phillips 66 Rodeo (82191),2,67.08615262576247,direct_rail,386.34362031421165,documented_mode_candidate_proxy_not_verified_procurement
+46,Phillips 66 Rodeo (82191),2,62.737427750407804,direct_rail,363.6079446620293,documented_mode_candidate_proxy_not_verified_procurement
+47,Phillips 66 Rodeo (82191),2,68.89645294890842,rail_gulf_marine,492.92169461545257,documented_mode_candidate_proxy_not_verified_procurement
+48,Phillips 66 Rodeo (82191),2,52.20309401945461,rail_gulf_marine,524.3095983588378,documented_mode_candidate_proxy_not_verified_procurement
+49,Phillips 66 Rodeo (82191),2,66.0519618200612,direct_rail,365.8522736367157,documented_mode_candidate_proxy_not_verified_procurement
+50,Phillips 66 Rodeo (82191),2,67.89891008173704,direct_rail,379.81637212934186,documented_mode_candidate_proxy_not_verified_procurement
+51,Phillips 66 Rodeo (82191),2,33.14083232455055,rail_gulf_marine,460.99691318594745,documented_mode_candidate_proxy_not_verified_procurement
+52,Phillips 66 Rodeo (82191),2,59.646851621615035,rail_gulf_marine,567.5691938430936,documented_mode_candidate_proxy_not_verified_procurement
+53,Phillips 66 Rodeo (82191),2,51.820449819386305,direct_rail,293.52635197169207,documented_mode_candidate_proxy_not_verified_procurement
+55,Phillips 66 Rodeo (82191),2,71.60800952379965,direct_rail,361.9704033455404,documented_mode_candidate_proxy_not_verified_procurement
+56,Phillips 66 Rodeo (82191),2,70.75950664827671,direct_rail,359.3554098964321,documented_mode_candidate_proxy_not_verified_procurement
+57,Phillips 66 Rodeo (82191),2,51.83871793823942,rail_gulf_marine,546.917556345641,documented_mode_candidate_proxy_not_verified_procurement
+58,Phillips 66 Rodeo (82191),2,63.64280848729222,rail_gulf_marine,591.0012655154732,documented_mode_candidate_proxy_not_verified_procurement
+59,Phillips 66 Rodeo (82191),2,70.52608695143303,rail_gulf_marine,612.8050657019154,documented_mode_candidate_proxy_not_verified_procurement
+60,Phillips 66 Rodeo (82191),2,70.64840381514293,rail_gulf_marine,611.2510816080384,documented_mode_candidate_proxy_not_verified_procurement
+61,Phillips 66 Rodeo (82191),2,72.69895804765805,direct_rail,389.69865523569814,documented_mode_candidate_proxy_not_verified_procurement
+62,Phillips 66 Rodeo (82191),2,78.22504039159966,rail_gulf_marine,600.6044237241057,documented_mode_candidate_proxy_not_verified_procurement
+63,Phillips 66 Rodeo (82191),2,64.89895700976582,direct_rail,330.4599318426381,documented_mode_candidate_proxy_not_verified_procurement
+1,"REG Geismar, LLC (80180)",1,27.751162393468896,direct_rail,161.19887710779045,documented_mode_candidate_proxy_not_verified_procurement
+3,"REG Geismar, LLC (80180)",1,28.839607910620206,direct_rail,164.26191236689806,documented_mode_candidate_proxy_not_verified_procurement
+5,"REG Geismar, LLC (80180)",1,26.86251420901595,direct_rail,159.7992614421287,documented_mode_candidate_proxy_not_verified_procurement
+6,"REG Geismar, LLC (80180)",1,19.687552359224274,direct_rail,115.35995127252117,documented_mode_candidate_proxy_not_verified_procurement
+7,"REG Geismar, LLC (80180)",0,,,139.58111727061512,no_access_eligible_documented_mode_candidate_do_not_zero
+8,"REG Geismar, LLC (80180)",1,29.206363547348268,direct_rail,168.42689873284024,documented_mode_candidate_proxy_not_verified_procurement
+9,"REG Geismar, LLC (80180)",0,,,140.17503016415736,no_access_eligible_documented_mode_candidate_do_not_zero
+10,"REG Geismar, LLC (80180)",1,29.173622901948885,direct_rail,183.1255025490429,documented_mode_candidate_proxy_not_verified_procurement
+11,"REG Geismar, LLC (80180)",1,29.92873106204302,direct_rail,186.13768248776265,documented_mode_candidate_proxy_not_verified_procurement
+12,"REG Geismar, LLC (80180)",1,27.720263761737264,direct_rail,163.6154704335628,documented_mode_candidate_proxy_not_verified_procurement
+13,"REG Geismar, LLC (80180)",1,34.82776569584738,direct_rail,194.9202031972757,documented_mode_candidate_proxy_not_verified_procurement
+14,"REG Geismar, LLC (80180)",1,25.159935354144768,direct_rail,146.84660446081142,documented_mode_candidate_proxy_not_verified_procurement
+15,"REG Geismar, LLC (80180)",1,34.89099558833081,direct_rail,195.20756794437872,documented_mode_candidate_proxy_not_verified_procurement
+16,"REG Geismar, LLC (80180)",1,30.090527621291116,direct_rail,182.19156712095807,documented_mode_candidate_proxy_not_verified_procurement
+17,"REG Geismar, LLC (80180)",1,29.776495793906665,direct_rail,174.42705405272804,documented_mode_candidate_proxy_not_verified_procurement
+18,"REG Geismar, LLC (80180)",1,34.90847855867172,direct_rail,203.58234485726302,documented_mode_candidate_proxy_not_verified_procurement
+19,"REG Geismar, LLC (80180)",1,36.482179045234844,direct_rail,198.93648603145084,documented_mode_candidate_proxy_not_verified_procurement
+20,"REG Geismar, LLC (80180)",1,32.46838592032455,direct_rail,200.17336467187144,documented_mode_candidate_proxy_not_verified_procurement
+21,"REG Geismar, LLC (80180)",1,14.037731392818964,direct_rail,73.64983371451314,documented_mode_candidate_proxy_not_verified_procurement
+22,"REG Geismar, LLC (80180)",1,37.321354835825936,direct_rail,217.06943331941577,documented_mode_candidate_proxy_not_verified_procurement
+23,"REG Geismar, LLC (80180)",1,33.676062352533066,direct_rail,202.24813299604946,documented_mode_candidate_proxy_not_verified_procurement
+24,"REG Geismar, LLC (80180)",1,29.86895502832293,direct_rail,167.40863359626414,documented_mode_candidate_proxy_not_verified_procurement
+25,"REG Geismar, LLC (80180)",1,17.126948026650197,direct_rail,99.51871209317363,documented_mode_candidate_proxy_not_verified_procurement
+26,"REG Geismar, LLC (80180)",1,17.126948026650197,direct_rail,99.51871209317363,documented_mode_candidate_proxy_not_verified_procurement
+27,"REG Geismar, LLC (80180)",1,33.174511298915085,direct_rail,197.1161230568587,documented_mode_candidate_proxy_not_verified_procurement
+28,"REG Geismar, LLC (80180)",1,38.00050195133856,direct_rail,217.96422946294894,documented_mode_candidate_proxy_not_verified_procurement
+29,"REG Geismar, LLC (80180)",1,36.6526003548212,direct_rail,209.26848466721162,documented_mode_candidate_proxy_not_verified_procurement
+30,"REG Geismar, LLC (80180)",1,34.03324476433096,direct_rail,198.87533089933888,documented_mode_candidate_proxy_not_verified_procurement
+31,"REG Geismar, LLC (80180)",1,38.86255389565813,direct_rail,223.69195476273364,documented_mode_candidate_proxy_not_verified_procurement
+34,"REG Geismar, LLC (80180)",0,,,216.4035504914512,no_access_eligible_documented_mode_candidate_do_not_zero
+35,"REG Geismar, LLC (80180)",1,17.296356493104053,direct_rail,100.7517283041977,documented_mode_candidate_proxy_not_verified_procurement
+36,"REG Geismar, LLC (80180)",1,34.38111444611798,direct_rail,203.21412658812565,documented_mode_candidate_proxy_not_verified_procurement
+37,"REG Geismar, LLC (80180)",1,35.59514867392584,direct_rail,208.61380288449706,documented_mode_candidate_proxy_not_verified_procurement
+38,"REG Geismar, LLC (80180)",1,39.764854970780256,direct_rail,231.4641926897568,documented_mode_candidate_proxy_not_verified_procurement
+39,"REG Geismar, LLC (80180)",1,35.449748643384105,direct_rail,213.9103523159807,documented_mode_candidate_proxy_not_verified_procurement
+40,"REG Geismar, LLC (80180)",1,37.59691688319812,direct_rail,218.29459592400016,documented_mode_candidate_proxy_not_verified_procurement
+41,"REG Geismar, LLC (80180)",1,41.66279296133347,direct_rail,246.47475205355386,documented_mode_candidate_proxy_not_verified_procurement
+42,"REG Geismar, LLC (80180)",1,37.65602771851321,direct_rail,221.10000714235815,documented_mode_candidate_proxy_not_verified_procurement
+43,"REG Geismar, LLC (80180)",1,41.992975332537746,direct_rail,239.18905148284898,documented_mode_candidate_proxy_not_verified_procurement
+44,"REG Geismar, LLC (80180)",1,42.679591001712076,direct_rail,246.0711281816148,documented_mode_candidate_proxy_not_verified_procurement
+45,"REG Geismar, LLC (80180)",1,42.571665372998645,direct_rail,246.50526524578655,documented_mode_candidate_proxy_not_verified_procurement
+46,"REG Geismar, LLC (80180)",1,39.48025305058048,direct_rail,232.87951556829785,documented_mode_candidate_proxy_not_verified_procurement
+47,"REG Geismar, LLC (80180)",1,36.61220519181363,direct_rail,221.30741960095267,documented_mode_candidate_proxy_not_verified_procurement
+48,"REG Geismar, LLC (80180)",1,20.824689217355264,direct_rail,120.43441101370342,documented_mode_candidate_proxy_not_verified_procurement
+49,"REG Geismar, LLC (80180)",1,44.12064321130481,direct_rail,250.53416534932379,documented_mode_candidate_proxy_not_verified_procurement
+50,"REG Geismar, LLC (80180)",1,44.64173538190977,direct_rail,264.49826384194995,documented_mode_candidate_proxy_not_verified_procurement
+51,"REG Geismar, LLC (80180)",1,1.7570891281106558,direct_rail,10.617174672872427,documented_mode_candidate_proxy_not_verified_procurement
+52,"REG Geismar, LLC (80180)",1,28.268446819515688,direct_rail,162.96040240790856,documented_mode_candidate_proxy_not_verified_procurement
+53,"REG Geismar, LLC (80180)",1,40.98813369465047,direct_rail,229.2497331690704,documented_mode_candidate_proxy_not_verified_procurement
+55,"REG Geismar, LLC (80180)",1,50.80893460108702,direct_rail,287.77184716142455,documented_mode_candidate_proxy_not_verified_procurement
+56,"REG Geismar, LLC (80180)",1,51.00660084139898,direct_rail,291.1349931846438,documented_mode_candidate_proxy_not_verified_procurement
+57,"REG Geismar, LLC (80180)",1,20.460313136140073,direct_rail,109.25834280715078,documented_mode_candidate_proxy_not_verified_procurement
+58,"REG Geismar, LLC (80180)",1,32.26440368519288,direct_rail,186.39247408028814,documented_mode_candidate_proxy_not_verified_procurement
+59,"REG Geismar, LLC (80180)",1,39.147682149333704,direct_rail,219.54125938555867,documented_mode_candidate_proxy_not_verified_procurement
+60,"REG Geismar, LLC (80180)",1,39.26999901304358,direct_rail,227.40426440340065,documented_mode_candidate_proxy_not_verified_procurement
+61,"REG Geismar, LLC (80180)",1,55.43146585177489,direct_rail,317.014557617968,documented_mode_candidate_proxy_not_verified_procurement
+62,"REG Geismar, LLC (80180)",1,46.846635589500316,direct_rail,261.4945812479026,documented_mode_candidate_proxy_not_verified_procurement
+63,"REG Geismar, LLC (80180)",1,57.46293740661041,direct_rail,336.3699638099398,documented_mode_candidate_proxy_not_verified_procurement
+1,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,32.43028772698205,direct_rail,202.67557518260057,documented_mode_candidate_proxy_not_verified_procurement
+3,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,33.88707257485041,direct_rail,218.2839098693364,documented_mode_candidate_proxy_not_verified_procurement
+5,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,38.511392768249415,direct_rail,234.60009911681257,documented_mode_candidate_proxy_not_verified_procurement
+6,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,41.157637037783125,direct_rail,218.9172195427234,documented_mode_candidate_proxy_not_verified_procurement
+7,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),0,,,241.89236581749157,no_access_eligible_documented_mode_candidate_do_not_zero
+8,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,39.06788890253044,direct_rail,242.47842510459418,documented_mode_candidate_proxy_not_verified_procurement
+9,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),0,,,251.79627852846846,no_access_eligible_documented_mode_candidate_do_not_zero
+10,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,42.43581333900899,direct_rail,265.45885003287094,documented_mode_candidate_proxy_not_verified_procurement
+11,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,43.190921499103126,direct_rail,268.47102997159067,documented_mode_candidate_proxy_not_verified_procurement
+12,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,26.972864305036676,direct_rail,179.24852466843652,documented_mode_candidate_proxy_not_verified_procurement
+13,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,38.25052101465357,direct_rail,244.65477532190133,documented_mode_candidate_proxy_not_verified_procurement
+14,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,29.060246836296695,direct_rail,163.8244278639159,documented_mode_candidate_proxy_not_verified_procurement
+15,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,38.30612133576414,direct_rail,244.94214006900435,documented_mode_candidate_proxy_not_verified_procurement
+16,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,45.077926262937,direct_rail,264.5247858571396,documented_mode_candidate_proxy_not_verified_procurement
+17,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,28.903425648383173,direct_rail,181.51705820067457,documented_mode_candidate_proxy_not_verified_procurement
+18,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,34.328575807029175,direct_rail,219.43954874478297,documented_mode_candidate_proxy_not_verified_procurement
+19,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,35.60910889971135,direct_rail,204.98582295232134,documented_mode_candidate_proxy_not_verified_procurement
+20,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,45.27168501467559,direct_rail,282.50671215569946,documented_mode_candidate_proxy_not_verified_procurement
+21,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,33.210350533431786,direct_rail,174.80685961005506,documented_mode_candidate_proxy_not_verified_procurement
+22,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,36.74145208418339,direct_rail,235.45266603227682,documented_mode_candidate_proxy_not_verified_procurement
+23,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,46.93825278959319,direct_rail,284.5813517322309,documented_mode_candidate_proxy_not_verified_procurement
+24,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,23.20701049264226,direct_rail,156.24711387377184,documented_mode_candidate_proxy_not_verified_procurement
+25,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,43.190875656545636,direct_rail,232.63476629220335,documented_mode_candidate_proxy_not_verified_procurement
+26,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,43.190875656545636,direct_rail,232.63476629220335,documented_mode_candidate_proxy_not_verified_procurement
+27,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,47.4784868768521,direct_rail,288.1983881144498,documented_mode_candidate_proxy_not_verified_procurement
+28,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,37.42059919969602,direct_rail,233.82143335046888,documented_mode_candidate_proxy_not_verified_procurement
+29,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,35.77953020929771,direct_rail,202.61094386403167,documented_mode_candidate_proxy_not_verified_procurement
+30,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,33.16017461880747,direct_rail,186.88223012777019,documented_mode_candidate_proxy_not_verified_procurement
+31,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,38.2826511440156,direct_rail,242.9184845605073,documented_mode_candidate_proxy_not_verified_procurement
+34,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),0,,,297.11364764755746,no_access_eligible_documented_mode_candidate_do_not_zero
+35,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,46.032105638350366,direct_rail,244.32106142203975,documented_mode_candidate_proxy_not_verified_procurement
+36,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,32.25104689238075,direct_rail,175.14752588283042,documented_mode_candidate_proxy_not_verified_procurement
+37,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,34.10991922855908,direct_rail,185.04191126796252,documented_mode_candidate_proxy_not_verified_procurement
+38,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,39.18495221913771,direct_rail,223.1225039220362,documented_mode_candidate_proxy_not_verified_procurement
+39,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,49.33242181789506,direct_rail,301.14718266637055,documented_mode_candidate_proxy_not_verified_procurement
+40,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,36.72384673767463,direct_rail,203.30038751131517,documented_mode_candidate_proxy_not_verified_procurement
+41,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,41.08289020969093,direct_rail,233.41639325441776,documented_mode_candidate_proxy_not_verified_procurement
+42,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,36.782957572989716,direct_rail,201.53538602474018,documented_mode_candidate_proxy_not_verified_procurement
+43,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,44.289964618135606,direct_rail,269.840904930899,documented_mode_candidate_proxy_not_verified_procurement
+44,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,42.436733638025586,direct_rail,240.78101613245872,documented_mode_candidate_proxy_not_verified_procurement
+45,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,42.32880800931216,direct_rail,241.36681792426822,documented_mode_candidate_proxy_not_verified_procurement
+46,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,38.607182905056995,direct_rail,213.70821851089482,documented_mode_candidate_proxy_not_verified_procurement
+47,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,50.494878366324585,direct_rail,308.5442499513425,documented_mode_candidate_proxy_not_verified_procurement
+48,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,50.245206774090654,direct_rail,273.19143368475625,documented_mode_candidate_proxy_not_verified_procurement
+49,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,43.24757306578132,direct_rail,226.73773783720335,documented_mode_candidate_proxy_not_verified_procurement
+50,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,43.76866523638627,direct_rail,240.70183632982952,documented_mode_candidate_proxy_not_verified_procurement
+51,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,36.886049681851624,direct_rail,201.95252839956714,documented_mode_candidate_proxy_not_verified_procurement
+52,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,57.797504498541244,direct_rail,316.4511579166586,documented_mode_candidate_proxy_not_verified_procurement
+53,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,30.358479246384178,direct_rail,121.08716158171971,documented_mode_candidate_proxy_not_verified_procurement
+55,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,49.9358644555635,direct_rail,263.9754196493041,documented_mode_candidate_proxy_not_verified_procurement
+56,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,50.133530695875464,direct_rail,267.3385656725234,documented_mode_candidate_proxy_not_verified_procurement
+57,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,51.88872490350754,direct_rail,282.13411646657937,documented_mode_candidate_proxy_not_verified_procurement
+58,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,61.79346136421842,direct_rail,339.88322958903814,documented_mode_candidate_proxy_not_verified_procurement
+59,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,68.67673982835916,direct_rail,368.962173039168,documented_mode_candidate_proxy_not_verified_procurement
+60,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,68.79905669206907,direct_rail,384.0120004351633,documented_mode_candidate_proxy_not_verified_procurement
+61,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,55.06485294998499,direct_rail,293.21813010584765,documented_mode_candidate_proxy_not_verified_procurement
+62,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,71.72175827593243,direct_rail,399.6288324665715,documented_mode_candidate_proxy_not_verified_procurement
+63,RENEWABLE DIESEL UNIT (RDU) / PRE-TREATMENT UNIT (PTU) (82381),1,56.589867261086894,direct_rail,263.6875399116149,documented_mode_candidate_proxy_not_verified_procurement
+1,St Bernard Renewables LLC (82901),2,27.607407400598213,direct_rail,162.98628068486542,documented_mode_candidate_proxy_not_verified_procurement
+3,St Bernard Renewables LLC (82901),3,28.695852917749534,direct_rail,166.04931594397303,documented_mode_candidate_proxy_not_verified_procurement
+5,St Bernard Renewables LLC (82901),2,26.483553272456856,direct_rail,161.58666501920368,documented_mode_candidate_proxy_not_verified_procurement
+6,St Bernard Renewables LLC (82901),3,19.309377733481586,direct_rail,117.14748359724271,documented_mode_candidate_proxy_not_verified_procurement
+7,St Bernard Renewables LLC (82901),1,141.3685208476901,direct_truck,141.3685208476901,documented_mode_candidate_proxy_not_verified_procurement
+8,St Bernard Renewables LLC (82901),2,28.886909867505317,direct_rail,170.21443105756177,documented_mode_candidate_proxy_not_verified_procurement
+9,St Bernard Renewables LLC (82901),1,136.8353162126105,direct_truck,136.8353162126105,documented_mode_candidate_proxy_not_verified_procurement
+10,St Bernard Renewables LLC (82901),2,28.794661965389793,direct_rail,182.26044711186316,documented_mode_candidate_proxy_not_verified_procurement
+11,St Bernard Renewables LLC (82901),2,29.54977012548392,direct_rail,179.76660519815988,documented_mode_candidate_proxy_not_verified_procurement
+12,St Bernard Renewables LLC (82901),3,29.9036646908723,direct_rail,176.78571093755215,documented_mode_candidate_proxy_not_verified_procurement
+13,St Bernard Renewables LLC (82901),2,34.448804759288294,direct_rail,196.70760677435067,documented_mode_candidate_proxy_not_verified_procurement
+14,St Bernard Renewables LLC (82901),2,26.964182896291966,direct_rail,160.0168449648008,documented_mode_candidate_proxy_not_verified_procurement
+15,St Bernard Renewables LLC (82901),2,34.51203465177173,direct_rail,196.9949715214537,documented_mode_candidate_proxy_not_verified_procurement
+16,St Bernard Renewables LLC (82901),2,29.71156668473202,direct_rail,170.66041290521628,documented_mode_candidate_proxy_not_verified_procurement
+17,St Bernard Renewables LLC (82901),2,31.959096492639492,direct_rail,187.59729455671743,documented_mode_candidate_proxy_not_verified_procurement
+18,St Bernard Renewables LLC (82901),2,36.92822337070854,direct_rail,210.30722067958942,documented_mode_candidate_proxy_not_verified_procurement
+19,St Bernard Renewables LLC (82901),2,37.484090876735465,direct_rail,212.10672653544023,documented_mode_candidate_proxy_not_verified_procurement
+20,St Bernard Renewables LLC (82901),2,32.08942498376546,direct_rail,189.7956606215849,documented_mode_candidate_proxy_not_verified_procurement
+21,St Bernard Renewables LLC (82901),2,15.036663719183062,direct_rail,86.28693021413261,documented_mode_candidate_proxy_not_verified_procurement
+22,St Bernard Renewables LLC (82901),2,38.142201844770284,direct_rail,218.85683689649073,documented_mode_candidate_proxy_not_verified_procurement
+23,St Bernard Renewables LLC (82901),2,33.29710141597398,direct_rail,193.59809361483795,documented_mode_candidate_proxy_not_verified_procurement
+24,St Bernard Renewables LLC (82901),2,32.135718173503825,direct_rail,180.57887410025353,documented_mode_candidate_proxy_not_verified_procurement
+25,St Bernard Renewables LLC (82901),2,14.99023631557489,direct_rail,86.72711841769231,documented_mode_candidate_proxy_not_verified_procurement
+26,St Bernard Renewables LLC (82901),2,14.99023631557489,direct_rail,86.72711841769231,documented_mode_candidate_proxy_not_verified_procurement
+27,St Bernard Renewables LLC (82901),2,31.620748294058718,direct_rail,184.3246581290239,documented_mode_candidate_proxy_not_verified_procurement
+28,St Bernard Renewables LLC (82901),2,39.67690500851878,direct_rail,228.02778925564976,documented_mode_candidate_proxy_not_verified_procurement
+29,St Bernard Renewables LLC (82901),2,38.83520105355402,direct_rail,222.438725171201,documented_mode_candidate_proxy_not_verified_procurement
+30,St Bernard Renewables LLC (82901),2,36.21584546306378,direct_rail,212.04557140332827,documented_mode_candidate_proxy_not_verified_procurement
+31,St Bernard Renewables LLC (82901),2,38.86837531413905,direct_rail,225.47935833980864,documented_mode_candidate_proxy_not_verified_procurement
+34,St Bernard Renewables LLC (82901),1,218.1909540685262,direct_truck,218.1909540685262,documented_mode_candidate_proxy_not_verified_procurement
+35,St Bernard Renewables LLC (82901),2,15.159644782028748,direct_rail,87.96013462871638,documented_mode_candidate_proxy_not_verified_procurement
+36,St Bernard Renewables LLC (82901),2,36.563715144850796,direct_rail,216.384367092115,documented_mode_candidate_proxy_not_verified_procurement
+37,St Bernard Renewables LLC (82901),2,37.777749372658654,direct_rail,221.78404338848645,documented_mode_candidate_proxy_not_verified_procurement
+38,St Bernard Renewables LLC (82901),2,41.36159800905281,direct_rail,242.4817725434045,documented_mode_candidate_proxy_not_verified_procurement
+39,St Bernard Renewables LLC (82901),2,34.218879887304254,direct_rail,201.11875864049938,documented_mode_candidate_proxy_not_verified_procurement
+40,St Bernard Renewables LLC (82901),2,39.77951758193094,direct_rail,231.46483642798955,documented_mode_candidate_proxy_not_verified_procurement
+41,St Bernard Renewables LLC (82901),2,41.615542009751444,direct_rail,247.52121292472472,documented_mode_candidate_proxy_not_verified_procurement
+42,St Bernard Renewables LLC (82901),2,39.83862841724603,direct_rail,234.2702476463475,documented_mode_candidate_proxy_not_verified_procurement
+43,St Bernard Renewables LLC (82901),3,41.61401439597866,direct_rail,240.97645505992392,documented_mode_candidate_proxy_not_verified_procurement
+44,St Bernard Renewables LLC (82901),2,42.300630065152994,direct_rail,247.11758905278566,documented_mode_candidate_proxy_not_verified_procurement
+45,St Bernard Renewables LLC (82901),2,42.19270443643956,direct_rail,247.551854864604,documented_mode_candidate_proxy_not_verified_procurement
+46,St Bernard Renewables LLC (82901),2,41.66285374931331,direct_rail,246.04975607228724,documented_mode_candidate_proxy_not_verified_procurement
+47,St Bernard Renewables LLC (82901),2,35.38133643573377,direct_rail,208.51582592547135,documented_mode_candidate_proxy_not_verified_procurement
+48,St Bernard Renewables LLC (82901),2,18.744507808646556,direct_rail,107.64281733822212,documented_mode_candidate_proxy_not_verified_procurement
+49,St Bernard Renewables LLC (82901),2,46.30324391003761,direct_rail,263.7042771056666,documented_mode_candidate_proxy_not_verified_procurement
+50,St Bernard Renewables LLC (82901),2,46.824336080642574,direct_rail,277.6685043459393,documented_mode_candidate_proxy_not_verified_procurement
+51,St Bernard Renewables LLC (82901),2,0.8958964615163679,direct_rail,6.114483230025553,documented_mode_candidate_proxy_not_verified_procurement
+52,St Bernard Renewables LLC (82901),2,26.18826541080698,direct_rail,150.16880873242727,documented_mode_candidate_proxy_not_verified_procurement
+53,St Bernard Renewables LLC (82901),2,43.25489683983135,direct_rail,242.41997367305976,documented_mode_candidate_proxy_not_verified_procurement
+55,St Bernard Renewables LLC (82901),2,51.526143975339615,direct_rail,300.9419589177674,documented_mode_candidate_proxy_not_verified_procurement
+56,St Bernard Renewables LLC (82901),2,51.69784218899187,direct_rail,304.3051049409866,documented_mode_candidate_proxy_not_verified_procurement
+57,St Bernard Renewables LLC (82901),2,18.380131727431365,direct_rail,96.46687787931602,documented_mode_candidate_proxy_not_verified_procurement
+58,St Bernard Renewables LLC (82901),2,30.184222276484178,direct_rail,173.60088040480684,documented_mode_candidate_proxy_not_verified_procurement
+59,St Bernard Renewables LLC (82901),2,37.067500740624986,direct_rail,206.74979445772394,documented_mode_candidate_proxy_not_verified_procurement
+60,St Bernard Renewables LLC (82901),2,37.189817604334884,direct_rail,214.61267072791932,documented_mode_candidate_proxy_not_verified_procurement
+61,St Bernard Renewables LLC (82901),2,55.05250491521579,direct_rail,330.18466937431094,documented_mode_candidate_proxy_not_verified_procurement
+62,St Bernard Renewables LLC (82901),2,44.70992387842498,direct_rail,248.70311632006783,documented_mode_candidate_proxy_not_verified_procurement
+63,St Bernard Renewables LLC (82901),2,58.15417875420331,direct_rail,349.5402043139292,documented_mode_candidate_proxy_not_verified_procurement
+1,Vertex Renewables Mobile Site (83101),2,26.256810369829523,direct_rail,155.13383297404067,documented_mode_candidate_proxy_not_verified_procurement
+3,Vertex Renewables Mobile Site (83101),3,25.08497584283222,inland_barge,158.19699698079484,documented_mode_candidate_proxy_not_verified_procurement
+5,Vertex Renewables Mobile Site (83101),2,24.847403058653242,direct_rail,147.38052095106062,documented_mode_candidate_proxy_not_verified_procurement
+6,Vertex Renewables Mobile Site (83101),3,17.67322751967798,direct_rail,102.15919757629909,documented_mode_candidate_proxy_not_verified_procurement
+7,Vertex Renewables Mobile Site (83101),1,127.5721805385206,direct_truck,127.5721805385206,documented_mode_candidate_proxy_not_verified_procurement
+8,Vertex Renewables Mobile Site (83101),2,27.250759653701706,direct_rail,156.00828698941874,documented_mode_candidate_proxy_not_verified_procurement
+9,Vertex Renewables Mobile Site (83101),1,119.89701833699732,direct_truck,119.89701833699732,documented_mode_candidate_proxy_not_verified_procurement
+10,Vertex Renewables Mobile Site (83101),2,27.158511751586175,direct_rail,165.32202048860339,documented_mode_candidate_proxy_not_verified_procurement
+11,Vertex Renewables Mobile Site (83101),2,27.50264790681417,direct_rail,162.82817857490014,documented_mode_candidate_proxy_not_verified_procurement
+12,Vertex Renewables Mobile Site (83101),3,29.744277199717462,direct_rail,172.2022947203175,documented_mode_candidate_proxy_not_verified_procurement
+13,Vertex Renewables Mobile Site (83101),2,32.81265454548469,direct_rail,188.85515906352592,documented_mode_candidate_proxy_not_verified_procurement
+14,Vertex Renewables Mobile Site (83101),2,26.80479540513713,direct_rail,163.13704417897728,documented_mode_candidate_proxy_not_verified_procurement
+15,Vertex Renewables Mobile Site (83101),2,32.87588443796812,direct_rail,189.14252381062894,documented_mode_candidate_proxy_not_verified_procurement
+16,Vertex Renewables Mobile Site (83101),2,26.70034574103403,direct_rail,153.72198628195653,documented_mode_candidate_proxy_not_verified_procurement
+17,Vertex Renewables Mobile Site (83101),2,31.799709001484654,direct_rail,183.01387833948272,documented_mode_candidate_proxy_not_verified_procurement
+18,Vertex Renewables Mobile Site (83101),2,35.292073156904934,direct_rail,202.45477296876467,documented_mode_candidate_proxy_not_verified_procurement
+19,Vertex Renewables Mobile Site (83101),2,35.847940662931855,direct_rail,205.99649197775088,documented_mode_candidate_proxy_not_verified_procurement
+20,Vertex Renewables Mobile Site (83101),2,29.728495699174363,direct_rail,172.85723399832514,documented_mode_candidate_proxy_not_verified_procurement
+21,Vertex Renewables Mobile Site (83101),2,14.877289371070093,direct_rail,85.90351972270214,documented_mode_candidate_proxy_not_verified_procurement
+22,Vertex Renewables Mobile Site (83101),2,36.50605163096668,direct_rail,211.00451793331254,documented_mode_candidate_proxy_not_verified_procurement
+23,Vertex Renewables Mobile Site (83101),2,30.583388244037053,direct_rail,176.6596669915782,documented_mode_candidate_proxy_not_verified_procurement
+24,Vertex Renewables Mobile Site (83101),2,32.44557772808238,direct_rail,186.6741739309429,documented_mode_candidate_proxy_not_verified_procurement
+25,Vertex Renewables Mobile Site (83101),2,11.695762632369089,direct_rail,69.78869179443257,documented_mode_candidate_proxy_not_verified_procurement
+26,Vertex Renewables Mobile Site (83101),2,11.695762632369089,direct_rail,69.78869179443257,documented_mode_candidate_proxy_not_verified_procurement
+27,Vertex Renewables Mobile Site (83101),2,28.326274610852913,direct_rail,167.3862315057642,documented_mode_candidate_proxy_not_verified_procurement
+28,Vertex Renewables Mobile Site (83101),2,38.04075479471517,direct_rail,220.17534154482502,documented_mode_candidate_proxy_not_verified_procurement
+29,Vertex Renewables Mobile Site (83101),2,38.675813562399185,direct_rail,221.25913923349583,documented_mode_candidate_proxy_not_verified_procurement
+30,Vertex Renewables Mobile Site (83101),2,36.05645797190894,direct_rail,207.46215518609358,documented_mode_candidate_proxy_not_verified_procurement
+31,Vertex Renewables Mobile Site (83101),2,37.23222510033544,direct_rail,217.6269106289839,documented_mode_candidate_proxy_not_verified_procurement
+34,Vertex Renewables Mobile Site (83101),1,200.45815446604345,direct_truck,200.45815446604345,documented_mode_candidate_proxy_not_verified_procurement
+35,Vertex Renewables Mobile Site (83101),2,11.865171098822948,direct_rail,70.5632376360866,documented_mode_candidate_proxy_not_verified_procurement
+36,Vertex Renewables Mobile Site (83101),2,36.404327653695965,direct_rail,211.80095087488036,documented_mode_candidate_proxy_not_verified_procurement
+37,Vertex Renewables Mobile Site (83101),2,37.618361881503816,direct_rail,217.20062717125177,documented_mode_candidate_proxy_not_verified_procurement
+38,Vertex Renewables Mobile Site (83101),2,39.7254477952492,direct_rail,234.62932483257975,documented_mode_candidate_proxy_not_verified_procurement
+39,Vertex Renewables Mobile Site (83101),2,30.924406204098457,direct_rail,184.18033201723966,documented_mode_candidate_proxy_not_verified_procurement
+40,Vertex Renewables Mobile Site (83101),2,39.6201300907761,direct_rail,226.88142021075487,documented_mode_candidate_proxy_not_verified_procurement
+41,Vertex Renewables Mobile Site (83101),2,39.97939179594783,direct_rail,239.66876521389997,documented_mode_candidate_proxy_not_verified_procurement
+42,Vertex Renewables Mobile Site (83101),2,39.6792409260912,direct_rail,229.68683142911286,documented_mode_candidate_proxy_not_verified_procurement
+43,Vertex Renewables Mobile Site (83101),3,36.340305633166295,inland_barge,233.12413609674573,documented_mode_candidate_proxy_not_verified_procurement
+44,Vertex Renewables Mobile Site (83101),2,40.664479851349384,direct_rail,239.26527008960747,documented_mode_candidate_proxy_not_verified_procurement
+45,Vertex Renewables Mobile Site (83101),2,40.55655422263595,direct_rail,239.69940715377925,documented_mode_candidate_proxy_not_verified_procurement
+46,Vertex Renewables Mobile Site (83101),2,41.50346625815847,direct_rail,241.46633985505252,documented_mode_candidate_proxy_not_verified_procurement
+47,Vertex Renewables Mobile Site (83101),2,32.08686275252798,direct_rail,191.5773993022116,documented_mode_candidate_proxy_not_verified_procurement
+48,Vertex Renewables Mobile Site (83101),2,13.782271950192746,direct_rail,79.11414132945343,documented_mode_candidate_proxy_not_verified_procurement
+49,Vertex Renewables Mobile Site (83101),2,45.98042803539771,direct_rail,259.12086088843193,documented_mode_candidate_proxy_not_verified_procurement
+50,Vertex Renewables Mobile Site (83101),2,46.531803373059,direct_rail,267.7578967573417,documented_mode_candidate_proxy_not_verified_procurement
+51,Vertex Renewables Mobile Site (83101),2,5.406980303077755,direct_rail,34.24919144034653,documented_mode_candidate_proxy_not_verified_procurement
+52,Vertex Renewables Mobile Site (83101),2,21.22602955235314,direct_rail,121.64013272365855,documented_mode_candidate_proxy_not_verified_procurement
+53,Vertex Renewables Mobile Site (83101),2,44.72469118572293,direct_rail,251.42921898815007,documented_mode_candidate_proxy_not_verified_procurement
+55,Vertex Renewables Mobile Site (83101),2,49.889993761535976,direct_rail,296.3585427005327,documented_mode_candidate_proxy_not_verified_procurement
+56,Vertex Renewables Mobile Site (83101),2,50.06169197518823,direct_rail,299.7216887237519,documented_mode_candidate_proxy_not_verified_procurement
+57,Vertex Renewables Mobile Site (83101),2,13.417895868977578,direct_rail,67.52350570100485,documented_mode_candidate_proxy_not_verified_procurement
+58,Vertex Renewables Mobile Site (83101),2,25.221986418030326,direct_rail,145.0723331436847,documented_mode_candidate_proxy_not_verified_procurement
+59,Vertex Renewables Mobile Site (83101),2,32.105264882171134,direct_rail,178.22111844895525,documented_mode_candidate_proxy_not_verified_procurement
+60,Vertex Renewables Mobile Site (83101),2,32.22758174588103,direct_rail,186.08399471915064,documented_mode_candidate_proxy_not_verified_procurement
+61,Vertex Renewables Mobile Site (83101),2,53.41635470141218,direct_rail,325.6012531570762,documented_mode_candidate_proxy_not_verified_procurement
+62,Vertex Renewables Mobile Site (83101),2,40.38092355455521,direct_rail,213.91421474537725,documented_mode_candidate_proxy_not_verified_procurement
+63,Vertex Renewables Mobile Site (83101),2,56.51802854039967,direct_rail,344.9567880966945,documented_mode_candidate_proxy_not_verified_procurement
+1,sinclair_wy,1,32.51339815792464,direct_rail,189.48962746573187,documented_mode_candidate_proxy_not_verified_procurement
+3,sinclair_wy,1,33.95024491277536,direct_rail,192.88418791470968,documented_mode_candidate_proxy_not_verified_procurement
+5,sinclair_wy,1,38.46579097243439,direct_rail,219.22943258561088,documented_mode_candidate_proxy_not_verified_procurement
+6,sinclair_wy,1,41.2407474687257,direct_rail,240.81809545466555,documented_mode_candidate_proxy_not_verified_procurement
+7,sinclair_wy,0,,,245.32516431749517,no_access_eligible_documented_mode_candidate_do_not_zero
+8,sinclair_wy,1,37.066722659001826,direct_rail,222.10925994367562,documented_mode_candidate_proxy_not_verified_procurement
+9,sinclair_wy,0,,,255.2290770284721,no_access_eligible_documented_mode_candidate_do_not_zero
+10,sinclair_wy,1,41.10725583534719,direct_rail,250.27306512211726,documented_mode_candidate_proxy_not_verified_procurement
+11,sinclair_wy,1,41.879435864188714,direct_rail,254.2198242271546,documented_mode_candidate_proxy_not_verified_procurement
+12,sinclair_wy,1,27.018082573658152,direct_rail,160.7316518984549,documented_mode_candidate_proxy_not_verified_procurement
+13,sinclair_wy,1,31.296717446939397,direct_rail,185.4188843770654,documented_mode_candidate_proxy_not_verified_procurement
+14,sinclair_wy,1,30.901901197080612,direct_rail,181.0127536691322,documented_mode_candidate_proxy_not_verified_procurement
+15,sinclair_wy,1,31.35231776804996,direct_rail,185.70624912416844,documented_mode_candidate_proxy_not_verified_procurement
+16,sinclair_wy,1,44.47132973814572,direct_rail,263.16572570014154,documented_mode_candidate_proxy_not_verified_procurement
+17,sinclair_wy,1,26.300001802701217,direct_rail,150.52325100338362,documented_mode_candidate_proxy_not_verified_procurement
+18,sinclair_wy,1,27.722939462312706,direct_rail,160.14572135899888,documented_mode_candidate_proxy_not_verified_procurement
+19,sinclair_wy,1,26.16840863812244,direct_rail,149.63978465274698,documented_mode_candidate_proxy_not_verified_procurement
+20,sinclair_wy,1,42.491379439508144,direct_rail,252.11299773898526,documented_mode_candidate_proxy_not_verified_procurement
+21,sinclair_wy,1,44.41227465821674,direct_rail,256.990087338004,documented_mode_candidate_proxy_not_verified_procurement
+22,sinclair_wy,1,28.752499081165496,direct_rail,176.21664633979438,documented_mode_candidate_proxy_not_verified_procurement
+23,sinclair_wy,1,44.488211743846136,direct_rail,262.8675461507282,documented_mode_candidate_proxy_not_verified_procurement
+24,sinclair_wy,1,26.772379367888732,direct_rail,157.13547263497742,documented_mode_candidate_proxy_not_verified_procurement
+25,sinclair_wy,1,49.431357187865174,direct_rail,296.46488825658423,documented_mode_candidate_proxy_not_verified_procurement
+26,sinclair_wy,1,49.431357187865174,direct_rail,296.46488825658423,documented_mode_candidate_proxy_not_verified_procurement
+27,sinclair_wy,1,46.1670012419377,direct_rail,285.8132092144361,documented_mode_candidate_proxy_not_verified_procurement
+28,sinclair_wy,1,27.881339152403605,direct_rail,170.78298066473334,documented_mode_candidate_proxy_not_verified_procurement
+29,sinclair_wy,1,25.544495942719717,direct_rail,148.4636749014987,documented_mode_candidate_proxy_not_verified_procurement
+30,sinclair_wy,1,23.36911956493256,direct_rail,132.7349611652372,documented_mode_candidate_proxy_not_verified_procurement
+31,sinclair_wy,1,29.893982485083765,direct_rail,183.68259361567138,documented_mode_candidate_proxy_not_verified_procurement
+34,sinclair_wy,0,,,257.5359773593825,no_access_eligible_documented_mode_candidate_do_not_zero
+35,sinclair_wy,1,54.53774526780023,direct_rail,306.93825180825866,documented_mode_candidate_proxy_not_verified_procurement
+36,sinclair_wy,1,21.30952907183445,direct_rail,121.00025692029743,documented_mode_candidate_proxy_not_verified_procurement
+37,sinclair_wy,1,21.739393075502935,direct_rail,130.89464230542953,documented_mode_candidate_proxy_not_verified_procurement
+38,sinclair_wy,1,28.44844060654875,direct_rail,168.97523495950324,documented_mode_candidate_proxy_not_verified_procurement
+39,sinclair_wy,1,46.776452408279205,direct_rail,281.67165492016625,documented_mode_candidate_proxy_not_verified_procurement
+40,sinclair_wy,1,24.886308139304735,direct_rail,149.15311854878217,documented_mode_candidate_proxy_not_verified_procurement
+41,sinclair_wy,1,30.131933532717078,direct_rail,172.19225240388647,documented_mode_candidate_proxy_not_verified_procurement
+42,sinclair_wy,1,24.47778829336315,direct_rail,143.17755402938573,documented_mode_candidate_proxy_not_verified_procurement
+43,sinclair_wy,1,34.84911654643711,direct_rail,200.37923215870737,documented_mode_candidate_proxy_not_verified_procurement
+44,sinclair_wy,1,30.579967223665953,direct_rail,179.6361838322032,documented_mode_candidate_proxy_not_verified_procurement
+45,sinclair_wy,1,30.67765685265613,direct_rail,180.22198562401266,documented_mode_candidate_proxy_not_verified_procurement
+46,sinclair_wy,1,26.328931977301444,direct_rail,154.95719120297198,documented_mode_candidate_proxy_not_verified_procurement
+47,sinclair_wy,1,47.87941427531835,direct_rail,284.27094115639517,documented_mode_candidate_proxy_not_verified_procurement
+48,sinclair_wy,1,58.61828677153821,direct_rail,328.43112642827896,documented_mode_candidate_proxy_not_verified_procurement
+49,sinclair_wy,1,29.643466046954988,direct_rail,159.7306389465167,documented_mode_candidate_proxy_not_verified_procurement
+50,sinclair_wy,1,31.490414308630722,direct_rail,173.69486618678945,documented_mode_candidate_proxy_not_verified_procurement
+51,sinclair_wy,1,52.62511322990787,direct_rail,308.3019468805325,documented_mode_candidate_proxy_not_verified_procurement
+52,sinclair_wy,1,66.12544823940782,direct_rail,368.6395314369099,documented_mode_candidate_proxy_not_verified_procurement
+53,sinclair_wy,1,15.411954046280023,direct_rail,84.87559851263467,documented_mode_candidate_proxy_not_verified_procurement
+55,sinclair_wy,1,36.0093542359045,direct_rail,171.9655277983092,documented_mode_candidate_proxy_not_verified_procurement
+56,sinclair_wy,1,34.35101087517048,direct_rail,169.35053434920096,documented_mode_candidate_proxy_not_verified_procurement
+57,sinclair_wy,1,63.33335352300245,direct_rail,375.0310796023144,documented_mode_candidate_proxy_not_verified_procurement
+58,sinclair_wy,1,69.08552229762314,direct_rail,385.7315540025056,documented_mode_candidate_proxy_not_verified_procurement
+59,sinclair_wy,1,72.24009191163474,direct_rail,404.15431224285805,documented_mode_candidate_proxy_not_verified_procurement
+60,sinclair_wy,1,70.45555031593577,direct_rail,402.600328148981,documented_mode_candidate_proxy_not_verified_procurement
+61,sinclair_wy,1,41.29899736899791,direct_rail,199.693779688467,documented_mode_candidate_proxy_not_verified_procurement
+62,sinclair_wy,1,69.09602120288554,direct_rail,391.9536702650483,documented_mode_candidate_proxy_not_verified_procurement
+63,sinclair_wy,1,39.073748136361814,direct_rail,148.71035539229146,documented_mode_candidate_proxy_not_verified_procurement
+1,wynnewood_ok,1,19.59847864073134,direct_rail,109.94443901562391,documented_mode_candidate_proxy_not_verified_procurement
+3,wynnewood_ok,1,21.05526348859972,direct_rail,125.5529024500063,documented_mode_candidate_proxy_not_verified_procurement
+5,wynnewood_ok,1,24.583963553310596,direct_rail,141.86909169748247,documented_mode_candidate_proxy_not_verified_procurement
+6,wynnewood_ok,1,25.63896987717814,direct_rail,126.18608337574676,documented_mode_candidate_proxy_not_verified_procurement
+7,wynnewood_ok,0,,,149.16122965051494,no_access_eligible_documented_mode_candidate_do_not_zero
+8,wynnewood_ok,1,25.850545850269995,direct_rail,149.74741768526405,documented_mode_candidate_proxy_not_verified_procurement
+9,wynnewood_ok,0,,,159.06514236149184,no_access_eligible_documented_mode_candidate_do_not_zero
+10,wynnewood_ok,1,28.356674444705785,direct_rail,172.7277138658943,documented_mode_candidate_proxy_not_verified_procurement
+11,wynnewood_ok,1,29.111782604799913,direct_rail,175.7400225522606,documented_mode_candidate_proxy_not_verified_procurement
+12,wynnewood_ok,1,14.141055218785963,direct_rail,86.54957541309774,documented_mode_candidate_proxy_not_verified_procurement
+13,wynnewood_ok,1,25.418711928402825,direct_rail,151.95582606656257,documented_mode_candidate_proxy_not_verified_procurement
+14,wynnewood_ok,1,13.352011223673491,direct_rail,71.09342044458583,documented_mode_candidate_proxy_not_verified_procurement
+15,wynnewood_ok,1,25.474312249513392,direct_rail,152.2431908136656,documented_mode_candidate_proxy_not_verified_procurement
+16,wynnewood_ok,1,29.67720860652105,direct_rail,171.79377843780946,documented_mode_candidate_proxy_not_verified_procurement
+17,wynnewood_ok,1,16.07161656213248,direct_rail,88.81810894533581,documented_mode_candidate_proxy_not_verified_procurement
+18,wynnewood_ok,1,21.49676672077847,direct_rail,126.74047074179767,documented_mode_candidate_proxy_not_verified_procurement
+19,wynnewood_ok,1,22.777299813460644,direct_rail,112.28687369698258,documented_mode_candidate_proxy_not_verified_procurement
+20,wynnewood_ok,1,31.65143746308145,direct_rail,189.77557598872284,documented_mode_candidate_proxy_not_verified_procurement
+21,wynnewood_ok,1,17.074707214958405,direct_rail,89.12349836295606,documented_mode_candidate_proxy_not_verified_procurement
+22,wynnewood_ok,1,23.909642997932693,direct_rail,142.75358802929154,documented_mode_candidate_proxy_not_verified_procurement
+23,wynnewood_ok,1,32.85911389528997,direct_rail,191.8502155652543,documented_mode_candidate_proxy_not_verified_procurement
+24,wynnewood_ok,1,10.375201406391527,direct_rail,63.54803587078651,documented_mode_candidate_proxy_not_verified_procurement
+25,wynnewood_ok,1,27.05523233807226,direct_rail,142.29872259402492,documented_mode_candidate_proxy_not_verified_procurement
+26,wynnewood_ok,1,27.05523233807226,direct_rail,142.29872259402492,documented_mode_candidate_proxy_not_verified_procurement
+27,wynnewood_ok,1,32.76119228414501,direct_rail,195.46725194747316,documented_mode_candidate_proxy_not_verified_procurement
+28,wynnewood_ok,1,24.588790113445324,direct_rail,141.12235534748356,documented_mode_candidate_proxy_not_verified_procurement
+29,wynnewood_ok,1,22.947721123047007,direct_rail,122.71684929176907,documented_mode_candidate_proxy_not_verified_procurement
+30,wynnewood_ok,1,20.328365532556766,direct_rail,106.06849111618992,documented_mode_candidate_proxy_not_verified_procurement
+31,wynnewood_ok,1,25.450842057764902,direct_rail,150.21953530516856,documented_mode_candidate_proxy_not_verified_procurement
+34,wynnewood_ok,0,,,204.38251148058083,no_access_eligible_documented_mode_candidate_do_not_zero
+35,wynnewood_ok,1,30.665477551158336,direct_rail,153.98501772386132,documented_mode_candidate_proxy_not_verified_procurement
+36,wynnewood_ok,1,19.9542881655441,direct_rail,103.39208503967659,documented_mode_candidate_proxy_not_verified_procurement
+37,wynnewood_ok,1,21.813160501722436,direct_rail,113.28634167716214,documented_mode_candidate_proxy_not_verified_procurement
+38,wynnewood_ok,1,26.353143132887016,direct_rail,144.47404283015968,documented_mode_candidate_proxy_not_verified_procurement
+39,wynnewood_ok,1,35.036429628614044,direct_rail,208.41617524704046,documented_mode_candidate_proxy_not_verified_procurement
+40,wynnewood_ok,1,23.892037651423916,direct_rail,125.48788488849777,documented_mode_candidate_proxy_not_verified_procurement
+41,wynnewood_ok,1,28.25108112344023,direct_rail,159.78085052867183,documented_mode_candidate_proxy_not_verified_procurement
+42,wynnewood_ok,1,23.951148486739008,direct_rail,128.2931673592092,documented_mode_candidate_proxy_not_verified_procurement
+43,wynnewood_ok,1,31.458155531884916,direct_rail,177.14195567556027,documented_mode_candidate_proxy_not_verified_procurement
+44,wynnewood_ok,1,29.604924551774886,direct_rail,169.2292540661494,documented_mode_candidate_proxy_not_verified_procurement
+45,wynnewood_ok,1,29.496998923061458,direct_rail,169.66351987796773,documented_mode_candidate_proxy_not_verified_procurement
+46,wynnewood_ok,1,25.775373818806283,direct_rail,140.07280453279543,documented_mode_candidate_proxy_not_verified_procurement
+47,wynnewood_ok,1,36.19888617704356,direct_rail,215.81324253201242,documented_mode_candidate_proxy_not_verified_procurement
+48,wynnewood_ok,1,34.87857868689864,direct_rail,193.34858067582107,documented_mode_candidate_proxy_not_verified_procurement
+49,wynnewood_ok,1,30.41576397953061,direct_rail,157.7273255661748,documented_mode_candidate_proxy_not_verified_procurement
+50,wynnewood_ok,1,30.93685615013556,direct_rail,171.69155280644753,documented_mode_candidate_proxy_not_verified_procurement
+51,wynnewood_ok,1,21.519421594659608,direct_rail,131.44040357916148,documented_mode_candidate_proxy_not_verified_procurement
+52,wynnewood_ok,1,42.430876411349246,direct_rail,236.60830490772344,documented_mode_candidate_proxy_not_verified_procurement
+53,wynnewood_ok,1,21.494380072719068,direct_rail,113.28544044363629,documented_mode_candidate_proxy_not_verified_procurement
+55,wynnewood_ok,1,37.10405536931274,direct_rail,194.9650073782756,documented_mode_candidate_proxy_not_verified_procurement
+56,wynnewood_ok,1,37.30172160962477,direct_rail,198.32815340149486,documented_mode_candidate_proxy_not_verified_procurement
+57,wynnewood_ok,1,36.5220968163155,direct_rail,211.62199164617368,documented_mode_candidate_proxy_not_verified_procurement
+58,wynnewood_ok,1,46.426833277026475,direct_rail,260.040376580103,documented_mode_candidate_proxy_not_verified_procurement
+59,wynnewood_ok,1,53.3101117411672,direct_rail,282.10849568491557,documented_mode_candidate_proxy_not_verified_procurement
+60,wynnewood_ok,1,53.14654594405154,direct_rail,293.6759567369849,documented_mode_candidate_proxy_not_verified_procurement
+61,wynnewood_ok,1,42.233043863734245,direct_rail,224.20771783481914,documented_mode_candidate_proxy_not_verified_procurement
+62,wynnewood_ok,1,57.16058448134582,direct_rail,309.29278876839317,documented_mode_candidate_proxy_not_verified_procurement
+63,wynnewood_ok,1,43.75805817483619,direct_rail,226.00645120479064,documented_mode_candidate_proxy_not_verified_procurement
