@@ -19,6 +19,7 @@ import geopandas as gpd
 import numpy as np
 import rasterio
 from rasterio.mask import mask
+from rasterio.transform import from_bounds
 from shapely.geometry import box, mapping
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -55,10 +56,8 @@ def get_raster(geometry, year: int, target: Path) -> bool:
             ], check=True)
             # The service can return a text error page with HTTP 200. Verify
             # the download is a readable GeoTIFF before accepting it.
+            repair_transform = False
             with rasterio.open(target) as src:
-                # Outside the CDL footprint the service can return a readable
-                # one-cell TIFF with a NaN/coarse transform. Accept it only
-                # when it contains no crop information (nodata/background 0).
                 malformed = (
                     not np.all(np.isfinite(src.res))
                     or not np.allclose(src.res, (30, 30))
@@ -67,9 +66,19 @@ def get_raster(geometry, year: int, target: Path) -> bool:
                     observed = src.read(1, masked=True).compressed()
                     if observed.size == 0 or np.all(observed == 0):
                         return True
-                    raise rasterio.errors.RasterioIOError(
-                        f"Malformed nonempty CDL raster: bbox={(xmin,ymin,xmax,ymax)}, requested={(width,height)}, returned_shape={(src.width,src.height)}, res={src.res}, values={np.unique(observed)[:12].tolist()}"
-                    )
+                    # CropScape writes an invalid transform for valid one-row
+                    # or one-column responses. The pixel array is usable when
+                    # its shape exactly matches the requested snapped grid.
+                    if src.width == width and src.height == height:
+                        repair_transform = True
+                    else:
+                        raise rasterio.errors.RasterioIOError(
+                            f"Malformed nonempty CDL raster: bbox={(xmin,ymin,xmax,ymax)}, requested={(width,height)}, returned_shape={(src.width,src.height)}, res={src.res}, values={np.unique(observed)[:12].tolist()}"
+                        )
+            if repair_transform:
+                with rasterio.open(target, "r+") as dst:
+                    dst.transform = from_bounds(xmin, ymin, xmax, ymax, width, height)
+                    dst.crs = "EPSG:5070"
             return False
         except (subprocess.CalledProcessError, rasterio.errors.RasterioIOError) as exc:
             last_error = exc
