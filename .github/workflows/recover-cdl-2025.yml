@@ -1,4 +1,4 @@
-name: Recover and merge 2025 CDL batch v5
+name: Recover and merge 2025 CDL batch v6
 
 on:
   push:
@@ -21,12 +21,48 @@ jobs:
           path: output
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: 38081697675
-      - uses: actions/download-artifact@v4
-        with:
-          pattern: cdl2025-hub-*
-          path: batch-results-2025
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          run-id: 38081697675
+      - name: Download all prior batch artifacts with pagination
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p batch-results-2025
+          gh api --paginate \
+            "/repos/pliedo/lcfs-soybean-land-use/actions/runs/38081697675/artifacts?per_page=100" \
+            --slurp > /tmp/cdl-artifact-pages.json
+          python - <<'PY'
+          import json
+          import pathlib
+          import subprocess
+
+          pages = json.load(open("/tmp/cdl-artifact-pages.json"))
+          artifacts = [
+              artifact
+              for page in pages
+              for artifact in page["artifacts"]
+              if artifact["name"].startswith("cdl2025-hub-")
+          ]
+          assert len(artifacts) == 173, f"Expected 173 prior artifacts; got {len(artifacts)}"
+
+          root = pathlib.Path("batch-results-2025")
+          zip_path = pathlib.Path("/tmp/cdl-artifact.zip")
+          for artifact in artifacts:
+              destination = root / artifact["name"]
+              destination.mkdir(parents=True, exist_ok=True)
+              with zip_path.open("wb") as archive:
+                  subprocess.run(
+                      [
+                          "gh",
+                          "api",
+                          f"/repos/pliedo/lcfs-soybean-land-use/actions/artifacts/{artifact['id']}/zip",
+                      ],
+                      check=True,
+                      stdout=archive,
+                  )
+              subprocess.run(
+                  ["unzip", "-oq", str(zip_path), "-d", str(destination)],
+                  check=True,
+              )
+          PY
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
