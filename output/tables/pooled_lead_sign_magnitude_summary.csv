@@ -1,0 +1,13 @@
+outcome,term,models,positive,positive_significant,negative_significant,median_beta
+log_soy_acres,lead1,84,0,0,60,-0.05170597596701497
+log_soy_acres,lead2,84,46,9,0,0.0036385669475880052
+log_soy_acres,lead3,84,42,8,16,0.0007536268293889912
+soy_acres,lead1,84,16,2,15,-4394.5338894047945
+soy_acres,lead2,84,55,12,0,1291.0879439838236
+soy_acres,lead3,84,56,3,8,1596.7461747908242
+soy_share_all_land,lead1,84,8,0,43,-0.3321960430497215
+soy_share_all_land,lead2,84,36,12,2,-0.02317296182099128
+soy_share_all_land,lead3,84,75,22,4,0.12804312626079767
+soy_share_cropland,lead1,84,10,0,41,-0.75606989383764
+soy_share_cropland,lead2,84,46,10,6,0.04734905770526707
+soy_share_cropland,lead3,84,31,0,8,-0.13256742305101837
