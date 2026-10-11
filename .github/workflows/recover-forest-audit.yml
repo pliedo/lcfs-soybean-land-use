@@ -25,7 +25,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p prior-results artifact-zips
-          gh api --paginate 'repos/pliedo/lcfs-soybean-land-use/actions/runs/38126571985/artifacts?per_page=100' --jq '.artifacts[] | select(.name | startswith("forest-hub-")) | "\\(.id) \\(.name)"' > artifacts.txt
+          gh api --paginate 'repos/pliedo/lcfs-soybean-land-use/actions/runs/38126571985/artifacts?per_page=100' --jq '.artifacts[] | select(.name | startswith("forest-hub-")) | [.id,.name] | join(" ")' > artifacts.txt
           test "$(wc -l < artifacts.txt)" -eq 174
           while read -r artifact_id artifact_name; do
             gh api "repos/pliedo/lcfs-soybean-land-use/actions/artifacts/${artifact_id}/zip" > "artifact-zips/${artifact_name}.zip"
