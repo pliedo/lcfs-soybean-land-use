@@ -46,7 +46,7 @@ for matrix,w0 in mat.groupby('matrix_scenario',sort=False):
    p=y.merge(e,on=['hub_id','year'],validate='many_to_one')
    for spec,terms in [('current',['dose']),('lag1',['lag1']),('lag2',['lag2']),('distributed_0_2',['dose','lag1','lag2']),('joint_leads',['dose','lead1','lead2'])]:
     a=p.dropna(subset=terms+outcomes);names=[(term,r) for term in terms for r in range(1,7)]
-    X=np.column_stack([a[term]*(a.ring_index==r) for term,r in names]);Y=a[outcomes].to_numpy();Y[:,0]*=100
+    X=np.column_stack([a[term]*(a.ring_index==r) for term,r in names]);Y=a[outcomes].to_numpy(dtype=float,copy=True);Y[:,0]*=100
     g1=pd.factorize(pd.MultiIndex.from_arrays([a.hub_id,a.ring_index]))[0];g2=pd.factorize(pd.MultiIndex.from_arrays([a.ring_index,a.year]))[0]
     z=demean(np.column_stack([X,Y]),g1,g2);xx=z[:,:len(names)];yy=z[:,len(names):]
     if np.linalg.matrix_rank(xx)<len(names):skipped.append(dict(matrix_scenario=matrix,rule=rule,scenario=scenario,specification=spec,reason='residualized rank'));continue
