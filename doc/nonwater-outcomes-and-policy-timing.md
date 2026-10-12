@@ -1,0 +1,23 @@
+# Non-water soybean outcomes and policy timing
+
+Original crop_outcomes_exclusive.csv remains unchanged. crop_outcomes_nonwater_exclusive.csv preserves all 4,234 soybean pixel and acreage observations and adds water pixels, clouds/no-data pixels, non-water classified pixels/acres and soybean share of non-water classified land. Water codes83 and111 and clouds/no-data81 are excluded from the new denominator; forest, grass, developed land and wetlands remain. The original water-inclusive measures are retained for audit. Every class-count total is checked against the original outcome table. This does not impose a permanently fixed pixel footprint; remaining non-water coverage changes still warrant sensitivity checks.
+
+Sources: USDA CDL metadata, https://data.nass.usda.gov/Research_and_Science/Cropland/metadata/metadata_CDL25_FGDC-STD-001-1998.htm and FAQ https://data.nass.usda.gov/Research_and_Science/Cropland/sarsfaqs2.php. CDL crop-year labels refer to the growing season observed, not the next year's publication date.
+
+## Timing actually implemented
+
+code/14_plot_planting_aligned_dose.py uses first observed soybean pathway approval by May1 of crop year t, multiplied by previous-calendar-year refinery capacity. Thus E_t is already preplant aligned and capacity is already lagged once. May1 is a uniform modeling cutoff, not the exact decision date of every farmer. Approval after May1 t enters eligibility in crop year t+1, subject to available capacity. Soybeans planted in spring t are observed in CDL t; subsequent publication does not shift the outcome to t+1.
+
+Example: approval in September2023, positive 2023 capacity, eligibility for 2024 planting. Satellite imagery during 2024 is CDL2024, even if released2025. The aligned-current model associates E2024 with Y2024; aligned-lag1 associates it with Y2025; aligned-lag2 associates it with Y2026. The latter is an additional two-growing-season response delay, not a necessary satellite observation lag. Adding lag2 can push responses of recent approvals beyond the current 2025 outcome sample. A lag2-only model is estimated as a sensitivity but should not be preferred because of its p-value.
+
+## Corrected baseline estimates
+
+Eight weighting rules, baseline transport-cost matrix only, both crosswalk scenarios, current/lag1/lag2/distributed0–2 and joint current/leads1–2 diagnostics; heterogeneous six-ring slopes; crusher-ring and ring-year FE; crusher-clustered intervals. Results are in output/tables/nonwater_dose_coefficients.csv.gz, nonwater_dose_scenarios.csv.gz, nonwater_dose_average_summary.csv and nonwater_dose_joint_leads.csv. The summary uses the main physical-onset snapshot-capacity scenario and an equal-location average of a persistent 100-million-gallon/year addition across 16 physical refinery locations. Nominal significance is not adjusted for multiple testing. Share-model acreage conversions fix the 2024 non-water denominator and retain full coefficient covariance.
+
+Positive significant non-water-share aggregate predictions at5%: unnormalized inverse-square distributed0–2, 0–50 +6,300 [1,481,11,118], p=.0113 and 0–75 +10,584 [3,235,17,933], p=.00555; normalized inverse-square distributed0–2, 0–50 +10,512 [2,604,18,421], p=.0101 and 0–75 +18,515 [6,510,30,520], p=.00312; nearest-eligible lag1 0–50 +2,829 [127,5,530], p=.0405; nearest-eligible lag2 0–50 +3,521 [1,041,6,000], p=.00620 and 0–75 +5,425 [671,10,178], p=.0261. No other weighting rule has a positive significant cumulative non-water-share prediction at these cutoffs in this baseline grid.
+
+Direct-acreage outcomes are unchanged: nearest-eligible lag2 0–50 +3,118 [684,5,552], p=.0130 and 0–75 +4,499 [45,8,952], p=.0478 are positive significant. Normalized inverse-square distributed0–2 direct acres gives +9,154 [-444,18,751], p=.0612 and +13,147 [-1,518,27,813], p=.0779. Normalized inverse-square lag2-only 0–75 non-water share prediction is +8,076, p=.261: positivity alone is not statistical precision.
+
+Joint lead1/lead2 ring tests reject for normalized inverse-square non-water shares (p=.0000187) and nearest-eligible non-water shares (p=.00000657). All direct-acreage lead tests reject at5%. These are future-exposure diagnostics under persistent capacity, not proof of anticipation, but they prevent describing the estimates as established causal effects. Water correction does not resolve identification.
+
+The corrected run succeeded: https://github.com/pliedo/lcfs-soybean-land-use/actions/runs/38192529213. No raw raster downloads occurred. The first attempt stopped at a pandas3 read-only-array compatibility change; explicitly copying the outcome array repaired it without changing data definitions.
