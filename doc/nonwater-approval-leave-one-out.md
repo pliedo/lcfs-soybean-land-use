@@ -1,0 +1,11 @@
+# Updated leave-one-out diagnostics
+
+Source63: nonwater share only, approval-calendar eligible capacity stock; matched2016–2025, crusher-ring and ring-year FE, crusher clustered. Road and baseline mode-cost; inverse-square sum-normalized, exponential sum-normalized, nearest eligible. Lag1-only and current+lag1; record components and full-covariance sum. Each of57crusher exclusions removes outcomes; originalweights retained. Each16refinery exclusions removes its eligible capacity contribution, fixedweights, sameoutcomes. No shock redistribution. Baseline retained. 10656coefficientrows, zero unidentified. Baseline matches source57 within8.1e-16. Holm six-ring p retained but model search not adjusted.
+
+Road inverse-square lag1-only: 0–25 baseline+.059166pp,p=.018688. 56of57hub exclusions remainpositive and nominallysignificant. Removinghub51 changescoefficient to-.199951pp,p=.882102, so sign flips but estimate is extremely imprecise; not evidence of negative causal effect. All16refinery exclusions keep signpositive;15significant. RemovingStBernard: +.048974,p=.088322. RemovingDiamondGreenDiesel: +.283554,p=.021296; coefficient increases because regressor/exposure changes, not comparable capacity-normalized procurement effect.
+
+Mode-cost inverse-square 0–25 baseline+.111124pp,p=.380472; removinghub51 flips sign to-.433861; allotherspositive, none nominallysignificant. Allrefinery exclusionspositive but none significant. The single-hub influence warrants checking exposure concentration/identification, not automatic removal or an outcome-based exclusion.
+
+Road andmodecost inverse-square lag1-only outer75–150coefficients remainnegative in everyhub/refineryexclusion. This rules out a single excluded unit as sufficient explanation, not confounding/mismeasured exposure/commonregiontrends. Roadsignificance survives56of57hubexclusions in eachouterring; modecost75–100 remainsimprecise.50–75sign fluctuates nearzero. Allrules/components in CSVs; do not infer significance fromrangeplots.
+
+These diagnostics concern observational influence, not causalvalidation. Intervals conditionon matrix/capacity/measurement; no transportuncertainty. No winsorization, no outlier deletion inmainresults, no rasterrepeat. Code64plots baselineconfidenceintervalsandexclusioncoefficientranges distinctly.
