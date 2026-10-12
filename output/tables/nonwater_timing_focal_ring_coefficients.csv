@@ -1,0 +1,16 @@
+matrix_scenario,rule,scenario,specification,outcome,n,clusters,term,ring,beta,se,ci_low,ci_high,p_value
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lead2,1,-0.1502768024796381,0.3588079387449499,-0.8690554756193947,0.5685018706601184,0.6769480006479829
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lead2,2,-0.0457472775246897,0.303144601799865,-0.6530188875491032,0.5615243324997237,0.8805897194698071
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lead2,3,-0.4535775495367262,0.4264996982852829,-1.3079591117181368,0.4008040126446842,0.2921249536676644
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lead1,1,-0.1853085110815732,0.2994433819559274,-0.785165686805203,0.4145486646420566,0.5385289684318766
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lead1,2,-0.3422423794356681,0.2385146766773697,-0.82004469179861,0.1355599329272737,0.1568799612619186
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lead1,3,-0.3688769726507108,0.3068555274120493,-0.9835824599660674,0.2458285146646457,0.2343760154006719
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,dose,1,-0.443776000993953,0.3354128932639894,-1.1156887664069517,0.2281367644190457,0.1911879479495142
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,dose,2,-0.5464925805050111,0.4119565909025119,-1.3717407977986775,0.2787556367886554,0.1900328370960624
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,dose,3,-0.2827288075957237,0.4154150382098916,-1.1149051273595232,0.5494475121680757,0.4989331262028728
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lag1,1,0.6111838181188249,0.1807545906203578,0.2490888620694465,0.9732787741682032,0.0013210305544277
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lag1,2,0.7650792528166112,0.2292543178406964,0.305827668346436,1.2243308372867865,0.0015080347669544
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lag1,3,0.870522101984297,0.3057682121584799,0.2579947688591151,1.483049435109479,0.0061582900582977
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lag2,1,0.8105441160396465,0.7604456558604911,-0.7128115862510649,2.333899818330358,0.2910517271397302
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lag2,2,0.5860290654891962,0.7461572406893571,-0.908703501722896,2.080761632701289,0.4355317107235644
+baseline,inverse_square50_sum1,physical_onset_snapshot_capacity,full_lead_lag,soy_share_nonwater,2336,57,lag2,3,1.5465591025314769,0.8486924735326759,-0.1535762182288993,3.246694423291853,0.0737529542823817
