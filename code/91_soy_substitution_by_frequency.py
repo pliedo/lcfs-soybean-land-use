@@ -50,7 +50,7 @@ def run(hub):
  for name in ['dominant','episodes','annual','pixels']:
   counters[name]=sum(np.load(p)[name] for p in sorted(folder.glob('history_*.npz')))
  expected=pd.read_csv(ROOT/'output/pixel_history_inner/soy_persistence.csv')
- expected=expected[expected.hub_id==hub].set_index('soy_years').pixels.reindex(range(14)).to_numpy();expected[0]=0
+ expected=expected[expected.hub_id==hub].set_index('soy_years').pixels.reindex(range(14)).to_numpy(copy=True);expected[0]=0
  assert np.array_equal(counters['pixels'],expected)
  for key in ['dominant','episodes']:
   rows=[]
