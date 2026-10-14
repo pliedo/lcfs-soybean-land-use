@@ -1,0 +1,86 @@
+baseline,status,destination,pixels
+0,0,No exit from soy/corn,1742793
+0,1,Barley,10443
+0,1,Cotton,65669
+0,1,Double-crop soybean,199385
+0,1,Durum wheat,1627
+0,1,Fallow/idle,781885
+0,1,Forest,22317
+0,1,Grass/pasture/hay,125959
+0,1,Other crops,114880
+0,1,Other land cover,149339
+0,1,Rice,123575
+0,1,Sorghum,38186
+0,1,Spring wheat,304457
+0,1,Sugar beet,25380
+0,1,Winter wheat,262285
+0,2,Barley,268
+0,2,Cotton,4746
+0,2,Double-crop soybean,2804
+0,2,Durum wheat,5
+0,2,Fallow/idle,14199
+0,2,Forest,14272
+0,2,Grass/pasture/hay,72886
+0,2,Other crops,6919
+0,2,Other land cover,86248
+0,2,Rice,3543
+0,2,Sorghum,536
+0,2,Spring wheat,4231
+0,2,Sugar beet,315
+0,2,Winter wheat,5219
+0,3,Barley,832
+0,3,Cotton,6541
+0,3,Double-crop soybean,18616
+0,3,Fallow/idle,35469
+0,3,Forest,8042
+0,3,Grass/pasture/hay,62592
+0,3,Other crops,19654
+0,3,Other land cover,53547
+0,3,Rice,5902
+0,3,Sorghum,4297
+0,3,Spring wheat,3373
+0,3,Sugar beet,262
+0,3,Winter wheat,11745
+1,0,No exit from soy/corn,76129593
+1,1,Barley,78811
+1,1,Cotton,148009
+1,1,Double-crop soybean,1395291
+1,1,Durum wheat,5419
+1,1,Fallow/idle,6320454
+1,1,Forest,382738
+1,1,Grass/pasture/hay,2219237
+1,1,Other crops,1594447
+1,1,Other land cover,1858964
+1,1,Rice,133056
+1,1,Sorghum,92792
+1,1,Spring wheat,1050198
+1,1,Sugar beet,207815
+1,1,Winter wheat,2838760
+1,2,Barley,1306
+1,2,Cotton,7514
+1,2,Double-crop soybean,10949
+1,2,Durum wheat,28
+1,2,Fallow/idle,90996
+1,2,Forest,212064
+1,2,Grass/pasture/hay,1261581
+1,2,Other crops,148380
+1,2,Other land cover,749804
+1,2,Rice,1735
+1,2,Sorghum,5732
+1,2,Spring wheat,15239
+1,2,Sugar beet,1719
+1,2,Winter wheat,55741
+1,3,Barley,2940
+1,3,Cotton,29689
+1,3,Double-crop soybean,161824
+1,3,Durum wheat,24
+1,3,Fallow/idle,182322
+1,3,Forest,138009
+1,3,Grass/pasture/hay,1112354
+1,3,Other crops,364025
+1,3,Other land cover,595196
+1,3,Rice,12175
+1,3,Sorghum,31469
+1,3,Spring wheat,36123
+1,3,Sugar beet,9886
+1,3,Winter wheat,188624
