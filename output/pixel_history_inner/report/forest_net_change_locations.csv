@@ -1,0 +1,685 @@
+to_year,hub_id,signed,company,address,latitude,longitude
+2014,1,16161,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2014,3,1768,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2014,5,788,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2014,6,16795,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2014,7,29217,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2014,8,5193,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2014,9,7223,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2014,10,-1560,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2014,11,1530,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2014,12,-15894,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2014,13,-16313,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2014,14,10301,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2014,15,-6979,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2014,16,1818,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2014,17,9966,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2014,18,17605,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2014,19,25663,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2014,20,6978,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2014,21,-1945,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2014,22,394,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2014,23,11561,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2014,24,-4008,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2014,25,66776,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2014,27,-21433,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2014,28,-3256,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2014,29,491,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2014,30,-18668,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2014,31,2856,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2014,34,17830,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2014,35,63668,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2014,36,-3754,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2014,37,8965,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2014,38,4724,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2014,39,6348,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2014,40,3660,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2014,41,-5060,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2014,42,-4510,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2014,43,14798,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2014,44,7072,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2014,45,-18546,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2014,46,176,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2014,47,4965,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2014,48,-455428,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2014,49,849,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2014,50,7124,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2014,51,973,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2014,52,-196273,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2014,53,-185,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2014,55,2253,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2014,56,-1542,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2014,57,-439329,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2014,58,-267984,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2014,59,-419447,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2014,60,-75742,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2014,61,20696,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2014,62,-102621,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2014,63,-11017,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2015,1,77045,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2015,3,35584,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2015,5,5213,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2015,6,59651,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2015,7,60122,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2015,8,8211,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2015,9,83427,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2015,10,10985,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2015,11,10793,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2015,12,37657,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2015,13,21499,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2015,14,11217,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2015,15,29174,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2015,16,20439,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2015,17,27410,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2015,18,-6973,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2015,19,-27079,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2015,20,27092,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2015,21,6278,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2015,22,5487,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2015,23,9824,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2015,24,23208,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2015,25,94773,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2015,27,25487,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2015,28,11199,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2015,29,72,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2015,30,58402,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2015,31,16695,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2015,34,124350,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2015,35,60325,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2015,36,119139,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2015,37,43663,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2015,38,-2638,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2015,39,15794,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2015,40,39511,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2015,41,598,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2015,42,20315,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2015,43,125407,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2015,44,1925,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2015,45,12651,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2015,46,-610,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2015,47,6842,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2015,48,165089,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2015,49,1873,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2015,50,9705,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2015,51,-274,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2015,52,279534,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2015,53,1019,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2015,55,7933,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2015,56,3032,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2015,57,94477,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2015,58,44690,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2015,59,-2456,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2015,60,26430,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2015,61,14208,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2015,62,23167,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2015,63,13523,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2016,1,-17764,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2016,3,-26954,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2016,5,-468,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2016,6,-59121,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2016,7,2002,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2016,8,-5111,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2016,9,12659,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2016,10,3884,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2016,11,5716,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2016,12,-10762,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2016,13,5854,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2016,14,6271,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2016,15,-8615,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2016,16,10914,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2016,17,-15525,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2016,18,-7487,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2016,19,100,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2016,20,-1936,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2016,21,-4581,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2016,22,5394,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2016,23,1362,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2016,24,-4924,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2016,25,7394,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2016,27,4122,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2016,28,3340,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2016,29,2061,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2016,30,-11343,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2016,31,3103,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2016,34,59620,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2016,35,41284,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2016,36,5799,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2016,37,1678,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2016,38,-399,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2016,39,-4565,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2016,40,-5978,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2016,41,-5865,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2016,42,-4065,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2016,43,-7430,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2016,44,16329,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2016,45,10173,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2016,46,1178,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2016,47,-4731,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2016,48,-18618,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2016,49,-1163,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2016,50,-5161,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2016,51,-1003,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2016,52,-33961,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2016,53,-270,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2016,55,-6452,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2016,56,-1052,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2016,57,6084,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2016,58,49949,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2016,59,-1599,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2016,60,9132,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2016,61,9594,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2016,62,-13631,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2016,63,-6472,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2017,1,-5187,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2017,3,20366,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2017,5,-1312,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2017,6,18891,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2017,7,-5770,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2017,8,3073,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2017,9,-10862,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2017,10,371,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2017,11,-7520,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2017,12,7179,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2017,13,-1943,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2017,14,-38963,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2017,15,13591,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2017,16,-8067,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2017,17,21982,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2017,18,10794,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2017,19,-3815,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2017,20,8101,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2017,21,-196,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2017,22,-8284,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2017,23,336,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2017,24,-1819,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2017,25,-10077,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2017,27,-2817,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2017,28,-6932,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2017,29,-1668,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2017,30,14719,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2017,31,2286,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2017,34,-73554,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2017,35,13441,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2017,36,985,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2017,37,-10247,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2017,38,5709,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2017,39,822,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2017,40,-4115,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2017,41,10415,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2017,42,5654,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2017,43,-14940,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2017,44,-14957,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2017,45,-7177,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2017,46,-944,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2017,47,7764,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2017,48,12824,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2017,49,-1748,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2017,50,9228,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2017,51,659,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2017,52,16341,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2017,53,-853,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2017,55,14151,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2017,56,6032,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2017,57,-179,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2017,58,-18413,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2017,59,4368,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2017,60,-40897,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2017,61,-3164,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2017,62,-29366,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2017,63,-5122,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2018,1,-30863,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2018,3,-30987,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2018,5,-10571,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2018,6,-25473,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2018,7,-31534,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2018,8,-4869,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2018,9,-14832,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2018,10,-6226,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2018,11,289,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2018,12,-36877,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2018,13,-14041,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2018,14,-27384,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2018,15,-21692,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2018,16,-4934,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2018,17,-41419,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2018,18,-24332,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2018,19,-13483,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2018,20,-28421,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2018,21,32174,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2018,22,-977,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2018,23,-12111,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2018,24,-8959,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2018,25,-197980,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2018,27,-2988,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2018,28,-5102,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2018,29,-2588,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2018,30,-14563,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2018,31,-9271,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2018,34,51,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2018,35,-205057,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2018,36,-34951,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2018,37,-16093,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2018,38,-6443,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2018,39,-7907,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2018,40,-11178,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2018,41,-3198,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2018,42,-6695,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2018,43,-21614,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2018,44,-12435,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2018,45,-6013,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2018,46,-593,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2018,47,-14472,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2018,48,-74661,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2018,49,-232,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2018,50,-23542,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2018,51,-10,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2018,52,-26914,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2018,53,649,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2018,55,-15724,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2018,56,-9498,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2018,57,-77397,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2018,58,-36622,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2018,59,-70583,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2018,60,17542,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2018,61,-44847,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2018,62,72429,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2018,63,7691,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2019,1,129568,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2019,3,158482,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2019,5,33144,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2019,6,-131280,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2019,7,-132579,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2019,8,63400,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2019,9,-110558,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2019,10,39305,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2019,11,68337,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2019,12,248922,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2019,13,39298,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2019,14,159830,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2019,15,40015,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2019,16,86333,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2019,17,162319,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2019,18,71933,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2019,19,79325,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2019,20,60304,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2019,21,-96249,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2019,22,23180,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2019,23,53324,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2019,24,132719,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2019,25,218896,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2019,27,118633,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2019,28,24544,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2019,29,26188,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2019,30,78774,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2019,31,26515,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2019,34,407,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2019,35,268097,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2019,36,20804,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2019,37,14266,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2019,38,7302,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2019,39,51568,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2019,40,28578,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2019,41,8481,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2019,42,11456,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2019,43,54211,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2019,44,33144,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2019,45,27476,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2019,46,2158,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2019,47,47339,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2019,48,323961,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2019,49,23658,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2019,50,11538,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2019,51,3602,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2019,52,-55526,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2019,53,-1114,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2019,55,-11693,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2019,56,6176,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2019,57,328454,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2019,58,482607,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2019,59,749736,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2019,60,73267,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2019,61,-102045,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2019,62,65555,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2019,63,1713,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2020,1,-31692,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2020,3,-23368,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2020,5,-2454,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2020,6,-31,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2020,7,4535,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2020,8,-3105,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2020,9,-8919,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2020,10,286,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2020,11,454,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2020,12,-13947,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2020,13,-12386,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2020,14,-10424,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2020,15,-8729,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2020,16,6730,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2020,17,-7665,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2020,18,-15945,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2020,19,-11189,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2020,20,3224,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2020,21,-11659,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2020,22,-2859,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2020,23,4400,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2020,24,-7317,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2020,25,-41884,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2020,27,-8228,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2020,28,122,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2020,29,-1904,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2020,30,-792,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2020,31,-5568,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2020,34,-94106,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2020,35,-52928,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2020,36,2650,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2020,37,-9664,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2020,38,-711,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2020,39,1740,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2020,40,-4650,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2020,41,-7242,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2020,42,2126,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2020,43,-1254,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2020,44,-7831,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2020,45,-4854,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2020,46,2208,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2020,47,-4167,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2020,48,-18432,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2020,49,599,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2020,50,-5077,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2020,51,21,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2020,52,-7668,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2020,53,-163,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2020,55,2381,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2020,56,-1464,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2020,57,-29540,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2020,58,47688,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2020,59,26705,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2020,60,5301,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2020,61,4141,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2020,62,36016,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2020,63,4790,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2021,1,-175942,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2021,3,-169772,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2021,5,-35480,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2021,6,-94190,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2021,7,-93911,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2021,8,-49136,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2021,9,-150339,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2021,10,-44189,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2021,11,-42117,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2021,12,-128390,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2021,13,-46809,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2021,14,-125305,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2021,15,-54265,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2021,16,-69931,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2021,17,-120456,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2021,18,-104453,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2021,19,-111172,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2021,20,-64495,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2021,21,18682,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2021,22,-27775,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2021,23,-40356,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2021,24,-58148,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2021,25,-121688,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2021,27,-63426,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2021,28,-18180,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2021,29,-19017,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2021,30,-33093,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2021,31,-35747,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2021,34,-66054,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2021,35,-137842,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2021,36,-17733,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2021,37,-8275,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2021,38,-6231,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2021,39,-29114,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2021,40,-10417,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2021,41,-11441,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2021,42,-11202,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2021,43,-111778,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2021,44,-14895,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2021,45,-19946,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2021,46,-9910,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2021,47,-50760,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2021,48,-270486,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2021,49,-2783,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2021,50,1027,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2021,51,-583,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2021,52,-278967,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2021,53,-76,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2021,55,-2088,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2021,56,-7354,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2021,57,-78533,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2021,58,-136842,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2021,59,-125697,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2021,60,-25407,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2021,61,-7385,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2021,62,-34388,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2021,63,-8081,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2022,1,5633,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2022,3,9994,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2022,5,-2644,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2022,6,-370,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2022,7,-10497,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2022,8,-3429,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2022,9,-25199,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2022,10,3831,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2022,11,4264,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2022,12,-7804,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2022,13,-324,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2022,14,2564,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2022,15,-5387,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2022,16,-267,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2022,17,-3180,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2022,18,4114,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2022,19,-14953,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2022,20,8368,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2022,21,-8306,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2022,22,383,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2022,23,3057,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2022,24,7082,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2022,25,-31723,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2022,27,2122,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2022,28,-2718,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2022,29,-4893,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2022,30,-2590,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2022,31,6714,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2022,34,3224,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2022,35,2612,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2022,36,6594,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2022,37,7751,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2022,38,-725,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2022,39,-3908,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2022,40,2067,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2022,41,15029,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2022,42,-1721,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2022,43,57243,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2022,44,19982,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2022,45,25530,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2022,46,1609,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2022,47,-5833,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2022,48,-53255,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2022,49,3963,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2022,50,2082,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2022,51,1154,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2022,52,302,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2022,53,65,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2022,55,4946,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2022,56,4399,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2022,57,24662,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2022,58,16702,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2022,59,13782,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2022,60,11985,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2022,61,69,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2022,62,-12768,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2022,63,5133,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2023,1,-1096,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2023,3,-10182,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2023,5,824,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2023,6,-3609,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2023,7,-7938,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2023,8,-192,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2023,9,2549,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2023,10,-5951,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2023,11,-7694,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2023,12,10503,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2023,13,2049,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2023,14,11181,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2023,15,5816,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2023,16,-3458,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2023,17,-6754,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2023,18,1256,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2023,19,3963,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2023,20,-28831,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2023,21,-451,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2023,22,-751,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2023,23,-6018,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2023,24,14842,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2023,25,12693,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2023,27,-2517,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2023,28,-329,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2023,29,-927,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2023,30,-1660,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2023,31,-1747,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2023,34,26178,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2023,35,-11236,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2023,36,4701,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2023,37,-9258,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2023,38,-533,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2023,39,1641,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2023,40,-1496,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2023,41,-9761,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2023,42,3361,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2023,43,-54828,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2023,44,-11540,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2023,45,-29038,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2023,46,-217,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2023,47,-2770,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2023,48,22131,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2023,49,-6608,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2023,50,-5706,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2023,51,-1254,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2023,52,16840,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2023,53,68,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2023,55,-3580,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2023,56,-4382,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2023,57,-19740,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2023,58,11280,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2023,59,2407,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2023,60,-19423,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2023,61,-2617,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2023,62,-22492,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2023,63,-5317,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2024,1,-17666,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2024,3,52323,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2024,5,15863,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2024,6,118216,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2024,7,88508,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2024,8,22690,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2024,9,94427,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2024,10,-2222,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2024,11,17637,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2024,12,33659,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2024,13,-7447,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2024,14,9745,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2024,15,-10766,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2024,16,20762,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2024,17,9972,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2024,18,45047,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2024,19,-18978,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2024,20,113169,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2024,21,-87622,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2024,22,14943,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2024,23,-2319,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2024,24,-16147,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2024,25,13250,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2024,27,14757,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2024,28,5831,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2024,29,-514,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2024,30,16142,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2024,31,15050,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2024,34,-26808,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2024,35,41855,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2024,36,-108222,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2024,37,22452,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2024,38,10900,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2024,39,41431,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2024,40,1311,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2024,41,741,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2024,42,-14344,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2024,43,30184,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2024,44,20168,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2024,45,18994,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2024,46,-1971,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2024,47,36955,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2024,48,-58871,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2024,49,3397,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2024,50,33354,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2024,51,-539,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2024,52,-25751,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2024,53,4589,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2024,55,-6659,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2024,56,-1891,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2024,57,376259,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2024,58,131082,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2024,59,-99245,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2024,60,39106,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2024,61,19176,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2024,62,-257270,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2024,63,-6562,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
+2025,1,-178443,Archer Daniels Midland Co.,"400 E. Holt Box 797, Mexico, MO 65265, United States",39.1682071932732,-91.8806184526382
+2025,3,-178832,Archer Daniels Midland Co.,"2100 Gardner Expressway, Quincy, IL 62305, United States",39.9064098077705,-91.4089815269985
+2025,5,-47517,Archer Daniels Midland Co.,"4666 E Fairies Parkway, Decatur, IL 62526, United States",39.8667185307822,-88.8880637184189
+2025,6,-220750,Bunge North America,"203 34th Street, Cairo, IL 62914, United States",37.0158273816336,-89.1780767715844
+2025,7,-254960,Consolidated Grain and Barge Soybean Processing,"2781 Bluff Road, Mt. Vernon, IN 47620, United States",37.9264841203351,-87.8723884607761
+2025,8,-52259,"Cargill, Inc.","115 S Euclid Ave, Bloomington, IL 61701, United States",40.4769437896708,-89.0184889125515
+2025,9,-440082,"Owensboro Grain Company, LLC","822 E 2nd Street, Owensboro, KY 42303, United States",37.7751069389274,-87.1024904103457
+2025,10,-86173,"Cargill, Inc.","1503 Wabash Avenue, Lafayette, IN 47905, United States",40.4056695385512,-86.9037147165047
+2025,11,-84224,Archer Daniels Midland Co.,"2191 West County Road NS, Frankfort, IN 46041, United States",40.2861090695712,-86.5483121507762
+2025,12,-151919,"Cargill, Inc.","2309 Front Street, Kansas City, MO 64120, United States",39.1236529607995,-94.5554021216454
+2025,13,-10860,"Cargill, Inc.","1110 12th SW Avenue, Cedar Rapids, IA 52404, United States",41.965240987113,-91.6791189741233
+2025,14,-130837,Archer Daniels Midland Co.,"17700 South T Highway, Deerfield, MO 64741, United States",37.8345072284966,-94.5783879732478
+2025,15,-19670,"Cargill, Inc.","410 C Avenue NE, Cedar Rapids, IA 52401, United States",41.9831417227051,-91.668700293751
+2025,16,-144371,"Bunge North America, Inc.","700 N Range Line Rd, Morristown, IN 46161, United States",39.6803985826554,-85.6838188068444
+2025,17,-188097,"Ag Processing, Inc.","900 SW Lower Lake Road, St. Joseph, MO 64504, United States",39.72757240307,-94.8734142208012
+2025,18,-106506,Archer Daniels Midland Co.,"1935 E Euclid Avenue, Des Moines, IA 50313, United States",41.6275113553744,-93.5829031984792
+2025,19,-55671,"ZFS Creston, LLC","1310 E. Howard St., Creston, IA 50801, United States",41.0595413103834,-94.3432272029869
+2025,20,-183947,Louis Dreyfus Company,"7344 Sr 15 S, Claypool, IN 46510, United States",41.125724925509,-85.8885822665119
+2025,21,150542,"Riceland Foods, Inc.","2120 South Park Avenue, Stuttgart, AR 72160, United States",34.4803204849359,-91.5414974384518
+2025,22,-12099,"Cargill, Inc.","602 Industrial Park Road, Iowa Falls, IA 50126, United States",42.513913814621,-93.2644117413144
+2025,23,-52552,"Bunge North America, Inc.","1200 N 2nd Street, Decatur, IN 46733, United States",40.8467961287934,-84.9367456184292
+2025,24,-48816,Bunge North America,"701 E 6th Avenue, Emporia, KS 66801, United States",38.4039583843569,-96.1698875380282
+2025,25,-307072,Bunge Oilseed Processing,"1400 Market Street N.E., Decatur, AL 35609, United States",34.6054344835127,-86.966885341206
+2025,27,-100128,"Cargill, Inc.","2400 Industrial Drive, Sidney, OH 45365, United States",40.2738083234804,-84.1958492647905
+2025,28,-19635,"Ag Processing, Inc.","500 N Commercial Ave, Eagle Grove, IA 50533, United States",42.6688271891907,-93.9047990931706
+2025,29,3742,"Ag Processing, Inc.","1000 300th Street, Manning, IA 51455, United States",41.9184522386488,-95.0694876126566
+2025,30,-54545,"Bunge North America, Inc.","19560 Bunge Avenue, Council Bluffs, IA 51503, United States",41.153551493764,-95.8109116881194
+2025,31,-14205,"Ag Processing, Inc.","4605 19th Street SW, Mason City, IA 50401, United States",43.1332658410883,-93.2262870161617
+2025,34,-65938,"Zeeland Farm Services, Inc.","2525 84th Avenue, Zeeland, MI 49464, United States",42.8149867872099,-85.9904203287895
+2025,35,-307502,"Cargill, Inc.","2930 Lake Guntersville Park Drive, Guntersville, AL 35976, United States",34.3482199790498,-86.2873281942651
+2025,36,-4730,Archer Daniels Midland Co.,"540 South Street, Lincoln, NE 68502, United States",40.7936657766735,-96.714292299261
+2025,37,-43942,Archer Daniels Midland Co.,"130 N Broad Street, Fremont, NE 68025, United States",41.4302312233122,-96.49785363501
+2025,38,6593,"Ag Processing, Inc.","4739 380th Street, Emmetsburg, IA 50536, United States",43.0980227500787,-94.65274430467
+2025,39,-92843,Archer Daniels Midland Co.,"608 Findlay Road, Fostoria, OH 44830, United States",41.149151724087,-83.4346156481037
+2025,40,-14312,"Ag Processing, Inc.","2753 Port Neal Road, Sergeant Bluff, IA 51054, United States",42.3063964844672,-96.3591763226511
+2025,41,26426,"CHS, Inc.","1833 130th Street, Fairmont, MN 56031, United States",43.6703157918803,-94.5058677109075
+2025,42,2948,"Cargill, Inc.","3315 US-75 BUS, Sioux City, IA 51105, United States",42.5270817677665,-96.3648036757255
+2025,43,-118197,Archer Daniels Midland Co.,"126 La Grange, Red Wing, MN 55066, United States",44.5676701205955,-92.5336252671808
+2025,44,1182,"CHS, Inc.","2020 S Riverfront Drive, Mankato, MN 56001, United States",44.1567739897834,-94.031649267855
+2025,45,-30300,Archer Daniels Midland Co.,"2019 3rd Avenue, Mankato, MN 56001, United States",44.1867506089182,-93.9946385009673
+2025,46,1890,"Ag Processing, Inc.","804 2nd Ave, Sheldon, IA 51201, United States",43.182081970619,-95.856091830053
+2025,47,-135232,Bunge North America,"605 Goodrich Road, Bellevue, OH 44811, United States",41.2855098667005,-82.8180693775709
+2025,48,-274693,"Cargill, Inc.","862 West Ridge Road, Gainesville, GA 30501, United States",34.2909136512046,-83.8121726646488
+2025,49,17508,SD Soybean Processors,"100 Caspian Ave, PO Box 500, Volga, SD 57071, United States",44.3241382012146,-96.9069505683239
+2025,50,-6865,"Ag Processing, Inc.","800 Diagonal Street, Dawson, MN 56232, United States",44.9325481998809,-96.0577431112242
+2025,51,18901,"Bunge North America, Inc.","12442 River Road, Destrehan, LA 70047, United States",29.9398704488356,-90.3483804464016
+2025,52,-328998,Archer Daniels Midland Co.,"413 N Hampton Street PO Box 338, Kershaw, SC 29067, United States",34.5544393487887,-80.5844395078628
+2025,53,-4219,Archer Daniels Midland Co.,"1723 Wyoming Avenue, Goodland, KS 67735, United States",39.3408766973993,-101.724026256857
+2025,55,8153,"Cargill, Inc.","250 7th Avenue NE, West Fargo, ND 58078, United States",46.8859144505155,-96.8955857496308
+2025,56,36359,Archer Daniels Midland Co.,"5525 136th Avenue SE, Enderlin, ND 58027, United States",46.6137372441881,-97.5771226017512
+2025,57,-666431,Archer Daniels Midland Co.,"1840 Clay Road, Valdosta, GA 31601, United States",30.8321815385956,-83.2495501796526
+2025,58,-331242,"Cargill, Inc.","1754 River Road, Fayetteville, NC 28312, United States",35.086438231778,-78.8470641719939
+2025,59,-14225,"Perdue Grain and Oilseed, LLC.","242 Perdue Road, Cofield, NC 27922, United States",36.3633745775668,-76.8959573449746
+2025,60,52928,Perdue Grain and Oilseed,"501 Barnes Road, Chesapeake, VA 23324, United States",36.8035393297722,-76.2872156409396
+2025,61,40355,"CHS, Inc.","2100 US Hwy 75, Kennedy, MN 56733, United States",48.7028072848022,-96.9144365916257
+2025,62,375598,"Perdue Grain and Oilseed, LLC.","6906 Zion Church Road, Salisbury, MD 21804, United States",38.3845025525922,-75.5276840354472
+2025,63,17738,Archer Daniels Midland Co.,"1388 ND-97, Velva, ND 58790, United States",48.0211069426295,-100.882022664935
