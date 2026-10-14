@@ -1,0 +1,98 @@
+name: Soybean rotation exits
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/soy-rotation-exits.yml
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: soy-rotation-exits
+  cancel-in-progress: true
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.matrix.outputs.value }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas
+      - id: matrix
+        run: |
+          python - <<'PY'
+          import pandas as pd,json,os
+          d=pd.read_csv('output/pixel_history_inner/soy_persistence.csv')
+          ids=sorted(d.hub_id.astype(int).unique().tolist())
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('value='+json.dumps({'hub':ids})+'\n')
+          PY
+  count:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: pliedo/lcfs-soybean-land-use
+          run-id: 38515721688
+          name: inner-history-hub-${{ matrix.hub }}
+          path: pixel-history-results
+      - uses: actions/cache/restore@v4
+        with:
+          path: rotation-exit-results/**/*.npz
+          key: rotation-exits-v1-${{ matrix.hub }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: rotation-exits-v1-${{ matrix.hub }}-
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas
+      - run: python code/92_soy_rotation_exits.py --hub ${{ matrix.hub }}
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: rotation-exit-results/**/*.npz
+          key: rotation-exits-v1-${{ matrix.hub }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rotation-exits-${{ matrix.hub }}
+          path: |
+            rotation-exit-results/**/*.npz
+            rotation-exit-results/**/*.csv
+            rotation-exit-results/**/*.json
+  merge:
+    needs: [prepare,count]
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: rotation-exits-*
+          path: rotation-exit-results
+          merge-multiple: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas matplotlib
+      - run: python code/92_soy_rotation_exits.py --merge
+      - name: Commit substitution chart and validated counts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f output/soy_rotation_exits
+          git diff --cached --quiet || git commit -m 'Add sustained soybean rotation exit destinations'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rotation-exits-chart
+          path: output/soy_rotation_exits
