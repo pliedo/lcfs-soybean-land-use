@@ -1,0 +1,42 @@
+name: Publish descriptive pixel-history report
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/publish-inner-pixel-history-report.yml
+permissions:
+  contents: write
+  actions: read
+jobs:
+  report:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas matplotlib reportlab pillow openpyxl tabulate
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ghostscript
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: pliedo/lcfs-soybean-land-use
+          run-id: 38515721688
+          pattern: inner-history-hub-*
+          path: pixel-history-results
+          merge-multiple: true
+      - run: python code/89_summarize_inner_pixel_history.py
+      - run: python code/90_locate_inner_ring_changes.py
+      - name: Commit report, map atlas and descriptive summaries
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f output/pixel_history_inner/report
+          git diff --cached --quiet || git commit -m 'Publish validated inner-ring persistence and forest transition report'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inner-ring-descriptive-report
+          path: output/pixel_history_inner/report
