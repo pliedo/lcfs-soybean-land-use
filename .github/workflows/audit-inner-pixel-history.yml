@@ -1,0 +1,137 @@
+name: Descriptive inner-ring pixel histories
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/audit-inner-pixel-history.yml
+permissions:
+  contents: write
+concurrency:
+  group: descriptive-inner-pixel-history
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    outputs:
+      matrix: ${{ steps.matrix.outputs.value }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::sf
+            any::dplyr
+            any::readxl
+            any::readr
+            any::stringr
+            any::units
+      - name: Rebuild exact study polygons without repeating overlap diagnostics
+        run: |
+          Rscript -e 's <- readLines("code/02_build_spatial_zones.R"); k <- grep("^# ---- Pairwise and union overlap",s); stopifnot(length(k)==1); eval(parse(text=s[seq_len(k-1)]))'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas
+      - id: matrix
+        run: |
+          python - <<'PY'
+          import pandas as pd,json,os
+          d=pd.read_csv('data/clean/crop_outcomes_nonwater_exclusive.csv')
+          ids=sorted(d.loc[(d.ring_index==1)&(d.nonwater_valid_pixels>0),'hub_id'].astype(int).unique().tolist())
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('value='+json.dumps({'hub':ids})+'\n')
+          open('first-hub.txt','w').write(str(ids[0]))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inner-history-polygons
+          path: output/facility_rings_exclusive.gpkg
+      - name: Full-series smoke tile, 13 annual rasters
+        run: python code/88_audit_inner_ring_pixel_history.py --hub "$(cat first-hub.txt)" --max-tiles 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: inner-history-smoke
+          path: |
+            pixel-history-results/**/*.npz
+            pixel-history-results/**/*.json
+            pixel-history-results/**/history_*.tif
+  history:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          name: inner-history-polygons
+          path: output
+      - uses: actions/download-artifact@v4
+        with:
+          name: inner-history-smoke
+          path: pixel-history-results
+      - uses: actions/cache/restore@v4
+        id: cache
+        with:
+          path: |
+            pixel-history-results/**/*.npz
+            pixel-history-results/**/*.json
+            pixel-history-results/**/history_*.tif
+          key: inner-history-v1-${{ matrix.hub }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: inner-history-v1-${{ matrix.hub }}-
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas
+      - run: python code/88_audit_inner_ring_pixel_history.py --hub ${{ matrix.hub }}
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: |
+            pixel-history-results/**/*.npz
+            pixel-history-results/**/*.json
+            pixel-history-results/**/history_*.tif
+          key: inner-history-v1-${{ matrix.hub }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: inner-history-hub-${{ matrix.hub }}
+          path: |
+            pixel-history-results/**/*.csv
+            pixel-history-results/**/*.json
+            pixel-history-results/**/*.npz
+            pixel-history-results/**/history_*.tif
+  merge:
+    needs: [prepare,history]
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: inner-history-hub-*
+          path: pixel-history-results
+          merge-multiple: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas rasterio numpy pandas tabulate
+      - run: python code/88_audit_inner_ring_pixel_history.py --merge
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inner-history-summary
+          path: output/pixel_history_inner
+      - name: Commit descriptive tables without changing existing outcomes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f output/pixel_history_inner
+          git diff --cached --quiet || git commit -m 'Add descriptive 2013-2025 inner-ring pixel histories'
+          git pull --rebase origin main
+          git push origin HEAD:main
