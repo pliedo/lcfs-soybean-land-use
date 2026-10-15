@@ -36,7 +36,7 @@ def run(hub):
   rows+=a;annual+=b
   for key,v in c.items():totals[key]=totals.get(key,0)+v
  expected=pd.read_csv(R/'output/pixel_history_inner/soy_persistence.csv');expected=expected[(expected.hub_id==hub)&(expected.soy_years>0)].pixels.sum();assert totals['ever_soy_pixels']==expected
- x=pd.DataFrame(rows).groupby(['year','min_years','target','entry_year','origin_code','pre2016_soy'],as_index=False).pixels.sum();x['hub_id']=hub;x.to_csv(folder/'counts.csv',index=False);y=pd.DataFrame(annual).groupby('year',as_index=False).soy_pixels.sum();y['hub_id']=hub;y.to_csv(folder/'annual.csv',index=False);(folder/'complete.json').write_text(json.dumps(totals))
+ x=pd.DataFrame(rows,columns=['year','min_years','target','entry_year','origin_code','pre2016_soy','pixels']).groupby(['year','min_years','target','entry_year','origin_code','pre2016_soy'],as_index=False).pixels.sum();x['hub_id']=hub;x.to_csv(folder/'counts.csv',index=False);y=pd.DataFrame(annual).groupby('year',as_index=False).soy_pixels.sum();y['hub_id']=hub;y.to_csv(folder/'annual.csv',index=False);(folder/'complete.json').write_text(json.dumps(totals))
 def category(c):
  if c==1:return 'Corn'
  if c in [26,239,240,241,254]:return 'Double-crop soybean'
@@ -69,8 +69,8 @@ def merge():
  plt.close(fig)
  fig,axs=plt.subplots(1,2,figsize=(13.3,4.7))
  for ax,target,title in zip(axs,['sustained_soybean_system','strict_soybean_corn_rotation'],['Sustained soybean cultivation','Strict soybean–corn rotation']):
-  q=z[(z.year==peak)&(z.min_years==2)&(z.target==target)].sort_values('acres');pp=100*q.acres/q.acres.sum();ax.barh(q.origin,q.acres/1e6,color='#26738d');ax.set_xlabel('Million active acres at peak soybean year');ax.set_title(title,fontsize=12);ax.set_xlim(0,q.acres.max()/1e6*1.3)
-  for i,(v,pc) in enumerate(zip(q.acres/1e6,pp)):ax.text(v+.01,i,f'{pc:.1f}%',va='center',fontsize=10)
+  q=z[(z.year==peak)&(z.min_years==2)&(z.target==target)].sort_values('acres');pp=100*q.acres/q.acres.sum();ax.barh(q.origin,pp,color='#26738d');ax.set_xlabel('Share of qualifying acres by prior crop / land use (%)');ax.set_title(title+'\n'+f'{q.acres.sum()/1e6:.2f} million active acres',fontsize=12);ax.set_xlim(0,105)
+  for i,pc in enumerate(pp):ax.text(pc+.7,i,f'{pc:.1f}%',va='center',fontsize=10)
  fig.suptitle(f'What preceded these post-2015 episodes? Peak soybean year: {peak}',fontsize=13);fig.tight_layout(rect=[0,0,1,.92],w_pad=3)
  for ext in ['png','pdf']:fig.savefig(out/('peak_pattern_origins.'+ext),dpi=180,bbox_inches='tight')
  (out/'README.md').write_text('Annual analysis2016–2025, full-period valid fixed nonwater support, exclusive0–25 catchments57hubs. A qualifying episode starts2016 or later, lasts at least2 observed seasons (3-year sensitivity retained), uses only pure soybean5/corn1, and contains no consecutive corn years. It may be all soybean or include rotation. Strict rotation is a SUBSET: every season alternates since that same episode began. Origin is exact CDL class immediately before the episode, not a fixed three-year modal baseline. Existing episodes beginning before2016 excluded; returning pre2016-soy land flagged separately. At each year count ACTIVE qualifying acres; exits remove acres, reentries are new episodes and do not double-count a pixel within a year. Crop establishment cannot be confirmed until minimum history exists. Fixed land denominator includes all fixed nonwater land, not just adopters. Origin composition percentages at peak have the entrant cohort denominator instead. Peaks are2016–2025 soybean-acre maxima on the SAME fixed support; never-soy pixels contribute zero soy. Observed sustained use is not permanent conversion or a causal LCFS effect. Rotation in broad panel also appears in strict panel, so panels must not be added. Pure double-crop classes remain separate sources. Only inner ring has pixel sequences here; aggregate peak references for other rings do not establish their pixel histories.')
