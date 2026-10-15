@@ -1,0 +1,59 @@
+name: Soybean pattern origins figure
+on:
+  workflow_dispatch:
+    inputs:
+      source_run:
+        default: '38660747780'
+        required: true
+  workflow_run:
+    workflows: [Persistent soybean histories]
+    types: [completed]
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: soybean-pattern-origins
+  cancel-in-progress: false
+jobs:
+  figure:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: pliedo/lcfs-soybean-land-use
+          run-id: ${{ github.event.workflow_run.id || inputs.source_run }}
+          pattern: persistent-soy-*
+          path: persistent-soy-results
+          merge-multiple: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install numpy pandas matplotlib
+      - name: Count both destination patterns from retained sequences
+        run: |
+          python - <<'PY'
+          import importlib.util,pandas as pd
+          spec=importlib.util.spec_from_file_location('pattern','code/96_soybean_pattern_origins.py')
+          m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+          for h in sorted(pd.read_csv('output/pixel_history_inner/soy_persistence.csv').hub_id.unique()):m.run(int(h))
+          m.merge()
+          PY
+      - name: Commit exact counts and figure
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f output/soybean_pattern_origins
+          git diff --cached --quiet || git commit -m 'Add origins of new consecutive soybean and soybean-corn rotation patterns'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: soybean-pattern-origins
+          path: |
+            output/soybean_pattern_origins
+            pattern-origins-results
